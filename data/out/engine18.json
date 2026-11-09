@@ -1,0 +1,105 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 3,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "IFK哥德堡",
+   "away": "马尔默",
+   "engine": {
+    "xg_h": 1.195,
+    "xg_a": 0.927,
+    "H": 0.4106,
+    "D": 0.3155,
+    "A": 0.2739,
+    "rq": [
+     0.4106,
+     0.3155,
+     0.2739
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 0.9687,
+    "home_defense": 0.7977,
+    "home_form": 0.1235,
+    "away_attack": 0.9117,
+    "away_defense": 0.7407,
+    "away_form": 0.0,
+    "notes": [
+     "主样本 13 场 17 得 14 失",
+     "主样本 13 场 16 得 13 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "哈尔姆斯塔德",
+   "away": "佐加顿斯",
+   "engine": {
+    "xg_h": 1.545,
+    "xg_a": 3.045,
+    "H": 0.1647,
+    "D": 0.1617,
+    "A": 0.6736,
+    "rq": [
+     0.3264,
+     0.1854,
+     0.4882
+    ],
+    "hc_model": 1.25
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 1.2536,
+    "home_form": -0.8,
+    "away_attack": 1.1966,
+    "away_defense": 0.7,
+    "away_form": 0.3704,
+    "notes": [
+     "主样本 13 场 9 得 22 失",
+     "主样本 13 场 21 得 8 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "科鲁姆",
+   "away": "费内巴切",
+   "engine": {
+    "xg_h": 1.203,
+    "xg_a": 1.069,
+    "H": 0.38,
+    "D": 0.3064,
+    "A": 0.3136,
+    "rq": [
+     0.6864,
+     0.0,
+     0.3136
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 0.7407,
+    "home_form": 0.8,
+    "away_attack": 1.037,
+    "away_defense": 0.7,
+    "away_form": 0.8,
+    "notes": [
+     "主样本 4 场 6 得 4 失",
+     "主样本 5 场 7 得 4 失"
+    ]
+   }
+  }
+ ]
+}

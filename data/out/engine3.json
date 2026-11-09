@@ -1,0 +1,105 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 3,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "福冈黄蜂",
+   "away": "长崎成功丸",
+   "engine": {
+    "xg_h": 1.18,
+    "xg_a": 1.521,
+    "H": 0.2852,
+    "D": 0.2732,
+    "A": 0.4416,
+    "rq": [
+     0.2852,
+     0.2732,
+     0.4416
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 0.9524,
+    "home_defense": 0.9524,
+    "home_form": -0.8,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": 0.0,
+    "notes": [
+     "主样本 7 场 9 得 9 失",
+     "主样本 6 场 4 得 12 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "东京",
+   "away": "鹿岛鹿角",
+   "engine": {
+    "xg_h": 3.004,
+    "xg_a": 1.504,
+    "H": 0.6749,
+    "D": 0.163,
+    "A": 0.1621,
+    "rq": [
+     0.6749,
+     0.163,
+     0.1621
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.8,
+    "away_attack": 1.45,
+    "away_defense": 1.45,
+    "away_form": 0.7407,
+    "notes": [
+     "主样本 7 场 15 得 5 失",
+     "主样本 6 场 14 得 14 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "柏太阳神",
+   "away": "川崎前锋",
+   "engine": {
+    "xg_h": 3.429,
+    "xg_a": 1.929,
+    "H": 0.6626,
+    "D": 0.1511,
+    "A": 0.1863,
+    "rq": [
+     0.6626,
+     0.1511,
+     0.1863
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.2346,
+    "home_form": 0.8,
+    "away_attack": 1.2346,
+    "away_defense": 1.2346,
+    "away_form": 0.1235,
+    "notes": [
+     "主样本 6 场 15 得 10 失",
+     "主样本 6 场 10 得 10 失"
+    ]
+   }
+  }
+ ]
+}

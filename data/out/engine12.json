@@ -1,0 +1,50 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 1,
+ "skipped": [
+  {
+   "no": 2,
+   "reason": "主客场地样本缺失，拒绝用默认强度硬跑"
+  }
+ ],
+ "preds": [
+  {
+   "no": 1,
+   "home": "美洲狮",
+   "away": "墨西哥美洲",
+   "engine": {
+    "xg_h": 1.767,
+    "xg_a": 3.267,
+    "H": 0.1777,
+    "D": 0.1553,
+    "A": 0.667,
+    "rq": [
+     0.1777,
+     0.1553,
+     0.667
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 1.0582,
+    "home_defense": 1.2698,
+    "home_form": -0.1235,
+    "away_attack": 1.45,
+    "away_defense": 1.3757,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 7 场 10 得 12 失",
+     "主样本 7 场 21 得 13 失"
+    ]
+   }
+  }
+ ]
+}

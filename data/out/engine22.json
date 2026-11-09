@@ -1,0 +1,255 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 8,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "皇家苏斯达",
+   "away": "巴列卡诺",
+   "engine": {
+    "xg_h": 2.69,
+    "xg_a": 1.19,
+    "H": 0.6862,
+    "D": 0.1735,
+    "A": 0.1404,
+    "rq": [
+     0.6862,
+     0.0,
+     0.3138
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.037,
+    "home_defense": 1.037,
+    "home_form": 0.2469,
+    "away_attack": 0.8889,
+    "away_defense": 1.45,
+    "away_form": -0.2469,
+    "notes": [
+     "主样本 5 场 7 得 7 失",
+     "主样本 5 场 6 得 13 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "AIK索尔纳",
+   "away": "赫根",
+   "engine": {
+    "xg_h": 1.828,
+    "xg_a": 3.328,
+    "H": 0.1811,
+    "D": 0.1537,
+    "A": 0.6653,
+    "rq": [
+     0.3347,
+     0.1753,
+     0.49
+    ],
+    "hc_model": 1.0
+   },
+   "input": {
+    "home_attack": 1.1966,
+    "home_defense": 1.45,
+    "home_form": -0.2469,
+    "away_attack": 1.2536,
+    "away_defense": 0.7,
+    "away_form": 0.8,
+    "notes": [
+     "主样本 13 场 21 得 29 失",
+     "主样本 13 场 22 得 12 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "布洛马波卡纳",
+   "away": "米亚尔比",
+   "engine": {
+    "xg_h": 2.32,
+    "xg_a": 0.82,
+    "H": 0.7035,
+    "D": 0.1874,
+    "A": 0.1091,
+    "rq": [
+     0.7035,
+     0.1874,
+     0.1091
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 0.8547,
+    "home_defense": 0.8547,
+    "home_form": 0.0,
+    "away_attack": 1.0256,
+    "away_defense": 1.2536,
+    "away_form": -0.6173,
+    "notes": [
+     "主样本 13 场 15 得 15 失",
+     "主样本 13 场 18 得 22 失"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "卡马亚",
+   "away": "天狼星",
+   "engine": {
+    "xg_h": 1.63,
+    "xg_a": 3.13,
+    "H": 0.1699,
+    "D": 0.1592,
+    "A": 0.6709,
+    "rq": [
+     0.3291,
+     0.0,
+     0.6709
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 0.7977,
+    "home_defense": 1.1966,
+    "home_form": -0.8,
+    "away_attack": 1.45,
+    "away_defense": 0.8547,
+    "away_form": 0.1235,
+    "notes": [
+     "主样本 13 场 14 得 21 失",
+     "主样本 13 场 28 得 15 失"
+    ]
+   }
+  },
+  {
+   "no": 5,
+   "home": "坎布尔",
+   "away": "埃因霍温",
+   "engine": {
+    "xg_h": 2.521,
+    "xg_a": 2.735,
+    "H": 0.3718,
+    "D": 0.1839,
+    "A": 0.4443,
+    "rq": [
+     0.5557,
+     0.1638,
+     0.2805
+    ],
+    "hc_model": 1.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.45,
+    "home_form": 0.8,
+    "away_attack": 1.45,
+    "away_defense": 1.1852,
+    "away_form": 0.8,
+    "notes": [
+     "主样本 6 场 12 得 15 失",
+     "主样本 5 场 14 得 8 失"
+    ]
+   }
+  },
+  {
+   "no": 6,
+   "home": "阿尔克马尔",
+   "away": "格罗宁根",
+   "engine": {
+    "xg_h": 1.585,
+    "xg_a": 2.62,
+    "H": 0.2162,
+    "D": 0.19,
+    "A": 0.5938,
+    "rq": [
+     0.0999,
+     0.1163,
+     0.7838
+    ],
+    "hc_model": -1.25
+   },
+   "input": {
+    "home_attack": 1.3333,
+    "home_defense": 0.7407,
+    "home_form": -0.4938,
+    "away_attack": 1.45,
+    "away_defense": 1.45,
+    "away_form": 0.3704,
+    "notes": [
+     "主样本 5 场 9 得 5 失",
+     "主样本 5 场 13 得 10 失"
+    ]
+   }
+  },
+  {
+   "no": 7,
+   "home": "埃蒙",
+   "away": "马斯特里赫特",
+   "engine": {
+    "xg_h": 3.471,
+    "xg_a": 1.971,
+    "H": 0.6615,
+    "D": 0.1501,
+    "A": 0.1885,
+    "rq": [
+     0.4907,
+     0.1708,
+     0.3385
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 1.3757,
+    "home_defense": 1.2698,
+    "home_form": 0.2469,
+    "away_attack": 1.1111,
+    "away_defense": 1.45,
+    "away_form": -0.8,
+    "notes": [
+     "主样本 7 场 13 得 12 失",
+     "主样本 6 场 9 得 16 失"
+    ]
+   }
+  },
+  {
+   "no": 8,
+   "home": "凯尔特人",
+   "away": "基马诺克",
+   "engine": {
+    "xg_h": 3.138,
+    "xg_a": 1.638,
+    "H": 0.6707,
+    "D": 0.1589,
+    "A": 0.1704,
+    "rq": [
+     0.3109,
+     0.1779,
+     0.5111
+    ],
+    "hc_model": -2.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.7407,
+    "away_attack": 0.7407,
+    "away_defense": 1.45,
+    "away_form": -0.7407,
+    "notes": [
+     "主样本 6 场 15 得 5 失",
+     "主样本 6 场 6 得 13 失"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 1,
+ "skipped": [
+  {
+   "no": 1,
+   "reason": "样本不足（主队主场 P=1，客队客场 P=2，任一 <3），拒跑防单场静默外推"
+  },
+  {
+   "no": 3,
+   "reason": "样本不足（主队主场 P=1，客队客场 P=1，任一 <3），拒跑防单场静默外推"
+  }
+ ],
+ "preds": [
+  {
+   "no": 2,
+   "home": "埃于普体育",
+   "away": "科贾埃利体育",
+   "engine": {
+    "xg_h": 0.66,
+    "xg_a": 2.16,
+    "H": 0.0932,
+    "D": 0.1938,
+    "A": 0.713,
+    "rq": [
+     0.287,
+     0.2382,
+     0.4748
+    ],
+    "hc_model": 0.75
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 1.3333,
+    "home_form": -0.8,
+    "away_attack": 0.7407,
+    "away_defense": 1.037,
+    "away_form": 0.0,
+    "notes": [
+     "主样本 5 场 2 得 9 失",
+     "主样本 5 场 5 得 7 失"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "n": 4,
+ "report": [
+  {
+   "id": "2912930",
+   "home": "费德列斯达",
+   "away": "白兰恩",
+   "dqdId": "54341302",
+   "status": "OK",
+   "injuryItems": 2,
+   "betfairRows": 3
+  },
+  {
+   "id": "3036473",
+   "home": "奥林匹亚科斯",
+   "away": "PAOK",
+   "dqdId": "54522617",
+   "status": "OK",
+   "injuryItems": 2,
+   "betfairRows": 0
+  },
+  {
+   "id": "2993857",
+   "home": "佛罗伦萨",
+   "away": "尤文图斯",
+   "dqdId": "54470903",
+   "status": "OK",
+   "injuryItems": 5,
+   "betfairRows": 3
+  },
+  {
+   "id": "3013752",
+   "home": "马德里竞技",
+   "away": "巴塞罗那",
+   "dqdId": "54493345",
+   "status": "OK",
+   "injuryItems": 4,
+   "betfairRows": 3
+  }
+ ]
+}

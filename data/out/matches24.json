@@ -1,0 +1,225 @@
+{
+ "source": "data/raw24",
+ "collectedAt": "2026-11-09T06:57:07.263Z",
+ "count": 2,
+ "issues": [
+  {
+   "no": 2,
+   "id": "3003946",
+   "issue": "队名与页面不符",
+   "page": "曼彻斯特联"
+  }
+ ],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3018860",
+   "lg": "德甲",
+   "kickoff": "2026-11-09 02:45",
+   "home": "弗赖堡",
+   "away": "柏林联合",
+   "hc": 1.25,
+   "hcRaw": "澳门",
+   "spf": [
+    1.26,
+    4.7,
+    7.5
+   ],
+   "spfMargin": 0.1397500844309354,
+   "zjq": [
+    17,
+    5.6,
+    3.65,
+    3.4,
+    4.85,
+    8,
+    14,
+    22
+   ],
+   "zjqRaw": "175.63.653.44.8581422",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 8,
+      "w": 5,
+      "d": 1,
+      "l": 2,
+      "gf": 18,
+      "ga": 10,
+      "gd": 8,
+      "points": 16,
+      "rank": 4,
+      "winRate": 62.5
+     },
+     "away": {
+      "p": 8,
+      "w": 1,
+      "d": 4,
+      "l": 3,
+      "gf": 7,
+      "ga": 19,
+      "gd": -12,
+      "points": 7,
+      "rank": 16,
+      "winRate": 12.5
+     }
+    },
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 12,
+      "ga": 5
+     },
+     "away": {
+      "p": 4,
+      "gf": 6,
+      "ga": 5
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 6,
+      "ga": 7
+     },
+     "away": {
+      "p": 3,
+      "gf": 1,
+      "ga": 12
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 13,
+      "ga": 9
+     },
+     "away": {
+      "p": 6,
+      "gf": 4,
+      "ga": 12
+     }
+    },
+    "leagueOf": {
+     "home": "德甲",
+     "away": "德甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3003946",
+   "lg": "英超",
+   "kickoff": "2026-11-09 02:45",
+   "home": "曼联",
+   "away": "阿斯顿维拉",
+   "hc": 0.25,
+   "hcRaw": "澳门",
+   "spf": [
+    1.98,
+    3.55,
+    2.84
+   ],
+   "spfMargin": 0.13885332195191347,
+   "zjq": [
+    19,
+    7.05,
+    4.05,
+    3.3,
+    4.4,
+    7.3,
+    12,
+    16
+   ],
+   "zjqRaw": "197.054.053.34.47.31216",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 9,
+      "w": 1,
+      "d": 4,
+      "l": 4,
+      "gf": 10,
+      "ga": 15,
+      "gd": -5,
+      "points": 7,
+      "rank": 18,
+      "winRate": 11.1
+     },
+     "away": {
+      "p": 9,
+      "w": 3,
+      "d": 3,
+      "l": 3,
+      "gf": 10,
+      "ga": 13,
+      "gd": -3,
+      "points": 12,
+      "rank": 12,
+      "winRate": 33.3
+     }
+    },
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 6,
+      "ga": 7
+     },
+     "away": {
+      "p": 5,
+      "gf": 4,
+      "ga": 8
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 6,
+      "ga": 7
+     },
+     "away": {
+      "p": 4,
+      "gf": 4,
+      "ga": 6
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 3,
+      "ga": 9
+     },
+     "away": {
+      "p": 6,
+      "gf": 10,
+      "ga": 8
+     }
+    },
+    "leagueOf": {
+     "home": "英超",
+     "away": "英超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": false,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

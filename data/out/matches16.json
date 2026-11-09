@@ -1,0 +1,151 @@
+{
+ "source": "data/raw16",
+ "collectedAt": "2026-11-08T11:00:37.494Z",
+ "count": 2,
+ "issues": [
+  {
+   "no": 1,
+   "id": "2996202",
+   "issue": "队名与页面不符",
+   "page": "海伦芬"
+  }
+ ],
+ "matches": [
+  {
+   "no": 1,
+   "id": "2996202",
+   "lg": "荷甲",
+   "kickoff": "2026-11-08 19:15",
+   "home": "海伦维恩",
+   "away": "费耶诺德",
+   "hc": -0.75,
+   "hcRaw": "澳门",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "home": {
+     "home": {
+      "p": 6,
+      "gf": 8,
+      "ga": 5
+     },
+     "away": {
+      "p": 5,
+      "gf": 11,
+      "ga": 8
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 12,
+      "ga": 5
+     },
+     "away": {
+      "p": 6,
+      "gf": 21,
+      "ga": 7
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 12,
+      "ga": 4
+     },
+     "away": {
+      "p": 6,
+      "gf": 20,
+      "ga": 5
+     }
+    },
+    "leagueOf": {
+     "home": "荷甲",
+     "away": "荷甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": false,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 2,
+   "id": "2993861",
+   "lg": "意甲",
+   "kickoff": "2026-11-08 19:30",
+   "home": "那不勒斯",
+   "away": "拉齐奥",
+   "hc": 0.25,
+   "hcRaw": "澳门",
+   "spf": [
+    2.05,
+    3.66,
+    2.64
+   ],
+   "spfMargin": 0.13981680055250623,
+   "zjq": null,
+   "zjqRaw": "166.2543.454.6811.516",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 8,
+      "ga": 5
+     },
+     "away": {
+      "p": 6,
+      "gf": 9,
+      "ga": 8
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 10,
+      "ga": 5
+     },
+     "away": {
+      "p": 5,
+      "gf": 14,
+      "ga": 3
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 11,
+      "ga": 8
+     },
+     "away": {
+      "p": 6,
+      "gf": 18,
+      "ga": 5
+     }
+    },
+    "leagueOf": {
+     "home": "意甲",
+     "away": "意甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "一致解不唯一（最优 0.142 vs 0.160，2 候）",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

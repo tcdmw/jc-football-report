@@ -1,0 +1,45 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 1,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "国际米兰",
+   "away": "科莫",
+   "engine": {
+    "xg_h": 2.056,
+    "xg_a": 1.867,
+    "H": 0.4264,
+    "D": 0.2207,
+    "A": 0.3529,
+    "rq": [
+     0.4264,
+     0.2207,
+     0.3529
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.037,
+    "home_form": 0.7407,
+    "away_attack": 1.45,
+    "away_defense": 0.8642,
+    "away_form": 0.6173,
+    "notes": [
+     "主样本 5 场 17 得 7 失",
+     "主样本 6 场 13 得 7 失"
+    ]
+   }
+  }
+ ]
+}

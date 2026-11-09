@@ -1,0 +1,75 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "阿森纳",
+   "away": "赫尔城",
+   "engine": {
+    "xg_h": 2.608,
+    "xg_a": 1.108,
+    "H": 0.6895,
+    "D": 0.1764,
+    "A": 0.134,
+    "rq": [
+     0.286,
+     0.1975,
+     0.5164
+    ],
+    "hc_model": -2.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.4938,
+    "away_attack": 0.7407,
+    "away_defense": 0.9259,
+    "away_form": -0.2469,
+    "notes": [
+     "主样本 4 场 9 得 2 失",
+     "主样本 4 场 4 得 5 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "富勒姆",
+   "away": "纽卡斯尔联",
+   "engine": {
+    "xg_h": 3.21,
+    "xg_a": 1.71,
+    "H": 0.6686,
+    "D": 0.1569,
+    "A": 0.1745,
+    "rq": [
+     0.6686,
+     0.1569,
+     0.1745
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 1.2963,
+    "home_form": 0.1235,
+    "away_attack": 1.1111,
+    "away_defense": 1.45,
+    "away_form": -0.6173,
+    "notes": [
+     "主样本 4 场 6 得 7 失",
+     "主样本 4 场 6 得 8 失"
+    ]
+   }
+  }
+ ]
+}

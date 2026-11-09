@@ -1,0 +1,195 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 6,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "町田泽维亚",
+   "away": "广岛三箭",
+   "engine": {
+    "xg_h": 1.744,
+    "xg_a": 1.503,
+    "H": 0.4275,
+    "D": 0.2471,
+    "A": 0.3255,
+    "rq": [
+     0.4275,
+     0.2471,
+     0.3255
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 1.358,
+    "home_defense": 0.8642,
+    "home_form": 0.8,
+    "away_attack": 1.2698,
+    "away_defense": 0.8466,
+    "away_form": 0.8,
+    "notes": [
+     "主样本 6 场 11 得 7 失",
+     "主样本 7 场 12 得 8 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "神户胜利船",
+   "away": "浦和红钻",
+   "engine": {
+    "xg_h": 3.176,
+    "xg_a": 1.676,
+    "H": 0.6696,
+    "D": 0.1578,
+    "A": 0.1726,
+    "rq": [
+     0.6696,
+     0.1578,
+     0.1726
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.358,
+    "home_defense": 0.7,
+    "home_form": 0.3704,
+    "away_attack": 0.9524,
+    "away_defense": 1.45,
+    "away_form": -0.2469,
+    "notes": [
+     "主样本 6 场 11 得 5 失",
+     "主样本 7 场 9 得 16 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "磐田喜悦",
+   "away": "湘南比马",
+   "engine": {
+    "xg_h": 1.197,
+    "xg_a": 0.486,
+    "H": 0.5304,
+    "D": 0.328,
+    "A": 0.1415,
+    "rq": [
+     0.5304,
+     0.0,
+     0.4696
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 0.7407,
+    "home_defense": 0.7,
+    "home_form": 0.4938,
+    "away_attack": 0.7407,
+    "away_defense": 0.7,
+    "away_form": -0.1235,
+    "notes": [
+     "主样本 7 场 7 得 5 失",
+     "主样本 8 场 8 得 6 失"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "枥木",
+   "away": "RB大宫松鼠",
+   "engine": {
+    "xg_h": 1.749,
+    "xg_a": 3.249,
+    "H": 0.1767,
+    "D": 0.1558,
+    "A": 0.6675,
+    "rq": [
+     0.3325,
+     0.0,
+     0.6675
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 1.2698,
+    "home_defense": 1.45,
+    "home_form": -0.8,
+    "away_attack": 1.2698,
+    "away_defense": 0.8466,
+    "away_form": 0.0,
+    "notes": [
+     "主样本 7 场 12 得 14 失",
+     "主样本 7 场 12 得 8 失"
+    ]
+   }
+  },
+  {
+   "no": 5,
+   "home": "大田",
+   "away": "仁川联队",
+   "engine": {
+    "xg_h": 1.324,
+    "xg_a": 1.203,
+    "H": 0.3845,
+    "D": 0.2883,
+    "A": 0.3272,
+    "rq": [
+     0.3845,
+     0.0,
+     0.6155
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.0458,
+    "home_defense": 0.9586,
+    "home_form": 0.4938,
+    "away_attack": 0.9259,
+    "away_defense": 0.8333,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 17 场 24 得 22 失",
+     "主样本 16 场 20 得 18 失"
+    ]
+   }
+  },
+  {
+   "no": 6,
+   "home": "首尔",
+   "away": "蔚山HD",
+   "engine": {
+    "xg_h": 1.678,
+    "xg_a": 1.081,
+    "H": 0.504,
+    "D": 0.2607,
+    "A": 0.2353,
+    "rq": [
+     0.504,
+     0.2607,
+     0.2353
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.25,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "away_attack": 1.0185,
+    "away_defense": 0.9722,
+    "away_form": 0.1235,
+    "notes": [
+     "主样本 16 场 27 得 14 失",
+     "主样本 16 场 22 得 21 失"
+    ]
+   }
+  }
+ ]
+}

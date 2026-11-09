@@ -1,107 +1,92 @@
 ---
 name: jc-football-report
-description: Build institutional-grade China sports lottery football analysis reports with de-vig pricing, an independent Dixon-Coles strength model, backtest calibration, and a per-match forecast (score / total goals / 1X2). Use when the user asks for 竞彩分析, 足球预测报告, 盘口分析, or a PDF football odds report.
+description: 本机双轨足球赛前预测与复盘。球探 titan007 浏览器采集 + 结构化亚盘/大小球，Node 独立模型与 football-engine DixonColes 双轨并跑，低样本阻断，输出 Markdown 赛前报告并可 backtest 复盘。Use when the user asks for 足球预测、赛前分析、盘口分析、大小球 or 复盘。
 ---
 
-# 竞彩足球机构级分析报告
+# 本机双轨足球预测
 
-产出一份可复算的 PDF 报告：把赔率还原成概率，用**盘口之外的独立信息**做出自己的概率，再把两者与公众资金流三方对照，并对**每一场**写出综合预测与判断。
+在 Windows 本机用一套可复算工具链完成赛前预测：浏览器采集球探页面与澳门结构化盘口，用**盘口之外的独立信息**（主客分离得失球）跑两个独立模型，方向一致才下结论、分歧采信定价方、样本不足即阻断，输出 Markdown 报告；赛后用真实比分 backtest 复盘。
 
 ## 铁律
 
-1. **每一场必须有综合预测。** 在售 N 场就写 N 行，顺序固定为 **比分（top-5 分布）→ 总进球（区间 + 大/小）→ 胜平负**。不允许只写焦点场。
-2. **每一场必须有判断。** 判断落到具体选项（主胜/平/客胜/让球一侧/总进球某桶/回避），理由里至少含一个数字。
-3. **比分永不给单值。** 三轮回测 top1 命中 0/34，top5 26.5%。只给带概率的排名分布和累计覆盖率。
-4. **模型必须有盘口之外的输入。** 只用盘口反解 λ 再回推概率，是复述盘口而不是预测（偏差恒 <3pp）。必须接入捷报的主客分离得失球。
-5. 报告只做定价与情报分析，不承诺收益。概率是模型与盘口的推算值。
-6. 所有数字必须来自脚本输出，不得手写估算。
-7. 每个进入模型的数字都要能追到源；不能追源的进文字并标「待验证」。
-8. **回测先于结论。** 每轮必须把上一轮已完赛场次跑一遍 `backtest()`，把「实际命中率 vs 盘口隐含概率」写进报告，再据此调整阈值。
-9. 本 skill 只沉淀方法与版式，不保存任何一轮的具体赔率、场次或结论。
-10. **先报「可下注场次数」，再谈具体场次。** 竞彩单场抽水 13–15%，跟市场走的模型几乎必然全部负 EV。正常日子的正确答案是「0–2 场可小注，其余不推荐」，不要为了凑内容把负 EV 场次包装成推荐。
-11. **定性修正必须可查源、量化到 λ。** 伤停/动机/首发/赛程等软信息只允许改成明确的 λ 增减（如「客队 λ −0.30」），并在报告中写出依据（直播吧/懂球帝/官方首发等可访问链接）。不接受「感觉他会赢」这类无出处的判断。
-12. **真实实力优先于积分排名。** 球队强弱要参考阵容质量、伤停结构、近期 xG 走势与赛程强度，不能只按联排名次换算赔率——积分榜受运气影响，阵容残缺才是当周的真实强度。
+1. **数字只来自工具输出**，禁止手算或估算；每个进模型的数字能追到源文件。
+2. **缺独立输入或低样本即阻断，绝不降级出方向**：主队主场 P 或客队客场 P < 3 拒跑（analyze 自检 2b、bridge_engine 同口径）。
+3. **让球方向只认结构化 `{id}.handicap.json`**，禁止用页面"相同盘路"区的"初盘:受让…"文字或自然语言推断（会把主让反判成受让）。
+4. **不只看即时盘，必须看亚盘初盘→即时的退盘/升盘实时变化**：用 `{id}.line.json` 统计多家退盘/升盘家数。模型押让球方、但多数公司（≥2/3）一边倒退盘、几乎无反向升盘、且让球已下移到半球并有公司退到平/半时，判定 HDA 冲突，采信盘口、下调/取消该方向；若只退一档、仍让半球以上，则仅作让球(rq)深盘风险，不翻转胜负。
+5. **大小球按实际盘口下结论**：模型 o25 是固定 2.5 累积概率，实际盘常升到 3–4 或降盘，须以实际盘口水位（低水方被看好）和盘口升降为准，不能直接套用模型 2.5。让球退盘与大小球盘口是两个独立口径，分开判断。
+6. **比分不给单值**，只给带概率的 top 分布；单点最高比分与大小球累积概率口径不同，不矛盾。
+7. **回测先于下一轮结论**：先复盘上一轮已完赛场次，再做新批次。
+8. **伤停/必发按证据接入，不硬接无证据字段**：engine 的 `injury` 标量是无实测证据的死字段（engine 注释明确警告"缺阵人数→单一injury"不可凭空接线），伤停只采集具体球员/位置/原因作参考，不写 injury；`rest_days` 是 engine 已生效字段，按近期战绩日期计算后注入；必发数据（成交价/成交量/比例/冷热指数/大注买卖）是真实资金参考，用来和欧赔归一化概率交叉，注意区分散户资金与大注倾向，不把它当稳赚信号。
+9. 报告只做定价与情报分析，不承诺收益；本 skill 只沉淀方法，不保存具体赔率结论。
 
-## 流程
+## 工具（tools/）
 
-按顺序执行，不要跳步。
+| 文件 | 职责 |
+| --- | --- |
+| `fetch_batch.py` | 浏览器全自动采集：给清单与输出目录，逐场写 `{id}.txt`、`{id}.handicap.json`、`{id}.line.json`（多家亚盘初盘/即时）、`{id}.1x2.json`（百家欧赔初盘/即时平均胜平负），在 computer_use 环境跑，`import seed_browser_use`；欧赔为增强项，失败不阻断 |
+| `fetch_dqd.py` | **懂球帝情报采集**：滚动「全球」赛程页，按 `dqd_aliases.json` 处理同队异译，自动匹配 titan007 id→懂球帝 match id，逐场写 `{id}.dqd.json`（状态伤停、必发冷热分布、必发大注倾向）；computer_use 环境跑，缺数据如实留空不阻断 |
+| `dqd_aliases.json` | titan007→懂球帝队名异译对照（如费德列斯达=腓特烈斯塔、白兰恩=布兰、PAOK=塞萨洛尼基） |
+| `check_fetch.mjs` | 赛前采集完整性校验：txt/handicap 齐全且字段非空，PASS/FAIL，失败 exit 3 |
+| `check_line.mjs` | 亚盘退盘/升盘实时变化核对：统计各场退/升/平家数与让球强弱，与双轨模型方向比对，HDA 冲突 exit 4、rq 退盘仅提示，对无 line.json 的旧批次向后兼容 |
+| `check_025.mjs` | 0.25（平/半）盘专用下盘/平局统计（check_handicap 的 0.25 特例，保留兼容） |
+| `check_handicap.mjs` | **通用让球结算**：支持任意盘口（0/0.25/0.5/0.75/1/1.25…），quarter 盘按五档（全赢/赢半/走盘/输半/全输）精确结算；赛前列平局赔率热度，复盘对比市场让球方概率 vs 实际全赢率；第4参数可指定目标盘口 |
+| `test_settle.mjs` | 结算函数单元回归测试（27 条断言覆盖常见盘口），改动结算逻辑后先跑它 |
+| `collect.mjs` | 解析 txt + 读 handicap，识别竞彩"暂无数据/未开盘"；积分段同时输出主客拆分得失球（模型输入）与 `team.overall` 整体实力（排名/积分/胜率/整体进失球/净胜球，参考数据）；另输出 `restDays`（近期战绩日期算的赛程间隔）与 `dqdIntel`（懂球帝伤停/必发，参考），输出 matches |
+| `analyze.mjs` | 主模型轨（Node，调 scripts/analyze.js），含低样本自检 2b，输出 preds |
+| `bridge_engine.py` | 第二轨 football-engine DixonColes，独立强度注入 + 低样本拒跑，把 `restDays` 注入 TeamRating.rest_days（engine 已生效字段）；经 `py.cmd` 运行 |
+| `backtest.mjs` / `backtest_all.mjs` | 自主结算（让球 net=(主-客)-hc，主让为正）/ 多批聚合 |
+| `build_results.mjs` | 按真实比分生成 backtest 所需 results |
+| `run_batch.ps1` | 参数化编排：check_fetch→collect→analyze→engine→check_line 一条命令 |
+| `py.cmd` | 优先用项目内嵌 Python（`.runtime/python`） |
 
-1. **回测上一轮**：拿到已完赛比分，用 `backtest(preds, results)` 跑出逐市场命中率，与 [references/model-and-calibration.md](references/model-and-calibration.md) 的待验证清单核对。**这一步在采集新数据之前做。**
-2. **采集**：竞彩官网在售场次（胜平负/让球/总进球/比分/半全场 + 支持率 + 官方概率），捷报逐场（主客分离得失球、盘路、18 家初盘与即时亚盘/水位、大小球、天气），直播吧与搜索补齐伤停/动机/裁判。口径见 [references/data-collection.md](references/data-collection.md)。
-3. **建模**：`scripts/analyze.js` 的 `predictMatch(row)` 一次产出 λ（市场 + 独立 + 融合）、比分分布、总进球桶与区间、胜平负、让球、双方进球、半全场、判定。数据以对象传入，字段见脚本文档头。
-4. **判定与方案**：`verdict` 字段给简明判定，`rec` 字段（`buildRecommendation`）给完整购买方案——级别（主推/小注/观察/回避）+ 玩法 + 选项 + 赔率 + 概率/隐含 + EV + 仓位 + 否决条件。**不要手改阈值**；规则与理由见下文与 [references/model-and-calibration.md](references/model-and-calibration.md)。
-5. **补齐逻辑**：按 [references/analysis-framework.md](references/analysis-framework.md) 八节检查表逐项过，标出进模型 / 进文字 / 因缺数据降级。
-6. **组装**：按 [references/report-template.md](references/report-template.md) 的六层 + 综合预测层写 HTML。
-7. **渲染**：`mcp_qieman_RenderHtmlToPdf`（A4、printBackground、margin 0），PowerShell 两步法下载并改中文名。
-8. **交付**：`computer://` 链接 + 3 个核心结论。
+## 赛前流程
 
-## 逐场判定规则（v2，已按回测修正）
+1. **定位 ID**：在即时比分页 `live.titan007.com/oldIndexall.aspx`，用 `a[onclick*="analysis"]` 所在行文本匹配队名，取 ID。
+2. **写清单**：JSON 格式 `{matches:[{no,id,lg,kickoff,home,away}]}`，home 用页面 `主队(主)` 标签能匹配的名称。此清单即 meta，贯穿采集与 collect。
+3. **全自动采集**（computer_use 环境）：
+   `python tools/fetch_batch.py <清单> <data/rawN>` → 每场 txt + handicap.json + `_fetch_report.json`。
+   3b. **懂球帝情报采集**（可选但建议，computer_use 环境）：
+   `python tools/fetch_dqd.py <清单> <data/rawN>` → 每场 `{id}.dqd.json`（伤停 + 必发），未匹配/无数据的场如实记录。
+4. **一条命令建模**：
+   `.\tools\run_batch.ps1 -RawDir data/rawN -Meta <清单> -Index N`
+   自动跑 check_fetch→collect→analyze→engine→check_line，产出 `matchesN/predsN/engineN`；退出码 0 干净，3 含阻断/问题，4 含 HDA 退盘冲突（告警不阻断，写报告前先处理）。
+5. **写 Markdown 报告**：逐场给方向（一致/分歧采信依据、退盘冲突是否修正）、让球、大小球（实际盘口）、参考比分分布，如实标注每场工具参与度与阻断；让球盘场次可跑 `check_handicap.mjs`（赛前模式）看平局赔率/热度，复合盘提示防下盘。
 
-先算四个量：
+## 赛后复盘流程
 
-- `dev[i]` 去水概率；`Δ[i] = 支持率 − 去水`（pp）
-- `md[i] = 模型概率 − 去水`（pp）
-- `ev[i] = p × odds − 1`
+1. 即时比分页取完场全场比分（状态单元格="完"）。
+2. `build_results.mjs` 生成 `resultsN.json`（key=no，value=[gh,ga]）。
+3. `node tools/backtest.mjs data/out/predsN.json data/test/resultsN.json` 逐批；`backtest_all.mjs` 聚合命中率、Brier。
+4. 让球结算复核：`node tools/check_handicap.mjs data/rawN <meta> data/test/resultsN.json [盘口]`，按五档精确结算，对比市场让球方概率 vs 实际全赢率，验证 0.25/0.75 等盘口的下盘经验是否成立，不凭经验直接套用。
+5. 把命中率与盘口隐含对照，识别系统性偏差（如平局漏判、深盘两极、冷门），更新经验与阈值。
 
-| 条件 | 级别 | 理由模板 |
-|---|---|---|
-| SPF 未开售，仅让球盘，且模型让球最高侧 EV > 2% | 关注 | `模型 61.2% vs 隐含 47.0%，EV +12.8%` |
-| 支持率第一方向 ≠ 去水第一方向 | 关注 | `资金在平局（Δ+5pp）与定价相反，回测中此类场次定价方 3/3 命中，采信定价` |
-| Δ ≥ +15pp 且模型不支持该侧 | 回避 | `人气 +20pp，模型仅 15.3% 低于去水 22.0%，价格不含补偿` |
-| Δ ≤ −8pp **且** 模型同向 **且** max\|md\| ≥ 2pp | 关注 | `缺口 −8pp 且模型同向（33.2% vs 28.3%），EV +5.1%` |
-| max\|md\| ≤ 3pp | 观望 | `模型与去水偏差 1.5pp，定价有效；人气最大偏离 +10pp` |
-| 其余 | 中性 | `模型偏差 3.1pp（客胜方向），人气 Δ 5pp，无结构性错价` |
+## 数据源（球探，浏览器通道）
 
-**与 v2 的关键差异（v3，依第二轮回测）：**
+- 即时比分：`https://live.titan007.com/oldIndexall.aspx`
+- 分析页：`https://zq.titan007.com/analysis/{id}cn.htm`
+- 亚盘：`https://vip.titan007.com/AsianOdds_n.aspx?id={id}&l=0`（盘口单元格 `goals` 属性即数值）
+- 大小球：`https://vip.titan007.com/OverDown_n.aspx?id={id}&l=0`
+- 百家欧赔（胜平负）：`https://1x2.titan007.com/oddslist/{id}.htm`（取初盘/即时平均行与归一化概率）
+- 懂球帝情报（伤停 + 必发）：`https://m.dongqiudi.com/matchDetail/<dqd_id>/lotIntelligence`；全球赛程页 `https://m.dongqiudi.com/match/12`（比赛行 `li` 的 id 即懂球帝 match id）；在售方案付费墙不绕过，已完赛方案全文免费
+- 说明：球探分析页 curl 直连失败，只能走浏览器；本机浏览器库名 `seed_browser_use`。
 
-1. **新增超短赔主推规则**：去水第一方向概率 ≥66% + 模型同向 + 该侧伤停修正 ≥−0.15 + 资金方向无分歧 → 主推单关（三轮 14/16=87.5% 对隐含 67%）。方案概率用回测经验值 87.5%（16 样本）并加星号注明，任何一条不满足即降级为观察。**伤停评估必须双源确认**：热门侧伤停仅有单一来源且判断为「替补级」时，按修正不足处理（第三轮利物浦 1.33 翻车教训）。
-2. **新增 injuryAdj 伤停修正**：λ 叠加人工裁定修正值（披露制 + 否决条件）。亚特兰大 10 人伤 0-3 爆冷是直接教训；**新帅执教 ≤2 场的球队 λ +0.1~+0.15（新帅效应，v4 新增）**。修正幅度须考虑替补质量——阵容深度足够的球队伤停影响可能失效（科莫 6 人伤 4 前锋却 9-1 狂胜）。
-3. **新增购买方案层**：每场必须给完整方案（买什么/买多少/何时放弃），不允许只写「关注/观望」结束。战绩口径：**只有主推/小注计入**，观察级不计。
-4. **总进球区间降级**（三轮 36–44%）：只给方向 + 8 桶分布。
+## 上游 GitHub 同步（差异化，不覆盖本地工具链）
 
-**判定必须绑定综合预测。** 例如不能写「主胜 2.10 关注」却不写总进球区间——两个市场的判断要互相自洽。
+云端上游 `laoyangnb666/jc-football-report` 已演进到竞彩官方 PDF 报告体系，与本地 titan007 双轨体系定位不同，故 SKILL.md 不直接覆盖，按文件差异化合并：
 
-## 数据源
+- **已采纳云端**：`scripts/analyze.js`（超短赔经验值随样本扩大由 0.917 主推更新为 0.739 小注）、`references/model-and-calibration.md`（四轮回测与教训）、`docs/` 的 data.js/index.html/skill.html（更新统计与入口）、新增 `docs/blackjack.html`（澳门 21 点模拟器）。
+- **保留本地**：README.md（本地是云端超集，仅多 Windows 部署章节）、本 SKILL.md（准确描述本地实际在跑的 titan007/懂球帝工具链）、整个 `tools/` 目录（本地扩展，云端 main 不含）。
+- 云端回测经验（伤停双源确认、新帅效应、超短赔降级等）以 `references/model-and-calibration.md` 为准，不在此重复；本地沿用「数字只来自工具输出、小样本不夸大」的同一纪律。
 
-四级 + 扩展，完整口径见 [references/data-collection.md](references/data-collection.md)。
+## 交付前检查
 
-| 层 | 源 | 取什么 | 边界 |
-|---|---|---|---|
-| A | 竞彩官网 `lottery.gov.cn/jc/jsq/zqspf/` | 在售场次、全部玩法赔率、支持率、官方去水概率 | 唯一法定价，定价基准 |
-| B | 捷报 `cp.nowscore.com` + `live.nowscore.com` | **主客分离得失球、盘路（让球胜率/大小球率，主客分开）、18 家初盘与即时欧赔/亚盘水位/大小球、天气场地** | 独立模型的唯一输入来源 |
-| C | 直播吧 `zhibo8.com` | 伤停、首发、赛程、动机线索 | 定性，需第二来源确认 |
-| D | 联网搜索 | xG/xGA、官方公告、裁判、联赛形势 | 每个数字能点回原页 |
-
-扩展源（按缺口启用）：球探 `zq.titan007.com`（盘路与标准盘/亚盘对照）、捷报资料库、500 彩票网、OddsPortal / Oddspedia（跨庄变价方向）、Betfair / Smarkets（真实成交）、FBref / Understat（xG）、Sofascore / FotMob（首发）、Transfermarkt（伤停与身价）、中国天气网。
-
-**B 层是 v2 的命脉。** 没有主客分离得失球，独立模型无法建立，报告退回 v1 的复述状态——此时必须在数据卫生层写明「独立模型缺失，本报告仅为盘口分析」。
-
-## 报告骨架
-
-**两篇式**（v3 起）：第一篇只摆事实（数据分析），第二篇只给结论（预测与购买方案），读者只看第二篇能做决策、只看第一篇能核查依据。结构详见 [references/report-template.md](references/report-template.md)。
-
-第一篇 数据分析：1 回测校准 → 2 定价引擎 → 3 基本面情报 → 4 市场情报 → 5 数据卫生
-第二篇 预测方案：6 逐场综合预测卡 → 7 逐场购买方案 → 8 全量总表 → 9 执行层（串关+资金管理）→ 10 风险披露
-
-全量表必须含「综合预测」与「判断」两列。表后另附逐场清单，每场一行，格式：
-
-```
-周一004 亚特兰大 vs 帕尔马｜主胜 66.8%｜2-3 球 44.6%｜2-0 10.9% / 2-1 9.8% / 1-1 9.6%｜观望
-```
-
-## 串关的结构性事实
-
-每腿 `p × odds` 恒等于 `1/(1+margin)`。margin 13.9% 时单腿 0.878，两串 0.771，三串 0.677。串关 EV 必然为负，倍率越高越负。报告必须列至少三组实测串关并给 EV，结论固定为「单关优先」。
-
-## 交付前自检
-
-- [ ] 回测层已完成，且每个命中率都配了「盘口隐含」对照
-- [ ] 场次数 = 综合预测行数 = 判断行数
-- [ ] 每场都有 比分分布 / 总进球 / 胜平负 三段，无「待定」
-- [ ] **没有任何一处出现单一比分预测**
-- [ ] λ 注明了市场值与独立值与融合权重 k
-- [ ] 表格数字与 `predictMatch` 输出逐字一致
-- [ ] 串关全部标注 EV，结论为单关优先
-- [ ] 数据卫生八条逐项有状态，缺项写明原因
-- [ ] 尾页含源清单、访问时间（分钟级）、缺失字段、风险披露
-- [ ] PDF 已落到工作区，链接可用
+- [ ] check_fetch PASS，场次数 = 清单数
+- [ ] check_line 已核对退盘/升盘，HDA 冲突场（exit 4）已按盘口修正，rq 退盘已标注
+- [ ] 让球盘场次已用 check_handicap 看平局赔率/热度与五档结算，防下盘（小样本经验，不夸大、不直接套用）
+- [ ] 结算逻辑改动后 test_settle 断言 PASS
+- [ ] 每场让球/独立输入齐全，阻断场次已标注且未出方向
+- [ ] team.overall 整体实力（排名/积分/净胜球）已纳入参考，用于核对让球合理性，不替代主客拆分模型输入
+- [ ] 已跑 fetch_dqd：伤停（具体球员/位置/原因）、必发冷热与大注已留档；缺数据场已标注，未硬接 injury 死字段；rest_days 已注入 engine
+- [ ] 大小球结论基于实际盘口水位，非模型 2.5 直接套用
+- [ ] 无单一比分预测，数字与工具输出逐字一致
+- [ ] 报告含工具参与度、源数据目录、风险提示

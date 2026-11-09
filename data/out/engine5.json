@@ -1,0 +1,105 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 3,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "荷尔斯泰因",
+   "away": "比勒菲尔德",
+   "engine": {
+    "xg_h": 1.951,
+    "xg_a": 0.847,
+    "H": 0.6245,
+    "D": 0.2279,
+    "A": 0.1476,
+    "rq": [
+     0.6245,
+     0.2279,
+     0.1476
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 1.1852,
+    "home_defense": 0.7407,
+    "home_form": 0.0,
+    "away_attack": 0.7,
+    "away_defense": 1.3333,
+    "away_form": 0.2469,
+    "notes": [
+     "主样本 5 场 8 得 5 失",
+     "主样本 5 场 4 得 9 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "纽伦堡",
+   "away": "达姆施塔特",
+   "engine": {
+    "xg_h": 3.257,
+    "xg_a": 1.757,
+    "H": 0.6672,
+    "D": 0.1556,
+    "A": 0.1772,
+    "rq": [
+     0.4896,
+     0.1776,
+     0.3328
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.037,
+    "home_form": 0.3704,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": -0.6173,
+    "notes": [
+     "主样本 5 场 13 得 7 失",
+     "主样本 4 场 1 得 13 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "奥斯纳布鲁克",
+   "away": "凯泽斯劳滕",
+   "engine": {
+    "xg_h": 1.283,
+    "xg_a": 1.101,
+    "H": 0.3955,
+    "D": 0.2973,
+    "A": 0.3072,
+    "rq": [
+     0.3955,
+     0.2973,
+     0.3072
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 1.1852,
+    "home_defense": 1.1852,
+    "home_form": -0.2469,
+    "away_attack": 0.7,
+    "away_defense": 0.7,
+    "away_form": -0.2469,
+    "notes": [
+     "主样本 5 场 8 得 8 失",
+     "主样本 5 场 3 得 4 失"
+    ]
+   }
+  }
+ ]
+}

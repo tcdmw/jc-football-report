@@ -1,0 +1,135 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 4,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "利兹联",
+   "away": "托特纳姆热刺",
+   "engine": {
+    "xg_h": 0.847,
+    "xg_a": 1.024,
+    "H": 0.282,
+    "D": 0.341,
+    "A": 0.377,
+    "rq": [
+     0.282,
+     0.341,
+     0.377
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "away_attack": 0.7,
+    "away_defense": 0.7407,
+    "away_form": 0.6173,
+    "notes": [
+     "主样本 4 场 6 得 3 失",
+     "主样本 4 场 3 得 4 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "布里斯托城",
+   "away": "诺维奇",
+   "engine": {
+    "xg_h": 1.014,
+    "xg_a": 2.514,
+    "H": 0.1264,
+    "D": 0.1799,
+    "A": 0.6937,
+    "rq": [
+     0.1264,
+     0.1799,
+     0.6937
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.8466,
+    "home_form": -0.2469,
+    "away_attack": 1.45,
+    "away_defense": 1.2698,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 7 场 4 得 8 失",
+     "主样本 7 场 14 得 12 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "朴茨茅斯",
+   "away": "斯托克城",
+   "engine": {
+    "xg_h": 2.55,
+    "xg_a": 1.512,
+    "H": 0.5955,
+    "D": 0.1935,
+    "A": 0.2111,
+    "rq": [
+     0.5955,
+     0.1935,
+     0.2111
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.3757,
+    "home_defense": 1.164,
+    "home_form": 0.6173,
+    "away_attack": 1.0582,
+    "away_defense": 1.164,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 7 场 13 得 11 失",
+     "主样本 7 场 10 得 11 失"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "雷克瑟姆",
+   "away": "狼队",
+   "engine": {
+    "xg_h": 1.567,
+    "xg_a": 1.877,
+    "H": 0.3174,
+    "D": 0.2373,
+    "A": 0.4452,
+    "rq": [
+     0.3174,
+     0.2373,
+     0.4452
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 1.2698,
+    "home_defense": 0.8466,
+    "home_form": 0.1235,
+    "away_attack": 1.2698,
+    "away_defense": 1.0582,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 7 场 12 得 8 失",
+     "主样本 7 场 12 得 10 失"
+    ]
+   }
+  }
+ ]
+}

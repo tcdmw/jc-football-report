@@ -1,0 +1,113 @@
+{
+ "source": "data/raw25",
+ "collectedAt": "2026-11-09T06:57:07.360Z",
+ "count": 1,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "2993859",
+   "lg": "意甲",
+   "kickoff": "2026-11-09 01:30",
+   "home": "国际米兰",
+   "away": "科莫",
+   "hc": 0.25,
+   "hcRaw": "澳门",
+   "spf": [
+    1.76,
+    3.92,
+    3.17
+   ],
+   "spfMargin": 0.13874127224735622,
+   "zjq": [
+    23,
+    7.5,
+    4.4,
+    3.7,
+    4.3,
+    6.25,
+    9.6,
+    12
+   ],
+   "zjqRaw": "237.54.43.74.36.259.612",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 10,
+      "w": 8,
+      "d": 1,
+      "l": 1,
+      "gf": 26,
+      "ga": 13,
+      "gd": 13,
+      "points": 25,
+      "rank": 3,
+      "winRate": 80
+     },
+     "away": {
+      "p": 10,
+      "w": 7,
+      "d": 2,
+      "l": 1,
+      "gf": 18,
+      "ga": 8,
+      "gd": 10,
+      "points": 23,
+      "rank": 4,
+      "winRate": 70
+     }
+    },
+    "home": {
+     "home": {
+      "p": 5,
+      "gf": 17,
+      "ga": 7
+     },
+     "away": {
+      "p": 5,
+      "gf": 9,
+      "ga": 6
+     }
+    },
+    "away": {
+     "home": {
+      "p": 4,
+      "gf": 5,
+      "ga": 1
+     },
+     "away": {
+      "p": 6,
+      "gf": 13,
+      "ga": 7
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 13,
+      "ga": 7
+     },
+     "away": {
+      "p": 6,
+      "gf": 9,
+      "ga": 4
+     }
+    },
+    "leagueOf": {
+     "home": "意甲",
+     "away": "意甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

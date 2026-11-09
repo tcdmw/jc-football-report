@@ -1,0 +1,151 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 4,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "费德列斯达",
+   "away": "白兰恩",
+   "engine": {
+    "xg_h": 1.735,
+    "xg_a": 1.675,
+    "H": 0.3917,
+    "D": 0.2415,
+    "A": 0.3668,
+    "rq": [
+     0.3917,
+     0.2415,
+     0.3668
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 0.8642,
+    "home_defense": 0.9259,
+    "home_form": -0.8,
+    "home_rest": 9,
+    "away_attack": 1.358,
+    "away_defense": 1.358,
+    "away_form": -0.6173,
+    "away_rest": 3,
+    "notes": [
+     "主样本 12 场 14 得 15 失",
+     "赛程间隔 9 天",
+     "主样本 12 场 22 得 22 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "奥林匹亚科斯",
+   "away": "PAOK",
+   "engine": {
+    "xg_h": 2.771,
+    "xg_a": 1.271,
+    "H": 0.683,
+    "D": 0.1706,
+    "A": 0.1464,
+    "rq": [
+     0.4856,
+     0.1974,
+     0.317
+    ],
+    "hc_model": -1.0
+   },
+   "input": {
+    "home_attack": 1.2963,
+    "home_defense": 0.7,
+    "home_form": 0.8,
+    "home_rest": 5,
+    "away_attack": 1.2963,
+    "away_defense": 1.2963,
+    "away_form": 0.3704,
+    "away_rest": 7,
+    "notes": [
+     "主样本 4 场 7 得 1 失",
+     "赛程间隔 5 天",
+     "主样本 4 场 7 得 7 失",
+     "赛程间隔 7 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "佛罗伦萨",
+   "away": "尤文图斯",
+   "engine": {
+    "xg_h": 0.868,
+    "xg_a": 1.92,
+    "H": 0.1553,
+    "D": 0.2322,
+    "A": 0.6125,
+    "rq": [
+     0.1553,
+     0.2322,
+     0.6125
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 0.7407,
+    "home_defense": 1.45,
+    "home_form": -0.2469,
+    "home_rest": 6,
+    "away_attack": 0.8889,
+    "away_defense": 0.8889,
+    "away_form": 0.1235,
+    "away_rest": 3,
+    "notes": [
+     "主样本 5 场 5 得 11 失",
+     "赛程间隔 6 天",
+     "主样本 5 场 6 得 6 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "马德里竞技",
+   "away": "巴塞罗那",
+   "engine": {
+    "xg_h": 1.651,
+    "xg_a": 1.42,
+    "H": 0.4224,
+    "D": 0.2556,
+    "A": 0.322,
+    "rq": [
+     0.678,
+     0.0,
+     0.322
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.8,
+    "home_rest": 5,
+    "away_attack": 1.45,
+    "away_defense": 0.7407,
+    "away_form": 0.8,
+    "away_rest": 5,
+    "notes": [
+     "主样本 5 场 11 得 3 失",
+     "赛程间隔 5 天",
+     "主样本 5 场 22 得 5 失",
+     "赛程间隔 5 天"
+    ]
+   }
+  }
+ ]
+}

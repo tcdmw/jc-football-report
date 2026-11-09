@@ -1,0 +1,45 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 1,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "科隆",
+   "away": "勒沃库森",
+   "engine": {
+    "xg_h": 2.316,
+    "xg_a": 1.494,
+    "H": 0.5539,
+    "D": 0.2093,
+    "A": 0.2368,
+    "rq": [
+     0.7632,
+     0.1285,
+     0.1083
+    ],
+    "hc_model": 1.0
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 0.7407,
+    "home_form": -0.1235,
+    "away_attack": 1.45,
+    "away_defense": 1.45,
+    "away_form": -0.1235,
+    "notes": [
+     "主样本 4 场 6 得 4 失",
+     "主样本 4 场 8 得 11 失"
+    ]
+   }
+  }
+ ]
+}

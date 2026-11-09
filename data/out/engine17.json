@@ -1,0 +1,105 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 3,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "波鸿",
+   "away": "卡尔斯鲁厄",
+   "engine": {
+    "xg_h": 1.856,
+    "xg_a": 0.567,
+    "H": 0.6772,
+    "D": 0.2246,
+    "A": 0.0982,
+    "rq": [
+     0.4171,
+     0.2602,
+     0.3228
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7407,
+    "home_form": -0.3704,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": -0.7407,
+    "notes": [
+     "主样本 5 场 2 得 5 失",
+     "主样本 4 场 3 得 10 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "海登海默",
+   "away": "汉诺威96",
+   "engine": {
+    "xg_h": 2.94,
+    "xg_a": 1.44,
+    "H": 0.677,
+    "D": 0.165,
+    "A": 0.158,
+    "rq": [
+     0.677,
+     0.0,
+     0.323
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.037,
+    "home_form": -0.2469,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": -0.4938,
+    "notes": [
+     "主样本 5 场 11 得 7 失",
+     "主样本 5 场 3 得 10 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "马格德堡",
+   "away": "圣保利",
+   "engine": {
+    "xg_h": 2.66,
+    "xg_a": 1.16,
+    "H": 0.6874,
+    "D": 0.1745,
+    "A": 0.1381,
+    "rq": [
+     0.6874,
+     0.1745,
+     0.1381
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.037,
+    "home_form": 0.8,
+    "away_attack": 0.8889,
+    "away_defense": 0.8889,
+    "away_form": 0.1235,
+    "notes": [
+     "主样本 5 场 15 得 7 失",
+     "主样本 5 场 6 得 6 失"
+    ]
+   }
+  }
+ ]
+}

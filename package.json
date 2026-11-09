@@ -1,0 +1,18 @@
+{
+  "name": "jc-football-report-local",
+  "version": "4.1.0",
+  "private": true,
+  "description": "本地足球预测：v4 工具链（collect/analyze/backtest/verify）+ football-engine 独立模型轨。仅需 Node 22+；Python 轨为可选增强。注意：不要加 \"type\": \"module\" —— scripts/analyze.js 是 CommonJS，加了会让 createRequire 加载失败。",
+  "scripts": {
+    "collect": "node tools/collect.mjs data/raw data/test/meta_1146_11.json data/out/matches.json",
+    "analyze": "node tools/analyze.mjs data/out/matches.json data/out/preds.json",
+    "backtest": "node tools/backtest.mjs data/out/preds.json data/test/results_1146_11.json",
+    "verify": "node tools/verify.mjs",
+    "engine": "tools\\py.cmd tools\\bridge_engine.py data/out/matches.json data/out/engine_preds.json",
+    "lottery": "tools\\py.cmd tools\\bridge_lottery.py data/out/matches.json data/out/lottery_preds.json",
+    "all": "powershell -NoProfile -ExecutionPolicy Bypass -File run.ps1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

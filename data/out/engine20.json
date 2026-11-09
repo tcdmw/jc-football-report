@@ -1,0 +1,195 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 6,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "桑德兰",
+   "away": "切尔西",
+   "engine": {
+    "xg_h": 0.783,
+    "xg_a": 2.283,
+    "H": 0.1056,
+    "D": 0.1889,
+    "A": 0.7055,
+    "rq": [
+     0.2945,
+     0.0,
+     0.7055
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7407,
+    "home_form": -0.8,
+    "away_attack": 1.1111,
+    "away_defense": 1.2963,
+    "away_form": 0.3704,
+    "notes": [
+     "主样本 4 场 1 得 4 失",
+     "主样本 4 场 6 得 7 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "伊普斯维奇",
+   "away": "伯恩茅斯",
+   "engine": {
+    "xg_h": 1.644,
+    "xg_a": 1.917,
+    "H": 0.3279,
+    "D": 0.2332,
+    "A": 0.4389,
+    "rq": [
+     0.5611,
+     0.0,
+     0.4389
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 0.9259,
+    "home_defense": 0.9259,
+    "home_form": 0.0,
+    "away_attack": 1.2963,
+    "away_defense": 1.45,
+    "away_form": 0.2469,
+    "notes": [
+     "主样本 4 场 5 得 5 失",
+     "主样本 4 场 7 得 9 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "水晶宫",
+   "away": "利物浦",
+   "engine": {
+    "xg_h": 1.664,
+    "xg_a": 3.164,
+    "H": 0.1719,
+    "D": 0.1582,
+    "A": 0.6699,
+    "rq": [
+     0.3301,
+     0.1809,
+     0.489
+    ],
+    "hc_model": 1.0
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 1.45,
+    "home_form": -0.8,
+    "away_attack": 1.2963,
+    "away_defense": 0.7,
+    "away_form": 0.0,
+    "notes": [
+     "主样本 4 场 6 得 10 失",
+     "主样本 4 场 7 得 3 失"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "布莱顿",
+   "away": "布伦特福德",
+   "engine": {
+    "xg_h": 2.647,
+    "xg_a": 1.147,
+    "H": 0.6879,
+    "D": 0.175,
+    "A": 0.1371,
+    "rq": [
+     0.6879,
+     0.0,
+     0.3121
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.8,
+    "away_attack": 1.1111,
+    "away_defense": 1.1111,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 4 场 13 得 1 失",
+     "主样本 4 场 6 得 6 失"
+    ]
+   }
+  },
+  {
+   "no": 5,
+   "home": "蒙扎",
+   "away": "亚特兰大",
+   "engine": {
+    "xg_h": 3.268,
+    "xg_a": 1.768,
+    "H": 0.6669,
+    "D": 0.1553,
+    "A": 0.1778,
+    "rq": [
+     0.8222,
+     0.0,
+     0.1778
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.45,
+    "home_form": -0.2469,
+    "away_attack": 0.9259,
+    "away_defense": 1.45,
+    "away_form": -0.4938,
+    "notes": [
+     "主样本 4 场 9 得 8 失",
+     "主样本 4 场 5 得 9 失"
+    ]
+   }
+  },
+  {
+   "no": 6,
+   "home": "热那亚",
+   "away": "AC米兰",
+   "engine": {
+    "xg_h": 0.714,
+    "xg_a": 2.181,
+    "H": 0.1012,
+    "D": 0.1952,
+    "A": 0.7036,
+    "rq": [
+     0.2964,
+     0.0,
+     0.7036
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 0.8642,
+    "home_defense": 0.9877,
+    "home_form": 0.2469,
+    "away_attack": 1.1852,
+    "away_defense": 0.7407,
+    "away_form": 0.7407,
+    "notes": [
+     "主样本 6 场 7 得 8 失",
+     "主样本 5 场 8 得 5 失"
+    ]
+   }
+  }
+ ]
+}

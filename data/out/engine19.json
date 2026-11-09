@@ -1,0 +1,75 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "特罗姆瑟",
+   "away": "波杜基林特",
+   "engine": {
+    "xg_h": 1.255,
+    "xg_a": 2.755,
+    "H": 0.1452,
+    "D": 0.1712,
+    "A": 0.6836,
+    "rq": [
+     0.3164,
+     0.1982,
+     0.4854
+    ],
+    "hc_model": 1.25
+   },
+   "input": {
+    "home_attack": 1.358,
+    "home_defense": 0.7,
+    "home_form": -0.8,
+    "away_attack": 1.45,
+    "away_defense": 0.8025,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 12 场 22 得 10 失",
+     "主样本 12 场 24 得 13 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "特温特",
+   "away": "阿贾克斯",
+   "engine": {
+    "xg_h": 1.569,
+    "xg_a": 1.494,
+    "H": 0.3876,
+    "D": 0.2576,
+    "A": 0.3548,
+    "rq": [
+     0.1961,
+     0.1914,
+     0.6124
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7407,
+    "home_form": 0.8,
+    "away_attack": 1.45,
+    "away_defense": 0.7,
+    "away_form": 0.8,
+    "notes": [
+     "主样本 5 场 10 得 5 失",
+     "主样本 5 场 18 得 4 失"
+    ]
+   }
+  }
+ ]
+}

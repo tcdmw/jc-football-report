@@ -1,0 +1,87 @@
+{
+ "source": "data/raw21",
+ "collectedAt": "2026-11-08T14:20:07.453Z",
+ "count": 1,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3018859",
+   "lg": "德甲",
+   "kickoff": "2026-11-08 22:30",
+   "home": "科隆",
+   "away": "勒沃库森",
+   "hc": -1,
+   "hcRaw": "澳门",
+   "spf": [
+    4.5,
+    4.15,
+    1.48
+   ],
+   "spfMargin": 0.1388617533195846,
+   "zjq": [
+    20,
+    7,
+    4.4,
+    3.1,
+    4.1,
+    7.5,
+    13,
+    17.5
+   ],
+   "zjqRaw": "2074.43.14.17.51317.5",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 6,
+      "ga": 4
+     },
+     "away": {
+      "p": 4,
+      "gf": 3,
+      "ga": 8
+     }
+    },
+    "away": {
+     "home": {
+      "p": 4,
+      "gf": 10,
+      "ga": 5
+     },
+     "away": {
+      "p": 4,
+      "gf": 8,
+      "ga": 11
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 5,
+      "ga": 6
+     },
+     "away": {
+      "p": 6,
+      "gf": 12,
+      "ga": 13
+     }
+    },
+    "leagueOf": {
+     "home": "德甲",
+     "away": "德甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

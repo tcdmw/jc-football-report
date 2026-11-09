@@ -4,9 +4,8 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
-# Generated reports & raw snapshots (belong to a single run, not the skill)
-*.pdf
-data/
+# Generated reports & raw snapshots
+# 本地全量同步：data/ 与 *.pdf 纳入版本库，不再忽略
 snapshots/
 output/
 *.local.json

@@ -1,0 +1,376 @@
+{
+ "source": "data/raw23",
+ "collectedAt": "2026-11-09T06:57:07.151Z",
+ "count": 4,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "2912931",
+   "lg": "挪超",
+   "kickoff": "2026-11-09 00:00",
+   "home": "汉坎",
+   "away": "萨普斯堡08",
+   "hc": -0.25,
+   "hcRaw": "澳门",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 25,
+      "w": 7,
+      "d": 6,
+      "l": 12,
+      "gf": 35,
+      "ga": 53,
+      "gd": -18,
+      "points": 27,
+      "rank": 13,
+      "winRate": 28
+     },
+     "away": {
+      "p": 25,
+      "w": 8,
+      "d": 7,
+      "l": 10,
+      "gf": 32,
+      "ga": 39,
+      "gd": -7,
+      "points": 31,
+      "rank": 9,
+      "winRate": 32
+     }
+    },
+    "home": {
+     "home": {
+      "p": 12,
+      "gf": 17,
+      "ga": 24
+     },
+     "away": {
+      "p": 13,
+      "gf": 18,
+      "ga": 29
+     }
+    },
+    "away": {
+     "home": {
+      "p": 13,
+      "gf": 16,
+      "ga": 20
+     },
+     "away": {
+      "p": 12,
+      "gf": 16,
+      "ga": 19
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 9,
+      "ga": 17
+     },
+     "away": {
+      "p": 6,
+      "gf": 10,
+      "ga": 14
+     }
+    },
+    "leagueOf": {
+     "home": "挪超",
+     "away": "挪超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 2,
+   "id": "2912933",
+   "lg": "挪超",
+   "kickoff": "2026-11-09 00:00",
+   "home": "利勒斯特罗姆",
+   "away": "奥勒松",
+   "hc": 0.75,
+   "hcRaw": "澳门",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 25,
+      "w": 13,
+      "d": 3,
+      "l": 9,
+      "gf": 36,
+      "ga": 33,
+      "gd": 3,
+      "points": 42,
+      "rank": 5,
+      "winRate": 52
+     },
+     "away": {
+      "p": 25,
+      "w": 5,
+      "d": 9,
+      "l": 11,
+      "gf": 43,
+      "ga": 57,
+      "gd": -14,
+      "points": 24,
+      "rank": 14,
+      "winRate": 20
+     }
+    },
+    "home": {
+     "home": {
+      "p": 12,
+      "gf": 22,
+      "ga": 19
+     },
+     "away": {
+      "p": 13,
+      "gf": 14,
+      "ga": 14
+     }
+    },
+    "away": {
+     "home": {
+      "p": 13,
+      "gf": 27,
+      "ga": 34
+     },
+     "away": {
+      "p": 12,
+      "gf": 16,
+      "ga": 23
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 10,
+      "ga": 7
+     },
+     "away": {
+      "p": 6,
+      "gf": 13,
+      "ga": 14
+     }
+    },
+    "leagueOf": {
+     "home": "挪超",
+     "away": "挪超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 3,
+   "id": "2912935",
+   "lg": "挪超",
+   "kickoff": "2026-11-09 00:00",
+   "home": "桑德菲杰",
+   "away": "莫尔德",
+   "hc": -0.25,
+   "hcRaw": "澳门",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 25,
+      "w": 7,
+      "d": 6,
+      "l": 12,
+      "gf": 26,
+      "ga": 34,
+      "gd": -8,
+      "points": 27,
+      "rank": 12,
+      "winRate": 28
+     },
+     "away": {
+      "p": 25,
+      "w": 13,
+      "d": 4,
+      "l": 8,
+      "gf": 59,
+      "ga": 39,
+      "gd": 20,
+      "points": 43,
+      "rank": 4,
+      "winRate": 52
+     }
+    },
+    "home": {
+     "home": {
+      "p": 12,
+      "gf": 10,
+      "ga": 12
+     },
+     "away": {
+      "p": 13,
+      "gf": 16,
+      "ga": 22
+     }
+    },
+    "away": {
+     "home": {
+      "p": 13,
+      "gf": 35,
+      "ga": 15
+     },
+     "away": {
+      "p": 12,
+      "gf": 24,
+      "ga": 24
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 10,
+      "ga": 10
+     },
+     "away": {
+      "p": 6,
+      "gf": 21,
+      "ga": 10
+     }
+    },
+    "leagueOf": {
+     "home": "挪超",
+     "away": "挪超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 4,
+   "id": "2912937",
+   "lg": "挪超",
+   "kickoff": "2026-11-09 00:00",
+   "home": "维京",
+   "away": "KFUM奥斯陆",
+   "hc": 2,
+   "hcRaw": "澳门",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 25,
+      "w": 19,
+      "d": 2,
+      "l": 4,
+      "gf": 64,
+      "ga": 26,
+      "gd": 38,
+      "points": 59,
+      "rank": 1,
+      "winRate": 76
+     },
+     "away": {
+      "p": 25,
+      "w": 8,
+      "d": 7,
+      "l": 10,
+      "gf": 32,
+      "ga": 41,
+      "gd": -9,
+      "points": 31,
+      "rank": 10,
+      "winRate": 32
+     }
+    },
+    "home": {
+     "home": {
+      "p": 12,
+      "gf": 44,
+      "ga": 13
+     },
+     "away": {
+      "p": 13,
+      "gf": 20,
+      "ga": 13
+     }
+    },
+    "away": {
+     "home": {
+      "p": 13,
+      "gf": 17,
+      "ga": 16
+     },
+     "away": {
+      "p": 12,
+      "gf": 15,
+      "ga": 25
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 21,
+      "ga": 7
+     },
+     "away": {
+      "p": 6,
+      "gf": 12,
+      "ga": 8
+     }
+    },
+    "leagueOf": {
+     "home": "挪超",
+     "away": "挪超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

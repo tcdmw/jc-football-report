@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="docs/assets/logo.png" width="96" alt="jc-football-report logo">
 </p>
 
@@ -243,3 +243,60 @@ node jc-football-report/scripts/analyze.js
 See [SKILL.md](SKILL.md) for the workflow, [references/model-and-calibration.md](references/model-and-calibration.md) for the model math and the 33-match backtest, and [references/data-collection.md](references/data-collection.md) for the source list.
 
 **Disclaimer:** For research and educational purposes only. Not betting advice. No guaranteed returns. Gambling carries a high risk of losing all capital. Comply with local laws; 18+ only.
+
+---
+
+## 本地部署（v4.1 / Windows）
+
+本机一套 = v4 工具链 + 两轨 Python 模型，一条命令跑完，产物全在 `data/out/`。
+
+### 环境
+
+| 组件 | 要求 | 本机实测 |
+| --- | --- | --- |
+| Node.js | ≥ 20 | v22.23.2 ✅（唯一必需，v4 工具链全靠它） |
+| Python | 3.10+，可选 | 项目内 `.runtime/python/python.exe`（3.12.7 embeddable，免安装、无管理员权限），已装 numpy 2.5.4 / scipy 1.18.1 / requests |
+
+Python 缺失时 `run.ps1` 会自动跳过两个 Python 轨并说明，v4 工具链不受影响。
+
+### 运行
+
+```powershell
+# 方式 1：双击 run.bat（内部优先 pwsh 7，回退 Windows PowerShell）
+# 方式 2：
+.\run.ps1
+# 方式 3：
+npm run all
+# 单独跑某一步
+npm run collect / analyze / backtest / verify / engine / lottery
+```
+
+`run.ps1` 逐步收集退出码，任何一步非 0 都记为 exit 3 并继续后续步骤，最后汇总——不会因为 `set -e` 之类写法把中间步骤的失败吞掉。
+
+### 五步流水线
+
+1. `tools/collect.mjs` — 解析 `data/raw/{id}.txt`（球探分析页原文），产出 `data/out/matches.json`。竞彩 `000` 判未开；胜平负 margin 合规区间 12.5%–15.5%；进球数串按标签行定位；`近6` 行跳过行首标签再取数；亚盘初盘取自「相同盘路 初盘:」。
+2. `tools/analyze.mjs` — 市场 λ 与独立输入 λ 融合，输出胜平负/让球/总进球/比分；模型不可用或 `team=null` 记 BLOCKED 并 `exit 3`。
+3. `tools/backtest.mjs` — 自主结算（不复用上游 `backtest()`，它在 `devig=null` 时抛 TypeError）。
+4. `tools/verify.mjs` — 五项检查：数据完整性、页面比分 vs 赛果基线、让球分档、模型 vs 市场 Brier 与方向命中、阻断条款；有 fail 则 `exit 3`。
+5. `tools/bridge_engine.py` / `tools/bridge_lottery.py` — 两轨 Python 模型。
+
+### 三轨各自的真实状态（不要混为一谈）
+
+| 轨 | 入口 | 状态 | 有效范围 |
+| --- | --- | --- | --- |
+| 主模型（Node） | `analyze.mjs` | ✅ 11/11 出结果，阻断 0 | 直接面向竞彩盘口，方向与 Brier 均来自工具输出 |
+| football-engine | `bridge_engine.py` | ✅ 11/11 跑通，逐场 xG 互不相同（注入生效） | 只做**同联赛内**相对强度；跨联赛时绝对得失球不可比，需降权 |
+| football_lottery_prediction | `bridge_lottery.py` | ⚠️ 引擎可加载、11 场无异常，但有效维度为空 | 输入要求「多公司欧赔 + 亚盘水位」，球探页不提供 → 不可当结论用 |
+
+### 两个已查清的桥接口径（改了会静默失效）
+
+- **engine 的 TeamRating 不能留默认值**：`attack≈场均进球/base_goals`、`defense≈场均失球/base_goals`（`defense<1` 表示防守好），主队取主场样本、客队取客场样本。全留 1.0 会让 xG 恒等于模板值——那是静默空转，退出码仍是 0。验证信号是**逐场 xG 不同**，`bridge_engine.py` 内置这条检测，全部相同即 `exit 3`。
+- **让球符号**：engine 内 `adjusted_diff = (i-j) + handicap`（主让为负），本项目对外口径主让为正，故桥接时 `handicap = -hc`。
+- **lottery 的两个校验会拒绝竞彩官方赔率**：欧赔要求隐含概率和 85–110（竞彩实测 114–124）、平赔上限 6.0；亚盘要求盘口为数字（中文盘口名会被拒）且水位平衡校验需要真实双边水位。故该轨的欧赔/亚盘维度恒空——**这是输入维度缺口，不是解析错误**，不要用占位水位伪造结果。
+
+### 已知局限（必须随结论一起给出）
+
+1. **跨联赛强度不可比**：engine 只看各队在本联赛的主/客场得失球，欧战里「捷甲主场 16 得 6 失」与「英超客场 7 得 9 失」不在同一尺度。实测会出现模型看好主队而盘口大热客队的情况（如布拉格斯巴达），此处分歧应采信定价方。
+2. **让球统计有两种口径**：`verify.mjs` 的「分档赢/走/输」按**主队净胜球**统计，`backtest.mjs` 的「让球盘命中率」按**推荐方向**统计。同批 11 场前者主队赢盘 1 / 输盘 9，后者命中 7/11，两个数字都对，但不可互相替代。
+3. **λ 融合权重 `K_BLEND=0.35` 与 `fitFromZJQ/fit2D` 两条拟合路径尚未定版**，新旧基线不可直接对比。

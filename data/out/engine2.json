@@ -1,0 +1,195 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 6,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "新潟天鹅",
+   "away": "今治",
+   "engine": {
+    "xg_h": 2.818,
+    "xg_a": 1.318,
+    "H": 0.6812,
+    "D": 0.169,
+    "A": 0.1498,
+    "rq": [
+     0.6812,
+     0.169,
+     0.1498
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.2963,
+    "home_defense": 0.7407,
+    "home_form": -0.2469,
+    "away_attack": 0.7407,
+    "away_defense": 1.3889,
+    "away_form": -0.7407,
+    "notes": [
+     "主样本 8 场 14 得 8 失",
+     "主样本 8 场 8 得 15 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "秋田蓝色闪电",
+   "away": "大分三神",
+   "engine": {
+    "xg_h": 0.686,
+    "xg_a": 1.265,
+    "H": 0.1918,
+    "D": 0.3149,
+    "A": 0.4933,
+    "rq": [
+     0.1918,
+     0.3149,
+     0.4933
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 0.7407,
+    "home_form": -0.3704,
+    "away_attack": 0.7,
+    "away_defense": 0.7,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 8 场 12 得 8 失",
+     "主样本 7 场 3 得 5 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "磐城",
+   "away": "山形山神",
+   "engine": {
+    "xg_h": 2.521,
+    "xg_a": 1.021,
+    "H": 0.6934,
+    "D": 0.1796,
+    "A": 0.127,
+    "rq": [
+     0.6934,
+     0.1796,
+     0.127
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.3757,
+    "home_defense": 0.7407,
+    "home_form": 0.8,
+    "away_attack": 0.7407,
+    "away_defense": 0.7,
+    "away_form": -0.3704,
+    "notes": [
+     "主样本 7 场 13 得 7 失",
+     "主样本 6 场 6 得 5 失"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "鸟栖沙岩",
+   "away": "富山胜利",
+   "engine": {
+    "xg_h": 1.073,
+    "xg_a": 1.754,
+    "H": 0.2224,
+    "D": 0.2533,
+    "A": 0.5243,
+    "rq": [
+     0.2224,
+     0.2533,
+     0.5243
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.164,
+    "home_defense": 0.7407,
+    "home_form": 0.2469,
+    "away_attack": 1.45,
+    "away_defense": 0.7,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 7 场 11 得 7 失",
+     "主样本 7 场 15 得 5 失"
+    ]
+   }
+  },
+  {
+   "no": 5,
+   "home": "德岛漩涡",
+   "away": "特格瓦嘉洛宫崎",
+   "engine": {
+    "xg_h": 0.656,
+    "xg_a": 2.156,
+    "H": 0.0927,
+    "D": 0.194,
+    "A": 0.7133,
+    "rq": [
+     0.2867,
+     0.0,
+     0.7133
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7,
+    "home_form": -0.3704,
+    "away_attack": 1.1111,
+    "away_defense": 0.9877,
+    "away_form": 0.8,
+    "notes": [
+     "主样本 7 场 6 得 4 失",
+     "主样本 6 场 9 得 8 失"
+    ]
+   }
+  },
+  {
+   "no": 6,
+   "home": "横滨",
+   "away": "藤枝MYFC",
+   "engine": {
+    "xg_h": 3.246,
+    "xg_a": 1.746,
+    "H": 0.6675,
+    "D": 0.1559,
+    "A": 0.1766,
+    "rq": [
+     0.4895,
+     0.178,
+     0.3325
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.8642,
+    "home_form": 0.4938,
+    "away_attack": 0.9524,
+    "away_defense": 1.164,
+    "away_form": -0.3704,
+    "notes": [
+     "主样本 6 场 15 得 7 失",
+     "主样本 7 场 9 得 11 失"
+    ]
+   }
+  }
+ ]
+}

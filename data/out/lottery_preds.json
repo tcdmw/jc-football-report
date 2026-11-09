@@ -1,0 +1,546 @@
+{
+ "system": "IntegratedPredictionSystem",
+ "n": 11,
+ "failed": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "布拉格斯巴达",
+   "away": "伯恩茅斯",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 2,
+   "home": "水晶宫",
+   "away": "霍芬海姆",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 3,
+   "home": "奈梅亨",
+   "away": "奥莫尼亚",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 4,
+   "home": "皇家社会",
+   "away": "里昂",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 5,
+   "home": "AC米兰",
+   "away": "费伦茨瓦罗斯",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 6,
+   "home": "特拉布宗体育",
+   "away": "弗赖堡",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 7,
+   "home": "塞尔塔",
+   "away": "圣吉罗斯联合",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 8,
+   "home": "桑德兰",
+   "away": "萨格勒布迪纳摩",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 9,
+   "home": "勒沃库森",
+   "away": "马赛",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 10,
+   "home": "阿尔克马尔",
+   "away": "尤文图斯",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  },
+  {
+   "no": 11,
+   "home": "本菲卡",
+   "away": "波兹南莱赫",
+   "lottery": {
+    "risk": 0.05,
+    "risk_level": "极低风险",
+    "euro_recommended": null,
+    "euro_avg_odds": null,
+    "euro_implied": null,
+    "euro_efficiency": null,
+    "asian_recommended": null,
+    "asian_analysis": {},
+    "ou_recommended": null,
+    "ou_main_line": null,
+    "predictions": {
+     "win_draw_loss": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "asian_handicap": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.6"
+     },
+     "over_under": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.5"
+     },
+     "double_chance": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.7"
+     },
+     "both_teams_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.55"
+     },
+     "correct_score": {
+      "prediction": "不推荐",
+      "confidence": 0.0,
+      "reason": "置信度0.00低于阈值0.45"
+     }
+    }
+   }
+  }
+ ]
+}

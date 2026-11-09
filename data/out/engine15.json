@@ -1,0 +1,75 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "江原",
+   "away": "全北现代",
+   "engine": {
+    "xg_h": 1.107,
+    "xg_a": 0.618,
+    "H": 0.4633,
+    "D": 0.3422,
+    "A": 0.1946,
+    "rq": [
+     0.4633,
+     0.3422,
+     0.1946
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 0.8715,
+    "home_defense": 0.7,
+    "home_form": 0.1235,
+    "away_attack": 0.7407,
+    "away_defense": 0.7,
+    "away_form": -0.1235,
+    "notes": [
+     "主样本 17 场 20 得 14 失",
+     "主样本 17 场 17 得 14 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "富川",
+   "away": "浦项",
+   "engine": {
+    "xg_h": 0.835,
+    "xg_a": 2.122,
+    "H": 0.1285,
+    "D": 0.2087,
+    "A": 0.6627,
+    "rq": [
+     0.1285,
+     0.2087,
+     0.6627
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 0.7407,
+    "home_defense": 1.1934,
+    "home_form": -0.8,
+    "away_attack": 0.9357,
+    "away_defense": 1.0916,
+    "away_form": -0.2469,
+    "notes": [
+     "主样本 18 场 18 得 29 失",
+     "主样本 19 场 24 得 28 失"
+    ]
+   }
+  }
+ ]
+}

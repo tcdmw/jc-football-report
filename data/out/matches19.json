@@ -1,0 +1,166 @@
+{
+ "source": "data/raw19",
+ "collectedAt": "2026-11-08T13:06:21.245Z",
+ "count": 2,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "2912936",
+   "lg": "挪超",
+   "kickoff": "2026-11-08 21:30",
+   "home": "特罗姆瑟",
+   "away": "波杜基林特",
+   "hc": -1.25,
+   "hcRaw": "澳门",
+   "spf": [
+    6.7,
+    5.25,
+    1.25
+   ],
+   "spfMargin": 0.13972992181947408,
+   "zjq": [
+    24,
+    7.7,
+    4.65,
+    3.5,
+    4.3,
+    6,
+    10.5,
+    11.5
+   ],
+   "zjqRaw": "247.74.653.54.3610.511.5",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 12,
+      "gf": 22,
+      "ga": 10
+     },
+     "away": {
+      "p": 13,
+      "gf": 21,
+      "ga": 28
+     }
+    },
+    "away": {
+     "home": {
+      "p": 13,
+      "gf": 37,
+      "ga": 10
+     },
+     "away": {
+      "p": 12,
+      "gf": 24,
+      "ga": 13
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 9,
+      "ga": 16
+     },
+     "away": {
+      "p": 6,
+      "gf": 12,
+      "ga": 8
+     }
+    },
+    "leagueOf": {
+     "home": "挪超",
+     "away": "挪超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 2,
+   "id": "2996203",
+   "lg": "荷甲",
+   "kickoff": "2026-11-08 21:30",
+   "home": "特温特",
+   "away": "阿贾克斯",
+   "hc": 0.75,
+   "hcRaw": "澳门",
+   "spf": [
+    1.73,
+    4,
+    3.21
+   ],
+   "spfMargin": 0.13956116183170364,
+   "zjq": [
+    27,
+    9,
+    5,
+    3.9,
+    4.2,
+    5.7,
+    8.5,
+    8.5
+   ],
+   "zjqRaw": "27953.94.25.78.58.5",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 5,
+      "gf": 10,
+      "ga": 5
+     },
+     "away": {
+      "p": 6,
+      "gf": 18,
+      "ga": 5
+     }
+    },
+    "away": {
+     "home": {
+      "p": 6,
+      "gf": 12,
+      "ga": 9
+     },
+     "away": {
+      "p": 5,
+      "gf": 18,
+      "ga": 4
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 18,
+      "ga": 5
+     },
+     "away": {
+      "p": 6,
+      "gf": 16,
+      "ga": 7
+     }
+    },
+    "leagueOf": {
+     "home": "荷甲",
+     "away": "荷甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

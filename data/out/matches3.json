@@ -1,0 +1,219 @@
+{
+ "source": "data/raw3",
+ "collectedAt": "2026-11-07T05:34:06.339Z",
+ "count": 3,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3000523",
+   "lg": "日职联",
+   "kickoff": "2026-11-07 14:00",
+   "home": "福冈黄蜂",
+   "away": "长崎成功丸",
+   "hc": 0.25,
+   "hcRaw": "平手/半球",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 9,
+      "ga": 9
+     },
+     "away": {
+      "p": 6,
+      "gf": 4,
+      "ga": 15
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 12,
+      "ga": 9
+     },
+     "away": {
+      "p": 6,
+      "gf": 4,
+      "ga": 12
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 4,
+      "ga": 13
+     },
+     "away": {
+      "p": 6,
+      "gf": 7,
+      "ga": 7
+     }
+    },
+    "leagueOf": {
+     "home": "日职联",
+     "away": "日职联"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3000525",
+   "lg": "日职联",
+   "kickoff": "2026-11-07 14:00",
+   "home": "东京",
+   "away": "鹿岛鹿角",
+   "hc": 0.25,
+   "hcRaw": "平手/半球",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 15,
+      "ga": 5
+     },
+     "away": {
+      "p": 6,
+      "gf": 16,
+      "ga": 3
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 15,
+      "ga": 8
+     },
+     "away": {
+      "p": 6,
+      "gf": 14,
+      "ga": 14
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 18,
+      "ga": 0
+     },
+     "away": {
+      "p": 6,
+      "gf": 15,
+      "ga": 9
+     }
+    },
+    "leagueOf": {
+     "home": "日职联",
+     "away": "日职联"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 3,
+   "id": "3000527",
+   "lg": "日职联",
+   "kickoff": "2026-11-07 15:00",
+   "home": "柏太阳神",
+   "away": "川崎前锋",
+   "hc": 0.25,
+   "hcRaw": "平手/半球",
+   "spf": [
+    1.78,
+    3.95,
+    3.08
+   ],
+   "spfMargin": 0.1396376344463388,
+   "zjq": [
+    24,
+    7.85,
+    4.55,
+    3.8,
+    4.35,
+    6,
+    9,
+    10.5
+   ],
+   "zjqRaw": "247.854.553.84.356910.5",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 6,
+      "gf": 15,
+      "ga": 10
+     },
+     "away": {
+      "p": 7,
+      "gf": 14,
+      "ga": 9
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 17,
+      "ga": 12
+     },
+     "away": {
+      "p": 6,
+      "gf": 10,
+      "ga": 10
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 16,
+      "ga": 9
+     },
+     "away": {
+      "p": 6,
+      "gf": 14,
+      "ga": 13
+     }
+    },
+    "leagueOf": {
+     "home": "日职联",
+     "away": "日职联"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

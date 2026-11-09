@@ -1,0 +1,135 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 4,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "汉坎",
+   "away": "萨普斯堡08",
+   "engine": {
+    "xg_h": 1.481,
+    "xg_a": 2.273,
+    "H": 0.2399,
+    "D": 0.2122,
+    "A": 0.5479,
+    "rq": [
+     0.2399,
+     0.2122,
+     0.5479
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 1.0494,
+    "home_defense": 1.45,
+    "home_form": -0.8,
+    "away_attack": 0.9877,
+    "away_defense": 1.1728,
+    "away_form": -0.4938,
+    "notes": [
+     "主样本 12 场 17 得 24 失",
+     "主样本 12 场 16 得 19 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "利勒斯特罗姆",
+   "away": "奥勒松",
+   "engine": {
+    "xg_h": 3.223,
+    "xg_a": 1.723,
+    "H": 0.6682,
+    "D": 0.1565,
+    "A": 0.1752,
+    "rq": [
+     0.4894,
+     0.1788,
+     0.3318
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 1.358,
+    "home_defense": 1.1728,
+    "home_form": 0.3704,
+    "away_attack": 0.9877,
+    "away_defense": 1.4198,
+    "away_form": -0.1235,
+    "notes": [
+     "主样本 12 场 22 得 19 失",
+     "主样本 12 场 16 得 23 失"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "桑德菲杰",
+   "away": "莫尔德",
+   "engine": {
+    "xg_h": 0.94,
+    "xg_a": 2.44,
+    "H": 0.1201,
+    "D": 0.1827,
+    "A": 0.6972,
+    "rq": [
+     0.1201,
+     0.1827,
+     0.6972
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7407,
+    "home_form": 0.0,
+    "away_attack": 1.45,
+    "away_defense": 1.45,
+    "away_form": 0.8,
+    "notes": [
+     "主样本 12 场 10 得 12 失",
+     "主样本 12 场 24 得 24 失"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "维京",
+   "away": "KFUM奥斯陆",
+   "engine": {
+    "xg_h": 3.014,
+    "xg_a": 1.514,
+    "H": 0.6746,
+    "D": 0.1627,
+    "A": 0.1628,
+    "rq": [
+     0.3058,
+     0.1821,
+     0.5121
+    ],
+    "hc_model": -2.0
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.8025,
+    "home_form": 0.8,
+    "away_attack": 0.9259,
+    "away_defense": 1.45,
+    "away_form": 0.4938,
+    "notes": [
+     "主样本 12 场 44 得 13 失",
+     "主样本 12 场 15 得 25 失"
+    ]
+   }
+  }
+ ]
+}

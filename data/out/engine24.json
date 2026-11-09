@@ -1,0 +1,75 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "弗赖堡",
+   "away": "柏林联合",
+   "engine": {
+    "xg_h": 3.19,
+    "xg_a": 1.69,
+    "H": 0.6692,
+    "D": 0.1574,
+    "A": 0.1734,
+    "rq": [
+     0.4892,
+     0.18,
+     0.3308
+    ],
+    "hc_model": -1.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.9259,
+    "home_form": 0.4938,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": -0.8,
+    "notes": [
+     "主样本 4 场 12 得 5 失",
+     "主样本 3 场 1 得 12 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "曼联",
+   "away": "阿斯顿维拉",
+   "engine": {
+    "xg_h": 0.959,
+    "xg_a": 2.4,
+    "H": 0.1267,
+    "D": 0.1874,
+    "A": 0.6859,
+    "rq": [
+     0.1267,
+     0.1874,
+     0.6859
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 1.2963,
+    "home_form": -0.7407,
+    "away_attack": 0.7407,
+    "away_defense": 1.1111,
+    "away_form": 0.2469,
+    "notes": [
+     "主样本 4 场 6 得 7 失",
+     "主样本 4 场 4 得 6 失"
+    ]
+   }
+  }
+ ]
+}

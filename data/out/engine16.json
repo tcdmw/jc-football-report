@@ -1,0 +1,75 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "海伦维恩",
+   "away": "费耶诺德",
+   "engine": {
+    "xg_h": 1.292,
+    "xg_a": 1.42,
+    "H": 0.3323,
+    "D": 0.2766,
+    "A": 0.3911,
+    "rq": [
+     0.6089,
+     0.2018,
+     0.1893
+    ],
+    "hc_model": 0.75
+   },
+   "input": {
+    "home_attack": 0.9877,
+    "home_defense": 0.7,
+    "home_form": 0.8,
+    "away_attack": 1.45,
+    "away_defense": 0.8642,
+    "away_form": 0.8,
+    "notes": [
+     "主样本 6 场 8 得 5 失",
+     "主样本 6 场 21 得 7 失"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "那不勒斯",
+   "away": "拉齐奥",
+   "engine": {
+    "xg_h": 1.187,
+    "xg_a": 2.415,
+    "H": 0.1662,
+    "D": 0.1955,
+    "A": 0.6383,
+    "rq": [
+     0.1662,
+     0.1955,
+     0.6383
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.9259,
+    "home_form": 0.3704,
+    "away_attack": 1.45,
+    "away_defense": 0.7,
+    "away_form": 0.8,
+    "notes": [
+     "主样本 4 场 8 得 5 失",
+     "主样本 5 场 14 得 3 失"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "source": "data/raw6",
+ "collectedAt": "2026-11-07T12:18:34.505Z",
+ "count": 4,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3003945",
+   "lg": "英超",
+   "kickoff": "2026-11-07 20:30",
+   "home": "利兹联",
+   "away": "托特纳姆热刺",
+   "hc": 0,
+   "hcRaw": "平手",
+   "spf": [
+    2.65,
+    3.2,
+    2.23
+   ],
+   "spfMargin": 0.13828898383958044,
+   "zjq": [
+    11,
+    4.9,
+    3.5,
+    3.7,
+    5.6,
+    9,
+    15,
+    21
+   ],
+   "zjqRaw": "114.93.53.75.691521",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 6,
+      "ga": 3
+     },
+     "away": {
+      "p": 5,
+      "gf": 3,
+      "ga": 5
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 7,
+      "ga": 6
+     },
+     "away": {
+      "p": 4,
+      "gf": 3,
+      "ga": 4
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 6,
+      "ga": 6
+     },
+     "away": {
+      "p": 6,
+      "gf": 10,
+      "ga": 5
+     }
+    },
+    "leagueOf": {
+     "home": "英超",
+     "away": "英超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3008321",
+   "lg": "英冠",
+   "kickoff": "2026-11-07 20:30",
+   "home": "布里斯托城",
+   "away": "诺维奇",
+   "hc": 0,
+   "hcRaw": "平手",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 4,
+      "ga": 8
+     },
+     "away": {
+      "p": 7,
+      "gf": 12,
+      "ga": 11
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 13,
+      "ga": 12
+     },
+     "away": {
+      "p": 7,
+      "gf": 14,
+      "ga": 12
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 5,
+      "ga": 7
+     },
+     "away": {
+      "p": 6,
+      "gf": 11,
+      "ga": 7
+     }
+    },
+    "leagueOf": {
+     "home": "英冠",
+     "away": "英冠"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 3,
+   "id": "3008324",
+   "lg": "英冠",
+   "kickoff": "2026-11-07 20:30",
+   "home": "朴茨茅斯",
+   "away": "斯托克城",
+   "hc": 0.25,
+   "hcRaw": "平/半",
+   "spf": [
+    2.17,
+    2.95,
+    2.95
+   ],
+   "spfMargin": 0.13879559478247283,
+   "zjq": [
+    8.5,
+    4.15,
+    3.05,
+    3.85,
+    6.4,
+    13,
+    23,
+    32
+   ],
+   "zjqRaw": "8.54.153.053.856.4132332",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 13,
+      "ga": 11
+     },
+     "away": {
+      "p": 7,
+      "gf": 6,
+      "ga": 5
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 12,
+      "ga": 6
+     },
+     "away": {
+      "p": 7,
+      "gf": 10,
+      "ga": 11
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 10,
+      "ga": 5
+     },
+     "away": {
+      "p": 6,
+      "gf": 9,
+      "ga": 5
+     }
+    },
+    "leagueOf": {
+     "home": "英冠",
+     "away": "英冠"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 4,
+   "id": "3008331",
+   "lg": "英冠",
+   "kickoff": "2026-11-07 20:30",
+   "home": "雷克瑟姆",
+   "away": "狼队",
+   "hc": -0.25,
+   "hcRaw": "*平/半",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 12,
+      "ga": 8
+     },
+     "away": {
+      "p": 7,
+      "gf": 5,
+      "ga": 11
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 13,
+      "ga": 7
+     },
+     "away": {
+      "p": 7,
+      "gf": 12,
+      "ga": 10
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 8,
+      "ga": 7
+     },
+     "away": {
+      "p": 6,
+      "gf": 10,
+      "ga": 6
+     }
+    },
+    "leagueOf": {
+     "home": "英冠",
+     "away": "英冠"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

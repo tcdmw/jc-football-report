@@ -1,0 +1,460 @@
+{
+ "source": "data/raw20",
+ "collectedAt": "2026-11-08T13:42:12.946Z",
+ "count": 6,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3003948",
+   "lg": "英超",
+   "kickoff": "2026-11-08 22:00",
+   "home": "桑德兰",
+   "away": "切尔西",
+   "hc": -0.5,
+   "hcRaw": "澳门",
+   "spf": [
+    3.55,
+    3.35,
+    1.79
+   ],
+   "spfMargin": 0.13885682140873268,
+   "zjq": [
+    13,
+    5.3,
+    3.6,
+    3.55,
+    4.9,
+    9,
+    15,
+    21
+   ],
+   "zjqRaw": "135.33.63.554.991521",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 1,
+      "ga": 4
+     },
+     "away": {
+      "p": 5,
+      "gf": 6,
+      "ga": 13
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 13,
+      "ga": 8
+     },
+     "away": {
+      "p": 4,
+      "gf": 6,
+      "ga": 7
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 4,
+      "ga": 14
+     },
+     "away": {
+      "p": 6,
+      "gf": 11,
+      "ga": 8
+     }
+    },
+    "leagueOf": {
+     "home": "英超",
+     "away": "英超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3003944",
+   "lg": "英超",
+   "kickoff": "2026-11-08 22:00",
+   "home": "伊普斯维奇",
+   "away": "伯恩茅斯",
+   "hc": -0.5,
+   "hcRaw": "澳门",
+   "spf": [
+    3.76,
+    3.5,
+    1.7
+   ],
+   "spfMargin": 0.1399070266404434,
+   "zjq": [
+    15,
+    5.8,
+    3.75,
+    3.35,
+    4.5,
+    8.5,
+    15,
+    23
+   ],
+   "zjqRaw": "155.83.753.354.58.51523",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 5,
+      "ga": 5
+     },
+     "away": {
+      "p": 5,
+      "gf": 9,
+      "ga": 13
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 7,
+      "ga": 4
+     },
+     "away": {
+      "p": 4,
+      "gf": 7,
+      "ga": 9
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 10,
+      "ga": 10
+     },
+     "away": {
+      "p": 6,
+      "gf": 10,
+      "ga": 8
+     }
+    },
+    "leagueOf": {
+     "home": "英超",
+     "away": "英超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 3,
+   "id": "3003941",
+   "lg": "英超",
+   "kickoff": "2026-11-08 22:00",
+   "home": "水晶宫",
+   "away": "利物浦",
+   "hc": -1,
+   "hcRaw": "澳门",
+   "spf": [
+    6,
+    4.65,
+    1.32
+   ],
+   "spfMargin": 0.13929618768328433,
+   "zjq": null,
+   "zjqRaw": "207.254.253.44.2711.514.5",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 6,
+      "ga": 10
+     },
+     "away": {
+      "p": 5,
+      "gf": 3,
+      "ga": 11
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 4,
+      "ga": 6
+     },
+     "away": {
+      "p": 4,
+      "gf": 7,
+      "ga": 3
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 5,
+      "ga": 13
+     },
+     "away": {
+      "p": 6,
+      "gf": 5,
+      "ga": 5
+     }
+    },
+    "leagueOf": {
+     "home": "英超",
+     "away": "英超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "一致解不唯一（最优 0.098 vs 0.111，2 候）",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 4,
+   "id": "3003940",
+   "lg": "英超",
+   "kickoff": "2026-11-08 22:00",
+   "home": "布莱顿",
+   "away": "布伦特福德",
+   "hc": 0.5,
+   "hcRaw": "澳门",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 13,
+      "ga": 1
+     },
+     "away": {
+      "p": 5,
+      "gf": 11,
+      "ga": 6
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 10,
+      "ga": 3
+     },
+     "away": {
+      "p": 4,
+      "gf": 6,
+      "ga": 6
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 16,
+      "ga": 2
+     },
+     "away": {
+      "p": 6,
+      "gf": 11,
+      "ga": 7
+     }
+    },
+    "leagueOf": {
+     "home": "英超",
+     "away": "英超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 5,
+   "id": "2993860",
+   "lg": "意甲",
+   "kickoff": "2026-11-08 22:00",
+   "home": "蒙扎",
+   "away": "亚特兰大",
+   "hc": -0.5,
+   "hcRaw": "澳门",
+   "spf": [
+    3.52,
+    3.9,
+    1.67
+   ],
+   "spfMargin": 0.13930356071074645,
+   "zjq": [
+    23,
+    7.6,
+    4.35,
+    3.5,
+    4.15,
+    6.8,
+    10.5,
+    12.5
+   ],
+   "zjqRaw": "237.64.353.54.156.810.512.5",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 9,
+      "ga": 8
+     },
+     "away": {
+      "p": 6,
+      "gf": 8,
+      "ga": 16
+     }
+    },
+    "away": {
+     "home": {
+      "p": 6,
+      "gf": 11,
+      "ga": 11
+     },
+     "away": {
+      "p": 4,
+      "gf": 5,
+      "ga": 9
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 11,
+      "ga": 13
+     },
+     "away": {
+      "p": 6,
+      "gf": 11,
+      "ga": 15
+     }
+    },
+    "leagueOf": {
+     "home": "意甲",
+     "away": "意甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 6,
+   "id": "2993858",
+   "lg": "意甲",
+   "kickoff": "2026-11-08 22:00",
+   "home": "热那亚",
+   "away": "AC米兰",
+   "hc": -0.5,
+   "hcRaw": "澳门",
+   "spf": [
+    4.32,
+    3.4,
+    1.63
+   ],
+   "spfMargin": 0.13909606105564243,
+   "zjq": [
+    10,
+    4.45,
+    3,
+    3.5,
+    6.2,
+    12,
+    25,
+    38
+   ],
+   "zjqRaw": "104.4533.56.2122538",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 6,
+      "gf": 7,
+      "ga": 8
+     },
+     "away": {
+      "p": 4,
+      "gf": 3,
+      "ga": 6
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 13,
+      "ga": 7
+     },
+     "away": {
+      "p": 5,
+      "gf": 8,
+      "ga": 5
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 8,
+      "ga": 6
+     },
+     "away": {
+      "p": 6,
+      "gf": 14,
+      "ga": 8
+     }
+    },
+    "leagueOf": {
+     "home": "意甲",
+     "away": "意甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "source": "data/raw12",
+ "collectedAt": "2026-11-08T02:29:25.364Z",
+ "count": 2,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "2997480",
+   "lg": "墨西联",
+   "kickoff": "2026-11-08 11:00",
+   "home": "美洲狮",
+   "away": "墨西哥美洲",
+   "hc": -0.25,
+   "hcRaw": "澳门",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 10,
+      "ga": 12
+     },
+     "away": {
+      "p": 8,
+      "gf": 12,
+      "ga": 12
+     }
+    },
+    "away": {
+     "home": {
+      "p": 8,
+      "gf": 15,
+      "ga": 8
+     },
+     "away": {
+      "p": 7,
+      "gf": 21,
+      "ga": 13
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 10,
+      "ga": 11
+     },
+     "away": {
+      "p": 6,
+      "gf": 15,
+      "ga": 11
+     }
+    },
+    "leagueOf": {
+     "home": "墨西联秋",
+     "away": "墨西联秋"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3041395",
+   "lg": "澳超",
+   "kickoff": "2026-11-08 12:00",
+   "home": "麦克阿瑟",
+   "away": "布里斯班狮吼",
+   "hc": 0,
+   "hcRaw": "澳门",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "home": {
+     "home": {
+      "p": 2,
+      "gf": 2,
+      "ga": 1
+     },
+     "away": {
+      "p": 1,
+      "gf": 1,
+      "ga": 1
+     }
+    },
+    "away": {
+     "home": {
+      "p": 2,
+      "gf": 3,
+      "ga": 2
+     },
+     "away": {
+      "p": 0,
+      "gf": 0,
+      "ga": 0
+     }
+    },
+    "form": {
+     "home": {
+      "p": 3,
+      "gf": 3,
+      "ga": 2
+     },
+     "away": {
+      "p": 2,
+      "gf": 3,
+      "ga": 2
+     }
+    },
+    "leagueOf": {
+     "home": "澳超",
+     "away": "澳超"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}

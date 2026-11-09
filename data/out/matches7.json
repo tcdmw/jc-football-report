@@ -1,0 +1,306 @@
+{
+ "source": "data/raw7",
+ "collectedAt": "2026-11-07T12:51:43.752Z",
+ "count": 4,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3018858",
+   "lg": "德甲",
+   "kickoff": "2026-11-07 22:30",
+   "home": "多特蒙德",
+   "away": "埃尔沃斯贝格",
+   "hc": 1.5,
+   "hcRaw": "球半",
+   "spf": [
+    1.15,
+    6.1,
+    9.5
+   ],
+   "spfMargin": 0.13876280151554932,
+   "zjq": [
+    27,
+    9,
+    4.85,
+    3.75,
+    4.1,
+    5.8,
+    9,
+    9.5
+   ],
+   "zjqRaw": "2794.853.754.15.899.5",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 8,
+      "ga": 2
+     },
+     "away": {
+      "p": 4,
+      "gf": 6,
+      "ga": 4
+     }
+    },
+    "away": {
+     "home": {
+      "p": 4,
+      "gf": 12,
+      "ga": 8
+     },
+     "away": {
+      "p": 4,
+      "gf": 4,
+      "ga": 8
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 9,
+      "ga": 4
+     },
+     "away": {
+      "p": 6,
+      "gf": 9,
+      "ga": 11
+     }
+    },
+    "leagueOf": {
+     "home": "德甲",
+     "away": "德甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3018863",
+   "lg": "德甲",
+   "kickoff": "2026-11-07 22:30",
+   "home": "美因茨",
+   "away": "拜仁慕尼黑",
+   "hc": -1.75,
+   "hcRaw": "*球半/两",
+   "spf": [
+    8.6,
+    6.85,
+    1.14
+   ],
+   "spfMargin": 0.13945745368343632,
+   "zjq": null,
+   "zjqRaw": "45136.754.444.956.55.75",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 6,
+      "ga": 10
+     },
+     "away": {
+      "p": 4,
+      "gf": 11,
+      "ga": 7
+     }
+    },
+    "away": {
+     "home": {
+      "p": 4,
+      "gf": 20,
+      "ga": 4
+     },
+     "away": {
+      "p": 4,
+      "gf": 7,
+      "ga": 4
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 12,
+      "ga": 17
+     },
+     "away": {
+      "p": 6,
+      "gf": 22,
+      "ga": 7
+     }
+    },
+    "leagueOf": {
+     "home": "德甲",
+     "away": "德甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "无形状合规解（候选 188）",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 3,
+   "id": "3018864",
+   "lg": "德甲",
+   "kickoff": "2026-11-07 22:30",
+   "home": "帕德博恩",
+   "away": "法兰克福",
+   "hc": -0.25,
+   "hcRaw": "*平/半",
+   "spf": [
+    2.97,
+    3.7,
+    1.88
+   ],
+   "spfMargin": 0.13888550058762816,
+   "zjq": [
+    24,
+    8.5,
+    4.6,
+    3.15,
+    3.8,
+    6.8,
+    12,
+    15
+   ],
+   "zjqRaw": "248.54.63.153.86.81215",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 4,
+      "ga": 4
+     },
+     "away": {
+      "p": 4,
+      "gf": 2,
+      "ga": 5
+     }
+    },
+    "away": {
+     "home": {
+      "p": 4,
+      "gf": 7,
+      "ga": 7
+     },
+     "away": {
+      "p": 4,
+      "gf": 6,
+      "ga": 11
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 6,
+      "ga": 8
+     },
+     "away": {
+      "p": 6,
+      "gf": 9,
+      "ga": 11
+     }
+    },
+    "leagueOf": {
+     "home": "德甲",
+     "away": "德甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   }
+  },
+  {
+   "no": 4,
+   "id": "3018865",
+   "lg": "德甲",
+   "kickoff": "2026-11-07 22:30",
+   "home": "RB莱比锡",
+   "away": "奥格斯堡",
+   "hc": 1.5,
+   "hcRaw": "球半",
+   "spf": [
+    1.25,
+    5.6,
+    6.2
+   ],
+   "spfMargin": 0.1398617511520739,
+   "zjq": null,
+   "zjqRaw": "45126.354457.256.5",
+   "jcNotOpen": false,
+   "team": {
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 18,
+      "ga": 0
+     },
+     "away": {
+      "p": 4,
+      "gf": 4,
+      "ga": 11
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 9,
+      "ga": 7
+     },
+     "away": {
+      "p": 3,
+      "gf": 9,
+      "ga": 8
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 18,
+      "ga": 8
+     },
+     "away": {
+      "p": 6,
+      "gf": 11,
+      "ga": 14
+     }
+    },
+    "leagueOf": {
+     "home": "德甲",
+     "away": "德甲"
+    }
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "无形状合规解（候选 230）",
+    "hc": "ok",
+    "team": "ok"
+   }
+  }
+ ]
+}
