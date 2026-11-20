@@ -1,0 +1,122 @@
+{
+ "n": 9,
+ "report": [
+  {
+   "id": "2981471",
+   "home": "丹麦",
+   "away": "挪威",
+   "txt_chars": 6815,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.0,
+   "ou": "3/3.5",
+   "lineN": 15
+  },
+  {
+   "id": "2981472",
+   "home": "威尔斯",
+   "away": "葡萄牙",
+   "txt_chars": 6582,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -1.25,
+   "ou": "3/3.5",
+   "lineN": 15
+  },
+  {
+   "id": "2981517",
+   "home": "乌克兰",
+   "away": "格鲁吉亚",
+   "txt_chars": 6555,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "2/2.5",
+   "lineN": 14
+  },
+  {
+   "id": "2981518",
+   "home": "匈牙利",
+   "away": "北爱尔兰",
+   "txt_chars": 6733,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "2",
+   "lineN": 15
+  },
+  {
+   "id": "2981519",
+   "home": "以色列",
+   "away": "奥地利",
+   "txt_chars": 6302,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.75,
+   "ou": "3",
+   "lineN": 14
+  },
+  {
+   "id": "2981520",
+   "home": "爱尔兰",
+   "away": "科索沃",
+   "txt_chars": 6504,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "2",
+   "lineN": 14
+  },
+  {
+   "id": "2981521",
+   "home": "波斯尼亚和黑塞哥维那",
+   "away": "罗马尼亚",
+   "txt_chars": 6905,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "2.5/3",
+   "lineN": 14
+  },
+  {
+   "id": "2981522",
+   "home": "波兰",
+   "away": "瑞典",
+   "txt_chars": 6972,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.25,
+   "ou": "3/3.5",
+   "lineN": 15
+  },
+  {
+   "id": "3001002",
+   "home": "尼日尔",
+   "away": "摩洛哥",
+   "txt_chars": 5797,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -2.5,
+   "ou": "3/3.5",
+   "lineN": 14
+  }
+ ]
+}

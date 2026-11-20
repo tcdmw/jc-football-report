@@ -1,0 +1,82 @@
+[
+ {
+  "batch": 61,
+  "no": 1,
+  "id": "3000535",
+  "home": "鹿岛鹿角",
+  "away": "清水心跳",
+  "hc": 1,
+  "favSide": "home",
+  "favName": "鹿岛鹿角",
+  "flatPct": 86.7,
+  "valid": 15,
+  "medLiveAbs": 1,
+  "medOpenAbs": 1,
+  "settled": true,
+  "settle": "lose",
+  "result": [
+   1,
+   1
+  ]
+ },
+ {
+  "batch": 61,
+  "no": 2,
+  "id": "3000536",
+  "home": "柏雷素尔",
+  "away": "千叶市原",
+  "hc": 1,
+  "favSide": "home",
+  "favName": "柏雷素尔",
+  "flatPct": 86.7,
+  "valid": 15,
+  "medLiveAbs": 1,
+  "medOpenAbs": 1,
+  "settled": true,
+  "settle": "lose",
+  "result": [
+   0,
+   1
+  ]
+ },
+ {
+  "batch": 61,
+  "no": 3,
+  "id": "3000542",
+  "home": "神户胜利船",
+  "away": "水户蜀葵",
+  "hc": 1.25,
+  "favSide": "home",
+  "favName": "神户胜利船",
+  "flatPct": 100,
+  "valid": 15,
+  "medLiveAbs": 1.25,
+  "medOpenAbs": 1.25,
+  "settled": true,
+  "settle": "lose",
+  "result": [
+   1,
+   2
+  ]
+ },
+ {
+  "batch": 59,
+  "no": 2,
+  "id": "3111660",
+  "home": "奥兰多城",
+  "away": "辛辛那堤",
+  "hc": 0,
+  "favSide": "home",
+  "favName": "奥兰多城",
+  "flatPct": 86.7,
+  "valid": 15,
+  "medLiveAbs": 0,
+  "medOpenAbs": 0,
+  "settled": true,
+  "settle": "lose",
+  "result": [
+   1,
+   3
+  ]
+ }
+]

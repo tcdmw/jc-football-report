@@ -1,0 +1,270 @@
+{
+ "titanId": "3001038",
+ "dqdMatchId": "54596071",
+ "home": "肯尼亚",
+ "away": "南非",
+ "pageHome": "肯尼亚",
+ "pageAway": "南非",
+ "kickoff": "00:00",
+ "league": "非洲杯",
+ "pageScore": "",
+ "planTotal": "69",
+ "planId": 8185678,
+ "isUnlock": 0,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "总进球数",
+   "count": 38,
+   "options": []
+  },
+  {
+   "play": "主客队",
+   "count": 33,
+   "options": []
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 0,
+   "left_times": 0,
+   "plan_id": 8185678,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "count": 38,
+      "play_type": "总进球数"
+     },
+     {
+      "count": 33,
+      "play_type": "主客队"
+     }
+    ],
+    "count": "69"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": null,
+  "PersonAnalyse": {
+   "team_a": [
+    {
+     "content": "<br><span class='backend-select-text-indent'>本赛季<span class='backend-select-num-bold'>3</span>场非洲杯比赛，进<span class='backend-select-num-bold'>2</span>球，助攻<span class='backend-select-num-bold'>0</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>4</span>场，球队胜率<span class='backend-select-num-bold'>0%</span>、不败率<span class='backend-select-num-bold'>75%</span>、场均进球<span class='backend-select-num-bold'>0.8</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>6</span>场，球队胜率<span class='backend-select-num-bold'>33%</span>、不败率<span class='backend-select-num-bold'>67%</span>、场均进球<span class='backend-select-num-bold'>1.5</span>、场均丢球<span class='backend-select-num-bold'>1.8</span></span>",
+     "name": "瑞安-奥加姆",
+     "person_id": 1094471,
+     "scheme": "dongqiudi://v1/data/player/51094471"
+    }
+   ],
+   "team_b": [
+    {
+     "content": "<br><span class='backend-select-text-indent'>本赛季<span class='backend-select-num-bold'>3</span>场非洲杯比赛，进<span class='backend-select-num-bold'>0</span>球，助攻<span class='backend-select-num-bold'>3</span>次</span><br><span class='backend-select-text-indent'>当前国家队比赛连续进球荒<span class='backend-select-num-bold'>9</span>场</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>4</span>场国家队比赛，助攻<span class='backend-select-num-bold'>3</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>9</span>场，球队胜率<span class='backend-select-num-bold'>33%</span>、不败率<span class='backend-select-num-bold'>67%</span>、场均进球<span class='backend-select-num-bold'>1.3</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>1</span>场，球队胜率<span class='backend-select-num-bold'>100%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>1.0</span>、场均丢球<span class='backend-select-num-bold'>0.0</span></span>",
+     "name": "阿波利斯",
+     "person_id": 502357,
+     "scheme": "dongqiudi://v1/data/player/50502357"
+    },
+    {
+     "content": "<br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>4</span>场国家队比赛，打进<span class='backend-select-num-bold'>3</span>球</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>8</span>场，球队胜率<span class='backend-select-num-bold'>38%</span>、不败率<span class='backend-select-num-bold'>75%</span>、场均进球<span class='backend-select-num-bold'>1.5</span>、场均丢球<span class='backend-select-num-bold'>0.9</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>2</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>50%</span>、场均进球<span class='backend-select-num-bold'>0.5</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span>",
+     "name": "莫弗科恩",
+     "person_id": 873848,
+     "scheme": "dongqiudi://v1/data/player/50873848"
+    }
+   ]
+  },
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.75",
+     "cmp": "",
+     "hdp": "受半球",
+     "home": "0.95"
+    },
+    "trans": []
+   },
+   "euro": {
+    "away": "1.75",
+    "cmp": "澳彩",
+    "hdp": "2.88",
+    "home": "3.91"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.79",
+     "cmp": "",
+     "hdp": "2",
+     "home": "0.83"
+    },
+    "trans": []
+   }
+  },
+  "Forecast": {
+   "data_num": "201936",
+   "forecast_A": "63",
+   "forecast_B": "37",
+   "hdp": "2",
+   "hdp_float": 2,
+   "match_id": "4596071",
+   "result": ""
+  },
+  "KeyDes": [],
+  "WsNews": [],
+  "TeamDesStrength": [],
+  "TeamDesInjury": [],
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "18%(8)",
+       "gs": "16%(9)",
+       "time": "1-15"
+      },
+      {
+       "ga": "11%(5)",
+       "gs": "11%(6)",
+       "time": "16-30"
+      },
+      {
+       "ga": "18%(8)",
+       "gs": "19%(11)",
+       "time": "31-45"
+      },
+      {
+       "ga": "18%(8)",
+       "gs": "14%(8)",
+       "time": "46-60"
+      },
+      {
+       "ga": "11%(5)",
+       "gs": "19%(11)",
+       "time": "61-75"
+      },
+      {
+       "ga": "24%(11)",
+       "gs": "21%(12)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "32%(6)",
+       "gs": "17%(4)",
+       "time": "1-15"
+      },
+      {
+       "ga": "16%(3)",
+       "gs": "9%(2)",
+       "time": "16-30"
+      },
+      {
+       "ga": "21%(4)",
+       "gs": "22%(5)",
+       "time": "31-45"
+      },
+      {
+       "ga": "16%(3)",
+       "gs": "13%(3)",
+       "time": "46-60"
+      },
+      {
+       "ga": "5%(1)",
+       "gs": "13%(3)",
+       "time": "61-75"
+      },
+      {
+       "ga": "11%(2)",
+       "gs": "26%(6)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 45,
+    "ga_total_tw": 19,
+    "gs_total_fi": 57,
+    "gs_total_tw": 23,
+    "team_name": "肯尼亚"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "9%(3)",
+       "gs": "17%(12)",
+       "time": "1-15"
+      },
+      {
+       "ga": "12%(4)",
+       "gs": "13%(9)",
+       "time": "16-30"
+      },
+      {
+       "ga": "24%(8)",
+       "gs": "12%(8)",
+       "time": "31-45"
+      },
+      {
+       "ga": "18%(6)",
+       "gs": "22%(15)",
+       "time": "46-60"
+      },
+      {
+       "ga": "18%(6)",
+       "gs": "14%(10)",
+       "time": "61-75"
+      },
+      {
+       "ga": "21%(7)",
+       "gs": "22%(15)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "13%(2)",
+       "gs": "8%(2)",
+       "time": "1-15"
+      },
+      {
+       "ga": "13%(2)",
+       "gs": "16%(4)",
+       "time": "16-30"
+      },
+      {
+       "ga": "13%(2)",
+       "gs": "12%(3)",
+       "time": "31-45"
+      },
+      {
+       "ga": "13%(2)",
+       "gs": "20%(5)",
+       "time": "46-60"
+      },
+      {
+       "ga": "13%(2)",
+       "gs": "24%(6)",
+       "time": "61-75"
+      },
+      {
+       "ga": "33%(5)",
+       "gs": "20%(5)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 34,
+    "ga_total_tw": 15,
+    "gs_total_fi": 69,
+    "gs_total_tw": 25,
+    "team_name": "南非"
+   }
+  },
+  "Bf_Distribute": [],
+  "Bf_Transaction": []
+ },
+ "userId": 0,
+ "vipType": -1
+}

@@ -1,0 +1,172 @@
+{
+ "batch": 6,
+ "source": "data/raw6",
+ "rawDir": "data/raw6",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:54.511Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3003945",
+   "lg": "英超",
+   "kickoff": "2026-11-07 20:30",
+   "home": "利兹联",
+   "away": "托特纳姆热刺",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 1.05,
+   "aw": 0.9,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 3,
+   "sameHc": 3,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 3
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 33.3,
+   "pdown": 66.7,
+   "wdl": {
+    "主": 1,
+    "客": 2
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ],
+    [
+     "0-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.33
+  },
+  {
+   "no": 2,
+   "id": "3008321",
+   "lg": "英冠",
+   "kickoff": "2026-11-07 20:30",
+   "home": "布里斯托城",
+   "away": "诺维奇",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 0.96,
+   "aw": 0.77,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 3,
+   "sameHc": 3,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 3
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 33.3,
+   "pdown": 66.7,
+   "wdl": {
+    "主": 1,
+    "客": 2
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ],
+    [
+     "0-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.33
+  },
+  {
+   "no": 3,
+   "id": "3008324",
+   "lg": "英冠",
+   "kickoff": "2026-11-07 20:30",
+   "home": "朴茨茅斯",
+   "away": "斯托克城",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.92,
+   "aw": 0.81,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 4,
+   "id": "3008331",
+   "lg": "英冠",
+   "kickoff": "2026-11-07 20:30",
+   "home": "雷克瑟姆",
+   "away": "狼队",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.98,
+   "aw": 0.76,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  }
+ ]
+}

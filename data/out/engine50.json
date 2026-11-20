@@ -1,0 +1,156 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 4,
+ "skipped": [
+  {
+   "no": 1,
+   "reason": "样本不足（主队主场 P=2，客队客场 P=5，任一 <3），拒跑防单场静默外推"
+  }
+ ],
+ "preds": [
+  {
+   "no": 2,
+   "home": "爱沙尼亚",
+   "away": "保加利亚",
+   "engine": {
+    "xg_h": 1.079,
+    "xg_a": 1.42,
+    "H": 0.2763,
+    "D": 0.2856,
+    "A": 0.438,
+    "rq": [
+     0.2763,
+     0.0,
+     0.7237
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 3,
+    "away_attack": 1.45,
+    "away_defense": 1.037,
+    "away_form": 0.0,
+    "away_rest": 3,
+    "notes": [
+     "主样本 4 场 3 得 0 失",
+     "赛程间隔 3 天",
+     "主样本 5 场 15 得 7 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "立陶宛",
+   "away": "列支敦士登",
+   "engine": {
+    "xg_h": 1.599,
+    "xg_a": 0.662,
+    "H": 0.5913,
+    "D": 0.2653,
+    "A": 0.1434,
+    "rq": [
+     0.1413,
+     0.187,
+     0.6717
+    ],
+    "hc_model": -2.0
+   },
+   "input": {
+    "home_attack": 0.7407,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 4,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": 0.0,
+    "away_rest": 3,
+    "notes": [
+     "主样本 5 场 5 得 4 失",
+     "赛程间隔 4 天",
+     "主样本 6 场 2 得 15 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "UTC卡加马马",
+   "away": "洛斯香卡斯",
+   "engine": {
+    "xg_h": 1.673,
+    "xg_a": 1.218,
+    "H": 0.4711,
+    "D": 0.2594,
+    "A": 0.2695,
+    "rq": [
+     0.4711,
+     0.2594,
+     0.2695
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 0.7407,
+    "home_defense": 1.45,
+    "home_form": -0.2469,
+    "home_rest": 8,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": -0.3704,
+    "away_rest": 8,
+    "notes": [
+     "主样本 8 场 8 得 16 失",
+     "赛程间隔 8 天",
+     "主样本 8 场 4 得 17 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  },
+  {
+   "no": 5,
+   "home": "阿尔巴塞特",
+   "away": "塞尔塔福图纳",
+   "engine": {
+    "xg_h": 1.622,
+    "xg_a": 1.221,
+    "H": 0.4579,
+    "D": 0.2636,
+    "A": 0.2785,
+    "rq": [
+     0.2426,
+     0.2152,
+     0.5421
+    ],
+    "hc_model": -1.0
+   },
+   "input": {
+    "home_attack": 0.8642,
+    "home_defense": 1.1111,
+    "home_form": -0.3704,
+    "home_rest": 4,
+    "away_attack": 0.7407,
+    "away_defense": 1.45,
+    "away_form": -0.3704,
+    "away_rest": 10,
+    "notes": [
+     "主样本 6 场 7 得 9 失",
+     "赛程间隔 4 天",
+     "主样本 6 场 6 得 12 失",
+     "赛程间隔 10 天"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "source": "data/raw27",
+ "collectedAt": "2026-11-09T16:28:36.868Z",
+ "count": 1,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "2912932",
+   "lg": "挪超",
+   "kickoff": "2026-11-10 02:00",
+   "home": "克里斯蒂安松",
+   "away": "瓦勒伦加",
+   "hc": -0.25,
+   "hcRaw": "澳门",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 25,
+      "w": 6,
+      "d": 5,
+      "l": 14,
+      "gf": 29,
+      "ga": 51,
+      "gd": -22,
+      "points": 23,
+      "rank": 15,
+      "winRate": 24
+     },
+     "away": {
+      "p": 25,
+      "w": 9,
+      "d": 5,
+      "l": 11,
+      "gf": 43,
+      "ga": 46,
+      "gd": -3,
+      "points": 32,
+      "rank": 8,
+      "winRate": 36
+     }
+    },
+    "home": {
+     "home": {
+      "p": 12,
+      "gf": 16,
+      "ga": 20
+     },
+     "away": {
+      "p": 13,
+      "gf": 13,
+      "ga": 31
+     }
+    },
+    "away": {
+     "home": {
+      "p": 13,
+      "gf": 27,
+      "ga": 20
+     },
+     "away": {
+      "p": 12,
+      "gf": 16,
+      "ga": 26
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 10,
+      "ga": 22
+     },
+     "away": {
+      "p": 6,
+      "gf": 10,
+      "ga": 6
+     }
+    },
+    "leagueOf": {
+     "home": "挪超",
+     "away": "挪超"
+    }
+   },
+   "restDays": {
+    "home": 8,
+    "away": 8
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  }
+ ]
+}

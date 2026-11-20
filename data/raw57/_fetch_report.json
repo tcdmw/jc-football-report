@@ -1,0 +1,31 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "3092388",
+   "home": "奥地利维也纳 (女)",
+   "away": "拜仁慕尼黑 (女)",
+   "txt_chars": 7537,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -2.75,
+   "ou": "4",
+   "lineN": 14
+  },
+  {
+   "id": "3092389",
+   "home": "巴黎 (女)",
+   "away": "科治 (女)",
+   "txt_chars": 7501,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.25,
+   "ou": "3/3.5",
+   "lineN": 14
+  }
+ ]
+}

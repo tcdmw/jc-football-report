@@ -1,0 +1,113 @@
+{
+ "batch": 9,
+ "source": "data/raw9",
+ "rawDir": "data/raw9",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:54.844Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2912330",
+   "lg": "瑞典超",
+   "kickoff": "2026-11-08 00:30",
+   "home": "奥尔格里特",
+   "away": "瓦斯特拉斯",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.97,
+   "aw": 0.76,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 1,
+    "L3": 2
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 2
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ],
+    [
+     "2-2",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 2,
+   "id": "2912934",
+   "lg": "挪超",
+   "kickoff": "2026-11-08 01:00",
+   "home": "罗森博格",
+   "away": "斯达",
+   "hc": 1.75,
+   "line": 1.75,
+   "favIsHome": true,
+   "hw": 0.77,
+   "aw": 1.07,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "启用(样本薄)",
+   "groupHit": 83.3,
+   "groupN": 6,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 3,
+   "id": "3003947",
+   "lg": "英超",
+   "kickoff": "2026-11-08 01:30",
+   "home": "诺丁汉森林",
+   "away": "曼彻斯特城",
+   "hc": -1.25,
+   "line": 1.25,
+   "favIsHome": false,
+   "hw": 0.56,
+   "aw": 1.67,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  }
+ ]
+}

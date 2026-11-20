@@ -1,0 +1,20 @@
+﻿[batch 51] 5 场, 有伤停 3 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury51.json
+[batch 52] 1 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury52.json
+[batch 53] 6 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury53.json
+{
+ "51": {
+  "matches": 5,
+  "withInjury": 3,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury51.json"
+ },
+ "52": {
+  "matches": 1,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury52.json"
+ },
+ "53": {
+  "matches": 6,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury53.json"
+ }
+}

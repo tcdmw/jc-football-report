@@ -1,0 +1,330 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 9,
+ "skipped": [
+  {
+   "no": 10,
+   "reason": "样本不足（主队主场 P=6，客队客场 P=1，任一 <3），拒跑防单场静默外推"
+  },
+  {
+   "no": 11,
+   "reason": "样本不足（主队主场 P=4，客队客场 P=2，任一 <3），拒跑防单场静默外推"
+  }
+ ],
+ "preds": [
+  {
+   "no": 1,
+   "home": "挪威",
+   "away": "威尔士",
+   "engine": {
+    "xg_h": 1.856,
+    "xg_a": 1.32,
+    "H": 0.4921,
+    "D": 0.2431,
+    "A": 0.2648,
+    "rq": [
+     0.1283,
+     0.1519,
+     0.7198
+    ],
+    "hc_model": -1.75
+   },
+   "input": {
+    "home_attack": 1.3333,
+    "home_defense": 1.45,
+    "home_form": 0.0,
+    "home_rest": 41,
+    "away_attack": 0.7,
+    "away_defense": 0.9259,
+    "away_form": 0.0,
+    "away_rest": 41,
+    "notes": [
+     "主样本 5 场 9 得 11 失",
+     "赛程间隔 41 天",
+     "主样本 4 场 2 得 5 失",
+     "赛程间隔 41 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "格鲁吉亚",
+   "away": "匈牙利",
+   "engine": {
+    "xg_h": 0.758,
+    "xg_a": 0.989,
+    "H": 0.2599,
+    "D": 0.3527,
+    "A": 0.3874,
+    "rq": [
+     0.2599,
+     0.3527,
+     0.3874
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.9877,
+    "home_form": 0.0,
+    "home_rest": 40,
+    "away_attack": 0.7407,
+    "away_defense": 0.7,
+    "away_form": 0.0,
+    "away_rest": 40,
+    "notes": [
+     "主样本 6 场 5 得 8 失",
+     "赛程间隔 40 天",
+     "主样本 3 场 3 得 1 失",
+     "赛程间隔 40 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "安哥拉",
+   "away": "南苏丹",
+   "engine": {
+    "xg_h": 1.582,
+    "xg_a": 0.916,
+    "H": 0.5199,
+    "D": 0.2715,
+    "A": 0.2086,
+    "rq": [
+     0.1169,
+     0.1625,
+     0.7206
+    ],
+    "hc_model": -2.25
+   },
+   "input": {
+    "home_attack": 1.3889,
+    "home_defense": 0.7407,
+    "home_form": 0.0,
+    "home_rest": 39,
+    "away_attack": 0.8889,
+    "away_defense": 0.7407,
+    "away_form": 0.0,
+    "away_rest": 47,
+    "notes": [
+     "主样本 8 场 15 得 8 失",
+     "赛程间隔 39 天",
+     "主样本 5 场 6 得 5 失",
+     "赛程间隔 47 天"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "阿尔及利亚",
+   "away": "多哥",
+   "engine": {
+    "xg_h": 1.897,
+    "xg_a": 0.882,
+    "H": 0.6039,
+    "D": 0.2352,
+    "A": 0.1609,
+    "rq": [
+     0.1756,
+     0.1887,
+     0.6357
+    ],
+    "hc_model": -1.75
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.9259,
+    "home_form": 0.0,
+    "home_rest": 39,
+    "away_attack": 0.7,
+    "away_defense": 0.8642,
+    "away_form": 0.0,
+    "away_rest": 46,
+    "notes": [
+     "主样本 4 场 8 得 5 失",
+     "赛程间隔 39 天",
+     "主样本 6 场 4 得 7 失",
+     "赛程间隔 46 天"
+    ]
+   }
+  },
+  {
+   "no": 5,
+   "home": "葡萄牙",
+   "away": "丹麦",
+   "engine": {
+    "xg_h": 2.728,
+    "xg_a": 1.228,
+    "H": 0.6847,
+    "D": 0.1721,
+    "A": 0.1432,
+    "rq": [
+     0.4851,
+     0.1995,
+     0.3153
+    ],
+    "hc_model": -1.0
+   },
+   "input": {
+    "home_attack": 1.3757,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 41,
+    "away_attack": 1.1111,
+    "away_defense": 1.45,
+    "away_form": 0.0,
+    "away_rest": 41,
+    "notes": [
+     "主样本 7 场 13 得 5 失",
+     "赛程间隔 41 天",
+     "主样本 4 场 6 得 8 失",
+     "赛程间隔 41 天"
+    ]
+   }
+  },
+  {
+   "no": 6,
+   "home": "北爱尔兰",
+   "away": "乌克兰",
+   "engine": {
+    "xg_h": 0.797,
+    "xg_a": 0.686,
+    "H": 0.3383,
+    "D": 0.3891,
+    "A": 0.2726,
+    "rq": [
+     0.3383,
+     0.3891,
+     0.2726
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 40,
+    "away_attack": 0.7,
+    "away_defense": 0.7407,
+    "away_form": 0.0,
+    "away_rest": 40,
+    "notes": [
+     "主样本 4 场 2 得 0 失",
+     "赛程间隔 40 天",
+     "主样本 4 场 3 得 4 失",
+     "赛程间隔 40 天"
+    ]
+   }
+  },
+  {
+   "no": 7,
+   "home": "瑞典",
+   "away": "波黑",
+   "engine": {
+    "xg_h": 2.602,
+    "xg_a": 1.102,
+    "H": 0.6898,
+    "D": 0.1766,
+    "A": 0.1336,
+    "rq": [
+     0.4835,
+     0.2063,
+     0.3102
+    ],
+    "hc_model": -1.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.9259,
+    "home_form": 0.0,
+    "home_rest": 40,
+    "away_attack": 0.8642,
+    "away_defense": 1.2346,
+    "away_form": 0.0,
+    "away_rest": 40,
+    "notes": [
+     "主样本 4 场 12 得 5 失",
+     "赛程间隔 40 天",
+     "主样本 6 场 7 得 10 失",
+     "赛程间隔 40 天"
+    ]
+   }
+  },
+  {
+   "no": 8,
+   "home": "罗马尼亚",
+   "away": "波兰",
+   "engine": {
+    "xg_h": 3.022,
+    "xg_a": 1.895,
+    "H": 0.6049,
+    "D": 0.1716,
+    "A": 0.2235,
+    "rq": [
+     0.7765,
+     0.1125,
+     0.1109
+    ],
+    "hc_model": 0.75
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.2963,
+    "home_form": 0.0,
+    "home_rest": 40,
+    "away_attack": 1.1111,
+    "away_defense": 1.45,
+    "away_form": 0.0,
+    "away_rest": 40,
+    "notes": [
+     "主样本 4 场 11 得 7 失",
+     "赛程间隔 40 天",
+     "主样本 4 场 6 得 9 失",
+     "赛程间隔 40 天"
+    ]
+   }
+  },
+  {
+   "no": 9,
+   "home": "奥地利",
+   "away": "爱尔兰",
+   "engine": {
+    "xg_h": 1.946,
+    "xg_a": 1.306,
+    "H": 0.5156,
+    "D": 0.2362,
+    "A": 0.2482,
+    "rq": [
+     0.3022,
+     0.2134,
+     0.4844
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 41,
+    "away_attack": 1.3333,
+    "away_defense": 0.8889,
+    "away_form": 0.0,
+    "away_rest": 41,
+    "notes": [
+     "主样本 5 场 11 得 3 失",
+     "赛程间隔 41 天",
+     "主样本 5 场 9 得 6 失",
+     "赛程间隔 41 天"
+    ]
+   }
+  }
+ ]
+}

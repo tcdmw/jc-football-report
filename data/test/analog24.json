@@ -1,0 +1,88 @@
+{
+ "batch": 24,
+ "source": "data/raw24",
+ "rawDir": "data/raw24",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.442Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3018860",
+   "lg": "德甲",
+   "kickoff": "2026-11-09 02:45",
+   "home": "弗赖堡",
+   "away": "柏林联合",
+   "hc": 1.25,
+   "line": 1.25,
+   "favIsHome": true,
+   "hw": 1.06,
+   "aw": 0.78,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 2,
+   "id": "3003946",
+   "lg": "英超",
+   "kickoff": "2026-11-09 02:45",
+   "home": "曼联",
+   "away": "阿斯顿维拉",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.74,
+   "aw": 1.1,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 6,
+   "sameHc": 6,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 6
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 16.7,
+   "pdown": 83.3,
+   "wdl": {
+    "平": 3,
+    "客": 2,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-2",
+     2
+    ],
+    [
+     "1-1",
+     2
+    ],
+    [
+     "2-2",
+     1
+    ]
+   ],
+   "avgGoal": 2.83
+  }
+ ]
+}

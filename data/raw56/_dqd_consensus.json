@@ -1,0 +1,23 @@
+{
+ "source": "dongqiudi_getMatchTips",
+ "total": 2,
+ "matched": [
+  {
+   "titanId": "3092384",
+   "dqdMatchId": "54601643",
+   "home": "赫根 (女)",
+   "away": "曼城 (女)",
+   "pageScore": "0 - 2",
+   "planTotal": "79"
+  },
+  {
+   "titanId": "3092385",
+   "dqdMatchId": "54601640",
+   "home": "皇家马德里 (女)",
+   "away": "国际米兰 (女)",
+   "pageScore": "3 - 1",
+   "planTotal": "95"
+  }
+ ],
+ "missed": []
+}

@@ -1,0 +1,31 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "2981565",
+   "home": "芬兰",
+   "away": "圣马力诺",
+   "txt_chars": 6705,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 3.75,
+   "ou": "4/4.5",
+   "lineN": 14
+  },
+  {
+   "id": "2981566",
+   "home": "白俄罗斯",
+   "away": "阿尔巴尼亚",
+   "txt_chars": 6604,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.5,
+   "ou": "2",
+   "lineN": 15
+  }
+ ]
+}

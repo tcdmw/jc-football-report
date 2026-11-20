@@ -1,0 +1,103 @@
+{
+ "id": "3001002",
+ "lines": [
+  {
+   "name": "澳",
+   "openHc": -2.5,
+   "liveHc": -2.5,
+   "openHw": "0.86",
+   "liveHw": "0.88"
+  },
+  {
+   "name": "Crow",
+   "openHc": -2.5,
+   "liveHc": -2.5,
+   "openHw": "0.90",
+   "liveHw": "0.97"
+  },
+  {
+   "name": "36",
+   "openHc": -2.5,
+   "liveHc": -2.5,
+   "openHw": "0.98",
+   "liveHw": "1.00"
+  },
+  {
+   "name": "易",
+   "openHc": -2.5,
+   "liveHc": -2.5,
+   "openHw": "0.88",
+   "liveHw": "0.88"
+  },
+  {
+   "name": "明",
+   "openHc": -2.25,
+   "liveHc": -2.5,
+   "openHw": "0.98",
+   "liveHw": "0.95"
+  },
+  {
+   "name": "12",
+   "openHc": -2.25,
+   "liveHc": -2.5,
+   "openHw": "0.98",
+   "liveHw": "0.95"
+  },
+  {
+   "name": "利",
+   "openHc": -2.5,
+   "liveHc": -2.5,
+   "openHw": "0.95",
+   "liveHw": "1.04"
+  },
+  {
+   "name": "盈",
+   "openHc": -2.5,
+   "liveHc": -2.5,
+   "openHw": "0.80",
+   "liveHw": "0.93"
+  },
+  {
+   "name": "18",
+   "openHc": -2.5,
+   "liveHc": -2.5,
+   "openHw": "0.90",
+   "liveHw": "0.90"
+  },
+  {
+   "name": "平",
+   "openHc": -2,
+   "liveHc": -2.5,
+   "openHw": "0.92",
+   "liveHw": "0.90"
+  },
+  {
+   "name": "香港马",
+   "openHc": -2.75,
+   "liveHc": -2.75,
+   "openHw": "0.77",
+   "liveHw": "0.77"
+  },
+  {
+   "name": "威",
+   "openHc": -2.25,
+   "liveHc": -2.25,
+   "openHw": "0.91",
+   "liveHw": "0.91"
+  },
+  {
+   "name": "Interwet",
+   "openHc": -2.5,
+   "liveHc": -2.5,
+   "openHw": "0.80",
+   "liveHw": "0.85"
+  },
+  {
+   "name": "1x",
+   "openHc": -2.5,
+   "liveHc": -2.5,
+   "openHw": "0.68",
+   "liveHw": "0.85"
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "batch": 14,
+ "source": "data/raw14",
+ "rawDir": "data/raw14",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:55.390Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3041396",
+   "lg": "澳超",
+   "kickoff": "2026-11-08 14:00",
+   "home": "阿德莱德",
+   "away": "墨尔本胜利",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.95,
+   "aw": 0.83,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 5,
+   "sameHc": 5,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 5
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 5
+   },
+   "topSc": [
+    [
+     "2-2",
+     2
+    ],
+    [
+     "0-0",
+     2
+    ],
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  }
+ ]
+}

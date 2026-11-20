@@ -1,0 +1,585 @@
+{
+ "titanId": "2981569",
+ "dqdMatchId": "54419583",
+ "home": "冰岛",
+ "away": "卢森堡",
+ "pageHome": "冰岛",
+ "pageAway": "卢森堡",
+ "kickoff": "01:00",
+ "league": "欧国联",
+ "pageScore": "3 - 0",
+ "planTotal": "386",
+ "planId": 8180714,
+ "isUnlock": 1,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "竞彩胜平负",
+   "count": 52,
+   "options": [
+    {
+     "label": "负",
+     "rate": 34,
+     "count": 18
+    },
+    {
+     "label": "平",
+     "rate": 65,
+     "count": 34
+    },
+    {
+     "label": "胜",
+     "rate": 1,
+     "count": 0
+    }
+   ]
+  },
+  {
+   "play": "竞彩让球",
+   "count": 78,
+   "options": [
+    {
+     "label": "客队",
+     "rate": 10,
+     "count": 8
+    },
+    {
+     "label": "让平",
+     "rate": 32,
+     "count": 25
+    },
+    {
+     "label": "主队",
+     "rate": 58,
+     "count": 45
+    }
+   ]
+  },
+  {
+   "play": "总进球数",
+   "count": 125,
+   "options": [
+    {
+     "label": "小球",
+     "rate": 53,
+     "count": 67
+    },
+    {
+     "label": "大球",
+     "rate": 47,
+     "count": 58
+    }
+   ]
+  },
+  {
+   "play": "主客队",
+   "count": 139,
+   "options": [
+    {
+     "label": "下盘",
+     "rate": 57,
+     "count": 80
+    },
+    {
+     "label": "上盘",
+     "rate": 43,
+     "count": 59
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 1,
+   "left_times": 0,
+   "plan_id": 8180714,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "0": 18,
+      "1": 34,
+      "2": 0,
+      "count": 52,
+      "rate0": 34,
+      "rate1": 65,
+      "rate2": 1,
+      "rate0_desc": "负",
+      "rate1_desc": "平",
+      "rate2_desc": "胜",
+      "play_type": "竞彩胜平负"
+     },
+     {
+      "0": 8,
+      "1": 25,
+      "2": 45,
+      "count": 78,
+      "rate0": 10,
+      "rate1": 32,
+      "rate2": 58,
+      "rate0_desc": "客队",
+      "rate1_desc": "让平",
+      "rate2_desc": "主队",
+      "play_type": "竞彩让球"
+     },
+     {
+      "0": 67,
+      "1": 0,
+      "2": 58,
+      "count": 125,
+      "rate0": 53,
+      "rate2": 47,
+      "rate0_desc": "小球",
+      "rate2_desc": "大球",
+      "play_type": "总进球数"
+     },
+     {
+      "0": 80,
+      "1": 0,
+      "2": 59,
+      "count": 139,
+      "rate0": 57,
+      "rate2": 43,
+      "rate0_desc": "下盘",
+      "rate2_desc": "上盘",
+      "play_type": "主客队"
+     }
+    ],
+    "count": "386"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": {
+   "away": {
+    "draw": 0,
+    "loss": 1,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 1
+   },
+   "home": {
+    "draw": 0,
+    "loss": 0,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 0
+   },
+   "recent": {
+    "draw": 7,
+    "loss": 3,
+    "penalty": 8,
+    "red_card": 5,
+    "win": 10,
+    "yellow_card": 74
+   },
+   "referee": {
+    "logo": "https://sd.qunliao.info/fastdfs7/M00/D9/BB/rBUBsmjLa7SAd9tsAAAcCmoI0Ew809.jpg",
+    "name": "马里安-巴尔布",
+    "nationality_name": "罗马尼亚",
+    "scheme": "dongqiudi://v1/data/player/50425178"
+   }
+  },
+  "PersonAnalyse": {
+   "team_a": [
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>5</span>场国家队比赛，打进<span class='backend-select-num-bold'>5</span>球</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>5</span>场，球队胜率<span class='backend-select-num-bold'>60%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>2.4</span>、场均丢球<span class='backend-select-num-bold'>0.2</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>5</span>场，球队胜率<span class='backend-select-num-bold'>0%</span>、不败率<span class='backend-select-num-bold'>40%</span>、场均进球<span class='backend-select-num-bold'>0.6</span>、场均丢球<span class='backend-select-num-bold'>2.2</span></span>",
+     "name": "安德里-古德约翰森",
+     "person_id": 527994,
+     "scheme": "dongqiudi://v1/data/player/50527994"
+    },
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>5</span>场国家队比赛，打进<span class='backend-select-num-bold'>4</span>球</span><br><span class='backend-select-text-indent'>对阵<span class='backend-select-num-bold'>卢森堡</span>，近<span class='backend-select-num-bold'>3</span>场比赛进<span class='backend-select-num-bold'>2</span>球，助攻<span class='backend-select-num-bold'>1</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>7</span>场，球队胜率<span class='backend-select-num-bold'>43%</span>、不败率<span class='backend-select-num-bold'>86%</span>、场均进球<span class='backend-select-num-bold'>2.0</span>、场均丢球<span class='backend-select-num-bold'>0.9</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>3</span>场，球队胜率<span class='backend-select-num-bold'>0%</span>、不败率<span class='backend-select-num-bold'>33%</span>、场均进球<span class='backend-select-num-bold'>0.3</span>、场均丢球<span class='backend-select-num-bold'>2.0</span></span>",
+     "name": "奥斯卡松",
+     "person_id": 499562,
+     "scheme": "dongqiudi://v1/data/player/50499562"
+    },
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>5</span>场国家队比赛，助攻<span class='backend-select-num-bold'>3</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>7</span>场，球队胜率<span class='backend-select-num-bold'>43%</span>、不败率<span class='backend-select-num-bold'>86%</span>、场均进球<span class='backend-select-num-bold'>2.0</span>、场均丢球<span class='backend-select-num-bold'>0.9</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>3</span>场，球队胜率<span class='backend-select-num-bold'>0%</span>、不败率<span class='backend-select-num-bold'>33%</span>、场均进球<span class='backend-select-num-bold'>0.3</span>、场均丢球<span class='backend-select-num-bold'>2.0</span></span>",
+     "name": "哈康-哈拉尔德松",
+     "person_id": 501651,
+     "scheme": "dongqiudi://v1/data/player/50501651"
+    }
+   ],
+   "team_b": [
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>当前国家队比赛连续进球荒<span class='backend-select-num-bold'>4</span>场</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>9</span>场，球队胜率<span class='backend-select-num-bold'>44%</span>、不败率<span class='backend-select-num-bold'>44%</span>、场均进球<span class='backend-select-num-bold'>0.9</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>1</span>场，球队胜率<span class='backend-select-num-bold'>0%</span>、不败率<span class='backend-select-num-bold'>0%</span>、场均进球<span class='backend-select-num-bold'>0.0</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span>",
+     "name": "文森特-蒂尔",
+     "person_id": 251980,
+     "scheme": "dongqiudi://v1/data/player/50251980"
+    }
+   ]
+  },
+  "DarkAlarm": {
+   "dest_index": 13,
+   "dest_time": "11-17 00:54",
+   "label": "冷门预警",
+   "ori_index": 10,
+   "ori_time": "11-16 15:33",
+   "range_value": "30",
+   "tip": "客胜赔率累计浮动达到30%",
+   "title": "客胜预警"
+  },
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.95",
+     "cmp": "",
+     "hdp": "球半",
+     "home": "0.89"
+    },
+    "trans": {
+     "away": "0.81",
+     "cmp": "",
+     "hdp": "球半",
+     "home": "0.79"
+    }
+   },
+   "euro": {
+    "away": "10.00",
+    "cmp": "澳彩",
+    "hdp": "5.40",
+    "home": "1.21"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.87",
+     "cmp": "",
+     "hdp": "2.5/3",
+     "home": "0.93"
+    },
+    "trans": {
+     "away": "0.73",
+     "cmp": "",
+     "hdp": "3",
+     "home": "0.87"
+    }
+   }
+  },
+  "Forecast": {
+   "data_num": "260611",
+   "forecast_A": "43",
+   "forecast_B": "57",
+   "hdp": "2.5",
+   "hdp_float": 2.5,
+   "match_id": "4419583",
+   "result": "2"
+  },
+  "KeyDes": {
+   "content": null
+  },
+  "WsNews": [],
+  "TeamDesStrength": {
+   "team_A": [
+    {
+     "content": "冰岛全队身价（8240万欧元），高于卢森堡身价（1033万欧元）。",
+     "label": "有利"
+    },
+    {
+     "content": "进攻方面，近10场冰岛场均进1.5球，相对于卢森堡的0.8球，进攻实力更强。",
+     "label": "有利"
+    }
+   ],
+   "team_B": null
+  },
+  "TeamDesInjury": {
+   "team_A": null,
+   "team_B": null
+  },
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "8%(5)",
+       "gs": "12%(8)",
+       "time": "1-15"
+      },
+      {
+       "ga": "14%(9)",
+       "gs": "15%(10)",
+       "time": "16-30"
+      },
+      {
+       "ga": "18%(12)",
+       "gs": "20%(13)",
+       "time": "31-45"
+      },
+      {
+       "ga": "12%(8)",
+       "gs": "15%(10)",
+       "time": "46-60"
+      },
+      {
+       "ga": "17%(11)",
+       "gs": "18%(12)",
+       "time": "61-75"
+      },
+      {
+       "ga": "31%(20)",
+       "gs": "18%(12)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "8%(2)",
+       "gs": "13%(4)",
+       "time": "1-15"
+      },
+      {
+       "ga": "12%(3)",
+       "gs": "16%(5)",
+       "time": "16-30"
+      },
+      {
+       "ga": "21%(5)",
+       "gs": "23%(7)",
+       "time": "31-45"
+      },
+      {
+       "ga": "4%(1)",
+       "gs": "19%(6)",
+       "time": "46-60"
+      },
+      {
+       "ga": "17%(4)",
+       "gs": "23%(7)",
+       "time": "61-75"
+      },
+      {
+       "ga": "38%(9)",
+       "gs": "6%(2)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 65,
+    "ga_total_tw": 24,
+    "gs_total_fi": 65,
+    "gs_total_tw": 31,
+    "team_name": "冰岛"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "15%(10)",
+       "gs": "12%(4)",
+       "time": "1-15"
+      },
+      {
+       "ga": "16%(11)",
+       "gs": "12%(4)",
+       "time": "16-30"
+      },
+      {
+       "ga": "13%(9)",
+       "gs": "12%(4)",
+       "time": "31-45"
+      },
+      {
+       "ga": "19%(13)",
+       "gs": "16%(5)",
+       "time": "46-60"
+      },
+      {
+       "ga": "13%(9)",
+       "gs": "25%(8)",
+       "time": "61-75"
+      },
+      {
+       "ga": "22%(15)",
+       "gs": "22%(7)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "20%(5)",
+       "gs": "10%(1)",
+       "time": "1-15"
+      },
+      {
+       "ga": "16%(4)",
+       "gs": "30%(3)",
+       "time": "16-30"
+      },
+      {
+       "ga": "16%(4)",
+       "gs": "10%(1)",
+       "time": "31-45"
+      },
+      {
+       "ga": "28%(7)",
+       "gs": "20%(2)",
+       "time": "46-60"
+      },
+      {
+       "ga": "16%(4)",
+       "gs": "20%(2)",
+       "time": "61-75"
+      },
+      {
+       "ga": "4%(1)",
+       "gs": "10%(1)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 67,
+    "ga_total_tw": 25,
+    "gs_total_fi": 32,
+    "gs_total_tw": 10,
+    "team_name": "卢森堡"
+   }
+  },
+  "Bf_Distribute": {
+   "draw": {
+    "bl_hot": 0,
+    "hot_index": "-75",
+    "number": "52764",
+    "price": "6.6",
+    "profit": "931665",
+    "rate": "4.12"
+   },
+   "lose": {
+    "bl_hot": 0,
+    "hot_index": "-63",
+    "number": "31065",
+    "price": "21",
+    "profit": "627542",
+    "rate": "2.44"
+   },
+   "text_1": "适中",
+   "text_1_red": 0,
+   "text_2": "主胜",
+   "win": {
+    "bl_hot": 1,
+    "hot_index": "20",
+    "number": "1196078",
+    "price": "1.25",
+    "profit": "-215191",
+    "rate": "93.45"
+   }
+  },
+  "Bf_Transaction": {
+   "buy": {
+    "draw": "21984",
+    "lose": "8769",
+    "win": "266125"
+   },
+   "sell": {
+    "draw": "17953",
+    "lose": "12183",
+    "win": "649443"
+   },
+   "text_1": "不看好",
+   "text_2": "主胜",
+   "trend": [
+    {
+     "attribute": 1,
+     "deal_percent": 4.81,
+     "deal_price": 21,
+     "deal_time": "2026-11-17 00:59:45",
+     "deal_volume": 756,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 5.88,
+     "deal_price": 6.4,
+     "deal_time": "2026-11-17 00:58:34",
+     "deal_volume": 3096,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 5.39,
+     "deal_price": 20,
+     "deal_time": "2026-11-17 00:58:34",
+     "deal_volume": 806,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 5.28,
+     "deal_price": 1.26,
+     "deal_time": "2026-11-17 00:58:34",
+     "deal_volume": 62508,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.6,
+     "deal_price": 1.24,
+     "deal_time": "2026-11-17 00:57:23",
+     "deal_volume": 19415,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.61,
+     "deal_price": 1.24,
+     "deal_time": "2026-11-17 00:56:06",
+     "deal_volume": 25895,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.84,
+     "deal_price": 6.6,
+     "deal_time": "2026-11-17 00:56:06",
+     "deal_volume": 1889,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.63,
+     "deal_price": 21,
+     "deal_time": "2026-11-17 00:54:55",
+     "deal_volume": 313,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 10.17,
+     "deal_price": 1.26,
+     "deal_time": "2026-11-17 00:53:44",
+     "deal_volume": 109027,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.29,
+     "deal_price": 19.5,
+     "deal_time": "2026-11-17 00:53:44",
+     "deal_volume": 274,
+     "result": 3,
+     "tab_type": 3
+    }
+   ]
+  },
+  "AigcMatchPredictions": {
+   "match_id": 4419583,
+   "predictions": []
+  }
+ },
+ "userId": 0,
+ "vipType": -1
+}

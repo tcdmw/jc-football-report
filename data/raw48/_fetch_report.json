@@ -1,0 +1,44 @@
+{
+ "n": 3,
+ "report": [
+  {
+   "id": "3001039",
+   "home": "厄立特里亚(中)",
+   "away": "几内亚",
+   "txt_chars": 5415,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -1.0,
+   "ou": "2.5",
+   "lineN": 14
+  },
+  {
+   "id": "3001063",
+   "home": "中非共和国(中)",
+   "away": "贝宁",
+   "txt_chars": 5531,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -1.0,
+   "ou": "2.5",
+   "lineN": 15
+  },
+  {
+   "id": "3071545",
+   "home": "葡萄牙 U20",
+   "away": "英格兰 U20",
+   "txt_chars": 6237,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.25,
+   "ou": "3",
+   "lineN": 13
+  }
+ ]
+}

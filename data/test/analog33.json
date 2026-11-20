@@ -1,0 +1,235 @@
+{
+ "batch": 33,
+ "source": "data/raw33",
+ "rawDir": "data/raw33",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:57.386Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3000179",
+   "lg": "日职乙",
+   "kickoff": "2026-11-14 13:00",
+   "home": "湘南比马",
+   "away": "横滨FC",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 1,
+   "aw": 0.78,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 4,
+   "sameHc": 4,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 4
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "平": 1,
+    "客": 2,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-2",
+     2
+    ],
+    [
+     "1-1",
+     1
+    ],
+    [
+     "3-1",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 2,
+   "id": "3000178",
+   "lg": "日职乙",
+   "kickoff": "2026-11-14 13:00",
+   "home": "RB大宫松鼠",
+   "away": "山形山神",
+   "hc": 1,
+   "line": 1,
+   "favIsHome": true,
+   "hw": 0.82,
+   "aw": 0.96,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 3,
+   "sameHc": 3,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 3
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 66.7,
+   "pdown": 33.3,
+   "wdl": {
+    "平": 1,
+    "主": 2
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ],
+    [
+     "3-1",
+     1
+    ],
+    [
+     "7-0",
+     1
+    ]
+   ],
+   "avgGoal": 4.33
+  },
+  {
+   "no": 3,
+   "id": "3000173",
+   "lg": "日职乙",
+   "kickoff": "2026-11-14 13:00",
+   "home": "新潟天鹅",
+   "away": "宫崎棒牛鸟",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.94,
+   "aw": 0.84,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 12,
+   "sameHc": 12,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 4,
+    "L3": 12
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 11,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-2",
+     6
+    ],
+    [
+     "0-0",
+     2
+    ],
+    [
+     "1-1",
+     2
+    ]
+   ],
+   "avgGoal": 3.42
+  },
+  {
+   "no": 4,
+   "id": "3000174",
+   "lg": "日职乙",
+   "kickoff": "2026-11-14 13:00",
+   "home": "藤枝MYFC",
+   "away": "甲府风林",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.85,
+   "aw": 0.93,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 2
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 2
+   },
+   "topSc": [
+    [
+     "1-0",
+     1
+    ],
+    [
+     "2-0",
+     1
+    ]
+   ],
+   "avgGoal": 1.5
+  },
+  {
+   "no": 5,
+   "id": "3000177",
+   "lg": "日职乙",
+   "kickoff": "2026-11-14 13:00",
+   "home": "大分三神",
+   "away": "枥木市",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.85,
+   "aw": 0.93,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 2
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 2
+   },
+   "topSc": [
+    [
+     "1-0",
+     1
+    ],
+    [
+     "2-0",
+     1
+    ]
+   ],
+   "avgGoal": 1.5
+  }
+ ]
+}

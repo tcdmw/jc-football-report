@@ -1,0 +1,27 @@
+{
+ "hc": 1.0,
+ "live": {
+  "aw": "0.95",
+  "hc": 1.0,
+  "hw": "0.87",
+  "ouLine": "2.5/3",
+  "over": "0.84",
+  "raw": "Crow",
+  "under": "0.96"
+ },
+ "open": {
+  "aw": "1.05",
+  "hc": 1.0,
+  "hw": "0.77",
+  "ouLine": "2/2.5",
+  "over": "0.82",
+  "raw": "Crow",
+  "under": "0.98"
+ },
+ "ou": "2.5/3",
+ "ouOver": "0.84",
+ "ouUnder": "0.96",
+ "raw": "Crow",
+ "source": "Crow",
+ "isMacau": false
+}

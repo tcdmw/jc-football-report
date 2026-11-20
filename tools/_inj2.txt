@@ -1,0 +1,8 @@
+﻿[batch 51] 5 场, 有伤停 3 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury51.json
+{
+ "51": {
+  "matches": 5,
+  "withInjury": 3,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury51.json"
+ }
+}

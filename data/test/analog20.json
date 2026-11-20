@@ -1,0 +1,230 @@
+{
+ "batch": 20,
+ "source": "data/raw20",
+ "rawDir": "data/raw20",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.024Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3003948",
+   "lg": "英超",
+   "kickoff": "2026-11-08 22:00",
+   "home": "桑德兰",
+   "away": "切尔西",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.76,
+   "aw": 1.08,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 1,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 2,
+   "id": "3003944",
+   "lg": "英超",
+   "kickoff": "2026-11-08 22:00",
+   "home": "伊普斯维奇",
+   "away": "伯恩茅斯",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.84,
+   "aw": 1,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 3,
+   "id": "3003941",
+   "lg": "英超",
+   "kickoff": "2026-11-08 22:00",
+   "home": "水晶宫",
+   "away": "利物浦",
+   "hc": -1,
+   "line": 1,
+   "favIsHome": false,
+   "hw": 0.96,
+   "aw": 0.88,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 4,
+   "id": "3003940",
+   "lg": "英超",
+   "kickoff": "2026-11-08 22:00",
+   "home": "布莱顿",
+   "away": "布伦特福德",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.84,
+   "aw": 1,
+   "src": "澳门",
+   "tierUsed": "L2",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-0",
+     1
+    ]
+   ],
+   "avgGoal": 1
+  },
+  {
+   "no": 5,
+   "id": "2993860",
+   "lg": "意甲",
+   "kickoff": "2026-11-08 22:00",
+   "home": "蒙扎",
+   "away": "亚特兰大",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.98,
+   "aw": 0.86,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 6,
+   "id": "2993858",
+   "lg": "意甲",
+   "kickoff": "2026-11-08 22:00",
+   "home": "热那亚",
+   "away": "AC米兰",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.84,
+   "aw": 1,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  }
+ ]
+}

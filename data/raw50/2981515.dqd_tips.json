@@ -1,0 +1,617 @@
+{
+ "titanId": "2981515",
+ "dqdMatchId": "54419581",
+ "home": "瑞士",
+ "away": "苏格兰",
+ "pageHome": "瑞士",
+ "pageAway": "苏格兰",
+ "kickoff": "03:45",
+ "league": "欧国联",
+ "pageScore": "4 - 0",
+ "planTotal": "387",
+ "planId": 8180756,
+ "isUnlock": 1,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "竞彩胜平负",
+   "count": 67,
+   "options": [
+    {
+     "label": "负",
+     "rate": 26,
+     "count": 18
+    },
+    {
+     "label": "平",
+     "rate": 23,
+     "count": 16
+    },
+    {
+     "label": "胜",
+     "rate": 51,
+     "count": 33
+    }
+   ]
+  },
+  {
+   "play": "竞彩让球",
+   "count": 41,
+   "options": [
+    {
+     "label": "客队",
+     "rate": 17,
+     "count": 7
+    },
+    {
+     "label": "让平",
+     "rate": 41,
+     "count": 17
+    },
+    {
+     "label": "主队",
+     "rate": 42,
+     "count": 17
+    }
+   ]
+  },
+  {
+   "play": "总进球数",
+   "count": 131,
+   "options": [
+    {
+     "label": "小球",
+     "rate": 61,
+     "count": 80
+    },
+    {
+     "label": "大球",
+     "rate": 39,
+     "count": 51
+    }
+   ]
+  },
+  {
+   "play": "主客队",
+   "count": 148,
+   "options": [
+    {
+     "label": "下盘",
+     "rate": 72,
+     "count": 108
+    },
+    {
+     "label": "上盘",
+     "rate": 28,
+     "count": 40
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 1,
+   "left_times": 0,
+   "plan_id": 8180756,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "0": 18,
+      "1": 16,
+      "2": 33,
+      "count": 67,
+      "rate0": 26,
+      "rate1": 23,
+      "rate2": 51,
+      "rate0_desc": "负",
+      "rate1_desc": "平",
+      "rate2_desc": "胜",
+      "play_type": "竞彩胜平负"
+     },
+     {
+      "0": 7,
+      "1": 17,
+      "2": 17,
+      "count": 41,
+      "rate0": 17,
+      "rate1": 41,
+      "rate2": 42,
+      "rate0_desc": "客队",
+      "rate1_desc": "让平",
+      "rate2_desc": "主队",
+      "play_type": "竞彩让球"
+     },
+     {
+      "0": 80,
+      "1": 0,
+      "2": 51,
+      "count": 131,
+      "rate0": 61,
+      "rate2": 39,
+      "rate0_desc": "小球",
+      "rate2_desc": "大球",
+      "play_type": "总进球数"
+     },
+     {
+      "0": 108,
+      "1": 0,
+      "2": 40,
+      "count": 148,
+      "rate0": 72,
+      "rate2": 28,
+      "rate0_desc": "下盘",
+      "rate2_desc": "上盘",
+      "play_type": "主客队"
+     }
+    ],
+    "count": "387"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": {
+   "away": {
+    "draw": 0,
+    "loss": 1,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 2
+   },
+   "home": {
+    "draw": 0,
+    "loss": 0,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 0
+   },
+   "recent": {
+    "draw": 4,
+    "loss": 4,
+    "penalty": 9,
+    "red_card": 2,
+    "win": 12,
+    "yellow_card": 59
+   },
+   "referee": {
+    "logo": "https://sd.qunliao.info/fastdfs7/M00/50/09/rBUBsmXyYEyACIisAAAZ60S_oTU280.jpg",
+    "name": "丹尼-梅凯利",
+    "nationality_name": "荷兰",
+    "scheme": "dongqiudi://v1/data/player/50676443"
+   }
+  },
+  "PersonAnalyse": {
+   "team_a": [
+    {
+     "content": "<span class='backend-select-text-title'>本场替补</span><br><span class='backend-select-text-indent'>当前国家队比赛连续进球荒<span class='backend-select-num-bold'>3</span>场</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>6</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>1.5</span>、场均丢球<span class='backend-select-num-bold'>0.5</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>4</span>场，球队胜率<span class='backend-select-num-bold'>100%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>2.8</span>、场均丢球<span class='backend-select-num-bold'>0.2</span></span>",
+     "name": "恩博洛",
+     "person_id": 201416,
+     "scheme": "dongqiudi://v1/data/player/50201416"
+    },
+    {
+     "content": "<span class='backend-select-text-title'>本场替补</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>5</span>场国家队比赛，打进<span class='backend-select-num-bold'>3</span>球</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>8</span>场，球队胜率<span class='backend-select-num-bold'>62%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>1.8</span>、场均丢球<span class='backend-select-num-bold'>0.2</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>2</span>场，球队胜率<span class='backend-select-num-bold'>100%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>3.0</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span>",
+     "name": "阿姆杜尼",
+     "person_id": 507326,
+     "scheme": "dongqiudi://v1/data/player/50507326"
+    },
+    {
+     "content": "<span class='backend-select-text-title'>本场缺席</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>5</span>场国家队比赛，助攻<span class='backend-select-num-bold'>3</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>10</span>场，球队胜率<span class='backend-select-num-bold'>70%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>2.0</span>、场均丢球<span class='backend-select-num-bold'>0.4</span></span>",
+     "name": "恩多耶",
+     "person_id": 452309,
+     "scheme": "dongqiudi://v1/data/player/50452309"
+    }
+   ],
+   "team_b": [
+    {
+     "content": "<span class='backend-select-text-title'>本场替补</span><br><span class='backend-select-text-indent'>当前国家队比赛连续进球荒<span class='backend-select-num-bold'>4</span>场</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>5</span>场，球队胜率<span class='backend-select-num-bold'>60%</span>、不败率<span class='backend-select-num-bold'>60%</span>、场均进球<span class='backend-select-num-bold'>1.4</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>5</span>场，球队胜率<span class='backend-select-num-bold'>40%</span>、不败率<span class='backend-select-num-bold'>60%</span>、场均进球<span class='backend-select-num-bold'>1.4</span>、场均丢球<span class='backend-select-num-bold'>1.2</span></span>",
+     "name": "切-亚当斯",
+     "person_id": 230204,
+     "scheme": "dongqiudi://v1/data/player/50230204"
+    },
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>5</span>场国家队比赛，打进<span class='backend-select-num-bold'>3</span>球</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>9</span>场，球队胜率<span class='backend-select-num-bold'>44%</span>、不败率<span class='backend-select-num-bold'>56%</span>、场均进球<span class='backend-select-num-bold'>1.1</span>、场均丢球<span class='backend-select-num-bold'>1.1</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>1</span>场，球队胜率<span class='backend-select-num-bold'>100%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>4.0</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span>",
+     "name": "麦金",
+     "person_id": 164895,
+     "scheme": "dongqiudi://v1/data/player/50164895"
+    }
+   ]
+  },
+  "DarkAlarm": {
+   "dest_index": 3.2,
+   "dest_time": "11-17 02:55",
+   "label": "冷门预警",
+   "ori_index": 5,
+   "ori_time": "11-16 19:46",
+   "range_value": "56",
+   "tip": "客胜赔率累计浮动达到56%",
+   "title": "客胜预警"
+  },
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.93",
+     "cmp": "",
+     "hdp": "半/一",
+     "home": "0.91"
+    },
+    "trans": {
+     "away": "0.81",
+     "cmp": "",
+     "hdp": "半/一",
+     "home": "0.78"
+    }
+   },
+   "euro": {
+    "away": "5.05",
+    "cmp": "澳彩",
+    "hdp": "3.68",
+    "home": "1.55"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.96",
+     "cmp": "",
+     "hdp": "2/2.5",
+     "home": "0.84"
+    },
+    "trans": {
+     "away": "0.80",
+     "cmp": "",
+     "hdp": "2/2.5",
+     "home": "0.79"
+    }
+   }
+  },
+  "Forecast": {
+   "data_num": "292227",
+   "forecast_A": "62",
+   "forecast_B": "38",
+   "hdp": "2.5/3",
+   "hdp_float": 2.75,
+   "match_id": "4419581",
+   "result": "1"
+  },
+  "KeyDes": {
+   "content": null
+  },
+  "WsNews": [],
+  "TeamDesStrength": {
+   "team_A": [
+    {
+     "content": "国际足联给出的国家队排名中，瑞士（1710分，第14）高于苏格兰（1491分，第42）。",
+     "label": "有利"
+    },
+    {
+     "content": "瑞士全队身价（29690万欧元），高于苏格兰身价（15020万欧元）。",
+     "label": "有利"
+    },
+    {
+     "content": "进攻方面，近10场瑞士场均进2球，相对于苏格兰的1.4球，进攻实力更强。",
+     "label": "有利"
+    },
+    {
+     "content": "防守方面，近10场瑞士场均丢0.4球，相对于苏格兰的1.1球，瑞士的防线更稳固。",
+     "label": "有利"
+    }
+   ],
+   "team_B": null
+  },
+  "TeamDesInjury": {
+   "team_A": [
+    {
+     "content": "瑞士方面，若埃尔-蒙泰罗（前锋 出场2次 进球1个 助攻0次）,本场因伤不能上场。",
+     "label": "不利"
+    },
+    {
+     "content": "瑞士方面，阿坎吉（后卫 出场21次 进球1个 助攻0次）,本场出战成疑。",
+     "label": "不利"
+    }
+   ],
+   "team_B": [
+    {
+     "content": "苏格兰方面，尚克兰（前锋 出场6次 进球4个 助攻1次）,麦克纳（后卫 出场11次 进球0个 助攻0次）,路易斯-宾克斯（后卫 出场3次 进球0个 助攻0次）,本场因伤不能上场。",
+     "label": "不利"
+    },
+    {
+     "content": "苏格兰方面，韦尔什（后卫 出场4次 进球0个 助攻0次）,本场出战成疑。",
+     "label": "不利"
+    }
+   ]
+  },
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "13%(6)",
+       "gs": "11%(9)",
+       "time": "1-15"
+      },
+      {
+       "ga": "7%(3)",
+       "gs": "20%(17)",
+       "time": "16-30"
+      },
+      {
+       "ga": "7%(3)",
+       "gs": "22%(18)",
+       "time": "31-45"
+      },
+      {
+       "ga": "9%(4)",
+       "gs": "16%(13)",
+       "time": "46-60"
+      },
+      {
+       "ga": "24%(11)",
+       "gs": "12%(10)",
+       "time": "61-75"
+      },
+      {
+       "ga": "40%(18)",
+       "gs": "19%(16)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "14%(2)",
+       "gs": "12%(4)",
+       "time": "1-15"
+      },
+      {
+       "ga": "7%(1)",
+       "gs": "6%(2)",
+       "time": "16-30"
+      },
+      {
+       "ga": "14%(2)",
+       "gs": "16%(5)",
+       "time": "31-45"
+      },
+      {
+       "ga": "14%(2)",
+       "gs": "22%(7)",
+       "time": "46-60"
+      },
+      {
+       "ga": "14%(2)",
+       "gs": "16%(5)",
+       "time": "61-75"
+      },
+      {
+       "ga": "36%(5)",
+       "gs": "28%(9)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 45,
+    "ga_total_tw": 14,
+    "gs_total_fi": 83,
+    "gs_total_tw": 32,
+    "team_name": "瑞士"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "16%(10)",
+       "gs": "20%(12)",
+       "time": "1-15"
+      },
+      {
+       "ga": "13%(8)",
+       "gs": "13%(8)",
+       "time": "16-30"
+      },
+      {
+       "ga": "13%(8)",
+       "gs": "8%(5)",
+       "time": "31-45"
+      },
+      {
+       "ga": "21%(13)",
+       "gs": "18%(11)",
+       "time": "46-60"
+      },
+      {
+       "ga": "15%(9)",
+       "gs": "10%(6)",
+       "time": "61-75"
+      },
+      {
+       "ga": "21%(13)",
+       "gs": "30%(18)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "23%(5)",
+       "gs": "19%(5)",
+       "time": "1-15"
+      },
+      {
+       "ga": "5%(1)",
+       "gs": "15%(4)",
+       "time": "16-30"
+      },
+      {
+       "ga": "5%(1)",
+       "gs": "15%(4)",
+       "time": "31-45"
+      },
+      {
+       "ga": "32%(7)",
+       "gs": "11%(3)",
+       "time": "46-60"
+      },
+      {
+       "ga": "14%(3)",
+       "gs": "15%(4)",
+       "time": "61-75"
+      },
+      {
+       "ga": "23%(5)",
+       "gs": "26%(7)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 61,
+    "ga_total_tw": 22,
+    "gs_total_fi": 60,
+    "gs_total_tw": 27,
+    "team_name": "苏格兰"
+   }
+  },
+  "Bf_Distribute": {
+   "draw": {
+    "bl_hot": 0,
+    "hot_index": "-61",
+    "number": "807904",
+    "price": "3.65",
+    "profit": "4711396",
+    "rate": "10.52"
+   },
+   "lose": {
+    "bl_hot": 0,
+    "hot_index": "-54",
+    "number": "971967",
+    "price": "3.95",
+    "profit": "3820976",
+    "rate": "12.66"
+   },
+   "text_1": "适中",
+   "text_1_red": 0,
+   "text_2": "主胜",
+   "win": {
+    "bl_hot": 1,
+    "hot_index": "67",
+    "number": "5880375",
+    "price": "2.1",
+    "profit": "-4688542",
+    "rate": "76.82"
+   }
+  },
+  "Bf_Transaction": {
+   "buy": {
+    "draw": "323466",
+    "lose": "379388",
+    "win": "826372"
+   },
+   "sell": {
+    "draw": "215642",
+    "lose": "128408",
+    "win": "2229618"
+   },
+   "text_1": "不看好",
+   "text_2": "主胜",
+   "trend": [
+    {
+     "attribute": 0,
+     "deal_percent": 3.89,
+     "deal_price": 2.1,
+     "deal_time": "2026-11-17 03:44:47",
+     "deal_volume": 229003,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 8.37,
+     "deal_price": 3.7,
+     "deal_time": "2026-11-17 03:39:40",
+     "deal_volume": 65508,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.31,
+     "deal_price": 3.8,
+     "deal_time": "2026-11-17 03:34:35",
+     "deal_volume": 29459,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 4.26,
+     "deal_price": 3.75,
+     "deal_time": "2026-11-17 03:34:35",
+     "deal_volume": 30070,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 6.89,
+     "deal_price": 3.7,
+     "deal_time": "2026-11-17 03:33:26",
+     "deal_volume": 46645,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.59,
+     "deal_price": 2.14,
+     "deal_time": "2026-11-17 03:33:26",
+     "deal_volume": 183337,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 4.92,
+     "deal_price": 3.7,
+     "deal_time": "2026-11-17 03:32:08",
+     "deal_volume": 30979,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 6.72,
+     "deal_price": 3.75,
+     "deal_time": "2026-11-17 03:21:02",
+     "deal_volume": 39173,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 5.23,
+     "deal_price": 3.65,
+     "deal_time": "2026-11-17 03:19:45",
+     "deal_volume": 41274,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.18,
+     "deal_price": 2.16,
+     "deal_time": "2026-11-17 03:19:45",
+     "deal_volume": 109808,
+     "result": 1,
+     "tab_type": 1
+    }
+   ]
+  },
+  "AigcMatchPredictions": {
+   "match_id": 4419581,
+   "predictions": []
+  }
+ },
+ "userId": 0,
+ "vipType": -1
+}

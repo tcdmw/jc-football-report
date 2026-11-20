@@ -1,0 +1,102 @@
+{
+ "batch": 15,
+ "source": "data/raw15",
+ "rawDir": "data/raw15",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:55.500Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3107493",
+   "lg": "韩K联冠",
+   "kickoff": "2026-11-08 15:30",
+   "home": "江原",
+   "away": "全北现代",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 0.73,
+   "aw": 1.05,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 6,
+   "sameHc": 6,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 6
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 33.3,
+   "pdown": 66.7,
+   "wdl": {
+    "客": 4,
+    "主": 2
+   },
+   "topSc": [
+    [
+     "0-1",
+     2
+    ],
+    [
+     "2-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ]
+   ],
+   "avgGoal": 2.33
+  },
+  {
+   "no": 2,
+   "id": "3107508",
+   "lg": "韩K联降",
+   "kickoff": "2026-11-08 15:30",
+   "home": "富川",
+   "away": "浦项",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.79,
+   "aw": 0.99,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 6,
+   "sameHc": 6,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 6
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 6
+   },
+   "topSc": [
+    [
+     "2-2",
+     3
+    ],
+    [
+     "0-0",
+     2
+    ],
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.33
+  }
+ ]
+}

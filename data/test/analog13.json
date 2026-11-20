@@ -1,0 +1,265 @@
+{
+ "batch": 13,
+ "source": "data/raw13",
+ "rawDir": "data/raw13",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:55.278Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3000528",
+   "lg": "日职联",
+   "kickoff": "2026-11-08 13:00",
+   "home": "町田泽维亚",
+   "away": "广岛三箭",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.86,
+   "aw": 0.98,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 4,
+   "sameHc": 4,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 4
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 4
+   },
+   "topSc": [
+    [
+     "2-2",
+     2
+    ],
+    [
+     "1-1",
+     1
+    ],
+    [
+     "0-0",
+     1
+    ]
+   ],
+   "avgGoal": 2.5
+  },
+  {
+   "no": 2,
+   "id": "3000532",
+   "lg": "日职联",
+   "kickoff": "2026-11-08 13:00",
+   "home": "神户胜利船",
+   "away": "浦和红钻",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.92,
+   "aw": 0.92,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 3,
+   "sameHc": 3,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 3
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 33.3,
+   "pdown": 66.7,
+   "wdl": {
+    "主": 1,
+    "客": 1,
+    "平": 1
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ],
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.67
+  },
+  {
+   "no": 3,
+   "id": "3000166",
+   "lg": "日职乙",
+   "kickoff": "2026-11-08 13:00",
+   "home": "磐田喜悦",
+   "away": "湘南比马",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.89,
+   "aw": 0.89,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-0",
+     1
+    ]
+   ],
+   "avgGoal": 1
+  },
+  {
+   "no": 4,
+   "id": "3000168",
+   "lg": "日职乙",
+   "kickoff": "2026-11-08 13:00",
+   "home": "枥木",
+   "away": "RB大宫松鼠",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 1.02,
+   "aw": 0.76,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 5,
+   "id": "3107491",
+   "lg": "韩K联",
+   "kickoff": "2026-11-08 13:00",
+   "home": "大田",
+   "away": "仁川联队",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.87,
+   "aw": 0.91,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-0",
+     1
+    ]
+   ],
+   "avgGoal": 1
+  },
+  {
+   "no": 6,
+   "id": "3107492",
+   "lg": "韩K联",
+   "kickoff": "2026-11-08 13:00",
+   "home": "首尔",
+   "away": "蔚山HD",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.91,
+   "aw": 0.87,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 3,
+   "sameHc": 3,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 3
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 33.3,
+   "pdown": 66.7,
+   "wdl": {
+    "主": 1,
+    "客": 1,
+    "平": 1
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ],
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.67
+  }
+ ]
+}

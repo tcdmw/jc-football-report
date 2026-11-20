@@ -1,0 +1,571 @@
+{
+ "titanId": "2981570",
+ "dqdMatchId": "54419585",
+ "home": "爱沙尼亚",
+ "away": "保加利亚",
+ "pageHome": "爱沙尼亚",
+ "pageAway": "保加利亚",
+ "kickoff": "01:00",
+ "league": "欧国联",
+ "pageScore": "2 - 1",
+ "planTotal": "362",
+ "planId": 8180715,
+ "isUnlock": 1,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "竞彩胜平负",
+   "count": 68,
+   "options": [
+    {
+     "label": "负",
+     "rate": 27,
+     "count": 19
+    },
+    {
+     "label": "平",
+     "rate": 29,
+     "count": 20
+    },
+    {
+     "label": "胜",
+     "rate": 44,
+     "count": 29
+    }
+   ]
+  },
+  {
+   "play": "竞彩让球",
+   "count": 44,
+   "options": [
+    {
+     "label": "客队",
+     "rate": 25,
+     "count": 11
+    },
+    {
+     "label": "让平",
+     "rate": 36,
+     "count": 16
+    },
+    {
+     "label": "主队",
+     "rate": 39,
+     "count": 17
+    }
+   ]
+  },
+  {
+   "play": "总进球数",
+   "count": 128,
+   "options": [
+    {
+     "label": "小球",
+     "rate": 81,
+     "count": 104
+    },
+    {
+     "label": "大球",
+     "rate": 19,
+     "count": 24
+    }
+   ]
+  },
+  {
+   "play": "主客队",
+   "count": 123,
+   "options": [
+    {
+     "label": "下盘",
+     "rate": 62,
+     "count": 77
+    },
+    {
+     "label": "上盘",
+     "rate": 38,
+     "count": 46
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 1,
+   "left_times": 0,
+   "plan_id": 8180715,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "0": 19,
+      "1": 20,
+      "2": 29,
+      "count": 68,
+      "rate0": 27,
+      "rate1": 29,
+      "rate2": 44,
+      "rate0_desc": "负",
+      "rate1_desc": "平",
+      "rate2_desc": "胜",
+      "play_type": "竞彩胜平负"
+     },
+     {
+      "0": 11,
+      "1": 16,
+      "2": 17,
+      "count": 44,
+      "rate0": 25,
+      "rate1": 36,
+      "rate2": 39,
+      "rate0_desc": "客队",
+      "rate1_desc": "让平",
+      "rate2_desc": "主队",
+      "play_type": "竞彩让球"
+     },
+     {
+      "0": 104,
+      "1": 0,
+      "2": 24,
+      "count": 128,
+      "rate0": 81,
+      "rate2": 19,
+      "rate0_desc": "小球",
+      "rate2_desc": "大球",
+      "play_type": "总进球数"
+     },
+     {
+      "0": 77,
+      "1": 0,
+      "2": 46,
+      "count": 123,
+      "rate0": 62,
+      "rate2": 38,
+      "rate0_desc": "下盘",
+      "rate2_desc": "上盘",
+      "play_type": "主客队"
+     }
+    ],
+    "count": "362"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": {
+   "away": {
+    "draw": 0,
+    "loss": 0,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 0
+   },
+   "home": {
+    "draw": 0,
+    "loss": 0,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 0
+   },
+   "recent": {
+    "draw": 6,
+    "loss": 5,
+    "penalty": 5,
+    "red_card": 4,
+    "win": 9,
+    "yellow_card": 90
+   },
+   "referee": {
+    "logo": "https://sd.dongdianqiu.com/fastdfs7/M00/B1/60/rBUC6Gbe1CuAQvDrAAAaaI41C0w238.jpg",
+    "name": "米纳科维奇",
+    "nationality_name": "塞尔维亚",
+    "scheme": "dongqiudi://v1/data/player/50906927"
+   }
+  },
+  "PersonAnalyse": {
+   "team_a": [
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>当前国家队比赛连续进球荒<span class='backend-select-num-bold'>7</span>场</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>7</span>场，球队胜率<span class='backend-select-num-bold'>57%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>0.7</span>、场均丢球<span class='backend-select-num-bold'>0.1</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>3</span>场，球队胜率<span class='backend-select-num-bold'>33%</span>、不败率<span class='backend-select-num-bold'>67%</span>、场均进球<span class='backend-select-num-bold'>1.7</span>、场均丢球<span class='backend-select-num-bold'>1.7</span></span>",
+     "name": "凯特",
+     "person_id": 201801,
+     "scheme": "dongqiudi://v1/data/player/50201801"
+    }
+   ],
+   "team_b": []
+  },
+  "DarkAlarm": {
+   "dest_index": 2.25,
+   "dest_time": "11-17 00:13",
+   "label": "冷门预警",
+   "ori_index": 1.85,
+   "ori_time": "11-16 23:47",
+   "range_value": "22",
+   "tip": "主胜赔率累计浮动达到22%",
+   "title": "主胜预警"
+  },
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "1.07",
+     "cmp": "",
+     "hdp": "平/半",
+     "home": "0.77"
+    },
+    "trans": {
+     "away": "0.89",
+     "cmp": "",
+     "hdp": "平/半",
+     "home": "0.71"
+    }
+   },
+   "euro": {
+    "away": "3.40",
+    "cmp": "澳彩",
+    "hdp": "3.15",
+    "home": "2.00"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.94",
+     "cmp": "",
+     "hdp": "2",
+     "home": "0.86"
+    },
+    "trans": {
+     "away": "0.73",
+     "cmp": "",
+     "hdp": "2",
+     "home": "0.87"
+    }
+   }
+  },
+  "Forecast": {
+   "data_num": "294759",
+   "forecast_A": "56",
+   "forecast_B": "44",
+   "hdp": "1.5/2",
+   "hdp_float": 1.75,
+   "match_id": "4419585",
+   "result": "1"
+  },
+  "KeyDes": {
+   "content": null
+  },
+  "WsNews": [],
+  "TeamDesStrength": {
+   "team_A": [
+    {
+     "content": "防守方面，近10场爱沙尼亚场均丢0.6球，相对于保加利亚的1.6球，爱沙尼亚的防线更稳固。",
+     "label": "有利"
+    }
+   ],
+   "team_B": [
+    {
+     "content": "保加利亚全队身价（4135万欧元），高于爱沙尼亚身价（1813万欧元）。",
+     "label": "有利"
+    },
+    {
+     "content": "进攻方面，近10场保加利亚场均进1.8球，相对于爱沙尼亚的1球，进攻实力更强。",
+     "label": "有利"
+    }
+   ]
+  },
+  "TeamDesInjury": {
+   "team_A": null,
+   "team_B": null
+  },
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "4%(3)",
+       "gs": "11%(5)",
+       "time": "1-15"
+      },
+      {
+       "ga": "20%(14)",
+       "gs": "16%(7)",
+       "time": "16-30"
+      },
+      {
+       "ga": "19%(13)",
+       "gs": "16%(7)",
+       "time": "31-45"
+      },
+      {
+       "ga": "20%(14)",
+       "gs": "7%(3)",
+       "time": "46-60"
+      },
+      {
+       "ga": "23%(16)",
+       "gs": "20%(9)",
+       "time": "61-75"
+      },
+      {
+       "ga": "14%(10)",
+       "gs": "31%(14)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "4%(1)",
+       "gs": "21%(4)",
+       "time": "1-15"
+      },
+      {
+       "ga": "8%(2)",
+       "gs": "16%(3)",
+       "time": "16-30"
+      },
+      {
+       "ga": "15%(4)",
+       "gs": "11%(2)",
+       "time": "31-45"
+      },
+      {
+       "ga": "31%(8)",
+       "gs": "5%(1)",
+       "time": "46-60"
+      },
+      {
+       "ga": "31%(8)",
+       "gs": "21%(4)",
+       "time": "61-75"
+      },
+      {
+       "ga": "12%(3)",
+       "gs": "26%(5)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 70,
+    "ga_total_tw": 26,
+    "gs_total_fi": 45,
+    "gs_total_tw": 19,
+    "team_name": "爱沙尼亚"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "15%(10)",
+       "gs": "13%(6)",
+       "time": "1-15"
+      },
+      {
+       "ga": "12%(8)",
+       "gs": "24%(11)",
+       "time": "16-30"
+      },
+      {
+       "ga": "16%(11)",
+       "gs": "18%(8)",
+       "time": "31-45"
+      },
+      {
+       "ga": "15%(10)",
+       "gs": "22%(10)",
+       "time": "46-60"
+      },
+      {
+       "ga": "19%(13)",
+       "gs": "9%(4)",
+       "time": "61-75"
+      },
+      {
+       "ga": "24%(16)",
+       "gs": "13%(6)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "8%(3)",
+       "gs": "20%(4)",
+       "time": "1-15"
+      },
+      {
+       "ga": "11%(4)",
+       "gs": "30%(6)",
+       "time": "16-30"
+      },
+      {
+       "ga": "18%(7)",
+       "gs": "25%(5)",
+       "time": "31-45"
+      },
+      {
+       "ga": "18%(7)",
+       "gs": "5%(1)",
+       "time": "46-60"
+      },
+      {
+       "ga": "24%(9)",
+       "gs": "5%(1)",
+       "time": "61-75"
+      },
+      {
+       "ga": "21%(8)",
+       "gs": "15%(3)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 68,
+    "ga_total_tw": 38,
+    "gs_total_fi": 45,
+    "gs_total_tw": 20,
+    "team_name": "保加利亚"
+   }
+  },
+  "Bf_Distribute": {
+   "draw": {
+    "bl_hot": 0,
+    "hot_index": "-77",
+    "number": "166185",
+    "price": "3.1",
+    "profit": "1751557",
+    "rate": "7.32"
+   },
+   "lose": {
+    "bl_hot": 0,
+    "hot_index": "-75",
+    "number": "139947",
+    "price": "4.2",
+    "profit": "1678953",
+    "rate": "6.16"
+   },
+   "text_1": "适中",
+   "text_1_red": 0,
+   "text_2": "主胜",
+   "win": {
+    "bl_hot": 1,
+    "hot_index": "97",
+    "number": "1960598",
+    "price": "2.26",
+    "profit": "-2164221",
+    "rate": "86.52"
+   }
+  },
+  "Bf_Transaction": {
+   "buy": {
+    "draw": "65479",
+    "lose": "47539",
+    "win": "699576"
+   },
+   "sell": {
+    "draw": "42068",
+    "lose": "55486",
+    "win": "615940"
+   },
+   "text_1": "更看好",
+   "text_2": "主胜",
+   "trend": [
+    {
+     "attribute": 0,
+     "deal_percent": 3.72,
+     "deal_price": 4.2,
+     "deal_time": "2026-11-17 00:59:34",
+     "deal_volume": 5206,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.85,
+     "deal_price": 3.1,
+     "deal_time": "2026-11-17 00:59:34",
+     "deal_volume": 4004,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.11,
+     "deal_price": 3.15,
+     "deal_time": "2026-11-17 00:58:17",
+     "deal_volume": 4300,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.26,
+     "deal_price": 4.2,
+     "deal_time": "2026-11-17 00:58:17",
+     "deal_volume": 4397,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.54,
+     "deal_price": 3.1,
+     "deal_time": "2026-11-17 00:57:00",
+     "deal_volume": 3387,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.54,
+     "deal_price": 3.1,
+     "deal_time": "2026-11-17 00:55:45",
+     "deal_volume": 5467,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 8.06,
+     "deal_price": 2.22,
+     "deal_time": "2026-11-17 00:52:18",
+     "deal_volume": 152256,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.34,
+     "deal_price": 3.2,
+     "deal_time": "2026-11-17 00:52:18",
+     "deal_volume": 4900,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.9,
+     "deal_price": 4.3,
+     "deal_time": "2026-11-17 00:49:53",
+     "deal_volume": 4914,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.25,
+     "deal_price": 2.28,
+     "deal_time": "2026-11-17 00:47:34",
+     "deal_volume": 54658,
+     "result": 1,
+     "tab_type": 1
+    }
+   ]
+  },
+  "AigcMatchPredictions": {
+   "match_id": 4419585,
+   "predictions": []
+  }
+ },
+ "userId": 0,
+ "vipType": -1
+}

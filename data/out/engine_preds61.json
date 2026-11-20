@@ -1,0 +1,117 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 3,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "鹿岛鹿角",
+   "away": "清水心跳",
+   "engine": {
+    "xg_h": 3.182,
+    "xg_a": 1.682,
+    "H": 0.6694,
+    "D": 0.1577,
+    "A": 0.1729,
+    "rq": [
+     0.4891,
+     0.1803,
+     0.3306
+    ],
+    "hc_model": -1.0
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.8466,
+    "home_form": 0.4938,
+    "home_rest": 6,
+    "away_attack": 0.7,
+    "away_defense": 1.358,
+    "away_form": -0.8,
+    "away_rest": 14,
+    "notes": [
+     "主样本 7 场 15 得 8 失",
+     "赛程间隔 6 天",
+     "主样本 6 场 4 得 11 失",
+     "赛程间隔 14 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "柏雷素尔",
+   "away": "千叶市原",
+   "engine": {
+    "xg_h": 3.14,
+    "xg_a": 1.64,
+    "H": 0.6707,
+    "D": 0.1589,
+    "A": 0.1705,
+    "rq": [
+     0.4889,
+     0.1818,
+     0.3293
+    ],
+    "hc_model": -1.0
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.164,
+    "home_form": 0.7407,
+    "home_rest": 6,
+    "away_attack": 0.8466,
+    "away_defense": 1.45,
+    "away_form": 0.3704,
+    "away_rest": 13,
+    "notes": [
+     "主样本 7 场 17 得 11 失",
+     "赛程间隔 6 天",
+     "主样本 7 场 8 得 17 失",
+     "赛程间隔 13 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "神户胜利船",
+   "away": "水户蜀葵",
+   "engine": {
+    "xg_h": 3.189,
+    "xg_a": 1.689,
+    "H": 0.6692,
+    "D": 0.1575,
+    "A": 0.1733,
+    "rq": [
+     0.4892,
+     0.18,
+     0.3308
+    ],
+    "hc_model": -1.25
+   },
+   "input": {
+    "home_attack": 1.3757,
+    "home_defense": 0.7407,
+    "home_form": 0.2469,
+    "home_rest": 6,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": -0.8,
+    "away_rest": 13,
+    "notes": [
+     "主样本 7 场 13 得 7 失",
+     "赛程间隔 6 天",
+     "主样本 7 场 5 得 15 失",
+     "赛程间隔 13 天"
+    ]
+   }
+  }
+ ]
+}

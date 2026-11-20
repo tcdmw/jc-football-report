@@ -1,0 +1,100 @@
+{
+ "collectedAt": "2026-11-19T15:37:45",
+ "source": "dongqiudi_getMatchTips_ExpertPlan",
+ "items": [
+  {
+   "no": 1,
+   "id": "3092384",
+   "mid": "54601643",
+   "dqdHome": "赫根女足",
+   "dqdAway": "曼城女足",
+   "matched": true,
+   "planTotal": "79",
+   "isUnlock": 1,
+   "hc": -1.5,
+   "ouLine": 3.5,
+   "ouRaw": "3.5",
+   "score": [
+    0,
+    2
+   ],
+   "judged": [
+    {
+     "play": "总进球数",
+     "label": "小球",
+     "count": 24,
+     "rate": 72,
+     "judge": "对"
+    },
+    {
+     "play": "总进球数",
+     "label": "大球",
+     "count": 9,
+     "rate": 28,
+     "judge": "错"
+    },
+    {
+     "play": "主客队",
+     "label": "下盘",
+     "count": 43,
+     "rate": 93,
+     "judge": "错"
+    },
+    {
+     "play": "主客队",
+     "label": "上盘",
+     "count": 3,
+     "rate": 7,
+     "judge": "对"
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "id": "3092385",
+   "mid": "54601640",
+   "dqdHome": "皇家马德里女足",
+   "dqdAway": "国际米兰女足",
+   "matched": true,
+   "planTotal": "95",
+   "isUnlock": 1,
+   "hc": 2.0,
+   "ouLine": 3.75,
+   "ouRaw": "3.5/4",
+   "score": [
+    3,
+    1
+   ],
+   "judged": [
+    {
+     "play": "总进球数",
+     "label": "小球",
+     "count": 10,
+     "rate": 33,
+     "judge": "错"
+    },
+    {
+     "play": "总进球数",
+     "label": "大球",
+     "count": 20,
+     "rate": 67,
+     "judge": "对"
+    },
+    {
+     "play": "主客队",
+     "label": "下盘",
+     "count": 6,
+     "rate": 9,
+     "judge": "走"
+    },
+    {
+     "play": "主客队",
+     "label": "上盘",
+     "count": 59,
+     "rate": 91,
+     "judge": "走"
+    }
+   ]
+  }
+ ]
+}

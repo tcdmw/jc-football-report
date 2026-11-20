@@ -1,0 +1,489 @@
+{
+ "titanId": "2981581",
+ "dqdMatchId": "54419578",
+ "home": "直布罗陀",
+ "away": "马耳他",
+ "pageHome": "直布罗陀",
+ "pageAway": "马耳他",
+ "kickoff": "03:45",
+ "league": "欧国联",
+ "pageScore": "1 - 1",
+ "planTotal": "120",
+ "planId": 8174116,
+ "isUnlock": 1,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "总进球数",
+   "count": 48,
+   "options": [
+    {
+     "label": "小球",
+     "rate": 56,
+     "count": 27
+    },
+    {
+     "label": "大球",
+     "rate": 44,
+     "count": 21
+    }
+   ]
+  },
+  {
+   "play": "主客队",
+   "count": 72,
+   "options": [
+    {
+     "label": "下盘",
+     "rate": 75,
+     "count": 54
+    },
+    {
+     "label": "上盘",
+     "rate": 25,
+     "count": 18
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 1,
+   "left_times": 0,
+   "plan_id": 8174116,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "0": 27,
+      "1": 0,
+      "2": 21,
+      "count": 48,
+      "rate0": 56,
+      "rate2": 44,
+      "rate0_desc": "小球",
+      "rate2_desc": "大球",
+      "play_type": "总进球数"
+     },
+     {
+      "0": 54,
+      "1": 0,
+      "2": 18,
+      "count": 72,
+      "rate0": 75,
+      "rate2": 25,
+      "rate0_desc": "下盘",
+      "rate2_desc": "上盘",
+      "play_type": "主客队"
+     }
+    ],
+    "count": "120"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": {
+   "away": {
+    "draw": 0,
+    "loss": 0,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 0
+   },
+   "home": {
+    "draw": 0,
+    "loss": 0,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 0
+   },
+   "recent": {
+    "draw": 2,
+    "loss": 8,
+    "penalty": 10,
+    "red_card": 0,
+    "win": 10,
+    "yellow_card": 68
+   },
+   "referee": {
+    "logo": "https://sd.qunliao.info/fastdfs7/M00/B1/B2/rBUC6GbgAXaAaAESAAAY2qqva9k484.jpg",
+    "name": "巴拉兹-贝尔克",
+    "nationality_name": "匈牙利",
+    "scheme": "dongqiudi://v1/data/player/50364210"
+   }
+  },
+  "PersonAnalyse": {
+   "team_a": [],
+   "team_b": [
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>2</span>场国家队比赛，助攻<span class='backend-select-num-bold'>2</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>6</span>场，球队胜率<span class='backend-select-num-bold'>33%</span>、不败率<span class='backend-select-num-bold'>50%</span>、场均进球<span class='backend-select-num-bold'>1.0</span>、场均丢球<span class='backend-select-num-bold'>1.7</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>4</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>75%</span>、场均进球<span class='backend-select-num-bold'>1.5</span>、场均丢球<span class='backend-select-num-bold'>0.8</span></span>",
+     "name": "舒阿勒夫",
+     "person_id": 480198,
+     "scheme": "dongqiudi://v1/data/player/50480198"
+    }
+   ]
+  },
+  "DarkAlarm": {
+   "dest_index": 6,
+   "dest_time": "11-17 03:40",
+   "label": "冷门预警",
+   "ori_index": 8,
+   "ori_time": "11-16 19:55",
+   "range_value": "33",
+   "tip": "主胜赔率累计浮动达到33%",
+   "title": "主胜预警"
+  },
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.84",
+     "cmp": "",
+     "hdp": "受一球",
+     "home": "1.00"
+    },
+    "trans": {
+     "away": "0.76",
+     "cmp": "",
+     "hdp": "受一球",
+     "home": "0.86"
+    }
+   },
+   "euro": {
+    "away": "1.38",
+    "cmp": "澳彩",
+    "hdp": "3.92",
+    "home": "7.70"
+   },
+   "over_under": {
+    "init": {
+     "away": "1.04",
+     "cmp": "",
+     "hdp": "2",
+     "home": "0.76"
+    },
+    "trans": {
+     "away": "0.69",
+     "cmp": "",
+     "hdp": "2/2.5",
+     "home": "0.94"
+    }
+   }
+  },
+  "Forecast": {
+   "data_num": "293066",
+   "forecast_A": "56",
+   "forecast_B": "44",
+   "hdp": "2",
+   "hdp_float": 2,
+   "match_id": "4419578",
+   "result": "3"
+  },
+  "KeyDes": {
+   "content": null
+  },
+  "WsNews": [],
+  "TeamDesStrength": {
+   "team_A": null,
+   "team_B": null
+  },
+  "TeamDesInjury": {
+   "team_A": null,
+   "team_B": null
+  },
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "10%(10)",
+       "gs": "18%(4)",
+       "time": "1-15"
+      },
+      {
+       "ga": "18%(18)",
+       "gs": "23%(5)",
+       "time": "16-30"
+      },
+      {
+       "ga": "17%(17)",
+       "gs": "14%(3)",
+       "time": "31-45"
+      },
+      {
+       "ga": "18%(18)",
+       "gs": "18%(4)",
+       "time": "46-60"
+      },
+      {
+       "ga": "14%(14)",
+       "gs": "18%(4)",
+       "time": "61-75"
+      },
+      {
+       "ga": "22%(22)",
+       "gs": "9%(2)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "6%(2)",
+       "gs": "14%(2)",
+       "time": "1-15"
+      },
+      {
+       "ga": "23%(8)",
+       "gs": "21%(3)",
+       "time": "16-30"
+      },
+      {
+       "ga": "14%(5)",
+       "gs": "14%(2)",
+       "time": "31-45"
+      },
+      {
+       "ga": "11%(4)",
+       "gs": "29%(4)",
+       "time": "46-60"
+      },
+      {
+       "ga": "23%(8)",
+       "gs": "14%(2)",
+       "time": "61-75"
+      },
+      {
+       "ga": "23%(8)",
+       "gs": "7%(1)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 99,
+    "ga_total_tw": 35,
+    "gs_total_fi": 22,
+    "gs_total_tw": 14,
+    "team_name": "直布罗陀"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "9%(6)",
+       "gs": "9%(3)",
+       "time": "1-15"
+      },
+      {
+       "ga": "18%(12)",
+       "gs": "6%(2)",
+       "time": "16-30"
+      },
+      {
+       "ga": "14%(9)",
+       "gs": "20%(7)",
+       "time": "31-45"
+      },
+      {
+       "ga": "14%(9)",
+       "gs": "34%(12)",
+       "time": "46-60"
+      },
+      {
+       "ga": "17%(11)",
+       "gs": "11%(4)",
+       "time": "61-75"
+      },
+      {
+       "ga": "29%(19)",
+       "gs": "20%(7)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "3%(1)",
+       "gs": "12%(2)",
+       "time": "1-15"
+      },
+      {
+       "ga": "20%(6)",
+       "gs": "6%(1)",
+       "time": "16-30"
+      },
+      {
+       "ga": "10%(3)",
+       "gs": "29%(5)",
+       "time": "31-45"
+      },
+      {
+       "ga": "20%(6)",
+       "gs": "18%(3)",
+       "time": "46-60"
+      },
+      {
+       "ga": "13%(4)",
+       "gs": "12%(2)",
+       "time": "61-75"
+      },
+      {
+       "ga": "33%(10)",
+       "gs": "24%(4)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 66,
+    "ga_total_tw": 30,
+    "gs_total_fi": 35,
+    "gs_total_tw": 17,
+    "team_name": "马耳他"
+   }
+  },
+  "Bf_Distribute": {
+   "draw": {
+    "bl_hot": 0,
+    "hot_index": "-37",
+    "number": "61716",
+    "price": "3.9",
+    "profit": "122498",
+    "rate": "17.06"
+   },
+   "lose": {
+    "bl_hot": 1,
+    "hot_index": "27",
+    "number": "267723",
+    "price": "1.69",
+    "profit": "-89262",
+    "rate": "73.6"
+   },
+   "text_1": "适中",
+   "text_1_red": 0,
+   "text_2": "客胜",
+   "win": {
+    "bl_hot": 0,
+    "hot_index": "-42",
+    "number": "33751",
+    "price": "6.8",
+    "profit": "133683",
+    "rate": "9.34"
+   }
+  },
+  "Bf_Transaction": {
+   "buy": {
+    "draw": "14215",
+    "lose": "114876",
+    "win": "18236"
+   },
+   "sell": {
+    "draw": "31298",
+    "lose": "92801",
+    "win": "5754"
+   },
+   "text_1": "更看好",
+   "text_2": "客胜",
+   "trend": [
+    {
+     "attribute": 1,
+     "deal_percent": 3.51,
+     "deal_price": 1.69,
+     "deal_time": "2026-11-17 03:43:17",
+     "deal_volume": 7219,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 7.16,
+     "deal_price": 1.68,
+     "deal_time": "2026-11-17 03:42:06",
+     "deal_volume": 18303,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.53,
+     "deal_price": 1.68,
+     "deal_time": "2026-11-17 03:38:04",
+     "deal_volume": 8207,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 4.68,
+     "deal_price": 6.8,
+     "deal_time": "2026-11-17 03:38:04",
+     "deal_volume": 474,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 6.13,
+     "deal_price": 1.69,
+     "deal_time": "2026-11-17 03:34:41",
+     "deal_volume": 13619,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 6.05,
+     "deal_price": 6.8,
+     "deal_time": "2026-11-17 03:33:33",
+     "deal_volume": 559,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.51,
+     "deal_price": 1.68,
+     "deal_time": "2026-11-17 03:33:33",
+     "deal_volume": 5318,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 4.71,
+     "deal_price": 1.69,
+     "deal_time": "2026-11-17 03:32:24",
+     "deal_volume": 9575,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.35,
+     "deal_price": 6.6,
+     "deal_time": "2026-11-17 03:27:50",
+     "deal_volume": 287,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 6.6,
+     "deal_price": 1.68,
+     "deal_time": "2026-11-17 03:26:46",
+     "deal_volume": 12297,
+     "result": 3,
+     "tab_type": 3
+    }
+   ]
+  },
+  "AigcMatchPredictions": {
+   "match_id": 4419578,
+   "predictions": []
+  }
+ },
+ "userId": 0,
+ "vipType": -1
+}

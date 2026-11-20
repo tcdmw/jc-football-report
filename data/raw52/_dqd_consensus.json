@@ -1,0 +1,60 @@
+{
+ "source": "dongqiudi_getMatchTips",
+ "total": 4,
+ "matched": [
+  {
+   "titanId": "3001038",
+   "dqdMatchId": "54596071",
+   "home": "肯尼亚",
+   "away": "南非",
+   "pageScore": "",
+   "planTotal": "69"
+  },
+  {
+   "titanId": "3001050",
+   "dqdMatchId": "54596091",
+   "home": "塞拉利昂",
+   "away": "刚果民主共和国",
+   "pageScore": "",
+   "planTotal": "56"
+  },
+  {
+   "titanId": "3001086",
+   "dqdMatchId": "54596090",
+   "home": "利比亚",
+   "away": "突尼斯",
+   "pageScore": "",
+   "planTotal": "57"
+  },
+  {
+   "titanId": "3001098",
+   "dqdMatchId": "54596086",
+   "home": "多哥",
+   "away": "阿尔及利亚",
+   "pageScore": "",
+   "planTotal": "69"
+  }
+ ],
+ "missed": [
+  {
+   "titanId": "3001027",
+   "home": "甘比亚",
+   "away": "象牙海岸",
+   "kickoff": "2026-11-18 00:00",
+   "tried": [
+    "2026-11-17",
+    "2026-11-18"
+   ]
+  },
+  {
+   "titanId": "3001134",
+   "home": "几内亚比索",
+   "away": "马达加斯加",
+   "kickoff": "2026-11-18 00:00",
+   "tried": [
+    "2026-11-17",
+    "2026-11-18"
+   ]
+  }
+ ]
+}

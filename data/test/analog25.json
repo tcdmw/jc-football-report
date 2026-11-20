@@ -1,0 +1,57 @@
+{
+ "batch": 25,
+ "source": "data/raw25",
+ "rawDir": "data/raw25",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.541Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2993859",
+   "lg": "意甲",
+   "kickoff": "2026-11-09 01:30",
+   "home": "国际米兰",
+   "away": "科莫",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.82,
+   "aw": 1.02,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 7,
+   "sameHc": 7,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 7
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 14.3,
+   "pdown": 85.7,
+   "wdl": {
+    "平": 4,
+    "客": 2,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-2",
+     2
+    ],
+    [
+     "1-1",
+     2
+    ],
+    [
+     "2-2",
+     1
+    ]
+   ],
+   "avgGoal": 3.57
+  }
+ ]
+}

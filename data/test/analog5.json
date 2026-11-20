@@ -1,0 +1,116 @@
+{
+ "batch": 5,
+ "source": "data/raw5",
+ "rawDir": "data/raw5",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:54.390Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3019186",
+   "lg": "德乙",
+   "kickoff": "2026-11-07 20:00",
+   "home": "荷尔斯泰因",
+   "away": "比勒菲尔德",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 0.77,
+   "aw": 0.96,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 2,
+   "id": "3019188",
+   "lg": "德乙",
+   "kickoff": "2026-11-07 20:00",
+   "home": "纽伦堡",
+   "away": "达姆施塔特",
+   "hc": 0.75,
+   "line": 0.75,
+   "favIsHome": true,
+   "hw": 0.76,
+   "aw": 0.87,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 3,
+   "id": "3019190",
+   "lg": "德乙",
+   "kickoff": "2026-11-07 20:00",
+   "home": "奥斯纳布鲁克",
+   "away": "凯泽斯劳滕",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 0.73,
+   "aw": 1.02,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  }
+ ]
+}

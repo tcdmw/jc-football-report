@@ -1,0 +1,88 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [
+  {
+   "no": 2,
+   "reason": "样本不足（主队主场 P=2，客队客场 P=6，任一 <3），拒跑防单场静默外推"
+  }
+ ],
+ "preds": [
+  {
+   "no": 1,
+   "home": "津巴布韦",
+   "away": "赤道几内亚",
+   "engine": {
+    "xg_h": 1.366,
+    "xg_a": 0.882,
+    "H": 0.4709,
+    "D": 0.2972,
+    "A": 0.2319,
+    "rq": [
+     0.4709,
+     0.2972,
+     0.2319
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 0.9259,
+    "home_defense": 0.9259,
+    "home_form": 0.0,
+    "home_rest": 4,
+    "away_attack": 0.7,
+    "away_defense": 0.9877,
+    "away_form": 0.0,
+    "away_rest": 4,
+    "notes": [
+     "主样本 4 场 5 得 5 失",
+     "赛程间隔 4 天",
+     "主样本 3 场 2 得 4 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "苏丹",
+   "away": "塞内加尔",
+   "engine": {
+    "xg_h": 1.295,
+    "xg_a": 1.271,
+    "H": 0.3624,
+    "D": 0.2863,
+    "A": 0.3513,
+    "rq": [
+     0.8419,
+     0.104,
+     0.0541
+    ],
+    "hc_model": 1.75
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.9877,
+    "home_form": 0.0,
+    "home_rest": 4,
+    "away_attack": 0.9524,
+    "away_defense": 1.2698,
+    "away_form": 0.0,
+    "away_rest": 4,
+    "notes": [
+     "主样本 3 场 1 得 4 失",
+     "赛程间隔 4 天",
+     "主样本 7 场 9 得 12 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  }
+ ]
+}

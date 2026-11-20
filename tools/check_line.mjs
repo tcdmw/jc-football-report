@@ -9,15 +9,22 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
-const [DIR, META, PREDS, ENGINE] = process.argv.slice(2);
+const [DIR, META, PREDS, ENGINE, MATCHES] = process.argv.slice(2);
 if (!DIR || !META || !PREDS || !ENGINE) {
-  console.log('用法: node tools/check_line.mjs <批次目录> <meta.json> <preds.json> <engine.json>');
+  console.log('用法: node tools/check_line.mjs <批次目录> <meta.json> <preds.json> <engine.json> [matches.json]');
   process.exit(2);
 }
 
 const items = JSON.parse(readFileSync(META, 'utf8')).matches;
 const preds = JSON.parse(readFileSync(PREDS, 'utf8')).preds;
 const eng = JSON.parse(readFileSync(ENGINE, 'utf8')).preds;
+// 可选第 5 参：matches.json，传入则做“盘口×基本面”交叉验证；不传则只做盘口统计（向后兼容）
+let matchItems = null;
+if (MATCHES && existsSync(MATCHES)) {
+  matchItems = JSON.parse(readFileSync(MATCHES, 'utf8')).matches;
+}
+
+const sideName = { home: '主', away: '客', neutral: '中性', none: '平手' };
 
 const pct = x => (x * 100).toFixed(1);
 function argmax3(h, d, a) {
@@ -33,6 +40,103 @@ function median(arr) {
   return n % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
 }
 const dirLabel = { H: '主', D: '平', A: '客' };
+
+// 基本面方向：仅用 matches 里结构化、可复核字段（整体实力/近期状态/体能），不做文本 NLP。
+// 必发资金（真实成交量占比）单独输出，不并入实力评分；伤停文本只标注存在性。
+function analyzeFundamentals(match) {
+  const t = match.team || {};
+  const ov = t.overall || {};
+  const form = t.form || {};
+  const lg = t.leagueOf || {};
+  const rest = match.restDays || {};
+  const dims = [];
+
+  // 维度1 整体实力（同联赛、积分差≥4 且排名差≥2 才出方向）
+  let v1 = 'neutral', d1 = '无 overall';
+  if (ov.home && ov.away && lg.home === lg.away) {
+    const dPts = ov.home.points - ov.away.points;
+    const dRank = ov.away.rank - ov.home.rank; // 正=主队排名靠前
+    if (dPts >= 4 && dRank >= 2) v1 = 'home';
+    else if (dPts <= -4 && dRank <= -2) v1 = 'away';
+    d1 = `积分差${dPts >= 0 ? '+' : ''}${dPts} 排名差${dRank >= 0 ? '+' : ''}${dRank}`;
+  }
+  dims.push({ key: '实力', vote: v1, detail: d1 });
+
+  // 维度2 近期状态（近 6 场净胜球差≥3 才出方向）
+  let v2 = 'neutral', d2 = '无 form';
+  if (form.home && form.away) {
+    const hGD = form.home.gf - form.home.ga;
+    const aGD = form.away.gf - form.away.ga;
+    const d = hGD - aGD;
+    if (d >= 3) v2 = 'home';
+    else if (d <= -3) v2 = 'away';
+    d2 = `近6净胜球 主${hGD >= 0 ? '+' : ''}${hGD}/客${aGD >= 0 ? '+' : ''}${aGD} 差${d >= 0 ? '+' : ''}${d}`;
+  }
+  dims.push({ key: '状态', vote: v2, detail: d2 });
+
+  // 维度3 体能（休息天数差≥3 才出方向）
+  let v3 = 'neutral', d3 = '无 rest';
+  if (typeof rest.home === 'number' && typeof rest.away === 'number') {
+    const d = rest.home - rest.away;
+    if (d >= 3) v3 = 'home';
+    else if (d <= -3) v3 = 'away';
+    d3 = `休息 主${rest.home}/客${rest.away} 差${d >= 0 ? '+' : ''}${d}`;
+  }
+  dims.push({ key: '体能', vote: v3, detail: d3 });
+
+  const homeVotes = dims.filter(x => x.vote === 'home').length;
+  const awayVotes = dims.filter(x => x.vote === 'away').length;
+  let fundSide = 'neutral';
+  if (homeVotes > awayVotes) fundSide = 'home';
+  else if (awayVotes > homeVotes) fundSide = 'away';
+
+  // 必发资金方向（独立，成交占比差≥10 个百分点）
+  const flow = { vote: 'neutral', detail: '无必发数据' };
+  const dqd = match.dqdIntel;
+  if (dqd && Array.isArray(dqd.betfair)) {
+    const h = dqd.betfair.find(b => b.option === '主胜');
+    const a = dqd.betfair.find(b => b.option === '客胜');
+    if (h && a) {
+      const hr = Number(h.ratio), ar = Number(a.ratio), d = hr - ar;
+      if (d >= 10) flow.vote = 'home';
+      else if (d <= -10) flow.vote = 'away';
+      flow.detail = `必发成交占比 主${hr}%/客${ar}% 差${d >= 0 ? '+' : ''}${d}`;
+    }
+  }
+  const hasInjury = !!(dqd && Array.isArray(dqd.injuries) && dqd.injuries.length);
+
+  return { dims, fundSide, flow, hasInjury, available: !!(ov.home && ov.away) };
+}
+
+// 盘口方向 + 基本面方向 → 一致性标记
+function judgeConsistency(fund, lineDir, advanceMajority, retreatMajority) {
+  if (!fund.available) return { mark: '数据不足', note: '缺 overall，无法交叉，仅看盘口' };
+  if (lineDir === 'none') {
+    return {
+      mark: '盘口退平',
+      note: fund.fundSide === 'neutral'
+        ? '盘口已退到平手，基本面亦无明显方向'
+        : `盘口退到平手，基本面方向偏“${sideName[fund.fundSide]}”，以基本面/即时盘为准`
+    };
+  }
+  if (fund.fundSide === 'neutral') return { mark: '中性', note: '基本面差距小，盘口无法被证实或证伪' };
+  if (fund.fundSide === lineDir) {
+    return {
+      mark: '一致',
+      note: advanceMajority ? '升盘有基本面实力支撑，信号相对可信（仍不追深盘）'
+        : retreatMajority ? '退盘与基本面弱化方向一致'
+        : '盘口方向与基本面一致'
+    };
+  }
+  // 背离
+  if (advanceMajority) {
+    return { mark: '背离', note: `升盘强化“${sideName[lineDir]}”但基本面偏“${sideName[fund.fundSide]}”，资金热/诱盘嫌疑，不追` };
+  }
+  if (retreatMajority) {
+    return { mark: '背离', note: `退盘弱化“${sideName[lineDir]}”但基本面偏“${sideName[fund.fundSide]}”，或为资金热下盘，该方未必不行` };
+  }
+  return { mark: '背离', note: `盘口方向“${sideName[lineDir]}”与基本面“${sideName[fund.fundSide]}”不一致` };
+}
 
 let conflicts = 0;
 let skipped = 0;
@@ -78,11 +182,16 @@ for (const it of items) {
   const weakCount = liveAbs.filter(x => x <= 0.25).length;
   const retreatRatio = valid ? retreat / valid : 0;
   const advanceRatio = valid ? advance / valid : 0;
+  const flatRatio = valid ? same / valid : 0;
+  const changedRatio = valid ? (retreat + advance) / valid : 1;
+  // 盘口冻结：变化家数 ≤20% 且绝对值中位未变（至少 8 家样本）。
+  // 语义：没有公司愿意为让球方加深/减弱，不等于“定价充分”，需与基本面/战意交叉判读。
+  const frozen = valid >= 8 && changedRatio <= 0.2 && medLiveAbs === medOpenAbs;
 
   // 双轨模型方向
   const pred = preds.find(p => p.no === it.no);
   const e = eng.find(p => p.no === it.no);
-  const anaDir = pred ? argmax3(pred.probs.H, pred.probs.D, pred.probs.A) : null;
+  const anaDir = pred && pred.probs ? argmax3(pred.probs.H, pred.probs.D, pred.probs.A) : null;
   const engDir = e ? argmax3(e.engine.H, e.engine.D, e.engine.A) : null;
 
   // 让球方对应的模型方向（客队让球→A；主队让球→H）
@@ -107,10 +216,12 @@ for (const it of items) {
     level = 'rq';
   } else if (modelOnFav && advanceMajority) {
     flag = '强化';
+  } else if (frozen) {
+    flag = '冻结';
   }
 
-  const anaTxt = pred ? `${pct(pred.probs.H)}/${pct(pred.probs.D)}/${pct(pred.probs.A)}` : 'n/a';
-  const engTxt = e ? `${pct(e.engine.H)}/${pct(e.engine.D)}/${pct(e.engine.A)}` : 'n/a';
+  const anaTxt = pred && pred.probs ? `${pct(pred.probs.H)}/${pct(pred.probs.D)}/${pct(pred.probs.A)}` : 'n/a';
+  const engTxt = e && e.engine ? `${pct(e.engine.H)}/${pct(e.engine.D)}/${pct(e.engine.A)}` : 'n/a';
   console.log(
     `  ${level === 'hda' ? '⚠' : '✓'} ${it.id} ${it.home || ''} vs ${it.away || ''} ` +
     `[让球方:${favName}] 退${retreat}/升${advance}/平${same}` +
@@ -126,6 +237,27 @@ for (const it of items) {
     console.log(
       `      · 让球方虽退盘，但即时仍让 ${medLiveAbs}（半球以上），胜负方向仍倾向“${favName}”；` +
       `退盘主要影响让球，深盘不追，不翻转 HDA。`);
+  } else if (frozen) {
+    console.log(
+      `      · ${valid} 家中 ${same} 家让球未动（${Math.round(flatRatio * 100)}%），盘口冻结：` +
+      `没有公司愿意为“${favName}”加深让球，不等于定价充分，须与基本面/战意交叉判读，不因冻结加信心。`);
+  }
+
+  // 盘口×基本面交叉验证（仅当传入 matches.json）
+  if (matchItems) {
+    const match = matchItems.find(x => x.no === it.no);
+    if (match) {
+      // 盘口方向：多数退盘且已弱到平/半 → 视为退到平手；否则让球方即盘口方向
+      let lineDir = favSide;
+      if (retreatMajority && medLiveAbs <= 0.25) lineDir = 'none';
+      const fund = analyzeFundamentals(match);
+      const cj = judgeConsistency(fund, lineDir, advanceMajority, retreatMajority);
+      console.log(`      ◇ 基本面×盘口：${cj.mark}（实力方向:${sideName[fund.fundSide]}；盘口方向:${sideName[lineDir]}）`);
+      const dimTxt = fund.dims.map(d => `${d.key}${sideName[d.vote]}`).join(' ');
+      console.log(`          ${dimTxt} | 资金:${sideName[fund.flow.vote]}${fund.hasInjury ? ' | 有伤停情报' : ''}`);
+      if (fund.flow.detail !== '无必发数据') console.log(`          ${fund.flow.detail}`);
+      console.log(`          ${cj.note}`);
+    }
   }
 }
 

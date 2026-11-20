@@ -1,0 +1,257 @@
+{
+ "titanId": "3001086",
+ "dqdMatchId": "54596090",
+ "home": "利比亚",
+ "away": "突尼斯",
+ "pageHome": "利比亚",
+ "pageAway": "突尼斯",
+ "kickoff": "00:00",
+ "league": "非洲杯",
+ "pageScore": "",
+ "planTotal": "57",
+ "planId": 8185517,
+ "isUnlock": 0,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "总进球数",
+   "count": 27,
+   "options": []
+  },
+  {
+   "play": "主客队",
+   "count": 30,
+   "options": []
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 0,
+   "left_times": 0,
+   "plan_id": 8185517,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "count": 27,
+      "play_type": "总进球数"
+     },
+     {
+      "count": 30,
+      "play_type": "主客队"
+     }
+    ],
+    "count": "57"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": null,
+  "PersonAnalyse": {
+   "team_a": [
+    {
+     "content": "<br><span class='backend-select-text-indent'>本赛季<span class='backend-select-num-bold'>3</span>场非洲杯比赛，进<span class='backend-select-num-bold'>1</span>球，助攻<span class='backend-select-num-bold'>1</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>6</span>场，球队胜率<span class='backend-select-num-bold'>33%</span>、不败率<span class='backend-select-num-bold'>83%</span>、场均进球<span class='backend-select-num-bold'>1.5</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>4</span>场，球队胜率<span class='backend-select-num-bold'>25%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>0.8</span>、场均丢球<span class='backend-select-num-bold'>0.5</span></span>",
+     "name": "马雷米",
+     "person_id": 539236,
+     "scheme": "dongqiudi://v1/data/player/50539236"
+    }
+   ],
+   "team_b": []
+  },
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.79",
+     "cmp": "",
+     "hdp": "受平/半",
+     "home": "0.91"
+    },
+    "trans": []
+   },
+   "euro": {
+    "away": "1.99",
+    "cmp": "澳彩",
+    "hdp": "2.92",
+    "home": "3.01"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.81",
+     "cmp": "",
+     "hdp": "2",
+     "home": "0.81"
+    },
+    "trans": []
+   }
+  },
+  "Forecast": {
+   "data_num": "207250",
+   "forecast_A": "42",
+   "forecast_B": "58",
+   "hdp": "2",
+   "hdp_float": 2,
+   "match_id": "4596090",
+   "result": ""
+  },
+  "KeyDes": [],
+  "WsNews": [],
+  "TeamDesStrength": [],
+  "TeamDesInjury": [],
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "10%(4)",
+       "gs": "5%(2)",
+       "time": "1-15"
+      },
+      {
+       "ga": "10%(4)",
+       "gs": "16%(6)",
+       "time": "16-30"
+      },
+      {
+       "ga": "23%(9)",
+       "gs": "26%(10)",
+       "time": "31-45"
+      },
+      {
+       "ga": "15%(6)",
+       "gs": "24%(9)",
+       "time": "46-60"
+      },
+      {
+       "ga": "13%(5)",
+       "gs": "5%(2)",
+       "time": "61-75"
+      },
+      {
+       "ga": "28%(11)",
+       "gs": "24%(9)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "7%(1)",
+       "gs": "7%(1)",
+       "time": "1-15"
+      },
+      {
+       "ga": "13%(2)",
+       "gs": "14%(2)",
+       "time": "16-30"
+      },
+      {
+       "ga": "13%(2)",
+       "gs": "29%(4)",
+       "time": "31-45"
+      },
+      {
+       "ga": "20%(3)",
+       "gs": "14%(2)",
+       "time": "46-60"
+      },
+      {
+       "ga": "7%(1)",
+       "gs": "14%(2)",
+       "time": "61-75"
+      },
+      {
+       "ga": "40%(6)",
+       "gs": "21%(3)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 39,
+    "ga_total_tw": 15,
+    "gs_total_fi": 38,
+    "gs_total_tw": 14,
+    "team_name": "利比亚"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "11%(5)",
+       "gs": "16%(8)",
+       "time": "1-15"
+      },
+      {
+       "ga": "9%(4)",
+       "gs": "8%(4)",
+       "time": "16-30"
+      },
+      {
+       "ga": "13%(6)",
+       "gs": "20%(10)",
+       "time": "31-45"
+      },
+      {
+       "ga": "23%(11)",
+       "gs": "14%(7)",
+       "time": "46-60"
+      },
+      {
+       "ga": "21%(10)",
+       "gs": "16%(8)",
+       "time": "61-75"
+      },
+      {
+       "ga": "23%(11)",
+       "gs": "26%(13)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "9%(3)",
+       "gs": "14%(3)",
+       "time": "1-15"
+      },
+      {
+       "ga": "9%(3)",
+       "gs": "14%(3)",
+       "time": "16-30"
+      },
+      {
+       "ga": "12%(4)",
+       "gs": "19%(4)",
+       "time": "31-45"
+      },
+      {
+       "ga": "22%(7)",
+       "gs": "14%(3)",
+       "time": "46-60"
+      },
+      {
+       "ga": "25%(8)",
+       "gs": "19%(4)",
+       "time": "61-75"
+      },
+      {
+       "ga": "22%(7)",
+       "gs": "19%(4)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 47,
+    "ga_total_tw": 32,
+    "gs_total_fi": 50,
+    "gs_total_tw": 21,
+    "team_name": "突尼斯"
+   }
+  },
+  "Bf_Distribute": [],
+  "Bf_Transaction": []
+ },
+ "userId": 0,
+ "vipType": -1
+}

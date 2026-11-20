@@ -1,0 +1,71 @@
+{
+ "batch": 30,
+ "source": "data/raw30",
+ "rawDir": "data/raw30",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:57.062Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3092381",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-12 01:45",
+   "home": "奥哈瓦里(女)",
+   "away": "科治(女)",
+   "hc": -1,
+   "line": 1,
+   "favIsHome": false,
+   "hw": 0.76,
+   "aw": 0.94,
+   "src": "澳",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 2,
+   "id": "3092382",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-12 04:00",
+   "home": "尤文图斯(女)",
+   "away": "里昂(女)",
+   "hc": -2.5,
+   "line": 2.5,
+   "favIsHome": false,
+   "hw": 0.88,
+   "aw": 0.82,
+   "src": "澳",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  }
+ ]
+}

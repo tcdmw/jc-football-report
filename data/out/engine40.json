@@ -1,0 +1,49 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 1,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "乌法",
+   "away": "科斯特罗马斯巴达",
+   "engine": {
+    "xg_h": 1.847,
+    "xg_a": 0.643,
+    "H": 0.6545,
+    "D": 0.2307,
+    "A": 0.1148,
+    "rq": [
+     0.6545,
+     0.2307,
+     0.1148
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 1.07,
+    "home_defense": 0.7,
+    "home_form": -0.1235,
+    "home_rest": 9,
+    "away_attack": 0.9053,
+    "away_defense": 0.823,
+    "away_form": -0.6173,
+    "away_rest": 7,
+    "notes": [
+     "主样本 9 场 13 得 6 失",
+     "赛程间隔 9 天",
+     "主样本 9 场 11 得 10 失",
+     "赛程间隔 7 天"
+    ]
+   }
+  }
+ ]
+}

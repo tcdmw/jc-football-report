@@ -1,0 +1,105 @@
+{
+ "batch": 28,
+ "source": "data/raw28",
+ "rawDir": "data/raw28",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.847Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2998149",
+   "lg": "丹麦甲",
+   "kickoff": "2026-11-10 02:00",
+   "home": "哈维德夫",
+   "away": "阿尔胡斯费马",
+   "hc": 0.75,
+   "line": 0.75,
+   "favIsHome": true,
+   "hw": 1.08,
+   "aw": 0.81,
+   "src": "Crow",
+   "tierUsed": "L3",
+   "peers": 5,
+   "sameHc": 5,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 5
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": true,
+   "pud": 60,
+   "pdown": 40,
+   "wdl": {
+    "主": 3,
+    "平": 1,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "3-2",
+     2
+    ],
+    [
+     "2-2",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ]
+   ],
+   "avgGoal": 3.6
+  },
+  {
+   "no": 2,
+   "id": "3010470",
+   "lg": "罗甲",
+   "kickoff": "2026-11-10 02:00",
+   "home": "博托沙尼",
+   "away": "加拉迪",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 1.03,
+   "aw": 0.85,
+   "src": "Crow",
+   "tierUsed": "L3",
+   "peers": 8,
+   "sameHc": 8,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 8
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 25,
+   "pdown": 75,
+   "wdl": {
+    "平": 4,
+    "客": 2,
+    "主": 2
+   },
+   "topSc": [
+    [
+     "1-2",
+     2
+    ],
+    [
+     "1-1",
+     2
+    ],
+    [
+     "2-2",
+     1
+    ]
+   ],
+   "avgGoal": 3.38
+  }
+ ]
+}

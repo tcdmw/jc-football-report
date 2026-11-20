@@ -1,0 +1,56 @@
+{
+ "batch": 41,
+ "source": "data/raw40",
+ "rawDir": "data/raw40",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:58.194Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2996551",
+   "lg": "荷乙",
+   "kickoff": "2026-11-15 21:30",
+   "home": "马斯特里赫特",
+   "away": "维特斯",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.83,
+   "aw": 0.95,
+   "src": "澳",
+   "tierUsed": "L2",
+   "peers": 6,
+   "sameHc": 14,
+   "layerCounts": {
+    "L1": 2,
+    "L2": 6,
+    "L3": 14
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 5,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "0-0",
+     1
+    ],
+    [
+     "3-0",
+     1
+    ]
+   ],
+   "avgGoal": 3.17
+  }
+ ]
+}

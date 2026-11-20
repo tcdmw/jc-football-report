@@ -1,0 +1,83 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "皇家马德里(女)",
+   "away": "巴黎(女)",
+   "engine": {
+    "xg_h": 1.797,
+    "xg_a": 2.961,
+    "H": 0.214,
+    "D": 0.1732,
+    "A": 0.6128,
+    "rq": [
+     0.1036,
+     0.1105,
+     0.786
+    ],
+    "hc_model": -1.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.8889,
+    "home_form": 0.0,
+    "home_rest": 4,
+    "away_attack": 1.45,
+    "away_defense": 1.45,
+    "away_form": 0.8,
+    "away_rest": 4,
+    "notes": [
+     "主样本 5 场 12 得 6 失",
+     "赛程间隔 4 天",
+     "主样本 3 场 7 得 7 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "赫根(女)",
+   "away": "切尔西(女)",
+   "engine": {
+    "xg_h": 1.569,
+    "xg_a": 1.42,
+    "H": 0.4024,
+    "D": 0.2609,
+    "A": 0.3367,
+    "rq": [
+     0.841,
+     0.1006,
+     0.0583
+    ],
+    "hc_model": 2.0
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.8,
+    "home_rest": 4,
+    "away_attack": 1.45,
+    "away_defense": 0.7,
+    "away_form": 0.8,
+    "away_rest": 4,
+    "notes": [
+     "主样本 12 场 45 得 7 失",
+     "赛程间隔 4 天",
+     "主样本 4 场 17 得 1 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  }
+ ]
+}

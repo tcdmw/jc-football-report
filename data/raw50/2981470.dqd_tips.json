@@ -1,0 +1,580 @@
+{
+ "titanId": "2981470",
+ "dqdMatchId": "54419580",
+ "home": "希腊",
+ "away": "塞尔维亚",
+ "pageHome": "希腊",
+ "pageAway": "塞尔维亚",
+ "kickoff": "03:45",
+ "league": "欧国联",
+ "pageScore": "1 - 0",
+ "planTotal": "375",
+ "planId": 8180713,
+ "isUnlock": 1,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "竞彩胜平负",
+   "count": 51,
+   "options": [
+    {
+     "label": "负",
+     "rate": 33,
+     "count": 17
+    },
+    {
+     "label": "平",
+     "rate": 66,
+     "count": 34
+    },
+    {
+     "label": "胜",
+     "rate": 1,
+     "count": 0
+    }
+   ]
+  },
+  {
+   "play": "竞彩让球",
+   "count": 62,
+   "options": [
+    {
+     "label": "客队",
+     "rate": 14,
+     "count": 9
+    },
+    {
+     "label": "让平",
+     "rate": 46,
+     "count": 29
+    },
+    {
+     "label": "主队",
+     "rate": 40,
+     "count": 24
+    }
+   ]
+  },
+  {
+   "play": "总进球数",
+   "count": 155,
+   "options": [
+    {
+     "label": "小球",
+     "rate": 48,
+     "count": 75
+    },
+    {
+     "label": "大球",
+     "rate": 52,
+     "count": 80
+    }
+   ]
+  },
+  {
+   "play": "主客队",
+   "count": 116,
+   "options": [
+    {
+     "label": "下盘",
+     "rate": 76,
+     "count": 89
+    },
+    {
+     "label": "上盘",
+     "rate": 24,
+     "count": 27
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 1,
+   "left_times": 0,
+   "plan_id": 8180713,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "0": 17,
+      "1": 34,
+      "2": 0,
+      "count": 51,
+      "rate0": 33,
+      "rate1": 66,
+      "rate2": 1,
+      "rate0_desc": "负",
+      "rate1_desc": "平",
+      "rate2_desc": "胜",
+      "play_type": "竞彩胜平负"
+     },
+     {
+      "0": 9,
+      "1": 29,
+      "2": 24,
+      "count": 62,
+      "rate0": 14,
+      "rate1": 46,
+      "rate2": 40,
+      "rate0_desc": "客队",
+      "rate1_desc": "让平",
+      "rate2_desc": "主队",
+      "play_type": "竞彩让球"
+     },
+     {
+      "0": 75,
+      "1": 0,
+      "2": 80,
+      "count": 155,
+      "rate0": 48,
+      "rate2": 52,
+      "rate0_desc": "小球",
+      "rate2_desc": "大球",
+      "play_type": "总进球数"
+     },
+     {
+      "0": 89,
+      "1": 0,
+      "2": 27,
+      "count": 116,
+      "rate0": 76,
+      "rate2": 24,
+      "rate0_desc": "下盘",
+      "rate2_desc": "上盘",
+      "play_type": "主客队"
+     }
+    ],
+    "count": "375"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": {
+   "away": {
+    "draw": 0,
+    "loss": 0,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 0
+   },
+   "home": {
+    "draw": 0,
+    "loss": 2,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 7
+   },
+   "recent": {
+    "draw": 1,
+    "loss": 7,
+    "penalty": 4,
+    "red_card": 5,
+    "win": 12,
+    "yellow_card": 71
+   },
+   "referee": {
+    "logo": "https://sd.qunliao.info/fastdfs6/M00/0B/3C/rBUESWR4F9WAXUFGAAAcd00slvI708.jpg",
+    "name": "迈克尔-奥利弗",
+    "nationality_name": "英格兰",
+    "scheme": "dongqiudi://v1/data/player/50043647"
+   }
+  },
+  "PersonAnalyse": {
+   "team_a": [
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>当前国家队比赛连续进球荒<span class='backend-select-num-bold'>3</span>场</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>8</span>场，球队胜率<span class='backend-select-num-bold'>25%</span>、不败率<span class='backend-select-num-bold'>75%</span>、场均进球<span class='backend-select-num-bold'>0.9</span>、场均丢球<span class='backend-select-num-bold'>1.6</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>2</span>场，球队胜率<span class='backend-select-num-bold'>0%</span>、不败率<span class='backend-select-num-bold'>50%</span>、场均进球<span class='backend-select-num-bold'>0.0</span>、场均丢球<span class='backend-select-num-bold'>0.5</span></span>",
+     "name": "措利斯",
+     "person_id": 472388,
+     "scheme": "dongqiudi://v1/data/player/50472388"
+    }
+   ],
+   "team_b": []
+  },
+  "DarkAlarm": {
+   "dest_index": 6,
+   "dest_time": "11-17 03:44",
+   "label": "冷门预警",
+   "ori_index": 7.5,
+   "ori_time": "11-17 02:04",
+   "range_value": "25",
+   "tip": "客胜赔率累计浮动达到25%",
+   "title": "客胜预警"
+  },
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.84",
+     "cmp": "",
+     "hdp": "一/球半",
+     "home": "1.00"
+    },
+    "trans": {
+     "away": "0.93",
+     "cmp": "",
+     "hdp": "一球",
+     "home": "0.68"
+    }
+   },
+   "euro": {
+    "away": "6.10",
+    "cmp": "澳彩",
+    "hdp": "4.55",
+    "home": "1.37"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.93",
+     "cmp": "",
+     "hdp": "2.5/3",
+     "home": "0.87"
+    },
+    "trans": {
+     "away": "0.88",
+     "cmp": "",
+     "hdp": "2.5/3",
+     "home": "0.72"
+    }
+   }
+  },
+  "Forecast": {
+   "data_num": "268501",
+   "forecast_A": "68",
+   "forecast_B": "32",
+   "hdp": "2.5/3",
+   "hdp_float": 2.75,
+   "match_id": "4419580",
+   "result": "2"
+  },
+  "KeyDes": {
+   "content": null
+  },
+  "WsNews": [],
+  "TeamDesStrength": {
+   "team_A": [
+    {
+     "content": "防守方面，近10场希腊场均丢1.4球，相对于塞尔维亚的2.4球，希腊的防线更稳固。",
+     "label": "有利"
+    }
+   ],
+   "team_B": null
+  },
+  "TeamDesInjury": {
+   "team_A": [
+    {
+     "content": "希腊方面，库尔姆佩利斯（中场 出场13次 进球2个 助攻0次）,康斯坦泰利亚斯（中场 出场5次 进球0个 助攻0次）,本场因伤不能上场。",
+     "label": "不利"
+    }
+   ],
+   "team_B": [
+    {
+     "content": "塞尔维亚方面，阿列克萨-泰尔齐奇（后卫 出场9次 进球0个 助攻2次）,亚历山大-斯坦科维奇（中场 出场10次 进球1个 助攻0次）,本场因伤不能上场。",
+     "label": "不利"
+    },
+    {
+     "content": "塞尔维亚方面，帕夫洛维奇（后卫 出场15次 进球1个 助攻0次）,本场出战成疑。",
+     "label": "不利"
+    },
+    {
+     "content": "塞尔维亚方面，安德里亚-日夫科维奇（前锋 出场13次 进球1个 助攻3次）,瓦尼亚-德拉戈耶维奇（中场 出场3次 进球0个 助攻0次）,本场停赛不能上场。",
+     "label": "不利"
+    }
+   ]
+  },
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "12%(5)",
+       "gs": "14%(10)",
+       "time": "1-15"
+      },
+      {
+       "ga": "16%(7)",
+       "gs": "14%(10)",
+       "time": "16-30"
+      },
+      {
+       "ga": "21%(9)",
+       "gs": "17%(12)",
+       "time": "31-45"
+      },
+      {
+       "ga": "16%(7)",
+       "gs": "18%(13)",
+       "time": "46-60"
+      },
+      {
+       "ga": "16%(7)",
+       "gs": "18%(13)",
+       "time": "61-75"
+      },
+      {
+       "ga": "19%(8)",
+       "gs": "19%(14)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "12%(3)",
+       "gs": "10%(3)",
+       "time": "1-15"
+      },
+      {
+       "ga": "12%(3)",
+       "gs": "17%(5)",
+       "time": "16-30"
+      },
+      {
+       "ga": "23%(6)",
+       "gs": "10%(3)",
+       "time": "31-45"
+      },
+      {
+       "ga": "15%(4)",
+       "gs": "10%(3)",
+       "time": "46-60"
+      },
+      {
+       "ga": "23%(6)",
+       "gs": "34%(10)",
+       "time": "61-75"
+      },
+      {
+       "ga": "15%(4)",
+       "gs": "17%(5)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 43,
+    "ga_total_tw": 26,
+    "gs_total_fi": 72,
+    "gs_total_tw": 29,
+    "team_name": "希腊"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "15%(10)",
+       "gs": "12%(7)",
+       "time": "1-15"
+      },
+      {
+       "ga": "11%(7)",
+       "gs": "14%(8)",
+       "time": "16-30"
+      },
+      {
+       "ga": "25%(16)",
+       "gs": "19%(11)",
+       "time": "31-45"
+      },
+      {
+       "ga": "14%(9)",
+       "gs": "24%(14)",
+       "time": "46-60"
+      },
+      {
+       "ga": "26%(17)",
+       "gs": "12%(7)",
+       "time": "61-75"
+      },
+      {
+       "ga": "9%(6)",
+       "gs": "20%(12)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "13%(4)",
+       "gs": "19%(3)",
+       "time": "1-15"
+      },
+      {
+       "ga": "10%(3)",
+       "gs": "12%(2)",
+       "time": "16-30"
+      },
+      {
+       "ga": "27%(8)",
+       "gs": "6%(1)",
+       "time": "31-45"
+      },
+      {
+       "ga": "13%(4)",
+       "gs": "38%(6)",
+       "time": "46-60"
+      },
+      {
+       "ga": "27%(8)",
+       "gs": "19%(3)",
+       "time": "61-75"
+      },
+      {
+       "ga": "10%(3)",
+       "gs": "6%(1)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 65,
+    "ga_total_tw": 30,
+    "gs_total_fi": 59,
+    "gs_total_tw": 16,
+    "team_name": "塞尔维亚"
+   }
+  },
+  "Bf_Distribute": {
+   "draw": {
+    "bl_hot": 0,
+    "hot_index": "-47",
+    "number": "442725",
+    "price": "5.1",
+    "profit": "1786917",
+    "rate": "10.92"
+   },
+   "lose": {
+    "bl_hot": 0,
+    "hot_index": "-57",
+    "number": "244377",
+    "price": "7.2",
+    "profit": "2285300",
+    "rate": "6.03"
+   },
+   "text_1": "适中",
+   "text_1_red": 0,
+   "text_2": "主胜",
+   "win": {
+    "bl_hot": 1,
+    "hot_index": "27",
+    "number": "3357712",
+    "price": "1.51",
+    "profit": "-1025331",
+    "rate": "83.05"
+   }
+  },
+  "Bf_Transaction": {
+   "buy": {
+    "draw": "147571",
+    "lose": "56101",
+    "win": "966383"
+   },
+   "sell": {
+    "draw": "147689",
+    "lose": "89023",
+    "win": "931154"
+   },
+   "text_1": "更看好",
+   "text_2": "主胜",
+   "trend": [
+    {
+     "attribute": 1,
+     "deal_percent": 6.63,
+     "deal_price": 7.6,
+     "deal_time": "2026-11-17 03:36:57",
+     "deal_volume": 15451,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 10.07,
+     "deal_price": 7.6,
+     "deal_time": "2026-11-17 03:34:30",
+     "deal_volume": 21750,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 11.01,
+     "deal_price": 5.1,
+     "deal_time": "2026-11-17 03:21:55",
+     "deal_volume": 43789,
+     "result": 2,
+     "tab_type": 2
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 4.47,
+     "deal_price": 1.47,
+     "deal_time": "2026-11-17 03:20:50",
+     "deal_volume": 129379,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.64,
+     "deal_price": 1.48,
+     "deal_time": "2026-11-17 02:59:17",
+     "deal_volume": 91934,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.78,
+     "deal_price": 8.6,
+     "deal_time": "2026-11-17 02:56:53",
+     "deal_volume": 6255,
+     "result": 3,
+     "tab_type": 3
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 3.86,
+     "deal_price": 1.45,
+     "deal_time": "2026-11-17 02:56:53",
+     "deal_volume": 92554,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 0,
+     "deal_percent": 7.28,
+     "deal_price": 1.45,
+     "deal_time": "2026-11-17 02:54:25",
+     "deal_volume": 165388,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 4.49,
+     "deal_price": 1.46,
+     "deal_time": "2026-11-17 02:53:09",
+     "deal_volume": 94605,
+     "result": 1,
+     "tab_type": 1
+    },
+    {
+     "attribute": 1,
+     "deal_percent": 3.04,
+     "deal_price": 8.8,
+     "deal_time": "2026-11-17 02:53:09",
+     "deal_volume": 4733,
+     "result": 3,
+     "tab_type": 3
+    }
+   ]
+  },
+  "AigcMatchPredictions": {
+   "match_id": 4419580,
+   "predictions": []
+  }
+ },
+ "userId": 0,
+ "vipType": -1
+}

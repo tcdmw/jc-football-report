@@ -1,0 +1,40 @@
+{
+ "batch": 21,
+ "source": "data/raw21",
+ "rawDir": "data/raw21",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.129Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3018859",
+   "lg": "德甲",
+   "kickoff": "2026-11-08 22:30",
+   "home": "科隆",
+   "away": "勒沃库森",
+   "hc": -1,
+   "line": 1,
+   "favIsHome": false,
+   "hw": 0.8,
+   "aw": 1.04,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  }
+ ]
+}

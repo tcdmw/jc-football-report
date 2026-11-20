@@ -159,6 +159,105 @@ function parseTeam(txt) {
   };
 }
 
+// ---------- 杯赛/国家队页面：杯赛积分排名 + 数据对比（同主客） ----------
+// 国家队与女足杯赛页面没有「联赛积分排名」和「总/主/客/近6」行，改用统一的
+// 「杯赛积分排名」(overall) 与「数据对比」段（全部 + 同主客）。
+function normName(s) {
+  return String(s).replace(/[()（）\s]/g, '').replace(/女/g, '');
+}
+const NAME_ALIAS = { '阿美尼亚': '亚美尼亚', '宾菲加': '本菲卡' };
+function findPageTeam(metaName, pageNames) {
+  const baseWant = normName(metaName);
+  const want = normName(NAME_ALIAS[baseWant] || baseWant);
+  const canon = n => normName(NAME_ALIAS[normName(n)] || normName(n));
+  let hit = pageNames.find(n => canon(n) === want);
+  if (hit) return hit;
+  hit = pageNames.find(n => {
+    const p = canon(n);
+    return p && (p.includes(want) || want.includes(p));
+  });
+  return hit || null;
+}
+function pctConsistent(winP, drawP, loseP, p) {
+  return [winP, drawP, loseP].every(v => {
+    if (v === null) return true;
+    const x = (v / 100) * p;
+    return Math.abs(x - Math.round(x)) <= 0.2;
+  });
+}
+function parseDataCompare(lines) {
+  const idx = lines.findIndex(l => l.includes('同主客'));
+  if (idx < 0) return null;
+  const out = {};
+  for (let i = idx + 1; i < lines.length; i++) {
+    const c = lines[i].split('\t');
+    if (c.length < 17) continue;
+    const num = x => { const v = parseFloat(x); return Number.isFinite(v) ? v : null; };
+    const name = c[0].trim();
+    const allGf = num(c[4]), allGa = num(c[5]), allAvg = num(c[7]);
+    const ssGf = num(c[10]), ssGa = num(c[11]), ssAvg = num(c[13]);
+    const ssW = num(c[14]), ssD = num(c[15]), ssL = num(c[16]);
+    if (!allGf || !allAvg || !ssGf || !ssAvg) continue;
+    const allP = Math.round(allGf / allAvg);
+    const ssP = Math.round(ssGf / ssAvg);
+    if (!(allP >= 1 && allP <= 12) || !(ssP >= 1 && ssP <= 12)) continue;
+    if (!pctConsistent(ssW, ssD, ssL, ssP)) continue;
+    out[name] = {
+      all: { p: allP, gf: allGf, ga: allGa },
+      side: { p: ssP, gf: ssGf, ga: ssGa },
+    };
+  }
+  return Object.keys(out).length >= 2 ? out : null;
+}
+function parseCupStanding(lines) {
+  const idx = lines.findIndex(l => l.includes('杯赛积分排名'));
+  if (idx < 0) return null;
+  const out = {};
+  for (let i = idx + 1; i < lines.length; i++) {
+    const c = lines[i].split('\t').map(x => x.trim());
+    if (c.length < 10) continue;
+    const rank = parseInt(c[0]);
+    if (!Number.isFinite(rank)) continue;
+    const v = c.slice(2).map(Number);
+    if (v.some(x => !Number.isFinite(x))) continue;
+    const name = c[1];
+    out[name] = {
+      p: v[0], w: v[1], d: v[2], l: v[3], gf: v[4], ga: v[5], gd: v[6],
+      points: v[7], rank, winRate: v[0] ? +(100 * v[1] / v[0]).toFixed(1) : null,
+    };
+  }
+  return Object.keys(out).length ? out : null;
+}
+function parseCupPage(txt, homeName, awayName) {
+  const lines = txt.split(/\r?\n/);
+  const dc = parseDataCompare(lines);
+  if (!dc) return { team: null, reason: '数据对比段解析失败' };
+  const pageNames = Object.keys(dc);
+  const hName = findPageTeam(homeName, pageNames);
+  const aName = findPageTeam(awayName, pageNames);
+  if (!hName || !aName) return { team: null, reason: '数据对比队名匹配失败' };
+  const h = dc[hName], a = dc[aName];
+  const side = d => ({ p: d.side.p, gf: d.side.gf, ga: d.side.ga });
+  const all = d => ({ p: d.all.p, gf: d.all.gf, ga: d.all.ga });
+  let overall = { home: null, away: null };
+  const cs = parseCupStanding(lines);
+  if (cs) {
+    const csNames = Object.keys(cs);
+    const hc = findPageTeam(homeName, csNames);
+    const ac = findPageTeam(awayName, csNames);
+    overall = { home: hc ? cs[hc] : null, away: ac ? cs[ac] : null };
+  }
+  return {
+    team: {
+      overall,
+      home: { home: side(h), away: all(h) },
+      away: { home: all(a), away: side(a) },
+      form: null,
+      leagueOf: { home: null, away: null },
+    },
+  };
+}
+
 // ---------- 赛程体能：rest_days（本场 - 各队最近一场） ----------
 const REST_DATE_RE = /^\d{2}-\d{2}-\d{2}$/;
 
@@ -261,8 +360,9 @@ for (const it of items) {
     hcRes = { hc: null, reason: '无结构化当前盘口（innerText 仅含相同盘路区历史标签，禁止外推方向）' };
   }
 
-  // 积分段
-  const tmRes = parseTeam(txt);
+  // 积分段：俱乐部页面用联赛积分排名；杯赛/国家队页面回退到杯赛积分排名+数据对比
+  let tmRes = parseTeam(txt);
+  if (!tmRes.team) tmRes = parseCupPage(txt, it.home, it.away);
 
   // 赛程体能 rest_days（基于近期战绩日期，工具计算，非手算）
   const rest = parseRestDays(txt, it.kickoff);

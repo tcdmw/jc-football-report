@@ -1,0 +1,52 @@
+{
+ "source": "dongqiudi_getMatchTips",
+ "total": 3,
+ "matched": [
+  {
+   "titanId": "2981569",
+   "dqdMatchId": "54419583",
+   "home": "冰岛",
+   "away": "卢森堡",
+   "pageScore": "3 - 0",
+   "planTotal": "386"
+  },
+  {
+   "titanId": "2981570",
+   "dqdMatchId": "54419585",
+   "home": "爱沙尼亚",
+   "away": "保加利亚",
+   "pageScore": "2 - 1",
+   "planTotal": "362"
+  },
+  {
+   "titanId": "2981582",
+   "dqdMatchId": "54419586",
+   "home": "立陶宛",
+   "away": "列支敦士登",
+   "pageScore": "2 - 1",
+   "planTotal": "111"
+  }
+ ],
+ "missed": [
+  {
+   "titanId": "3010105",
+   "home": "UTC卡加马马",
+   "away": "洛斯香卡斯",
+   "kickoff": "2026-11-17 02:00",
+   "tried": [
+    "2026-11-16",
+    "2026-11-17"
+   ]
+  },
+  {
+   "titanId": "3014165",
+   "home": "阿尔巴塞特",
+   "away": "塞尔塔福图纳",
+   "kickoff": "2026-11-17 03:30",
+   "tried": [
+    "2026-11-16",
+    "2026-11-17"
+   ]
+  }
+ ]
+}

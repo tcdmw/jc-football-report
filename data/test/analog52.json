@@ -1,0 +1,56 @@
+{
+ "batch": 52,
+ "source": "data/raw51",
+ "rawDir": "data/raw51",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:59.316Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3109632",
+   "lg": "国际友谊",
+   "kickoff": "2026-11-17 22:00",
+   "home": "卡塔尔",
+   "away": "韩国",
+   "hc": -1.25,
+   "line": 1.25,
+   "favIsHome": false,
+   "hw": 0.9,
+   "aw": 0.88,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 3,
+   "sameHc": 3,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 3
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": 33.3,
+   "pdown": 66.7,
+   "wdl": {
+    "主": 2,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "3-2",
+     1
+    ],
+    [
+     "0-3",
+     1
+    ],
+    [
+     "3-1",
+     1
+    ]
+   ],
+   "avgGoal": 4
+  }
+ ]
+}

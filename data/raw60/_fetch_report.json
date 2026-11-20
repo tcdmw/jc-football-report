@@ -1,0 +1,44 @@
+{
+ "n": 3,
+ "report": [
+  {
+   "id": "3000535",
+   "home": "鹿岛鹿角",
+   "away": "清水心跳",
+   "txt_chars": 9332,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.0,
+   "ou": "2.5",
+   "lineN": 15
+  },
+  {
+   "id": "3000536",
+   "home": "柏雷素尔",
+   "away": "千叶市原",
+   "txt_chars": 9430,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.0,
+   "ou": "2.5/3",
+   "lineN": 15
+  },
+  {
+   "id": "3000542",
+   "home": "神户胜利船",
+   "away": "水户蜀葵",
+   "txt_chars": 8676,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.25,
+   "ou": "2.5/3",
+   "lineN": 15
+  }
+ ]
+}

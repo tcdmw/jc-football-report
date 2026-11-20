@@ -1,0 +1,116 @@
+{
+ "source": "data/raw42",
+ "collectedAt": "2026-11-15T14:59:42.841Z",
+ "count": 1,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3014168",
+   "lg": "西乙",
+   "kickoff": "2026-11-15 23:15",
+   "home": "格拉纳达",
+   "away": "拉斯帕尔马斯",
+   "hc": 0.5,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 12,
+      "w": 7,
+      "d": 2,
+      "l": 3,
+      "gf": 20,
+      "ga": 14,
+      "gd": 6,
+      "points": 23,
+      "rank": 6,
+      "winRate": 58.3
+     },
+     "away": {
+      "p": 13,
+      "w": 6,
+      "d": 2,
+      "l": 5,
+      "gf": 19,
+      "ga": 21,
+      "gd": -2,
+      "points": 20,
+      "rank": 11,
+      "winRate": 46.2
+     }
+    },
+    "home": {
+     "home": {
+      "p": 5,
+      "gf": 9,
+      "ga": 5
+     },
+     "away": {
+      "p": 7,
+      "gf": 11,
+      "ga": 9
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 8,
+      "ga": 8
+     },
+     "away": {
+      "p": 6,
+      "gf": 11,
+      "ga": 13
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 12,
+      "ga": 6
+     },
+     "away": {
+      "p": 6,
+      "gf": 9,
+      "ga": 10
+     }
+    },
+    "leagueOf": {
+     "home": "西乙",
+     "away": "西乙"
+    }
+   },
+   "restDays": {
+    "home": 15,
+    "away": 6
+   },
+   "dqdIntel": {
+    "injuries": [],
+    "betfairComment": "",
+    "betfair": [],
+    "bigTrend": {}
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  }
+ ]
+}

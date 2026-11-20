@@ -1,0 +1,132 @@
+{
+ "batch": 11,
+ "source": "data/raw11",
+ "rawDir": "data/raw11",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:55.059Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2995394",
+   "lg": "法甲",
+   "kickoff": "2026-11-08 04:05",
+   "home": "巴黎圣日耳曼",
+   "away": "特鲁瓦",
+   "hc": 2.25,
+   "line": 2.25,
+   "favIsHome": true,
+   "hw": 0.98,
+   "aw": 0.86,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 1,
+    "L3": 1
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-0",
+     1
+    ]
+   ],
+   "avgGoal": 1
+  },
+  {
+   "no": 2,
+   "id": "2996199",
+   "lg": "荷甲",
+   "kickoff": "2026-11-08 04:00",
+   "home": "SBV精英",
+   "away": "前进之鹰",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 1.03,
+   "aw": 0.75,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 5,
+   "sameHc": 5,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 5
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 40,
+   "pdown": 60,
+   "wdl": {
+    "主": 2,
+    "客": 3
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ],
+    [
+     "0-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.6
+  },
+  {
+   "no": 3,
+   "id": "3013760",
+   "lg": "西甲",
+   "kickoff": "2026-11-08 04:00",
+   "home": "巴伦西亚",
+   "away": "皇家马德里",
+   "hc": -1.75,
+   "line": 1.75,
+   "favIsHome": false,
+   "hw": 0.94,
+   "aw": 0.9,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用(样本薄)",
+   "groupHit": 83.3,
+   "groupN": 6,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "客": 1
+   },
+   "topSc": [
+    [
+     "1-2",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  }
+ ]
+}

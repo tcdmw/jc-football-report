@@ -1,0 +1,241 @@
+[
+ {
+  "no": 1,
+  "home": [
+   {
+    "name": "格纳布里",
+    "pos": "前锋",
+    "app": 11,
+    "goal": 4,
+    "assist": 2,
+    "status": "out",
+    "unit": 0.867
+   },
+   {
+    "name": "瓦格诺曼",
+    "pos": "后卫",
+    "app": 2,
+    "goal": 0,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.047
+   },
+   {
+    "name": "米卡-鲍尔",
+    "pos": "中场",
+    "app": 2,
+    "goal": 0,
+    "assist": 0,
+    "status": "doubt",
+    "unit": 0.033
+   }
+  ],
+  "away": [
+   {
+    "name": "阿克",
+    "pos": "后卫",
+    "app": 9,
+    "goal": 0,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.21
+   },
+   {
+    "name": "弗林蓬",
+    "pos": "后卫",
+    "app": 3,
+    "goal": 0,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.07
+   },
+   {
+    "name": "哈维-西蒙斯",
+    "pos": "中场",
+    "app": 8,
+    "goal": 2,
+    "assist": 1,
+    "status": "out",
+    "unit": 0.363
+   },
+   {
+    "name": "哈托",
+    "pos": "后卫",
+    "app": 4,
+    "goal": 0,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.093
+   },
+   {
+    "name": "范戴克",
+    "pos": "后卫",
+    "app": 20,
+    "goal": 5,
+    "assist": 1,
+    "status": "doubt",
+    "unit": 0.241
+   }
+  ],
+  "mid": "54419579",
+  "deficitHome": 0.947,
+  "deficitAway": 0.977,
+  "attDefHome": {
+   "att": 0.9,
+   "def": 0.047
+  },
+  "attDefAway": {
+   "att": 0.363,
+   "def": 0.614
+  }
+ },
+ {
+  "no": 2,
+  "home": [
+   {
+    "name": "库尔姆佩利斯",
+    "pos": "中场",
+    "app": 13,
+    "goal": 2,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.496
+   },
+   {
+    "name": "康斯坦泰利亚斯",
+    "pos": "中场",
+    "app": 5,
+    "goal": 0,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.167
+   }
+  ],
+  "away": [
+   {
+    "name": "阿列克萨-泰尔齐奇",
+    "pos": "后卫",
+    "app": 9,
+    "goal": 0,
+    "assist": 2,
+    "status": "out",
+    "unit": 0.26
+   },
+   {
+    "name": "亚历山大-斯坦科维奇",
+    "pos": "中场",
+    "app": 10,
+    "goal": 1,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.373
+   },
+   {
+    "name": "帕夫洛维奇",
+    "pos": "后卫",
+    "app": 15,
+    "goal": 1,
+    "assist": 0,
+    "status": "doubt",
+    "unit": 0.157
+   }
+  ],
+  "mid": "54419580",
+  "deficitHome": 0.663,
+  "deficitAway": 0.791,
+  "attDefHome": {
+   "att": 0.663,
+   "def": 0
+  },
+  "attDefAway": {
+   "att": 0.373,
+   "def": 0.417
+  }
+ },
+ {
+  "no": 3,
+  "home": [
+   {
+    "name": "若埃尔-蒙泰罗",
+    "pos": "前锋",
+    "app": 2,
+    "goal": 1,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.103
+   },
+   {
+    "name": "阿坎吉",
+    "pos": "后卫",
+    "app": 21,
+    "goal": 1,
+    "assist": 0,
+    "status": "doubt",
+    "unit": 0.157
+   }
+  ],
+  "away": [
+   {
+    "name": "尚克兰",
+    "pos": "前锋",
+    "app": 6,
+    "goal": 4,
+    "assist": 1,
+    "status": "out",
+    "unit": 0.44
+   },
+   {
+    "name": "麦克纳",
+    "pos": "后卫",
+    "app": 11,
+    "goal": 0,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.257
+   },
+   {
+    "name": "路易斯-宾克斯",
+    "pos": "后卫",
+    "app": 3,
+    "goal": 0,
+    "assist": 0,
+    "status": "out",
+    "unit": 0.07
+   },
+   {
+    "name": "韦尔什",
+    "pos": "后卫",
+    "app": 4,
+    "goal": 0,
+    "assist": 0,
+    "status": "doubt",
+    "unit": 0.047
+   }
+  ],
+  "mid": "54419581",
+  "deficitHome": 0.259,
+  "deficitAway": 0.813,
+  "attDefHome": {
+   "att": 0.103,
+   "def": 0.157
+  },
+  "attDefAway": {
+   "att": 0.44,
+   "def": 0.374
+  }
+ },
+ {
+  "no": 4,
+  "home": "北马其顿",
+  "away": "斯洛文尼亚",
+  "mid": "54419582",
+  "note": "无伤停数据"
+ },
+ {
+  "no": 5,
+  "home": "直布罗陀",
+  "away": "马耳他",
+  "mid": "54419578",
+  "note": "无伤停数据"
+ }
+]

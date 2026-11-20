@@ -75,6 +75,12 @@
     "zjq": "未定位进球数串",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   },
   {
@@ -145,6 +151,12 @@
     "zjq": "一致解不唯一（最优 0.142 vs 0.160，2 候）",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   }
  ]

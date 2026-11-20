@@ -1,0 +1,31 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "3110407",
+   "home": "柏太阳神",
+   "away": "川崎前锋",
+   "txt_chars": 8578,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "3.5",
+   "lineN": 15
+  },
+  {
+   "id": "3110405",
+   "home": "鹿岛鹿角",
+   "away": "横滨水手",
+   "txt_chars": 9089,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.0,
+   "ou": "2.5",
+   "lineN": 15
+  }
+ ]
+}

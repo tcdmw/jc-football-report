@@ -1,0 +1,109 @@
+{
+ "batch": 10,
+ "source": "data/raw10",
+ "rawDir": "data/raw10",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:54.952Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3003947",
+   "lg": "英超",
+   "kickoff": "2026-11-08 01:30",
+   "home": "诺丁汉森林",
+   "away": "曼彻斯特城",
+   "hc": -0.75,
+   "line": 0.75,
+   "favIsHome": false,
+   "hw": 1.08,
+   "aw": 0.76,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "客": 1
+   },
+   "topSc": [
+    [
+     "0-2",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 2,
+   "id": "3013757",
+   "lg": "西甲",
+   "kickoff": "2026-11-08 01:30",
+   "home": "奥萨苏纳",
+   "away": "毕尔巴鄂竞技",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.78,
+   "aw": 1.06,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 3,
+   "id": "3018866",
+   "lg": "德甲",
+   "kickoff": "2026-11-08 01:30",
+   "home": "斯图加特",
+   "away": "云达不莱梅",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.8,
+   "aw": 1.04,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  }
+ ]
+}

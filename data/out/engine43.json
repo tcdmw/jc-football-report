@@ -1,0 +1,49 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 1,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "格拉纳达",
+   "away": "拉斯帕尔马斯",
+   "engine": {
+    "xg_h": 3.385,
+    "xg_a": 1.885,
+    "H": 0.6637,
+    "D": 0.1522,
+    "A": 0.1841,
+    "rq": [
+     0.6637,
+     0.0,
+     0.3363
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.3333,
+    "home_defense": 0.7407,
+    "home_form": 0.7407,
+    "home_rest": 15,
+    "away_attack": 1.358,
+    "away_defense": 1.45,
+    "away_form": -0.1235,
+    "away_rest": 6,
+    "notes": [
+     "主样本 5 场 9 得 5 失",
+     "赛程间隔 15 天",
+     "主样本 6 场 11 得 13 失",
+     "赛程间隔 6 天"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 0,
+ "skipped": [
+  {
+   "no": 1,
+   "reason": "主客场地样本缺失，拒绝用默认强度硬跑"
+  }
+ ],
+ "preds": []
+}

@@ -1,0 +1,29 @@
+{
+ "n": 4,
+ "report": [
+  {
+   "id": "2981467",
+   "home": "克罗地亚",
+   "away": "捷克",
+   "status": "UNMATCHED"
+  },
+  {
+   "id": "2981468",
+   "home": "西班牙",
+   "away": "英格兰",
+   "status": "UNMATCHED"
+  },
+  {
+   "id": "2981466",
+   "home": "比利时",
+   "away": "意大利",
+   "status": "UNMATCHED"
+  },
+  {
+   "id": "2981465",
+   "home": "法国",
+   "away": "土耳其",
+   "status": "UNMATCHED"
+  }
+ ]
+}

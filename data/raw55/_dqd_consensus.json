@@ -1,0 +1,34 @@
+{
+ "source": "dongqiudi_getMatchTips",
+ "total": 2,
+ "matched": [
+  {
+   "titanId": "3109751",
+   "dqdMatchId": "54643501",
+   "home": "墨西哥",
+   "away": "牙买加",
+   "pageScore": "",
+   "planTotal": "113"
+  },
+  {
+   "titanId": "3110570",
+   "dqdMatchId": "54648121",
+   "home": "尼加拉瓜",
+   "away": "蒙特塞拉特",
+   "pageScore": "",
+   "planTotal": "69"
+  }
+ ],
+ "missed": [
+  {
+   "titanId": "3112233",
+   "home": "卡利阿美利加",
+   "away": "波哥大国际",
+   "kickoff": "2026-11-18 09:30",
+   "tried": [
+    "2026-11-17",
+    "2026-11-18"
+   ]
+  }
+ ]
+}

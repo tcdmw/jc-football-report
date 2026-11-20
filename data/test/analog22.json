@@ -1,0 +1,318 @@
+{
+ "batch": 22,
+ "source": "data/raw22",
+ "rawDir": "data/raw22",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.230Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3013758",
+   "lg": "西甲",
+   "kickoff": "2026-11-08 23:15",
+   "home": "皇家苏斯达",
+   "away": "巴列卡诺",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.86,
+   "aw": 0.98,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-0",
+     1
+    ]
+   ],
+   "avgGoal": 1
+  },
+  {
+   "no": 2,
+   "id": "2912323",
+   "lg": "瑞典超",
+   "kickoff": "2026-11-08 23:30",
+   "home": "AIK索尔纳",
+   "away": "赫根",
+   "hc": -1,
+   "line": 1,
+   "favIsHome": false,
+   "hw": 1.02,
+   "aw": 0.76,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 3,
+   "id": "2912324",
+   "lg": "瑞典超",
+   "kickoff": "2026-11-08 23:30",
+   "home": "布洛马波卡纳",
+   "away": "米亚尔比",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.97,
+   "aw": 0.81,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 6,
+   "sameHc": 6,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 6
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 16.7,
+   "pdown": 83.3,
+   "wdl": {
+    "平": 3,
+    "客": 2,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-2",
+     2
+    ],
+    [
+     "1-1",
+     2
+    ],
+    [
+     "2-2",
+     1
+    ]
+   ],
+   "avgGoal": 2.83
+  },
+  {
+   "no": 4,
+   "id": "2912329",
+   "lg": "瑞典超",
+   "kickoff": "2026-11-08 23:30",
+   "home": "卡马亚",
+   "away": "天狼星",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.81,
+   "aw": 0.97,
+   "src": "澳门",
+   "tierUsed": "L2",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 5,
+   "id": "2996200",
+   "lg": "荷甲",
+   "kickoff": "2026-11-08 23:45",
+   "home": "坎布尔",
+   "away": "埃因霍温",
+   "hc": -1.25,
+   "line": 1.25,
+   "favIsHome": false,
+   "hw": 0.95,
+   "aw": 0.83,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "3-1",
+     1
+    ]
+   ],
+   "avgGoal": 4
+  },
+  {
+   "no": 6,
+   "id": "2996205",
+   "lg": "荷甲",
+   "kickoff": "2026-11-08 23:45",
+   "home": "阿尔克马尔",
+   "away": "格罗宁根",
+   "hc": 1.25,
+   "line": 1.25,
+   "favIsHome": true,
+   "hw": 0.93,
+   "aw": 0.85,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 7,
+   "id": "2996543",
+   "lg": "荷乙",
+   "kickoff": "2026-11-08 23:45",
+   "home": "埃蒙",
+   "away": "马斯特里赫特",
+   "hc": 0.75,
+   "line": 0.75,
+   "favIsHome": true,
+   "hw": 0.78,
+   "aw": 1,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 3,
+   "sameHc": 3,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 3
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": false,
+   "pud": 66.7,
+   "pdown": 33.3,
+   "wdl": {
+    "主": 2,
+    "平": 1
+   },
+   "topSc": [
+    [
+     "3-2",
+     1
+    ],
+    [
+     "2-2",
+     1
+    ],
+    [
+     "2-0",
+     1
+    ]
+   ],
+   "avgGoal": 3.67
+  },
+  {
+   "no": 8,
+   "id": "3002107",
+   "lg": "苏超",
+   "kickoff": "2026-11-09 00:00",
+   "home": "凯尔特人",
+   "away": "基马诺克",
+   "hc": 2.25,
+   "line": 2.25,
+   "favIsHome": true,
+   "hw": 0.96,
+   "aw": 0.82,
+   "src": "澳门",
+   "tierUsed": "L2",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 2
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "主": 2
+   },
+   "topSc": [
+    [
+     "1-0",
+     2
+    ]
+   ],
+   "avgGoal": 1
+  }
+ ]
+}

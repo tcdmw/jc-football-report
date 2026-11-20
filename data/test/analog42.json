@@ -1,0 +1,103 @@
+{
+ "batch": 42,
+ "source": "data/raw41",
+ "rawDir": "data/raw41",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:58.293Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2981564",
+   "lg": "欧国联",
+   "kickoff": "2026-11-15 22:00",
+   "home": "塞浦路斯",
+   "away": "黑山",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.84,
+   "aw": 1,
+   "src": "澳",
+   "tierUsed": "L2",
+   "peers": 8,
+   "sameHc": 15,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 8,
+    "L3": 15
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 6,
+    "主": 2
+   },
+   "topSc": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "0-0",
+     1
+    ],
+    [
+     "3-0",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 2,
+   "id": "2981563",
+   "lg": "欧国联",
+   "kickoff": "2026-11-15 22:00",
+   "home": "拉脱维亚",
+   "away": "亚美尼亚",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.84,
+   "aw": 1,
+   "src": "澳",
+   "tierUsed": "L2",
+   "peers": 8,
+   "sameHc": 15,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 8,
+    "L3": 15
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 6,
+    "主": 2
+   },
+   "topSc": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "0-0",
+     1
+    ],
+    [
+     "3-0",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  }
+ ]
+}

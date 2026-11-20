@@ -1,0 +1,83 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "赫根 (女)",
+   "away": "曼城 (女)",
+   "engine": {
+    "xg_h": 1.515,
+    "xg_a": 1.202,
+    "H": 0.4352,
+    "D": 0.273,
+    "A": 0.2918,
+    "rq": [
+     0.8758,
+     0.0,
+     0.1242
+    ],
+    "hc_model": 1.5
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.8,
+    "home_rest": 4,
+    "away_attack": 1.1852,
+    "away_defense": 0.7,
+    "away_form": 0.8,
+    "away_rest": 5,
+    "notes": [
+     "主样本 13 场 47 得 7 失",
+     "赛程间隔 4 天",
+     "主样本 5 场 8 得 4 失",
+     "赛程间隔 5 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "皇家马德里 (女)",
+   "away": "国际米兰 (女)",
+   "engine": {
+    "xg_h": 1.457,
+    "xg_a": 2.957,
+    "H": 0.1591,
+    "D": 0.1645,
+    "A": 0.6764,
+    "rq": [
+     0.0234,
+     0.0447,
+     0.9319
+    ],
+    "hc_model": -2.0
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.1111,
+    "home_form": -0.2469,
+    "home_rest": 4,
+    "away_attack": 1.2346,
+    "away_defense": 0.7,
+    "away_form": 0.8,
+    "away_rest": 4,
+    "notes": [
+     "主样本 6 场 15 得 9 失",
+     "赛程间隔 4 天",
+     "主样本 3 场 5 得 0 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  }
+ ]
+}

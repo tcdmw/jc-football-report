@@ -1,0 +1,44 @@
+{
+ "n": 3,
+ "report": [
+  {
+   "id": "3023831",
+   "home": "莱雄伊什",
+   "away": "沙维斯",
+   "txt_chars": 8010,
+   "x12": "OK",
+   "status": "OK",
+   "source": "Crow",
+   "isMacau": false,
+   "hc": 0.5,
+   "ou": "2.5",
+   "lineN": 12
+  },
+  {
+   "id": "3014167",
+   "home": "埃登斯",
+   "away": "萨瓦德尔",
+   "txt_chars": 8633,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.0,
+   "ou": "2",
+   "lineN": 15
+  },
+  {
+   "id": "3014166",
+   "home": "埃瓦尔",
+   "away": "加的斯",
+   "txt_chars": 8614,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.0,
+   "ou": "2.5/3",
+   "lineN": 15
+  }
+ ]
+}

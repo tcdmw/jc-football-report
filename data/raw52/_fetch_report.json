@@ -1,0 +1,83 @@
+{
+ "n": 6,
+ "report": [
+  {
+   "id": "3001027",
+   "home": "甘比亚",
+   "away": "象牙海岸",
+   "txt_chars": 5881,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -1.0,
+   "ou": "2/2.5",
+   "lineN": 15
+  },
+  {
+   "id": "3001038",
+   "home": "肯尼亚",
+   "away": "南非",
+   "txt_chars": 5711,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.5,
+   "ou": "2",
+   "lineN": 14
+  },
+  {
+   "id": "3001050",
+   "home": "塞拉利昂",
+   "away": "刚果民主共和国",
+   "txt_chars": 5843,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -1.25,
+   "ou": "2/2.5",
+   "lineN": 15
+  },
+  {
+   "id": "3001086",
+   "home": "利比亚",
+   "away": "突尼斯",
+   "txt_chars": 6187,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.25,
+   "ou": "2",
+   "lineN": 14
+  },
+  {
+   "id": "3001098",
+   "home": "多哥",
+   "away": "阿尔及利亚",
+   "txt_chars": 6005,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.75,
+   "ou": "2",
+   "lineN": 14
+  },
+  {
+   "id": "3001134",
+   "home": "几内亚比索",
+   "away": "马达加斯加",
+   "txt_chars": 5609,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.0,
+   "ou": "2/2.5",
+   "lineN": 14
+  }
+ ]
+}

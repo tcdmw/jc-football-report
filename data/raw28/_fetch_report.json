@@ -1,0 +1,31 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "2998149",
+   "home": "哈维德夫",
+   "away": "阿尔胡斯费马",
+   "txt_chars": 8514,
+   "x12": "OK",
+   "status": "OK",
+   "source": "Crow",
+   "isMacau": false,
+   "hc": 0.75,
+   "ou": "2.5/3",
+   "lineN": 14
+  },
+  {
+   "id": "3010470",
+   "home": "博托沙尼",
+   "away": "加拉迪",
+   "txt_chars": 8738,
+   "x12": "OK",
+   "status": "OK",
+   "source": "Crow",
+   "isMacau": false,
+   "hc": 0.25,
+   "ou": "2.5",
+   "lineN": 14
+  }
+ ]
+}

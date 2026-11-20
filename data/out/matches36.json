@@ -1,0 +1,672 @@
+{
+ "source": "data/raw36",
+ "collectedAt": "2026-11-14T18:51:20.126Z",
+ "count": 6,
+ "issues": [
+  {
+   "no": 5,
+   "id": "2996547",
+   "issue": "队名与页面不符",
+   "page": "多德勒支"
+  }
+ ],
+ "matches": [
+  {
+   "no": 1,
+   "id": "2996548",
+   "lg": "荷乙",
+   "kickoff": "2026-11-15 03:00",
+   "home": "罗达JC",
+   "away": "福伦丹",
+   "hc": 0.5,
+   "hcRaw": "澳",
+   "spf": [
+    1.83,
+    3.51,
+    3.25
+   ],
+   "spfMargin": 0.1390406800242865,
+   "zjq": [
+    22,
+    7.5,
+    4.6,
+    3.6,
+    4.15,
+    6,
+    10.5,
+    13
+   ],
+   "zjqRaw": "227.54.63.64.15610.513",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 14,
+      "w": 7,
+      "d": 4,
+      "l": 3,
+      "gf": 18,
+      "ga": 17,
+      "gd": 1,
+      "points": 25,
+      "rank": 5,
+      "winRate": 50
+     },
+     "away": {
+      "p": 14,
+      "w": 7,
+      "d": 1,
+      "l": 6,
+      "gf": 33,
+      "ga": 24,
+      "gd": 9,
+      "points": 22,
+      "rank": 7,
+      "winRate": 50
+     }
+    },
+    "home": {
+     "home": {
+      "p": 6,
+      "gf": 10,
+      "ga": 5
+     },
+     "away": {
+      "p": 8,
+      "gf": 8,
+      "ga": 12
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 23,
+      "ga": 7
+     },
+     "away": {
+      "p": 7,
+      "gf": 10,
+      "ga": 17
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 9,
+      "ga": 12
+     },
+     "away": {
+      "p": 6,
+      "gf": 13,
+      "ga": 8
+     }
+    },
+    "leagueOf": {
+     "home": "荷乙",
+     "away": "荷乙"
+    }
+   },
+   "restDays": {
+    "home": 8,
+    "away": 8
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 2,
+   "id": "2996550",
+   "lg": "荷乙",
+   "kickoff": "2026-11-15 03:00",
+   "home": "瓦尔韦克",
+   "away": "邓伯什",
+   "hc": 0.25,
+   "hcRaw": "澳",
+   "spf": [
+    2.06,
+    3.75,
+    2.58
+   ],
+   "spfMargin": 0.13970045909535633,
+   "zjq": [
+    33,
+    9.75,
+    5.5,
+    3.75,
+    4.1,
+    5.2,
+    8,
+    9
+   ],
+   "zjqRaw": "339.755.53.754.15.289",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 14,
+      "w": 3,
+      "d": 8,
+      "l": 3,
+      "gf": 23,
+      "ga": 20,
+      "gd": 3,
+      "points": 17,
+      "rank": 11,
+      "winRate": 21.4
+     },
+     "away": {
+      "p": 14,
+      "w": 5,
+      "d": 4,
+      "l": 5,
+      "gf": 24,
+      "ga": 22,
+      "gd": 2,
+      "points": 19,
+      "rank": 9,
+      "winRate": 35.7
+     }
+    },
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 17,
+      "ga": 11
+     },
+     "away": {
+      "p": 7,
+      "gf": 6,
+      "ga": 9
+     }
+    },
+    "away": {
+     "home": {
+      "p": 8,
+      "gf": 15,
+      "ga": 13
+     },
+     "away": {
+      "p": 6,
+      "gf": 9,
+      "ga": 9
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 5,
+      "ga": 9
+     },
+     "away": {
+      "p": 6,
+      "gf": 12,
+      "ga": 5
+     }
+    },
+    "leagueOf": {
+     "home": "荷乙",
+     "away": "荷乙"
+    }
+   },
+   "restDays": {
+    "home": 8,
+    "away": 8
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 3,
+   "id": "2996545",
+   "lg": "荷乙",
+   "kickoff": "2026-11-15 03:00",
+   "home": "阿尔梅勒城",
+   "away": "赫尔蒙德",
+   "hc": 1.5,
+   "hcRaw": "澳",
+   "spf": [
+    1.24,
+    5.4,
+    6.75
+   ],
+   "spfMargin": 0.13978494623655924,
+   "zjq": [
+    31,
+    9.75,
+    5.35,
+    3.95,
+    4,
+    5.4,
+    8.2,
+    8.25
+   ],
+   "zjqRaw": "319.755.353.9545.48.28.25",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 14,
+      "w": 9,
+      "d": 1,
+      "l": 4,
+      "gf": 30,
+      "ga": 14,
+      "gd": 16,
+      "points": 28,
+      "rank": 3,
+      "winRate": 64.3
+     },
+     "away": {
+      "p": 14,
+      "w": 3,
+      "d": 3,
+      "l": 8,
+      "gf": 25,
+      "ga": 31,
+      "gd": -6,
+      "points": 12,
+      "rank": 17,
+      "winRate": 21.4
+     }
+    },
+    "home": {
+     "home": {
+      "p": 6,
+      "gf": 10,
+      "ga": 5
+     },
+     "away": {
+      "p": 8,
+      "gf": 20,
+      "ga": 9
+     }
+    },
+    "away": {
+     "home": {
+      "p": 8,
+      "gf": 16,
+      "ga": 14
+     },
+     "away": {
+      "p": 6,
+      "gf": 9,
+      "ga": 17
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 12,
+      "ga": 7
+     },
+     "away": {
+      "p": 6,
+      "gf": 12,
+      "ga": 17
+     }
+    },
+    "leagueOf": {
+     "home": "荷乙",
+     "away": "荷乙"
+    }
+   },
+   "restDays": {
+    "home": 8,
+    "away": 8
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 4,
+   "id": "2996549",
+   "lg": "荷乙",
+   "kickoff": "2026-11-15 03:00",
+   "home": "芬洛",
+   "away": "FC埃因霍温",
+   "hc": 0.75,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 14,
+      "w": 9,
+      "d": 2,
+      "l": 3,
+      "gf": 37,
+      "ga": 22,
+      "gd": 15,
+      "points": 29,
+      "rank": 2,
+      "winRate": 64.3
+     },
+     "away": {
+      "p": 14,
+      "w": 3,
+      "d": 2,
+      "l": 9,
+      "gf": 18,
+      "ga": 31,
+      "gd": -13,
+      "points": 11,
+      "rank": 20,
+      "winRate": 21.4
+     }
+    },
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 19,
+      "ga": 11
+     },
+     "away": {
+      "p": 7,
+      "gf": 18,
+      "ga": 11
+     }
+    },
+    "away": {
+     "home": {
+      "p": 8,
+      "gf": 11,
+      "ga": 16
+     },
+     "away": {
+      "p": 6,
+      "gf": 7,
+      "ga": 15
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 16,
+      "ga": 8
+     },
+     "away": {
+      "p": 6,
+      "gf": 5,
+      "ga": 14
+     }
+    },
+    "leagueOf": {
+     "home": "荷乙",
+     "away": "荷乙"
+    }
+   },
+   "restDays": {
+    "home": 8,
+    "away": 8
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 5,
+   "id": "2996547",
+   "lg": "荷乙",
+   "kickoff": "2026-11-15 03:00",
+   "home": "多德雷赫特",
+   "away": "阿尔梅罗大力神",
+   "hc": -1.5,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 14,
+      "w": 3,
+      "d": 3,
+      "l": 8,
+      "gf": 18,
+      "ga": 34,
+      "gd": -16,
+      "points": 12,
+      "rank": 18,
+      "winRate": 21.4
+     },
+     "away": {
+      "p": 14,
+      "w": 11,
+      "d": 2,
+      "l": 1,
+      "gf": 44,
+      "ga": 15,
+      "gd": 29,
+      "points": 35,
+      "rank": 1,
+      "winRate": 78.6
+     }
+    },
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 10,
+      "ga": 17
+     },
+     "away": {
+      "p": 7,
+      "gf": 8,
+      "ga": 17
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 23,
+      "ga": 5
+     },
+     "away": {
+      "p": 7,
+      "gf": 21,
+      "ga": 10
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 6,
+      "ga": 11
+     },
+     "away": {
+      "p": 6,
+      "gf": 18,
+      "ga": 5
+     }
+    },
+    "leagueOf": {
+     "home": "荷乙",
+     "away": "荷乙"
+    }
+   },
+   "restDays": {
+    "home": 8,
+    "away": 8
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": false,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 6,
+   "id": "2996546",
+   "lg": "荷乙",
+   "kickoff": "2026-11-15 03:00",
+   "home": "格拉夫夏普",
+   "away": "奥斯",
+   "hc": 1,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 13,
+      "w": 4,
+      "d": 3,
+      "l": 6,
+      "gf": 17,
+      "ga": 27,
+      "gd": -10,
+      "points": 15,
+      "rank": 15,
+      "winRate": 30.8
+     },
+     "away": {
+      "p": 14,
+      "w": 4,
+      "d": 2,
+      "l": 8,
+      "gf": 20,
+      "ga": 23,
+      "gd": -3,
+      "points": 14,
+      "rank": 16,
+      "winRate": 28.6
+     }
+    },
+    "home": {
+     "home": {
+      "p": 6,
+      "gf": 8,
+      "ga": 13
+     },
+     "away": {
+      "p": 7,
+      "gf": 9,
+      "ga": 14
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 17,
+      "ga": 9
+     },
+     "away": {
+      "p": 7,
+      "gf": 3,
+      "ga": 14
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 9,
+      "ga": 7
+     },
+     "away": {
+      "p": 6,
+      "gf": 12,
+      "ga": 10
+     }
+    },
+    "leagueOf": {
+     "home": "荷乙",
+     "away": "荷乙"
+    }
+   },
+   "restDays": {
+    "home": 15,
+    "away": 8
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  }
+ ]
+}

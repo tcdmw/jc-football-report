@@ -1,0 +1,117 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 3,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "卡利阿美利加",
+   "away": "波哥大国际",
+   "engine": {
+    "xg_h": 2.641,
+    "xg_a": 1.141,
+    "H": 0.6881,
+    "D": 0.1752,
+    "A": 0.1366,
+    "rq": [
+     0.484,
+     0.2041,
+     0.3119
+    ],
+    "hc_model": -1.0
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.6173,
+    "home_rest": 3,
+    "away_attack": 0.7,
+    "away_defense": 0.9877,
+    "away_form": -0.1235,
+    "away_rest": 4,
+    "notes": [
+     "主样本 10 场 22 得 7 失",
+     "赛程间隔 3 天",
+     "主样本 9 场 7 得 12 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "墨西哥",
+   "away": "牙买加",
+   "engine": {
+    "xg_h": 1.031,
+    "xg_a": 0.721,
+    "H": 0.4105,
+    "D": 0.3492,
+    "A": 0.2403,
+    "rq": [
+     0.0497,
+     0.1172,
+     0.8331
+    ],
+    "hc_model": -2.25
+   },
+   "input": {
+    "home_attack": 0.9524,
+    "home_defense": 0.7407,
+    "home_form": 0.0,
+    "home_rest": 3,
+    "away_attack": 0.7,
+    "away_defense": 0.7,
+    "away_form": 0.0,
+    "away_rest": 3,
+    "notes": [
+     "主样本 7 场 9 得 7 失",
+     "赛程间隔 3 天",
+     "主样本 5 场 4 得 4 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "尼加拉瓜",
+   "away": "蒙特塞拉特",
+   "engine": {
+    "xg_h": 0.844,
+    "xg_a": 1.209,
+    "H": 0.247,
+    "D": 0.3179,
+    "A": 0.4351,
+    "rq": [
+     0.0204,
+     0.0633,
+     0.9162
+    ],
+    "hc_model": -1.75
+   },
+   "input": {
+    "home_attack": 0.7407,
+    "home_defense": 1.2346,
+    "home_form": 0.0,
+    "home_rest": 4,
+    "away_attack": 0.7407,
+    "away_defense": 0.7407,
+    "away_form": 0.0,
+    "away_rest": 4,
+    "notes": [
+     "主样本 3 场 3 得 5 失",
+     "赛程间隔 4 天",
+     "主样本 4 场 4 得 4 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  }
+ ]
+}

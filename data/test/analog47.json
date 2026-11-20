@@ -1,0 +1,145 @@
+{
+ "batch": 47,
+ "source": "data/raw46",
+ "rawDir": "data/raw46",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:58.798Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3001051",
+   "lg": "非洲杯",
+   "kickoff": "2026-11-16 21:00",
+   "home": "津巴布韦",
+   "away": "赤道几内亚",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.76,
+   "aw": 0.94,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 15,
+   "sameHc": 15,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 3,
+    "L3": 15
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 46.7,
+   "pdown": 53.3,
+   "wdl": {
+    "平": 5,
+    "客": 3,
+    "主": 7
+   },
+   "topSc": [
+    [
+     "1-1",
+     3
+    ],
+    [
+     "1-2",
+     2
+    ],
+    [
+     "2-1",
+     2
+    ]
+   ],
+   "avgGoal": 3.27
+  },
+  {
+   "no": 2,
+   "id": "3001074",
+   "lg": "非洲杯",
+   "kickoff": "2026-11-16 21:00",
+   "home": "纳米比亚(中)",
+   "away": "喀麦隆",
+   "hc": -1.25,
+   "line": 1.25,
+   "favIsHome": false,
+   "hw": 0.73,
+   "aw": 0.97,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 2
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "主": 2
+   },
+   "topSc": [
+    [
+     "3-2",
+     1
+    ],
+    [
+     "3-1",
+     1
+    ]
+   ],
+   "avgGoal": 4.5
+  },
+  {
+   "no": 3,
+   "id": "3001111",
+   "lg": "非洲杯",
+   "kickoff": "2026-11-16 21:00",
+   "home": "苏丹",
+   "away": "塞内加尔",
+   "hc": -1.75,
+   "line": 1.75,
+   "favIsHome": false,
+   "hw": 0.84,
+   "aw": 0.86,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 5,
+   "sameHc": 5,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 5
+   },
+   "groupVerdict": "启用(样本薄)",
+   "groupHit": 83.3,
+   "groupN": 6,
+   "eligible": true,
+   "pud": 80,
+   "pdown": 20,
+   "wdl": {
+    "客": 5
+   },
+   "topSc": [
+    [
+     "0-3",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ],
+    [
+     "1-3",
+     1
+    ]
+   ],
+   "avgGoal": 3.6
+  }
+ ]
+}

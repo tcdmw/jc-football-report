@@ -1,0 +1,88 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [
+  {
+   "no": 1,
+   "reason": "主客场地样本缺失，拒绝用默认强度硬跑"
+  }
+ ],
+ "preds": [
+  {
+   "no": 2,
+   "home": "法罗群岛",
+   "away": "摩尔多瓦",
+   "engine": {
+    "xg_h": 1.544,
+    "xg_a": 0.871,
+    "H": 0.5217,
+    "D": 0.2759,
+    "A": 0.2023,
+    "rq": [
+     0.5217,
+     0.0,
+     0.4783
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 0.7407,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 3,
+    "away_attack": 0.8889,
+    "away_defense": 1.45,
+    "away_form": 0.0,
+    "away_rest": 3,
+    "notes": [
+     "主样本 3 场 3 得 2 失",
+     "赛程间隔 3 天",
+     "主样本 5 场 6 得 11 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "哈萨克斯坦",
+   "away": "斯洛伐克",
+   "engine": {
+    "xg_h": 2.316,
+    "xg_a": 1.272,
+    "H": 0.6009,
+    "D": 0.206,
+    "A": 0.1931,
+    "rq": [
+     0.8069,
+     0.0,
+     0.1931
+    ],
+    "hc_model": 0.5
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 0.7407,
+    "home_form": 0.0,
+    "home_rest": 3,
+    "away_attack": 1.2346,
+    "away_defense": 1.45,
+    "away_form": 0.0,
+    "away_rest": 3,
+    "notes": [
+     "主样本 4 场 6 得 4 失",
+     "赛程间隔 3 天",
+     "主样本 3 场 5 得 7 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  }
+ ]
+}

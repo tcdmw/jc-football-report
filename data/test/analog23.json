@@ -1,0 +1,180 @@
+{
+ "batch": 23,
+ "source": "data/raw23",
+ "rawDir": "data/raw23",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.338Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2912931",
+   "lg": "挪超",
+   "kickoff": "2026-11-09 00:00",
+   "home": "汉坎",
+   "away": "萨普斯堡08",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.82,
+   "aw": 0.96,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 7,
+   "sameHc": 7,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 4,
+    "L3": 7
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 7
+   },
+   "topSc": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "0-0",
+     2
+    ],
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.57
+  },
+  {
+   "no": 2,
+   "id": "2912933",
+   "lg": "挪超",
+   "kickoff": "2026-11-09 00:00",
+   "home": "利勒斯特罗姆",
+   "away": "奥勒松",
+   "hc": 0.75,
+   "line": 0.75,
+   "favIsHome": true,
+   "hw": 0.98,
+   "aw": 0.8,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 4,
+   "sameHc": 4,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 1,
+    "L3": 4
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "主": 2,
+    "平": 1,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "3-2",
+     1
+    ],
+    [
+     "2-2",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ]
+   ],
+   "avgGoal": 3.25
+  },
+  {
+   "no": 3,
+   "id": "2912935",
+   "lg": "挪超",
+   "kickoff": "2026-11-09 00:00",
+   "home": "桑德菲杰",
+   "away": "莫尔德",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.99,
+   "aw": 0.79,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 7,
+   "sameHc": 7,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 3,
+    "L3": 7
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 7
+   },
+   "topSc": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "0-0",
+     2
+    ],
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.57
+  },
+  {
+   "no": 4,
+   "id": "2912937",
+   "lg": "挪超",
+   "kickoff": "2026-11-09 00:00",
+   "home": "维京",
+   "away": "KFUM奥斯陆",
+   "hc": 2,
+   "line": 2,
+   "favIsHome": true,
+   "hw": 0.94,
+   "aw": 0.84,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  }
+ ]
+}

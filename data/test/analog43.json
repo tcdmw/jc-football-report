@@ -1,0 +1,56 @@
+{
+ "batch": 43,
+ "source": "data/raw42",
+ "rawDir": "data/raw42",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:58.394Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3014168",
+   "lg": "西乙",
+   "kickoff": "2026-11-15 23:15",
+   "home": "格拉纳达",
+   "away": "拉斯帕尔马斯",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.93,
+   "aw": 0.85,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 6,
+   "sameHc": 6,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 1,
+    "L3": 6
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": true,
+   "pud": 83.3,
+   "pdown": 16.7,
+   "wdl": {
+    "主": 5,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "1-0",
+     2
+    ],
+    [
+     "2-0",
+     1
+    ],
+    [
+     "1-6",
+     1
+    ]
+   ],
+   "avgGoal": 4
+  }
+ ]
+}

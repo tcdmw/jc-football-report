@@ -1,0 +1,44 @@
+{
+ "n": 3,
+ "report": [
+  {
+   "id": "3001051",
+   "home": "津巴布韦",
+   "away": "赤道几内亚",
+   "txt_chars": 5377,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.25,
+   "ou": "1.5/2",
+   "lineN": 15
+  },
+  {
+   "id": "3001074",
+   "home": "纳米比亚(中)",
+   "away": "喀麦隆",
+   "txt_chars": 5694,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -1.25,
+   "ou": "2/2.5",
+   "lineN": 15
+  },
+  {
+   "id": "3001111",
+   "home": "苏丹",
+   "away": "塞内加尔",
+   "txt_chars": 5940,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -1.75,
+   "ou": "2.5",
+   "lineN": 15
+  }
+ ]
+}

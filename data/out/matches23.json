@@ -94,6 +94,12 @@
     "zjq": "未定位进球数串",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   },
   {
@@ -186,6 +192,12 @@
     "zjq": "未定位进球数串",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   },
   {
@@ -278,6 +290,12 @@
     "zjq": "未定位进球数串",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   },
   {
@@ -370,6 +388,12 @@
     "zjq": "未定位进球数串",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   }
  ]

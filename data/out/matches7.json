@@ -81,6 +81,12 @@
     "zjq": "ok",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   },
   {
@@ -151,6 +157,12 @@
     "zjq": "无形状合规解（候选 188）",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   },
   {
@@ -230,6 +242,12 @@
     "zjq": "ok",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   },
   {
@@ -300,6 +318,12 @@
     "zjq": "无形状合规解（候选 230）",
     "hc": "ok",
     "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
    }
   }
  ]

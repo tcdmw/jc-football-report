@@ -1,0 +1,231 @@
+{
+ "source": "data/raw37",
+ "collectedAt": "2026-11-15T07:12:55.785Z",
+ "count": 2,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3110407",
+   "lg": "日联杯",
+   "kickoff": "2026-11-15 16:00",
+   "home": "柏太阳神",
+   "away": "川崎前锋",
+   "hc": 0.5,
+   "hcRaw": "澳",
+   "spf": [
+    1.67,
+    3.95,
+    3.48
+   ],
+   "spfMargin": 0.13932327401068667,
+   "zjq": null,
+   "zjqRaw": "268.354.63.64.269.511",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 14,
+      "w": 10,
+      "d": 1,
+      "l": 3,
+      "gf": 31,
+      "ga": 20,
+      "gd": 11,
+      "points": 31,
+      "rank": 2,
+      "winRate": 71.4
+     },
+     "away": {
+      "p": 14,
+      "w": 6,
+      "d": 4,
+      "l": 4,
+      "gf": 28,
+      "ga": 24,
+      "gd": 4,
+      "points": 22,
+      "rank": 8,
+      "winRate": 42.9
+     }
+    },
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 17,
+      "ga": 11
+     },
+     "away": {
+      "p": 7,
+      "gf": 14,
+      "ga": 9
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 17,
+      "ga": 12
+     },
+     "away": {
+      "p": 7,
+      "gf": 11,
+      "ga": 12
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 14,
+      "ga": 8
+     },
+     "away": {
+      "p": 6,
+      "gf": 12,
+      "ga": 12
+     }
+    },
+    "leagueOf": {
+     "home": "日职联",
+     "away": "日职联"
+    }
+   },
+   "restDays": {
+    "home": 5,
+    "away": 5
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "一致解不唯一（最优 0.069 vs 0.076，2 候）",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3110405",
+   "lg": "日联杯",
+   "kickoff": "2026-11-15 16:00",
+   "home": "鹿岛鹿角",
+   "away": "横滨水手",
+   "hc": 0,
+   "hcRaw": "澳",
+   "spf": [
+    1.62,
+    3.88,
+    3.78
+   ],
+   "spfMargin": 0.13956617393043524,
+   "zjq": [
+    20,
+    7,
+    4.35,
+    3.35,
+    4.5,
+    6.5,
+    11,
+    15
+   ],
+   "zjqRaw": "2074.353.354.56.51115",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 14,
+      "w": 7,
+      "d": 2,
+      "l": 5,
+      "gf": 29,
+      "ga": 24,
+      "gd": 5,
+      "points": 23,
+      "rank": 6,
+      "winRate": 50
+     },
+     "away": {
+      "p": 14,
+      "w": 5,
+      "d": 7,
+      "l": 2,
+      "gf": 21,
+      "ga": 15,
+      "gd": 6,
+      "points": 22,
+      "rank": 7,
+      "winRate": 35.7
+     }
+    },
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 15,
+      "ga": 8
+     },
+     "away": {
+      "p": 7,
+      "gf": 14,
+      "ga": 16
+     }
+    },
+    "away": {
+     "home": {
+      "p": 7,
+      "gf": 14,
+      "ga": 10
+     },
+     "away": {
+      "p": 7,
+      "gf": 7,
+      "ga": 5
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 12,
+      "ga": 8
+     },
+     "away": {
+      "p": 6,
+      "gf": 8,
+      "ga": 6
+     }
+    },
+    "leagueOf": {
+     "home": "日职联",
+     "away": "日职联"
+    }
+   },
+   "restDays": {
+    "home": 5,
+    "away": 5
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  }
+ ]
+}

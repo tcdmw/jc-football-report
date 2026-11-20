@@ -1,0 +1,151 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 4,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "车里雅宾斯克",
+   "away": "莫斯科韦莱斯",
+   "engine": {
+    "xg_h": 1.567,
+    "xg_a": 0.918,
+    "H": 0.5157,
+    "D": 0.2732,
+    "A": 0.2112,
+    "rq": [
+     0.5157,
+     0.2732,
+     0.2112
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 0.9259,
+    "home_defense": 1.2037,
+    "home_form": 0.2469,
+    "home_rest": 9,
+    "away_attack": 0.7,
+    "away_defense": 0.9259,
+    "away_form": 0.0,
+    "away_rest": 6,
+    "notes": [
+     "主样本 8 场 10 得 13 失",
+     "赛程间隔 9 天",
+     "主样本 8 场 7 得 10 失",
+     "赛程间隔 6 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "通德拉",
+   "away": "法鲁人",
+   "engine": {
+    "xg_h": 2.203,
+    "xg_a": 0.703,
+    "H": 0.7103,
+    "D": 0.1921,
+    "A": 0.0977,
+    "rq": [
+     0.7103,
+     0.0,
+     0.2897
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.3333,
+    "home_defense": 0.7407,
+    "home_form": 0.7407,
+    "home_rest": 7,
+    "away_attack": 0.9259,
+    "away_defense": 0.7407,
+    "away_form": 0.1235,
+    "away_rest": 8,
+    "notes": [
+     "主样本 5 场 9 得 5 失",
+     "赛程间隔 7 天",
+     "主样本 4 场 5 得 4 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "阿马兰迪",
+   "away": "费尔盖拉什",
+   "engine": {
+    "xg_h": 1.292,
+    "xg_a": 0.784,
+    "H": 0.4749,
+    "D": 0.3089,
+    "A": 0.2161,
+    "rq": [
+     0.4749,
+     0.3089,
+     0.2161
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 0.8889,
+    "home_defense": 0.8889,
+    "home_form": -0.3704,
+    "home_rest": 9,
+    "away_attack": 0.7,
+    "away_defense": 0.8889,
+    "away_form": -0.4938,
+    "away_rest": 9,
+    "notes": [
+     "主样本 5 场 6 得 6 失",
+     "赛程间隔 9 天",
+     "主样本 5 场 3 得 6 失",
+     "赛程间隔 9 天"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "特内里费",
+   "away": "休达",
+   "engine": {
+    "xg_h": 1.605,
+    "xg_a": 0.66,
+    "H": 0.5934,
+    "D": 0.2644,
+    "A": 0.1422,
+    "rq": [
+     0.3303,
+     0.2631,
+     0.4066
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 0.7407,
+    "home_defense": 0.7,
+    "home_form": -0.7407,
+    "home_rest": 22,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": -0.8,
+    "away_rest": 8,
+    "notes": [
+     "主样本 5 场 5 得 3 失",
+     "赛程间隔 22 天",
+     "主样本 6 场 4 得 18 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  }
+ ]
+}

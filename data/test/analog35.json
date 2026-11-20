@@ -1,0 +1,492 @@
+{
+ "batch": 35,
+ "source": "data/raw35",
+ "rawDir": "data/raw35",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:57.601Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2981463",
+   "lg": "欧国联",
+   "kickoff": "2026-11-15 01:00",
+   "home": "挪威",
+   "away": "威尔士",
+   "hc": 1.75,
+   "line": 1.75,
+   "favIsHome": true,
+   "hw": 0.94,
+   "aw": 0.9,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用(样本薄)",
+   "groupHit": 83.3,
+   "groupN": 6,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "4-1",
+     1
+    ]
+   ],
+   "avgGoal": 5
+  },
+  {
+   "no": 2,
+   "id": "2981510",
+   "lg": "欧国联",
+   "kickoff": "2026-11-15 01:00",
+   "home": "格鲁吉亚",
+   "away": "匈牙利",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.94,
+   "aw": 0.9,
+   "src": "澳",
+   "tierUsed": "L2",
+   "peers": 5,
+   "sameHc": 13,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 5,
+    "L3": 13
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 20,
+   "pdown": 80,
+   "wdl": {
+    "平": 4,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "2-2",
+     2
+    ],
+    [
+     "1-3",
+     1
+    ],
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.8
+  },
+  {
+   "no": 3,
+   "id": "3001013",
+   "lg": "非洲杯",
+   "kickoff": "2026-11-15 03:00",
+   "home": "安哥拉",
+   "away": "南苏丹",
+   "hc": 2.25,
+   "line": 2.25,
+   "favIsHome": true,
+   "hw": 0.89,
+   "aw": 0.81,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 2
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "主": 2
+   },
+   "topSc": [
+    [
+     "1-0",
+     2
+    ]
+   ],
+   "avgGoal": 1
+  },
+  {
+   "no": 4,
+   "id": "3001096",
+   "lg": "非洲杯",
+   "kickoff": "2026-11-15 03:00",
+   "home": "阿尔及利亚",
+   "away": "多哥",
+   "hc": 1.75,
+   "line": 1.75,
+   "favIsHome": true,
+   "hw": 0.85,
+   "aw": 0.85,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用(样本薄)",
+   "groupHit": 83.3,
+   "groupN": 6,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "4-1",
+     1
+    ]
+   ],
+   "avgGoal": 5
+  },
+  {
+   "no": 5,
+   "id": "2981464",
+   "lg": "欧国联",
+   "kickoff": "2026-11-15 03:45",
+   "home": "葡萄牙",
+   "away": "丹麦",
+   "hc": 1,
+   "line": 1,
+   "favIsHome": true,
+   "hw": 0.94,
+   "aw": 0.9,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 4,
+   "sameHc": 4,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 4
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 75,
+   "pdown": 50,
+   "wdl": {
+    "平": 1,
+    "主": 3
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ],
+    [
+     "3-1",
+     1
+    ],
+    [
+     "7-0",
+     1
+    ]
+   ],
+   "avgGoal": 4
+  },
+  {
+   "no": 6,
+   "id": "2981511",
+   "lg": "欧国联",
+   "kickoff": "2026-11-15 03:45",
+   "home": "北爱尔兰",
+   "away": "乌克兰",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 1.09,
+   "aw": 0.75,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 10,
+   "sameHc": 10,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 10
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 30,
+   "pdown": 70,
+   "wdl": {
+    "平": 4,
+    "客": 3,
+    "主": 3
+   },
+   "topSc": [
+    [
+     "1-2",
+     2
+    ],
+    [
+     "1-1",
+     2
+    ],
+    [
+     "2-1",
+     2
+    ]
+   ],
+   "avgGoal": 3.1
+  },
+  {
+   "no": 7,
+   "id": "2981513",
+   "lg": "欧国联",
+   "kickoff": "2026-11-15 03:45",
+   "home": "瑞典",
+   "away": "波黑",
+   "hc": 1.25,
+   "line": 1.25,
+   "favIsHome": true,
+   "hw": 0.98,
+   "aw": 0.86,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 4,
+   "sameHc": 4,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 4
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": 75,
+   "pdown": 25,
+   "wdl": {
+    "主": 3,
+    "平": 1
+   },
+   "topSc": [
+    [
+     "2-0",
+     1
+    ],
+    [
+     "3-0",
+     1
+    ],
+    [
+     "2-2",
+     1
+    ]
+   ],
+   "avgGoal": 3.75
+  },
+  {
+   "no": 8,
+   "id": "2981514",
+   "lg": "欧国联",
+   "kickoff": "2026-11-15 03:45",
+   "home": "罗马尼亚",
+   "away": "波兰",
+   "hc": -0.75,
+   "line": 0.75,
+   "favIsHome": false,
+   "hw": 1.06,
+   "aw": 0.78,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 5,
+   "sameHc": 5,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 1,
+    "L3": 5
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": true,
+   "pud": 40,
+   "pdown": 60,
+   "wdl": {
+    "主": 2,
+    "平": 1,
+    "客": 2
+   },
+   "topSc": [
+    [
+     "3-1",
+     1
+    ],
+    [
+     "5-3",
+     1
+    ],
+    [
+     "0-0",
+     1
+    ]
+   ],
+   "avgGoal": 3.8
+  },
+  {
+   "no": 9,
+   "id": "2981512",
+   "lg": "欧国联",
+   "kickoff": "2026-11-15 03:45",
+   "home": "奥地利",
+   "away": "爱尔兰",
+   "hc": 0.75,
+   "line": 0.75,
+   "favIsHome": true,
+   "hw": 0.76,
+   "aw": 1.08,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 5,
+   "sameHc": 5,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 5
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": true,
+   "pud": 60,
+   "pdown": 40,
+   "wdl": {
+    "主": 3,
+    "平": 1,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "3-2",
+     2
+    ],
+    [
+     "2-2",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ]
+   ],
+   "avgGoal": 3.6
+  },
+  {
+   "no": 10,
+   "id": "3109749",
+   "lg": "中北美国联",
+   "kickoff": "2026-11-15 05:30",
+   "home": "海地",
+   "away": "美国",
+   "hc": -1.75,
+   "line": 1.75,
+   "favIsHome": false,
+   "hw": 0.82,
+   "aw": 0.96,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 4,
+   "sameHc": 4,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 4
+   },
+   "groupVerdict": "启用(样本薄)",
+   "groupHit": 83.3,
+   "groupN": 6,
+   "eligible": false,
+   "pud": 75,
+   "pdown": 25,
+   "wdl": {
+    "客": 4
+   },
+   "topSc": [
+    [
+     "0-3",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ],
+    [
+     "1-3",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 11,
+   "id": "3109747",
+   "lg": "中北美国联",
+   "kickoff": "2026-11-15 09:00",
+   "home": "牙买加",
+   "away": "墨西哥",
+   "hc": -1.25,
+   "line": 1.25,
+   "favIsHome": false,
+   "hw": 0.77,
+   "aw": 1.01,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "3-1",
+     1
+    ]
+   ],
+   "avgGoal": 4
+  }
+ ]
+}

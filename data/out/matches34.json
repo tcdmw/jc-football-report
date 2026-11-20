@@ -1,0 +1,200 @@
+{
+ "source": "data/raw34",
+ "collectedAt": "2026-11-14T15:02:59.878Z",
+ "count": 2,
+ "issues": [
+  {
+   "no": 2,
+   "id": "3111991",
+   "issue": "队名与页面不符"
+  }
+ ],
+ "matches": [
+  {
+   "no": 1,
+   "id": "2996544",
+   "lg": "荷乙",
+   "kickoff": "2026-11-14 23:30",
+   "home": "布雷达",
+   "away": "埃蒙",
+   "hc": 1.25,
+   "hcRaw": "澳",
+   "spf": [
+    1.3,
+    4.75,
+    6.25
+   ],
+   "spfMargin": 0.13975708502024276,
+   "zjq": [
+    25,
+    8,
+    4.75,
+    3.7,
+    4.2,
+    5.75,
+    9.5,
+    11
+   ],
+   "zjqRaw": "2584.753.74.25.759.511",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 14,
+      "w": 7,
+      "d": 4,
+      "l": 3,
+      "gf": 25,
+      "ga": 20,
+      "gd": 5,
+      "points": 25,
+      "rank": 4,
+      "winRate": 50
+     },
+     "away": {
+      "p": 14,
+      "w": 8,
+      "d": 1,
+      "l": 5,
+      "gf": 26,
+      "ga": 26,
+      "gd": 0,
+      "points": 25,
+      "rank": 6,
+      "winRate": 57.1
+     }
+    },
+    "home": {
+     "home": {
+      "p": 6,
+      "gf": 11,
+      "ga": 10
+     },
+     "away": {
+      "p": 8,
+      "gf": 14,
+      "ga": 10
+     }
+    },
+    "away": {
+     "home": {
+      "p": 8,
+      "gf": 13,
+      "ga": 14
+     },
+     "away": {
+      "p": 6,
+      "gf": 13,
+      "ga": 12
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 8,
+      "ga": 3
+     },
+     "away": {
+      "p": 6,
+      "gf": 8,
+      "ga": 9
+     }
+    },
+    "leagueOf": {
+     "home": "荷乙",
+     "away": "荷乙"
+    }
+   },
+   "restDays": {
+    "home": 8,
+    "away": 7
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3111991",
+   "lg": "国际友谊",
+   "kickoff": "2026-11-14 23:00",
+   "home": "巴勒斯坦",
+   "away": "伊朗",
+   "hc": -1,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": null,
+     "away": null
+    },
+    "home": {
+     "home": {
+      "p": 2,
+      "gf": 3,
+      "ga": 3
+     },
+     "away": {
+      "p": 10,
+      "gf": 17,
+      "ga": 9
+     }
+    },
+    "away": {
+     "home": {
+      "p": 10,
+      "gf": 15,
+      "ga": 11
+     },
+     "away": {
+      "p": 6,
+      "gf": 5,
+      "ga": 7
+     }
+    },
+    "form": null,
+    "leagueOf": {
+     "home": null,
+     "away": null
+    }
+   },
+   "restDays": {
+    "home": 44,
+    "away": 46
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": false,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  }
+ ]
+}

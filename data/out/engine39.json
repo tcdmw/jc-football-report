@@ -1,0 +1,83 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 2,
+   "home": "通德拉",
+   "away": "法鲁人",
+   "engine": {
+    "xg_h": 2.203,
+    "xg_a": 0.703,
+    "H": 0.7103,
+    "D": 0.1921,
+    "A": 0.0977,
+    "rq": [
+     0.4759,
+     0.2344,
+     0.2897
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 1.3333,
+    "home_defense": 0.7407,
+    "home_form": 0.7407,
+    "home_rest": 7,
+    "away_attack": 0.9259,
+    "away_defense": 0.7407,
+    "away_form": 0.1235,
+    "away_rest": 8,
+    "notes": [
+     "主样本 5 场 9 得 5 失",
+     "赛程间隔 7 天",
+     "主样本 4 场 5 得 4 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "阿马兰迪",
+   "away": "费尔盖拉什",
+   "engine": {
+    "xg_h": 1.292,
+    "xg_a": 0.784,
+    "H": 0.4749,
+    "D": 0.3089,
+    "A": 0.2161,
+    "rq": [
+     0.4749,
+     0.3089,
+     0.2161
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 0.8889,
+    "home_defense": 0.8889,
+    "home_form": -0.3704,
+    "home_rest": 9,
+    "away_attack": 0.7,
+    "away_defense": 0.8889,
+    "away_form": -0.4938,
+    "away_rest": 9,
+    "notes": [
+     "主样本 5 场 6 得 6 失",
+     "赛程间隔 9 天",
+     "主样本 5 场 3 得 6 失",
+     "赛程间隔 9 天"
+    ]
+   }
+  }
+ ]
+}

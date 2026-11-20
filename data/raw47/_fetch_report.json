@@ -1,0 +1,44 @@
+{
+ "n": 3,
+ "report": [
+  {
+   "id": "3001026",
+   "home": "索马利亚(中)",
+   "away": "加纳",
+   "txt_chars": 5288,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -2.25,
+   "ou": "3",
+   "lineN": 15
+  },
+  {
+   "id": "2981567",
+   "home": "法罗群岛",
+   "away": "摩尔多瓦",
+   "txt_chars": 6804,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "2/2.5",
+   "lineN": 15
+  },
+  {
+   "id": "2981568",
+   "home": "哈萨克斯坦",
+   "away": "斯洛伐克",
+   "txt_chars": 6690,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.5,
+   "ou": "2.5",
+   "lineN": 15
+  }
+ ]
+}

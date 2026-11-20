@@ -1,0 +1,247 @@
+{
+ "titanId": "3109633",
+ "dqdMatchId": "54609376",
+ "home": "约旦",
+ "away": "澳大利亚",
+ "pageHome": "约旦",
+ "pageAway": "澳大利亚",
+ "kickoff": "00:00",
+ "league": "友谊赛",
+ "pageScore": "",
+ "planTotal": "75",
+ "planId": 8185683,
+ "isUnlock": 0,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "总进球数",
+   "count": 36,
+   "options": []
+  },
+  {
+   "play": "主客队",
+   "count": 40,
+   "options": []
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 0,
+   "left_times": 0,
+   "plan_id": 8185683,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "count": 36,
+      "play_type": "总进球数"
+     },
+     {
+      "count": 40,
+      "play_type": "主客队"
+     }
+    ],
+    "count": "75"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": null,
+  "PersonAnalyse": null,
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.79",
+     "cmp": "",
+     "hdp": "受半球",
+     "home": "0.99"
+    },
+    "trans": []
+   },
+   "euro": {
+    "away": "1.79",
+    "cmp": "澳彩",
+    "hdp": "3.35",
+    "home": "3.71"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.75",
+     "cmp": "",
+     "hdp": "2.5",
+     "home": "0.97"
+    },
+    "trans": []
+   }
+  },
+  "Forecast": {
+   "data_num": "285459",
+   "forecast_A": "37",
+   "forecast_B": "63",
+   "hdp": "2.5",
+   "hdp_float": 2.5,
+   "match_id": "4609376",
+   "result": ""
+  },
+  "KeyDes": [],
+  "WsNews": [],
+  "TeamDesStrength": [],
+  "TeamDesInjury": [],
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "7%(3)",
+       "gs": "13%(8)",
+       "time": "1-15"
+      },
+      {
+       "ga": "10%(4)",
+       "gs": "15%(9)",
+       "time": "16-30"
+      },
+      {
+       "ga": "21%(9)",
+       "gs": "15%(9)",
+       "time": "31-45"
+      },
+      {
+       "ga": "7%(3)",
+       "gs": "24%(15)",
+       "time": "46-60"
+      },
+      {
+       "ga": "19%(8)",
+       "gs": "15%(9)",
+       "time": "61-75"
+      },
+      {
+       "ga": "36%(15)",
+       "gs": "19%(12)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "4%(1)",
+       "gs": "5%(1)",
+       "time": "1-15"
+      },
+      {
+       "ga": "12%(3)",
+       "gs": "23%(5)",
+       "time": "16-30"
+      },
+      {
+       "ga": "15%(4)",
+       "gs": "14%(3)",
+       "time": "31-45"
+      },
+      {
+       "ga": "12%(3)",
+       "gs": "32%(7)",
+       "time": "46-60"
+      },
+      {
+       "ga": "15%(4)",
+       "gs": "9%(2)",
+       "time": "61-75"
+      },
+      {
+       "ga": "42%(11)",
+       "gs": "18%(4)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 42,
+    "ga_total_tw": 26,
+    "gs_total_fi": 62,
+    "gs_total_tw": 22,
+    "team_name": "约旦"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "12%(4)",
+       "gs": "11%(8)",
+       "time": "1-15"
+      },
+      {
+       "ga": "15%(5)",
+       "gs": "19%(14)",
+       "time": "16-30"
+      },
+      {
+       "ga": "15%(5)",
+       "gs": "18%(13)",
+       "time": "31-45"
+      },
+      {
+       "ga": "15%(5)",
+       "gs": "18%(13)",
+       "time": "46-60"
+      },
+      {
+       "ga": "18%(6)",
+       "gs": "15%(11)",
+       "time": "61-75"
+      },
+      {
+       "ga": "24%(8)",
+       "gs": "19%(14)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "20%(3)",
+       "gs": "4%(1)",
+       "time": "1-15"
+      },
+      {
+       "ga": "13%(2)",
+       "gs": "23%(6)",
+       "time": "16-30"
+      },
+      {
+       "ga": "20%(3)",
+       "gs": "19%(5)",
+       "time": "31-45"
+      },
+      {
+       "ga": "20%(3)",
+       "gs": "15%(4)",
+       "time": "46-60"
+      },
+      {
+       "ga": "7%(1)",
+       "gs": "19%(5)",
+       "time": "61-75"
+      },
+      {
+       "ga": "20%(3)",
+       "gs": "19%(5)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 33,
+    "ga_total_tw": 15,
+    "gs_total_fi": 73,
+    "gs_total_tw": 26,
+    "team_name": "澳大利亚"
+   }
+  },
+  "Bf_Distribute": [],
+  "Bf_Transaction": []
+ },
+ "userId": 0,
+ "vipType": -1
+}

@@ -1,0 +1,339 @@
+﻿[skip] 缺 matches1.json
+[batch 2] 6 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury2.json
+[batch 3] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury3.json
+[batch 4] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury4.json
+[batch 5] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury5.json
+[batch 6] 4 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury6.json
+[batch 7] 4 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury7.json
+[batch 8] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury8.json
+[batch 9] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury9.json
+[batch 10] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury10.json
+[batch 11] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury11.json
+[batch 12] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury12.json
+[batch 13] 6 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury13.json
+[batch 14] 1 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury14.json
+[batch 15] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury15.json
+[batch 16] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury16.json
+[batch 17] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury17.json
+[batch 18] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury18.json
+[batch 19] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury19.json
+[batch 20] 6 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury20.json
+[batch 21] 1 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury21.json
+[batch 22] 8 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury22.json
+[batch 23] 4 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury23.json
+[batch 24] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury24.json
+[batch 25] 1 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury25.json
+[batch 26] 4 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury26.json
+[batch 27] 1 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury27.json
+[batch 28] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury28.json
+[batch 29] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury29.json
+[batch 30] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury30.json
+[batch 31] 10 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury31.json
+[batch 32] 10 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury32.json
+[batch 33] 5 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury33.json
+[batch 34] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury34.json
+[batch 35] 11 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury35.json
+[batch 36] 6 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury36.json
+[batch 37] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury37.json
+[batch 38] 4 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury38.json
+[batch 39] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury39.json
+[batch 40] 1 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury40.json
+[batch 41] 1 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury41.json
+[batch 42] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury42.json
+[batch 43] 1 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury43.json
+[batch 44] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury44.json
+[batch 45] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury45.json
+[batch 46] 4 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury46.json
+[batch 47] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury47.json
+[batch 48] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury48.json
+[batch 49] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury49.json
+[batch 50] 5 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury50.json
+[batch 51] 5 场, 有伤停 3 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury51.json
+[batch 52] 1 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury52.json
+[batch 53] 6 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury53.json
+[batch 54] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury54.json
+[batch 55] 9 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury55.json
+[batch 56] 3 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury56.json
+[batch 57] 2 场, 有伤停 0 场 -> C:\Users\Administrator\DoubaoWork\chats\2026-11-07\new-chat\jc-football-report-main\data\test\injury57.json
+{
+ "2": {
+  "matches": 6,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury2.json"
+ },
+ "3": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury3.json"
+ },
+ "4": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury4.json"
+ },
+ "5": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury5.json"
+ },
+ "6": {
+  "matches": 4,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury6.json"
+ },
+ "7": {
+  "matches": 4,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury7.json"
+ },
+ "8": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury8.json"
+ },
+ "9": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury9.json"
+ },
+ "10": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury10.json"
+ },
+ "11": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury11.json"
+ },
+ "12": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury12.json"
+ },
+ "13": {
+  "matches": 6,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury13.json"
+ },
+ "14": {
+  "matches": 1,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury14.json"
+ },
+ "15": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury15.json"
+ },
+ "16": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury16.json"
+ },
+ "17": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury17.json"
+ },
+ "18": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury18.json"
+ },
+ "19": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury19.json"
+ },
+ "20": {
+  "matches": 6,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury20.json"
+ },
+ "21": {
+  "matches": 1,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury21.json"
+ },
+ "22": {
+  "matches": 8,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury22.json"
+ },
+ "23": {
+  "matches": 4,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury23.json"
+ },
+ "24": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury24.json"
+ },
+ "25": {
+  "matches": 1,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury25.json"
+ },
+ "26": {
+  "matches": 4,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury26.json"
+ },
+ "27": {
+  "matches": 1,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury27.json"
+ },
+ "28": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury28.json"
+ },
+ "29": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury29.json"
+ },
+ "30": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury30.json"
+ },
+ "31": {
+  "matches": 10,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury31.json"
+ },
+ "32": {
+  "matches": 10,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury32.json"
+ },
+ "33": {
+  "matches": 5,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury33.json"
+ },
+ "34": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury34.json"
+ },
+ "35": {
+  "matches": 11,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury35.json"
+ },
+ "36": {
+  "matches": 6,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury36.json"
+ },
+ "37": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury37.json"
+ },
+ "38": {
+  "matches": 4,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury38.json"
+ },
+ "39": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury39.json"
+ },
+ "40": {
+  "matches": 1,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury40.json"
+ },
+ "41": {
+  "matches": 1,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury41.json"
+ },
+ "42": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury42.json"
+ },
+ "43": {
+  "matches": 1,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury43.json"
+ },
+ "44": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury44.json"
+ },
+ "45": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury45.json"
+ },
+ "46": {
+  "matches": 4,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury46.json"
+ },
+ "47": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury47.json"
+ },
+ "48": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury48.json"
+ },
+ "49": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury49.json"
+ },
+ "50": {
+  "matches": 5,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury50.json"
+ },
+ "51": {
+  "matches": 5,
+  "withInjury": 3,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury51.json"
+ },
+ "52": {
+  "matches": 1,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury52.json"
+ },
+ "53": {
+  "matches": 6,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury53.json"
+ },
+ "54": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury54.json"
+ },
+ "55": {
+  "matches": 9,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury55.json"
+ },
+ "56": {
+  "matches": 3,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury56.json"
+ },
+ "57": {
+  "matches": 2,
+  "withInjury": 0,
+  "detail": "C:\\Users\\Administrator\\DoubaoWork\\chats\\2026-11-07\\new-chat\\jc-football-report-main\\data\\test\\injury57.json"
+ }
+}

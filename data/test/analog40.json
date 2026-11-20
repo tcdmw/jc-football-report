@@ -1,0 +1,56 @@
+{
+ "batch": 40,
+ "source": "data/raw39",
+ "rawDir": "data/raw39",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:58.094Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3022057",
+   "lg": "俄甲",
+   "kickoff": "2026-11-15 19:30",
+   "home": "乌法",
+   "away": "科斯特罗马斯巴达",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 0.69,
+   "aw": 1.01,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 7,
+   "sameHc": 7,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 7
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 42.9,
+   "pdown": 57.1,
+   "wdl": {
+    "客": 4,
+    "主": 3
+   },
+   "topSc": [
+    [
+     "0-1",
+     2
+    ],
+    [
+     "3-2",
+     1
+    ],
+    [
+     "2-1",
+     1
+    ]
+   ],
+   "avgGoal": 2.71
+  }
+ ]
+}

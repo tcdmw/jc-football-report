@@ -1,0 +1,31 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "2996544",
+   "home": "布雷达",
+   "away": "埃蒙",
+   "txt_chars": 9108,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.25,
+   "ou": "3/3.5",
+   "lineN": 15
+  },
+  {
+   "id": "3111991",
+   "home": "巴勒斯坦",
+   "away": "伊朗",
+   "txt_chars": 6433,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -1.0,
+   "ou": "2.5",
+   "lineN": 14
+  }
+ ]
+}

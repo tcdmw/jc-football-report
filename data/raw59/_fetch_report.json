@@ -1,0 +1,18 @@
+{
+ "n": 1,
+ "report": [
+  {
+   "id": "3041397",
+   "home": "西悉尼流浪者",
+   "away": "阿德莱德联",
+   "txt_chars": 9240,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.0,
+   "ou": "3.5",
+   "lineN": 15
+  }
+ ]
+}

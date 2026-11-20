@@ -1,0 +1,49 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 1,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "马斯特里赫特",
+   "away": "维特斯",
+   "engine": {
+    "xg_h": 0.965,
+    "xg_a": 1.929,
+    "H": 0.1754,
+    "D": 0.2341,
+    "A": 0.5905,
+    "rq": [
+     0.1754,
+     0.2341,
+     0.5905
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 0.8466,
+    "home_defense": 1.3757,
+    "home_form": -0.8,
+    "home_rest": 8,
+    "away_attack": 0.9524,
+    "away_defense": 0.8466,
+    "away_form": -0.6173,
+    "away_rest": 13,
+    "notes": [
+     "主样本 7 场 8 得 13 失",
+     "赛程间隔 8 天",
+     "主样本 7 场 9 得 8 失",
+     "赛程间隔 13 天"
+    ]
+   }
+  }
+ ]
+}

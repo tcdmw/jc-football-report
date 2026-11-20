@@ -1,0 +1,78 @@
+{
+ "batch": 29,
+ "source": "data/raw29",
+ "rawDir": "data/raw29",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.960Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3092356",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-11 01:45",
+   "home": "皇家马德里(女)",
+   "away": "巴黎(女)",
+   "hc": 1.25,
+   "line": 1.25,
+   "favIsHome": true,
+   "hw": 0.78,
+   "aw": 0.92,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-0",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 2,
+   "id": "3092376",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-11 01:45",
+   "home": "赫根(女)",
+   "away": "切尔西(女)",
+   "hc": -2,
+   "line": 2,
+   "favIsHome": false,
+   "hw": 0.88,
+   "aw": 0.82,
+   "src": "澳",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  }
+ ]
+}

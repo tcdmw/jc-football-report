@@ -1,11 +1,16 @@
 ﻿# run.ps1 — 本地一套：v4 工具链 + 两轨 Python 模型，一条命令跑完
-# 用法:  .\run.ps1            跑全链（默认 batch = data/test/meta_1146_11.json）
-#        .\run.ps1 -Batch xxx 指定批次
+# 用法:  .\run.ps1                         跑全链（默认 batch = data/test/meta_1146_11.json）
+#        .\run.ps1 -Batch xxx              指定批次 meta
+#        .\run.ps1 -Batch xxx -BatchNo 57  显式指定批次号（伤停审计文件用）
+#        .\run.ps1 -Batch xxx -RawDir raw56 显式指定 raw 目录（映射与伤停用）
+# 链路: collect → dqd 映射/情报 → dqd 伤停 → analyze → backtest → verify → 双 Python 轨
 # 退出码: 0 全部通过 / 3 有检查未通过（详见各步输出）
 
 param(
   [string]$Batch = "data/test/meta_1146_11.json",
-  [string]$Preds = "data/out/preds.json"
+  [string]$Preds = "data/out/preds.json",
+  [string]$BatchNo = "",
+  [string]$RawDir = ""
 )
 
 $ErrorLocally = 0
@@ -37,6 +42,39 @@ function Step($name, $exe, $argsArr) {
 
 # 1) 采集解析
 Step "collect 解析页面原文" $Node @("tools/collect.mjs", "data/raw", $Batch, "data/out/matches.json") | Out-Null
+
+# --- 定位本批 raw 目录（映射与伤停都要用）---
+$rd = $RawDir
+if (-not $rd) {
+  # 本批 raw 目录 = data 下最近被写入的 rawNN（collect.mjs 的 source 只写父目录，靠不住）
+  $latest = Get-ChildItem -LiteralPath "data" -Directory -ErrorAction SilentlyContinue |
+    Where-Object { $_.Name -match '^raw\d+$' } |
+    Sort-Object LastWriteTime -Descending | Select-Object -First 1
+  if ($latest) { $rd = $latest.Name }
+}
+$mn = $BatchNo
+if (-not $mn -and $rd -and ($rd -match '^raw(\d+)$')) { $mn = [string]([int]$Matches[1] + 1) }
+
+# 1.2) 懂球帝映射 + 情报（写 <raw>/_dqd_consensus.json，伤停靠它把 titanId 换成 dqdMatchId）
+if ($Py -and $rd) {
+  $env:PYTHONIOENCODING = "utf-8"
+  Write-Host "  (懂球帝映射：meta=$Batch raw=$rd)" -ForegroundColor DarkGray
+  Step "dqd 映射+情报" $Py @("tools/fetch_dqd_consensus.py", $Batch, "data/$rd") | Out-Null
+}
+
+# 1.5) 懂球帝伤停 -> injuryAdj（必须在 analyze 之前，否则 λ 不带修正）
+if ($Py) {
+  if ($mn) {
+    $env:PYTHONIOENCODING = "utf-8"
+    Write-Host "  (伤停批次号 $mn，raw 目录 $rd)" -ForegroundColor DarkGray
+    $injArgs = @("tools/fetch_dqd_injury.py", "$mn", "--matches", "data/out/matches.json")
+    if ($rd) { $injArgs += @("--consensus", "data/$rd/_dqd_consensus.json") }
+    Step "dqd 伤停 -> injuryAdj" $Py $injArgs | Out-Null
+  } else {
+    Write-Host "`n=== dqd 伤停 ===" -ForegroundColor Cyan
+    Write-Host "  ! 未能确定批次号，已跳过（可用 -BatchNo <n> 或 -RawDir rawNN 指定）" -ForegroundColor Yellow
+  }
+}
 
 # 2) 主模型轨（Node）
 Step "analyze 双输入建模" $Node @("tools/analyze.mjs", "data/out/matches.json", $Preds) | Out-Null

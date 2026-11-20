@@ -1,0 +1,83 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "柏太阳神",
+   "away": "川崎前锋",
+   "engine": {
+    "xg_h": 3.477,
+    "xg_a": 1.977,
+    "H": 0.6613,
+    "D": 0.1499,
+    "A": 0.1888,
+    "rq": [
+     0.6613,
+     0.0,
+     0.3387
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.164,
+    "home_form": 0.7407,
+    "home_rest": 5,
+    "away_attack": 1.164,
+    "away_defense": 1.2698,
+    "away_form": 0.0,
+    "away_rest": 5,
+    "notes": [
+     "主样本 7 场 17 得 11 失",
+     "赛程间隔 5 天",
+     "主样本 7 场 11 得 12 失",
+     "赛程间隔 5 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "鹿岛鹿角",
+   "away": "横滨水手",
+   "engine": {
+    "xg_h": 1.843,
+    "xg_a": 0.733,
+    "H": 0.6297,
+    "D": 0.2359,
+    "A": 0.1344,
+    "rq": [
+     0.6297,
+     0.2359,
+     0.1344
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.8466,
+    "home_form": 0.4938,
+    "home_rest": 5,
+    "away_attack": 0.7407,
+    "away_defense": 0.7,
+    "away_form": 0.2469,
+    "away_rest": 5,
+    "notes": [
+     "主样本 7 场 15 得 8 失",
+     "赛程间隔 5 天",
+     "主样本 7 场 7 得 5 失",
+     "赛程间隔 5 天"
+    ]
+   }
+  }
+ ]
+}

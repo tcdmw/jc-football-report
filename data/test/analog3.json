@@ -1,0 +1,33 @@
+{
+ "batch": 3,
+ "source": "data/raw3",
+ "rawDir": "data/raw3",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:54.129Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3000523",
+   "home": "福冈黄蜂",
+   "away": "长崎成功丸",
+   "lg": "日职联",
+   "error": "缺 handicap.json"
+  },
+  {
+   "no": 2,
+   "id": "3000525",
+   "home": "东京",
+   "away": "鹿岛鹿角",
+   "lg": "日职联",
+   "error": "缺 handicap.json"
+  },
+  {
+   "no": 3,
+   "id": "3000527",
+   "home": "柏太阳神",
+   "away": "川崎前锋",
+   "lg": "日职联",
+   "error": "缺 handicap.json"
+  }
+ ]
+}

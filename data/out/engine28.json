@@ -1,0 +1,83 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "哈维德夫",
+   "away": "阿尔胡斯费马",
+   "engine": {
+    "xg_h": 2.228,
+    "xg_a": 0.728,
+    "H": 0.7088,
+    "D": 0.1911,
+    "A": 0.1002,
+    "rq": [
+     0.4765,
+     0.2322,
+     0.2912
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 1.358,
+    "home_defense": 0.9877,
+    "home_form": 0.4938,
+    "home_rest": 10,
+    "away_attack": 0.7,
+    "away_defense": 0.7,
+    "away_form": -0.2469,
+    "away_rest": 9,
+    "notes": [
+     "主样本 6 场 11 得 8 失",
+     "赛程间隔 10 天",
+     "主样本 6 场 3 得 4 失",
+     "赛程间隔 9 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "博托沙尼",
+   "away": "加拉迪",
+   "engine": {
+    "xg_h": 2.535,
+    "xg_a": 1.035,
+    "H": 0.6927,
+    "D": 0.1791,
+    "A": 0.1281,
+    "rq": [
+     0.6927,
+     0.1791,
+     0.1281
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.2346,
+    "home_defense": 0.7,
+    "home_form": -0.6173,
+    "home_rest": 9,
+    "away_attack": 0.8642,
+    "away_defense": 1.45,
+    "away_form": -0.7407,
+    "away_rest": 9,
+    "notes": [
+     "主样本 6 场 10 得 4 失",
+     "赛程间隔 9 天",
+     "主样本 6 场 7 得 13 失",
+     "赛程间隔 9 天"
+    ]
+   }
+  }
+ ]
+}

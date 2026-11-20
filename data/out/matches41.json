@@ -1,0 +1,129 @@
+{
+ "source": "data/raw40",
+ "collectedAt": "2026-11-15T13:26:54.153Z",
+ "count": 1,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "2996551",
+   "lg": "荷乙",
+   "kickoff": "2026-11-15 21:30",
+   "home": "马斯特里赫特",
+   "away": "维特斯",
+   "hc": -0.25,
+   "hcRaw": "澳",
+   "spf": [
+    2.91,
+    3.25,
+    2.05
+   ],
+   "spfMargin": 0.1391397974249371,
+   "zjq": [
+    16,
+    6.5,
+    4.15,
+    3.8,
+    4.4,
+    7.15,
+    10.5,
+    14
+   ],
+   "zjqRaw": "166.54.153.84.47.1510.514",
+   "jcNotOpen": false,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 14,
+      "w": 6,
+      "d": 2,
+      "l": 6,
+      "gf": 19,
+      "ga": 29,
+      "gd": -10,
+      "points": 20,
+      "rank": 9,
+      "winRate": 42.9
+     },
+     "away": {
+      "p": 13,
+      "w": 5,
+      "d": 3,
+      "l": 5,
+      "gf": 17,
+      "ga": 18,
+      "gd": -1,
+      "points": 18,
+      "rank": 11,
+      "winRate": 38.5
+     }
+    },
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 8,
+      "ga": 13
+     },
+     "away": {
+      "p": 7,
+      "gf": 11,
+      "ga": 16
+     }
+    },
+    "away": {
+     "home": {
+      "p": 6,
+      "gf": 8,
+      "ga": 10
+     },
+     "away": {
+      "p": 7,
+      "gf": 9,
+      "ga": 8
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 7,
+      "ga": 14
+     },
+     "away": {
+      "p": 6,
+      "gf": 4,
+      "ga": 9
+     }
+    },
+    "leagueOf": {
+     "home": "荷乙",
+     "away": "荷乙"
+    }
+   },
+   "restDays": {
+    "home": 8,
+    "away": 13
+   },
+   "dqdIntel": {
+    "injuries": [],
+    "betfairComment": "",
+    "betfair": [],
+    "bigTrend": {}
+   },
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "ok",
+    "zjq": "ok",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  }
+ ]
+}

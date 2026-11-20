@@ -1,0 +1,49 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 1,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "克里斯蒂安松",
+   "away": "瓦勒伦加",
+   "engine": {
+    "xg_h": 1.563,
+    "xg_a": 3.063,
+    "H": 0.1658,
+    "D": 0.1612,
+    "A": 0.673,
+    "rq": [
+     0.1658,
+     0.1612,
+     0.673
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 0.9877,
+    "home_defense": 1.2346,
+    "home_form": -0.8,
+    "home_rest": 8,
+    "away_attack": 0.9877,
+    "away_defense": 1.45,
+    "away_form": 0.4938,
+    "away_rest": 8,
+    "notes": [
+     "主样本 12 场 16 得 20 失",
+     "赛程间隔 8 天",
+     "主样本 12 场 16 得 26 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  }
+ ]
+}

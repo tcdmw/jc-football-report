@@ -1,0 +1,83 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "约旦",
+   "away": "澳大利亚",
+   "engine": {
+    "xg_h": 1.106,
+    "xg_a": 1.092,
+    "H": 0.3467,
+    "D": 0.3131,
+    "A": 0.3402,
+    "rq": [
+     0.6598,
+     0.2,
+     0.1401
+    ],
+    "hc_model": 0.75
+   },
+   "input": {
+    "home_attack": 0.9524,
+    "home_defense": 1.2698,
+    "home_form": 0.0,
+    "home_rest": 42,
+    "away_attack": 0.7,
+    "away_defense": 0.7,
+    "away_form": 0.0,
+    "away_rest": 5,
+    "notes": [
+     "主样本 7 场 9 得 12 失",
+     "赛程间隔 42 天",
+     "主样本 4 场 3 得 3 失",
+     "赛程间隔 5 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "俄罗斯",
+   "away": "委内瑞拉",
+   "engine": {
+    "xg_h": 1.743,
+    "xg_a": 0.617,
+    "H": 0.6383,
+    "D": 0.2431,
+    "A": 0.1185,
+    "rq": [
+     0.3761,
+     0.2622,
+     0.3617
+    ],
+    "hc_model": -1.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 6,
+    "away_attack": 0.7,
+    "away_defense": 0.7,
+    "away_form": 0.0,
+    "away_rest": 3,
+    "notes": [
+     "主样本 8 场 20 得 6 失",
+     "赛程间隔 6 天",
+     "主样本 7 场 4 得 5 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 6,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "罗达JC",
+   "away": "福伦丹",
+   "engine": {
+    "xg_h": 1.354,
+    "xg_a": 1.969,
+    "H": 0.2555,
+    "D": 0.2342,
+    "A": 0.5103,
+    "rq": [
+     0.2555,
+     0.0,
+     0.7445
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.2346,
+    "home_defense": 0.7,
+    "home_form": -0.3704,
+    "home_rest": 8,
+    "away_attack": 1.0582,
+    "away_defense": 1.45,
+    "away_form": 0.6173,
+    "away_rest": 8,
+    "notes": [
+     "主样本 6 场 10 得 5 失",
+     "赛程间隔 8 天",
+     "主样本 7 场 10 得 17 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "瓦尔韦克",
+   "away": "邓伯什",
+   "engine": {
+    "xg_h": 1.757,
+    "xg_a": 3.257,
+    "H": 0.1772,
+    "D": 0.1556,
+    "A": 0.6672,
+    "rq": [
+     0.1772,
+     0.1556,
+     0.6672
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.164,
+    "home_form": -0.4938,
+    "home_rest": 8,
+    "away_attack": 1.1111,
+    "away_defense": 1.1111,
+    "away_form": 0.8,
+    "away_rest": 8,
+    "notes": [
+     "主样本 7 场 17 得 11 失",
+     "赛程间隔 8 天",
+     "主样本 6 场 9 得 9 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "阿尔梅勒城",
+   "away": "赫尔蒙德",
+   "engine": {
+    "xg_h": 3.244,
+    "xg_a": 1.744,
+    "H": 0.6676,
+    "D": 0.1559,
+    "A": 0.1764,
+    "rq": [
+     0.4895,
+     0.0,
+     0.5105
+    ],
+    "hc_model": -1.5
+   },
+   "input": {
+    "home_attack": 1.2346,
+    "home_defense": 0.7,
+    "home_form": 0.6173,
+    "home_rest": 8,
+    "away_attack": 1.1111,
+    "away_defense": 1.45,
+    "away_form": -0.6173,
+    "away_rest": 8,
+    "notes": [
+     "主样本 6 场 10 得 5 失",
+     "赛程间隔 8 天",
+     "主样本 6 场 9 得 17 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "芬洛",
+   "away": "FC埃因霍温",
+   "engine": {
+    "xg_h": 3.236,
+    "xg_a": 1.736,
+    "H": 0.6678,
+    "D": 0.1562,
+    "A": 0.176,
+    "rq": [
+     0.4895,
+     0.1783,
+     0.3322
+    ],
+    "hc_model": -0.75
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 1.164,
+    "home_form": 0.8,
+    "home_rest": 8,
+    "away_attack": 0.8642,
+    "away_defense": 1.45,
+    "away_form": -0.8,
+    "away_rest": 8,
+    "notes": [
+     "主样本 7 场 19 得 11 失",
+     "赛程间隔 8 天",
+     "主样本 6 场 7 得 15 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  },
+  {
+   "no": 5,
+   "home": "多德雷赫特",
+   "away": "阿尔梅罗大力神",
+   "engine": {
+    "xg_h": 1.831,
+    "xg_a": 3.331,
+    "H": 0.1812,
+    "D": 0.1536,
+    "A": 0.6652,
+    "rq": [
+     0.51,
+     0.0,
+     0.49
+    ],
+    "hc_model": 1.5
+   },
+   "input": {
+    "home_attack": 1.0582,
+    "home_defense": 1.45,
+    "home_form": -0.6173,
+    "home_rest": 8,
+    "away_attack": 1.45,
+    "away_defense": 1.0582,
+    "away_form": 0.8,
+    "away_rest": 8,
+    "notes": [
+     "主样本 7 场 10 得 17 失",
+     "赛程间隔 8 天",
+     "主样本 7 场 21 得 10 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  },
+  {
+   "no": 6,
+   "home": "格拉夫夏普",
+   "away": "奥斯",
+   "engine": {
+    "xg_h": 2.059,
+    "xg_a": 1.32,
+    "H": 0.5373,
+    "D": 0.2272,
+    "A": 0.2355,
+    "rq": [
+     0.3248,
+     0.2125,
+     0.4627
+    ],
+    "hc_model": -1.0
+   },
+   "input": {
+    "home_attack": 0.9877,
+    "home_defense": 1.45,
+    "home_form": 0.2469,
+    "home_rest": 15,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": 0.2469,
+    "away_rest": 8,
+    "notes": [
+     "主样本 6 场 8 得 13 失",
+     "赛程间隔 15 天",
+     "主样本 7 场 3 得 14 失",
+     "赛程间隔 8 天"
+    ]
+   }
+  }
+ ]
+}

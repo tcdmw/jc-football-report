@@ -1,0 +1,83 @@
+{
+ "batch": 8,
+ "source": "data/raw8",
+ "rawDir": "data/raw8",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:54.736Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3003939",
+   "lg": "英超",
+   "kickoff": "2026-11-07 23:00",
+   "home": "阿森纳",
+   "away": "赫尔城",
+   "hc": 2.25,
+   "line": 2.25,
+   "favIsHome": true,
+   "hw": 0.98,
+   "aw": 0.88,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 2,
+   "id": "3003943",
+   "lg": "英超",
+   "kickoff": "2026-11-07 23:00",
+   "home": "富勒姆",
+   "away": "纽卡斯尔联",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.74,
+   "aw": 1.16,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 2
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "主": 1,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  }
+ ]
+}

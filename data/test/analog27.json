@@ -1,0 +1,56 @@
+{
+ "batch": 27,
+ "source": "data/raw27",
+ "rawDir": "data/raw27",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.748Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2912932",
+   "lg": "挪超",
+   "kickoff": "2026-11-10 02:00",
+   "home": "克里斯蒂安松",
+   "away": "瓦勒伦加",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.93,
+   "aw": 0.85,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 11,
+   "sameHc": 11,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 4,
+    "L3": 11
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 10,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-2",
+     6
+    ],
+    [
+     "0-0",
+     2
+    ],
+    [
+     "3-0",
+     1
+    ]
+   ],
+   "avgGoal": 3.55
+  }
+ ]
+}

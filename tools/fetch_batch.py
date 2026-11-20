@@ -24,21 +24,31 @@ import seed_browser_use as bu
 # 用码点构造“澳门”，源码不含中文字符，避免源码编码偶发误读导致乱码
 MACAU = chr(0x6fb3) + chr(0x95e8)
 
+# 亚盘/大小球页通用提取：优先澳门，澳门未开盘（小联赛常见）时回退到第一家有效公司，
+# 并在 source 字段记录实际公司名，避免硬依赖澳门导致整场失败。
 EXTRACT_JS = r"""
-let row=null;
+const validRows=[];
 document.querySelectorAll('tr').forEach(tr=>{
-  const tds=tr.querySelectorAll('td');
-  for(const td of tds){ if(td.innerText.trim().startsWith('澳')){ row=tr; break; } }
+  const goalEls=[...tr.querySelectorAll('td[goals]')];
+  const tds=[...tr.querySelectorAll('td')];
+  if(goalEls.length<2||tds.length<9) return;
+  let nm=(tds[1]||{}).innerText||'';
+  nm=nm.replace(/[*\s]/g,'');
+  if(!nm||nm.indexOf('详')>=0||nm.length>10) return;
+  validRows.push({tr:tr,nm:nm});
 });
-if(!row) return JSON.stringify({err:'no row'});
+const macau=validRows.find(r=>r.nm.startsWith('澳'));
+const chosen=macau||validRows[0];
+if(!chosen) return JSON.stringify({err:'no row'});
+const row=chosen.tr;
 const goalEls=[...row.querySelectorAll('td[goals]')];
 const openGoal=goalEls[0];
-const liveGoal=row.querySelector('td[goals][oddstype="wholeLastOdds"]');
+const liveGoal=row.querySelector('td[goals][oddstype="wholeLastOdds"]')||goalEls[1];
 function t(g){
   return {left:g.previousElementSibling.innerText.trim(), goals:g.getAttribute('goals'),
           line:g.innerText.trim(), right:g.nextElementSibling.innerText.trim()};
 }
-return JSON.stringify({open:t(openGoal), live:t(liveGoal)});
+return JSON.stringify({source:chosen.nm, isMacau:!!macau, open:t(openGoal), live:t(liveGoal)});
 """
 
 # 提取全部公司的亚盘初盘/即时让球（用于退盘/升盘方向统计）。
@@ -133,23 +143,25 @@ def main():
             continue
 
         hc = num(asian["live"]["goals"])
+        src = asian.get("source") or MACAU
         handicap = {
             "hc": hc,
             "live": {
                 "aw": asian["live"]["right"], "hc": hc, "hw": asian["live"]["left"],
                 "ouLine": ou["live"]["line"], "over": ou["live"]["left"],
-                "raw": MACAU, "under": ou["live"]["right"],
+                "raw": src, "under": ou["live"]["right"],
             },
             "open": {
                 "aw": asian["open"]["right"], "hc": num(asian["open"]["goals"]),
                 "hw": asian["open"]["left"], "ouLine": ou["open"]["line"],
-                "over": ou["open"]["left"], "raw": MACAU, "under": ou["open"]["right"],
+                "over": ou["open"]["left"], "raw": src, "under": ou["open"]["right"],
             },
             "ou": ou["live"]["line"],
             "ouOver": ou["live"]["left"],
             "ouUnder": ou["live"]["right"],
-            "raw": MACAU,
-            "source": MACAU,
+            "raw": src,
+            "source": src,
+            "isMacau": bool(asian.get("isMacau")),
         }
         (out_dir / f"{mid}.handicap.json").write_text(
             json.dumps(handicap, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -173,6 +185,8 @@ def main():
             rec["x12"] = "ERR:" + str(e)[:40]
 
         rec["status"] = "OK"
+        rec["source"] = src
+        rec["isMacau"] = bool(asian.get("isMacau"))
         rec["hc"] = hc
         rec["ou"] = ou["live"]["line"]
         rec["lineN"] = len(lines)

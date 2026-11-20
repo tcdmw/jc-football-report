@@ -1,0 +1,392 @@
+{
+ "titanId": "3092385",
+ "dqdMatchId": "54601640",
+ "home": "皇家马德里 (女)",
+ "away": "国际米兰 (女)",
+ "pageHome": "皇家马德里女足",
+ "pageAway": "国际米兰女足",
+ "kickoff": "01:45",
+ "league": "女足欧冠",
+ "pageScore": "3 - 1",
+ "planTotal": "95",
+ "planId": 8193031,
+ "isUnlock": 1,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "总进球数",
+   "count": 30,
+   "options": [
+    {
+     "label": "小球",
+     "rate": 33,
+     "count": 10
+    },
+    {
+     "label": "大球",
+     "rate": 67,
+     "count": 20
+    }
+   ]
+  },
+  {
+   "play": "主客队",
+   "count": 65,
+   "options": [
+    {
+     "label": "下盘",
+     "rate": 9,
+     "count": 6
+    },
+    {
+     "label": "上盘",
+     "rate": 91,
+     "count": 59
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 1,
+   "left_times": 0,
+   "plan_id": 8193031,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "0": 10,
+      "1": 0,
+      "2": 20,
+      "count": 30,
+      "rate0": 33,
+      "rate2": 67,
+      "rate0_desc": "小球",
+      "rate2_desc": "大球",
+      "play_type": "总进球数"
+     },
+     {
+      "0": 6,
+      "1": 0,
+      "2": 59,
+      "count": 65,
+      "rate0": 9,
+      "rate2": 91,
+      "rate0_desc": "下盘",
+      "rate2_desc": "上盘",
+      "play_type": "主客队"
+     }
+    ],
+    "count": "95"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": {
+   "away": {
+    "draw": 0,
+    "loss": 0,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 0
+   },
+   "home": {
+    "draw": 0,
+    "loss": 0,
+    "penalty": 0,
+    "red_card": 0,
+    "win": 0,
+    "yellow_card": 0
+   },
+   "recent": {
+    "draw": 1,
+    "loss": 1,
+    "penalty": 1,
+    "red_card": 2,
+    "win": 2,
+    "yellow_card": 10
+   },
+   "referee": {
+    "logo": "https://sd.qunliao.info/fastdfs3/M00/B5/98/ChOxM1xC37CADGDCAAANHjH55fo314.png",
+    "name": "考特林-库尔恰尔",
+    "nationality_name": "",
+    "scheme": "dongqiudi://v1/data/player/51129343"
+   }
+  },
+  "PersonAnalyse": {
+   "team_a": [
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>当前连续<span class='backend-select-num-bold'>2</span>场女足欧冠比赛出场均有进球</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场女足欧冠比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>6</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>1.8</span>、场均丢球<span class='backend-select-num-bold'>0.8</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>4</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>50%</span>、场均进球<span class='backend-select-num-bold'>1.8</span>、场均丢球<span class='backend-select-num-bold'>3.5</span></span>",
+     "name": "贝伦斯泰恩",
+     "person_id": 400901,
+     "scheme": "dongqiudi://v1/data/player/50400901"
+    },
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>5</span>场女足欧冠比赛，打进<span class='backend-select-num-bold'>3</span>球</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场女足欧冠比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>10</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>80%</span>、场均进球<span class='backend-select-num-bold'>1.8</span>、场均丢球<span class='backend-select-num-bold'>1.9</span></span>",
+     "name": "琳达-凯塞多",
+     "person_id": 540021,
+     "scheme": "dongqiudi://v1/data/player/50540021"
+    },
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>5</span>场女足欧冠比赛，助攻<span class='backend-select-num-bold'>3</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场女足欧冠比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>6</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>1.8</span>、场均丢球<span class='backend-select-num-bold'>0.8</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>4</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>50%</span>、场均进球<span class='backend-select-num-bold'>1.8</span>、场均丢球<span class='backend-select-num-bold'>3.5</span></span>",
+     "name": "施勒德",
+     "person_id": 870830,
+     "scheme": "dongqiudi://v1/data/player/50870830"
+    }
+   ],
+   "team_b": [
+    {
+     "content": "<span class='backend-select-text-title'>本场替补</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>5</span>场比赛，打进<span class='backend-select-num-bold'>4</span>球</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>8</span>场女足欧冠比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>8</span>场，球队胜率<span class='backend-select-num-bold'>38%</span>、不败率<span class='backend-select-num-bold'>50%</span>、场均进球<span class='backend-select-num-bold'>1.2</span>、场均丢球<span class='backend-select-num-bold'>2.0</span></span>",
+     "name": "布格亚",
+     "person_id": 555254,
+     "scheme": "dongqiudi://v1/data/player/50555254"
+    },
+    {
+     "content": "<span class='backend-select-text-title'>本场首发</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>3</span>场比赛，助攻<span class='backend-select-num-bold'>2</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>8</span>场女足欧冠比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>8</span>场，球队胜率<span class='backend-select-num-bold'>38%</span>、不败率<span class='backend-select-num-bold'>50%</span>、场均进球<span class='backend-select-num-bold'>1.2</span>、场均丢球<span class='backend-select-num-bold'>2.0</span></span>",
+     "name": "利翁纳",
+     "person_id": 533933,
+     "scheme": "dongqiudi://v1/data/player/50533933"
+    }
+   ]
+  },
+  "DarkAlarm": {
+   "dest_index": 8,
+   "dest_time": "11-18 21:17",
+   "label": "冷门预警",
+   "ori_index": 10,
+   "ori_time": "11-18 20:54",
+   "range_value": "25",
+   "tip": "客胜赔率累计浮动达到25%",
+   "title": "客胜预警"
+  },
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.87",
+     "cmp": "",
+     "hdp": "球半/两",
+     "home": "0.83"
+    },
+    "trans": {
+     "away": "0.72",
+     "cmp": "",
+     "hdp": "球半/两",
+     "home": "0.68"
+    }
+   },
+   "euro": {
+    "away": "10.00",
+    "cmp": "澳彩",
+    "hdp": "6.00",
+    "home": "1.10"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.88",
+     "cmp": "",
+     "hdp": "3/3.5",
+     "home": "0.74"
+    },
+    "trans": {
+     "away": "0.66",
+     "cmp": "",
+     "hdp": "3.5",
+     "home": "0.74"
+    }
+   }
+  },
+  "Forecast": {
+   "data_num": "263792",
+   "forecast_A": "66",
+   "forecast_B": "34",
+   "hdp": "3.5/4",
+   "hdp_float": 3.75,
+   "match_id": "4601640",
+   "result": "1"
+  },
+  "KeyDes": {
+   "content": null
+  },
+  "WsNews": [],
+  "TeamDesStrength": {
+   "team_A": null,
+   "team_B": null
+  },
+  "TeamDesInjury": {
+   "team_A": null,
+   "team_B": null
+  },
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "16%(9)",
+       "gs": "14%(13)",
+       "time": "1-15"
+      },
+      {
+       "ga": "12%(7)",
+       "gs": "19%(18)",
+       "time": "16-30"
+      },
+      {
+       "ga": "21%(12)",
+       "gs": "13%(12)",
+       "time": "31-45"
+      },
+      {
+       "ga": "19%(11)",
+       "gs": "17%(16)",
+       "time": "46-60"
+      },
+      {
+       "ga": "16%(9)",
+       "gs": "15%(14)",
+       "time": "61-75"
+      },
+      {
+       "ga": "16%(9)",
+       "gs": "22%(21)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "12%(3)",
+       "gs": "14%(6)",
+       "time": "1-15"
+      },
+      {
+       "ga": "8%(2)",
+       "gs": "14%(6)",
+       "time": "16-30"
+      },
+      {
+       "ga": "31%(8)",
+       "gs": "14%(6)",
+       "time": "31-45"
+      },
+      {
+       "ga": "27%(7)",
+       "gs": "9%(4)",
+       "time": "46-60"
+      },
+      {
+       "ga": "8%(2)",
+       "gs": "19%(8)",
+       "time": "61-75"
+      },
+      {
+       "ga": "15%(4)",
+       "gs": "30%(13)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 57,
+    "ga_total_tw": 26,
+    "gs_total_fi": 94,
+    "gs_total_tw": 43,
+    "team_name": "皇家马德里女足"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "8%(4)",
+       "gs": "14%(12)",
+       "time": "1-15"
+      },
+      {
+       "ga": "15%(7)",
+       "gs": "12%(10)",
+       "time": "16-30"
+      },
+      {
+       "ga": "23%(11)",
+       "gs": "13%(11)",
+       "time": "31-45"
+      },
+      {
+       "ga": "21%(10)",
+       "gs": "20%(17)",
+       "time": "46-60"
+      },
+      {
+       "ga": "6%(3)",
+       "gs": "14%(12)",
+       "time": "61-75"
+      },
+      {
+       "ga": "27%(13)",
+       "gs": "25%(21)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "0%(0)",
+       "gs": "10%(3)",
+       "time": "1-15"
+      },
+      {
+       "ga": "20%(4)",
+       "gs": "14%(4)",
+       "time": "16-30"
+      },
+      {
+       "ga": "20%(4)",
+       "gs": "17%(5)",
+       "time": "31-45"
+      },
+      {
+       "ga": "15%(3)",
+       "gs": "17%(5)",
+       "time": "46-60"
+      },
+      {
+       "ga": "10%(2)",
+       "gs": "10%(3)",
+       "time": "61-75"
+      },
+      {
+       "ga": "35%(7)",
+       "gs": "31%(9)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 48,
+    "ga_total_tw": 20,
+    "gs_total_fi": 83,
+    "gs_total_tw": 29,
+    "team_name": "国际米兰女足"
+   }
+  },
+  "Bf_Distribute": {
+   "draw": null,
+   "lose": null,
+   "text_1": "",
+   "text_1_red": 0,
+   "text_2": "",
+   "win": null
+  },
+  "Bf_Transaction": {
+   "text_1": "",
+   "text_2": "",
+   "trend": null
+  },
+  "AigcMatchPredictions": {
+   "match_id": 4601640,
+   "predictions": []
+  }
+ },
+ "userId": 0,
+ "vipType": -1
+}

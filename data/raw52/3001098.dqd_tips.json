@@ -1,0 +1,270 @@
+{
+ "titanId": "3001098",
+ "dqdMatchId": "54596086",
+ "home": "多哥",
+ "away": "阿尔及利亚",
+ "pageHome": "多哥",
+ "pageAway": "阿尔及利亚",
+ "kickoff": "00:00",
+ "league": "非洲杯",
+ "pageScore": "",
+ "planTotal": "69",
+ "planId": 8185514,
+ "isUnlock": 0,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "总进球数",
+   "count": 35,
+   "options": []
+  },
+  {
+   "play": "主客队",
+   "count": 35,
+   "options": []
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 0,
+   "left_times": 0,
+   "plan_id": 8185514,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "count": 35,
+      "play_type": "总进球数"
+     },
+     {
+      "count": 35,
+      "play_type": "主客队"
+     }
+    ],
+    "count": "69"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": null,
+  "PersonAnalyse": {
+   "team_a": [
+    {
+     "content": "<br><span class='backend-select-text-indent'>本赛季<span class='backend-select-num-bold'>3</span>场非洲杯比赛，进<span class='backend-select-num-bold'>0</span>球，助攻<span class='backend-select-num-bold'>0</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>6</span>场，球队胜率<span class='backend-select-num-bold'>33%</span>、不败率<span class='backend-select-num-bold'>50%</span>、场均进球<span class='backend-select-num-bold'>0.3</span>、场均丢球<span class='backend-select-num-bold'>0.7</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>4</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>2.2</span>、场均丢球<span class='backend-select-num-bold'>1.0</span></span>",
+     "name": "凯文-登凯伊",
+     "person_id": 274424,
+     "scheme": "dongqiudi://v1/data/player/50274424"
+    }
+   ],
+   "team_b": [
+    {
+     "content": "<br><span class='backend-select-text-indent'>本赛季<span class='backend-select-num-bold'>3</span>场非洲杯比赛，进<span class='backend-select-num-bold'>1</span>球，助攻<span class='backend-select-num-bold'>0</span>次</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>8</span>场，球队胜率<span class='backend-select-num-bold'>62%</span>、不败率<span class='backend-select-num-bold'>75%</span>、场均进球<span class='backend-select-num-bold'>1.6</span>、场均丢球<span class='backend-select-num-bold'>1.1</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>2</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>2.5</span>、场均丢球<span class='backend-select-num-bold'>2.0</span></span>",
+     "name": "布勒比纳",
+     "person_id": 717882,
+     "scheme": "dongqiudi://v1/data/player/50717882"
+    },
+    {
+     "content": "<br><span class='backend-select-text-indent'>当前连续<span class='backend-select-num-bold'>2</span>场国家队比赛出场均有进球</span><br><span class='backend-select-text-indent'>近<span class='backend-select-num-bold'>3</span>场国家队比赛，打进<span class='backend-select-num-bold'>2</span>球</span><br><span class='backend-select-text-indent'>对阵<span class='backend-select-num-bold'>多哥</span>，近<span class='backend-select-num-bold'>3</span>场比赛进<span class='backend-select-num-bold'>2</span>球</span><br><span class='backend-select-text-indent'>球队近<span class='backend-select-num-bold'>10</span>场比赛</span><br><span class='backend-select-text-indent'>出场<span class='backend-select-num-bold'>8</span>场，球队胜率<span class='backend-select-num-bold'>50%</span>、不败率<span class='backend-select-num-bold'>75%</span>、场均进球<span class='backend-select-num-bold'>1.6</span>、场均丢球<span class='backend-select-num-bold'>1.6</span></span><br><span class='backend-select-text-indent'>缺席<span class='backend-select-num-bold'>2</span>场，球队胜率<span class='backend-select-num-bold'>100%</span>、不败率<span class='backend-select-num-bold'>100%</span>、场均进球<span class='backend-select-num-bold'>2.5</span>、场均丢球<span class='backend-select-num-bold'>0.0</span></span>",
+     "name": "本塞拜尼",
+     "person_id": 219195,
+     "scheme": "dongqiudi://v1/data/player/50219195"
+    }
+   ]
+  },
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.78",
+     "cmp": "",
+     "hdp": "受半/一",
+     "home": "0.92"
+    },
+    "trans": []
+   },
+   "euro": {
+    "away": "1.43",
+    "cmp": "澳彩",
+    "hdp": "3.40",
+    "home": "5.45"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.93",
+     "cmp": "",
+     "hdp": "2",
+     "home": "0.69"
+    },
+    "trans": []
+   }
+  },
+  "Forecast": {
+   "data_num": "297645",
+   "forecast_A": "67",
+   "forecast_B": "33",
+   "hdp": "2",
+   "hdp_float": 2,
+   "match_id": "4596086",
+   "result": ""
+  },
+  "KeyDes": [],
+  "WsNews": [],
+  "TeamDesStrength": [],
+  "TeamDesInjury": [],
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "20%(9)",
+       "gs": "20%(9)",
+       "time": "1-15"
+      },
+      {
+       "ga": "15%(7)",
+       "gs": "11%(5)",
+       "time": "16-30"
+      },
+      {
+       "ga": "7%(3)",
+       "gs": "11%(5)",
+       "time": "31-45"
+      },
+      {
+       "ga": "11%(5)",
+       "gs": "20%(9)",
+       "time": "46-60"
+      },
+      {
+       "ga": "15%(7)",
+       "gs": "11%(5)",
+       "time": "61-75"
+      },
+      {
+       "ga": "33%(15)",
+       "gs": "28%(13)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "29%(5)",
+       "gs": "35%(6)",
+       "time": "1-15"
+      },
+      {
+       "ga": "12%(2)",
+       "gs": "6%(1)",
+       "time": "16-30"
+      },
+      {
+       "ga": "6%(1)",
+       "gs": "6%(1)",
+       "time": "31-45"
+      },
+      {
+       "ga": "12%(2)",
+       "gs": "18%(3)",
+       "time": "46-60"
+      },
+      {
+       "ga": "12%(2)",
+       "gs": "18%(3)",
+       "time": "61-75"
+      },
+      {
+       "ga": "29%(5)",
+       "gs": "18%(3)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 46,
+    "ga_total_tw": 17,
+    "gs_total_fi": 46,
+    "gs_total_tw": 17,
+    "team_name": "多哥"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "25%(8)",
+       "gs": "6%(5)",
+       "time": "1-15"
+      },
+      {
+       "ga": "9%(3)",
+       "gs": "19%(16)",
+       "time": "16-30"
+      },
+      {
+       "ga": "19%(6)",
+       "gs": "13%(11)",
+       "time": "31-45"
+      },
+      {
+       "ga": "28%(9)",
+       "gs": "16%(14)",
+       "time": "46-60"
+      },
+      {
+       "ga": "12%(4)",
+       "gs": "22%(19)",
+       "time": "61-75"
+      },
+      {
+       "ga": "6%(2)",
+       "gs": "24%(21)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "18%(3)",
+       "gs": "5%(2)",
+       "time": "1-15"
+      },
+      {
+       "ga": "18%(3)",
+       "gs": "16%(6)",
+       "time": "16-30"
+      },
+      {
+       "ga": "6%(1)",
+       "gs": "14%(5)",
+       "time": "31-45"
+      },
+      {
+       "ga": "41%(7)",
+       "gs": "22%(8)",
+       "time": "46-60"
+      },
+      {
+       "ga": "6%(1)",
+       "gs": "19%(7)",
+       "time": "61-75"
+      },
+      {
+       "ga": "12%(2)",
+       "gs": "24%(9)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 32,
+    "ga_total_tw": 17,
+    "gs_total_fi": 86,
+    "gs_total_tw": 37,
+    "team_name": "阿尔及利亚"
+   }
+  },
+  "Bf_Distribute": [],
+  "Bf_Transaction": []
+ },
+ "userId": 0,
+ "vipType": -1
+}

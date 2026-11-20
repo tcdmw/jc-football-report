@@ -1,0 +1,156 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 4,
+ "skipped": [
+  {
+   "no": 4,
+   "reason": "主客场地样本缺失，拒绝用默认强度硬跑"
+  }
+ ],
+ "preds": [
+  {
+   "no": 1,
+   "home": "德国",
+   "away": "荷兰",
+   "engine": {
+    "xg_h": 2.139,
+    "xg_a": 1.42,
+    "H": 0.5331,
+    "D": 0.2214,
+    "A": 0.2455,
+    "rq": [
+     0.5331,
+     0.0,
+     0.4669
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 3,
+    "away_attack": 1.45,
+    "away_defense": 0.9877,
+    "away_form": 0.0,
+    "away_rest": 3,
+    "notes": [
+     "主样本 5 场 12 得 4 失",
+     "赛程间隔 3 天",
+     "主样本 3 场 7 得 4 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "希腊",
+   "away": "塞尔维亚",
+   "engine": {
+    "xg_h": 1.459,
+    "xg_a": 0.721,
+    "H": 0.5386,
+    "D": 0.2863,
+    "A": 0.1751,
+    "rq": [
+     0.2799,
+     0.2587,
+     0.4614
+    ],
+    "hc_model": -1.25
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7407,
+    "home_form": 0.0,
+    "home_rest": 3,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": 0.0,
+    "away_rest": 3,
+    "notes": [
+     "主样本 4 场 2 得 4 失",
+     "赛程间隔 3 天",
+     "主样本 5 场 2 得 15 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "瑞士",
+   "away": "苏格兰",
+   "engine": {
+    "xg_h": 1.569,
+    "xg_a": 1.269,
+    "H": 0.4341,
+    "D": 0.2665,
+    "A": 0.2994,
+    "rq": [
+     0.4341,
+     0.0,
+     0.5659
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 3,
+    "away_attack": 1.2963,
+    "away_defense": 0.7,
+    "away_form": 0.0,
+    "away_rest": 3,
+    "notes": [
+     "主样本 6 场 13 得 3 失",
+     "赛程间隔 3 天",
+     "主样本 4 场 7 得 0 失",
+     "赛程间隔 3 天"
+    ]
+   }
+  },
+  {
+   "no": 5,
+   "home": "直布罗陀",
+   "away": "马耳他",
+   "engine": {
+    "xg_h": 1.877,
+    "xg_a": 0.939,
+    "H": 0.5853,
+    "D": 0.239,
+    "A": 0.1757,
+    "rq": [
+     0.8243,
+     0.1141,
+     0.0616
+    ],
+    "hc_model": 1.0
+   },
+   "input": {
+    "home_attack": 1.1852,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 3,
+    "away_attack": 0.9259,
+    "away_defense": 1.1111,
+    "away_form": 0.0,
+    "away_rest": 4,
+    "notes": [
+     "主样本 5 场 8 得 2 失",
+     "赛程间隔 3 天",
+     "主样本 4 场 5 得 6 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  }
+ ]
+}

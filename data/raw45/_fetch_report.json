@@ -1,0 +1,57 @@
+{
+ "n": 4,
+ "report": [
+  {
+   "id": "2981467",
+   "home": "克罗地亚",
+   "away": "捷克",
+   "txt_chars": 6969,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.25,
+   "ou": "2.5/3",
+   "lineN": 15
+  },
+  {
+   "id": "2981468",
+   "home": "西班牙",
+   "away": "英格兰",
+   "txt_chars": 6979,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "3",
+   "lineN": 15
+  },
+  {
+   "id": "2981466",
+   "home": "比利时",
+   "away": "意大利",
+   "txt_chars": 6917,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.25,
+   "ou": "3",
+   "lineN": 15
+  },
+  {
+   "id": "2981465",
+   "home": "法国",
+   "away": "土耳其",
+   "txt_chars": 6330,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 2.0,
+   "ou": "3.5/4",
+   "lineN": 15
+  }
+ ]
+}

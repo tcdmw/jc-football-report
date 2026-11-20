@@ -1,0 +1,31 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "2981564",
+   "home": "塞浦路斯",
+   "away": "黑山",
+   "txt_chars": 6822,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.25,
+   "ou": "2.5",
+   "lineN": 15
+  },
+  {
+   "id": "2981563",
+   "home": "拉脱维亚",
+   "away": "亚美尼亚",
+   "txt_chars": 6973,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.25,
+   "ou": "2/2.5",
+   "lineN": 15
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "batch": 26,
+ "source": "data/raw26",
+ "rawDir": "data/raw26",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:56.644Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2912930",
+   "lg": "挪超",
+   "kickoff": "2026-11-09 02:15",
+   "home": "费德列斯达",
+   "away": "白兰恩",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.8,
+   "aw": 0.98,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 9,
+   "sameHc": 9,
+   "layerCounts": {
+    "L1": 3,
+    "L2": 4,
+    "L3": 9
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 8,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "0-0",
+     2
+    ],
+    [
+     "3-0",
+     1
+    ]
+   ],
+   "avgGoal": 3.44
+  },
+  {
+   "no": 2,
+   "id": "3036473",
+   "lg": "希腊超",
+   "kickoff": "2026-11-09 03:00",
+   "home": "奥林匹亚科斯",
+   "away": "PAOK",
+   "hc": 1,
+   "line": 1,
+   "favIsHome": true,
+   "hw": 1.01,
+   "aw": 0.77,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 3,
+   "id": "2993857",
+   "lg": "意甲",
+   "kickoff": "2026-11-09 03:45",
+   "home": "佛罗伦萨",
+   "away": "尤文图斯",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.94,
+   "aw": 0.9,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 9,
+   "sameHc": 9,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 3,
+    "L3": 9
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 8,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-2",
+     4
+    ],
+    [
+     "0-0",
+     2
+    ],
+    [
+     "3-0",
+     1
+    ]
+   ],
+   "avgGoal": 3.44
+  },
+  {
+   "no": 4,
+   "id": "3013752",
+   "lg": "西甲",
+   "kickoff": "2026-11-09 04:00",
+   "home": "马德里竞技",
+   "away": "巴塞罗那",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.98,
+   "aw": 0.86,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  }
+ ]
+}

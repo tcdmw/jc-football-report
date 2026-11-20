@@ -1,0 +1,47 @@
+{
+ "source": "dongqiudi_getMatchTips",
+ "total": 5,
+ "matched": [
+  {
+   "titanId": "2981469",
+   "dqdMatchId": "54419579",
+   "home": "德国",
+   "away": "荷兰",
+   "pageScore": "5 - 0",
+   "planTotal": "408"
+  },
+  {
+   "titanId": "2981470",
+   "dqdMatchId": "54419580",
+   "home": "希腊",
+   "away": "塞尔维亚",
+   "pageScore": "1 - 0",
+   "planTotal": "375"
+  },
+  {
+   "titanId": "2981515",
+   "dqdMatchId": "54419581",
+   "home": "瑞士",
+   "away": "苏格兰",
+   "pageScore": "4 - 0",
+   "planTotal": "387"
+  },
+  {
+   "titanId": "2981516",
+   "dqdMatchId": "54419582",
+   "home": "北马其顿",
+   "away": "斯洛文尼亚",
+   "pageScore": "0 - 3",
+   "planTotal": "380"
+  },
+  {
+   "titanId": "2981581",
+   "dqdMatchId": "54419578",
+   "home": "直布罗陀",
+   "away": "马耳他",
+   "pageScore": "1 - 1",
+   "planTotal": "120"
+  }
+ ],
+ "missed": []
+}

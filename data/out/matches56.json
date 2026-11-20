@@ -1,0 +1,256 @@
+{
+ "source": "data/raw55",
+ "collectedAt": "2026-11-18T01:15:13.276Z",
+ "count": 3,
+ "issues": [
+  {
+   "no": 1,
+   "id": "3112233",
+   "issue": "队名与页面不符",
+   "page": "卡利美洲"
+  }
+ ],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3112233",
+   "lg": "哥伦杯",
+   "kickoff": "2026-11-18 09:30",
+   "home": "卡利阿美利加",
+   "away": "波哥大国际",
+   "hc": 1,
+   "hcRaw": "Crow",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 19,
+      "w": 11,
+      "d": 6,
+      "l": 2,
+      "gf": 33,
+      "ga": 12,
+      "gd": 21,
+      "points": 39,
+      "rank": 2,
+      "winRate": 57.9
+     },
+     "away": {
+      "p": 19,
+      "w": 4,
+      "d": 8,
+      "l": 7,
+      "gf": 22,
+      "ga": 27,
+      "gd": -5,
+      "points": 20,
+      "rank": 14,
+      "winRate": 21.1
+     }
+    },
+    "home": {
+     "home": {
+      "p": 10,
+      "gf": 22,
+      "ga": 7
+     },
+     "away": {
+      "p": 9,
+      "gf": 11,
+      "ga": 5
+     }
+    },
+    "away": {
+     "home": {
+      "p": 10,
+      "gf": 15,
+      "ga": 15
+     },
+     "away": {
+      "p": 9,
+      "gf": 7,
+      "ga": 12
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 8,
+      "ga": 3
+     },
+     "away": {
+      "p": 6,
+      "gf": 8,
+      "ga": 9
+     }
+    },
+    "leagueOf": {
+     "home": "哥伦甲秋",
+     "away": "哥伦甲秋"
+    }
+   },
+   "restDays": {
+    "home": 3,
+    "away": 4
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": false,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3109751",
+   "lg": "中北美国联",
+   "kickoff": "2026-11-18 10:30",
+   "home": "墨西哥",
+   "away": "牙买加",
+   "hc": 2.25,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": null,
+     "away": null
+    },
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 9,
+      "ga": 7
+     },
+     "away": {
+      "p": 10,
+      "gf": 14,
+      "ga": 13
+     }
+    },
+    "away": {
+     "home": {
+      "p": 10,
+      "gf": 13,
+      "ga": 10
+     },
+     "away": {
+      "p": 5,
+      "gf": 4,
+      "ga": 4
+     }
+    },
+    "form": null,
+    "leagueOf": {
+     "home": null,
+     "away": null
+    }
+   },
+   "restDays": {
+    "home": 3,
+    "away": 3
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "empty"
+   }
+  },
+  {
+   "no": 3,
+   "id": "3110570",
+   "lg": "中北美国联",
+   "kickoff": "2026-11-18 11:00",
+   "home": "尼加拉瓜",
+   "away": "蒙特塞拉特",
+   "hc": 1.75,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": null,
+     "away": null
+    },
+    "home": {
+     "home": {
+      "p": 3,
+      "gf": 3,
+      "ga": 5
+     },
+     "away": {
+      "p": 10,
+      "gf": 9,
+      "ga": 24
+     }
+    },
+    "away": {
+     "home": {
+      "p": 10,
+      "gf": 14,
+      "ga": 10
+     },
+     "away": {
+      "p": 4,
+      "gf": 4,
+      "ga": 4
+     }
+    },
+    "form": null,
+    "leagueOf": {
+     "home": null,
+     "away": null
+    }
+   },
+   "restDays": {
+    "home": 4,
+    "away": 4
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "empty"
+   }
+  }
+ ]
+}

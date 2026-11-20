@@ -1,0 +1,245 @@
+{
+ "batch": 50,
+ "source": "data/raw49",
+ "rawDir": "data/raw49",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:59.092Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2981569",
+   "lg": "欧国联",
+   "kickoff": "2026-11-17 01:00",
+   "home": "冰岛",
+   "away": "卢森堡",
+   "hc": 1.75,
+   "line": 1.75,
+   "favIsHome": true,
+   "hw": 0.8,
+   "aw": 1.04,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 3,
+   "sameHc": 3,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 3
+   },
+   "groupVerdict": "启用(样本薄)",
+   "groupHit": 83.3,
+   "groupN": 6,
+   "eligible": false,
+   "pud": 66.7,
+   "pdown": 33.3,
+   "wdl": {
+    "主": 3
+   },
+   "topSc": [
+    [
+     "3-1",
+     1
+    ],
+    [
+     "1-0",
+     1
+    ],
+    [
+     "4-1",
+     1
+    ]
+   ],
+   "avgGoal": 3.33
+  },
+  {
+   "no": 2,
+   "id": "2981570",
+   "lg": "欧国联",
+   "kickoff": "2026-11-17 01:00",
+   "home": "爱沙尼亚",
+   "away": "保加利亚",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.92,
+   "aw": 0.92,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 9,
+   "sameHc": 9,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 9
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": true,
+   "pud": 77.8,
+   "pdown": 22.2,
+   "wdl": {
+    "主": 7,
+    "客": 2
+   },
+   "topSc": [
+    [
+     "1-0",
+     3
+    ],
+    [
+     "2-0",
+     2
+    ],
+    [
+     "1-6",
+     1
+    ]
+   ],
+   "avgGoal": 3.56
+  },
+  {
+   "no": 3,
+   "id": "2981582",
+   "lg": "欧国联",
+   "kickoff": "2026-11-17 01:00",
+   "home": "立陶宛",
+   "away": "列支敦士登",
+   "hc": 2,
+   "line": 2,
+   "favIsHome": true,
+   "hw": 0.8,
+   "aw": 1.04,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 4,
+   "sameHc": 4,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 2,
+    "L3": 4
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": 25,
+   "pdown": 75,
+   "wdl": {
+    "主": 3,
+    "平": 1
+   },
+   "topSc": [
+    [
+     "2-1",
+     2
+    ],
+    [
+     "5-1",
+     1
+    ],
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 3.5
+  },
+  {
+   "no": 4,
+   "id": "3010105",
+   "lg": "秘鲁甲",
+   "kickoff": "2026-11-17 02:00",
+   "home": "UTC卡加马马",
+   "away": "洛斯香卡斯",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 0.94,
+   "aw": 0.88,
+   "src": "Crow",
+   "tierUsed": "L3",
+   "peers": 9,
+   "sameHc": 9,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 9
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 55.6,
+   "pdown": 55.6,
+   "wdl": {
+    "客": 4,
+    "主": 4,
+    "平": 1
+   },
+   "topSc": [
+    [
+     "0-1",
+     2
+    ],
+    [
+     "3-2",
+     1
+    ],
+    [
+     "2-1",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 5,
+   "id": "3014165",
+   "lg": "西乙",
+   "kickoff": "2026-11-17 03:30",
+   "home": "阿尔巴塞特",
+   "away": "塞尔塔福图纳",
+   "hc": 1,
+   "line": 1,
+   "favIsHome": true,
+   "hw": 0.99,
+   "aw": 0.79,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 7,
+   "sameHc": 7,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 1,
+    "L3": 7
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 42.9,
+   "pdown": 71.4,
+   "wdl": {
+    "平": 2,
+    "主": 3,
+    "客": 2
+   },
+   "topSc": [
+    [
+     "1-1",
+     2
+    ],
+    [
+     "3-1",
+     1
+    ],
+    [
+     "7-0",
+     1
+    ]
+   ],
+   "avgGoal": 3.71
+  }
+ ]
+}

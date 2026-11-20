@@ -1,0 +1,146 @@
+{
+ "source": "data/raw53",
+ "collectedAt": "2026-11-17T15:59:57.173Z",
+ "count": 2,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3109633",
+   "lg": "国际友谊",
+   "kickoff": "2026-11-18 00:00",
+   "home": "约旦",
+   "away": "澳大利亚",
+   "hc": -0.75,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": null,
+     "away": null
+    },
+    "home": {
+     "home": {
+      "p": 7,
+      "gf": 9,
+      "ga": 12
+     },
+     "away": {
+      "p": 10,
+      "gf": 11,
+      "ga": 21
+     }
+    },
+    "away": {
+     "home": {
+      "p": 10,
+      "gf": 15,
+      "ga": 11
+     },
+     "away": {
+      "p": 4,
+      "gf": 3,
+      "ga": 3
+     }
+    },
+    "form": null,
+    "leagueOf": {
+     "home": null,
+     "away": null
+    }
+   },
+   "restDays": {
+    "home": 42,
+    "away": 5
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "empty"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3109634",
+   "lg": "国际友谊",
+   "kickoff": "2026-11-18 00:00",
+   "home": "俄罗斯",
+   "away": "委内瑞拉",
+   "hc": 1.25,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": null,
+     "away": null
+    },
+    "home": {
+     "home": {
+      "p": 8,
+      "gf": 20,
+      "ga": 6
+     },
+     "away": {
+      "p": 10,
+      "gf": 23,
+      "ga": 9
+     }
+    },
+    "away": {
+     "home": {
+      "p": 10,
+      "gf": 9,
+      "ga": 8
+     },
+     "away": {
+      "p": 7,
+      "gf": 4,
+      "ga": 5
+     }
+    },
+    "form": null,
+    "leagueOf": {
+     "home": null,
+     "away": null
+    }
+   },
+   "restDays": {
+    "home": 6,
+    "away": 3
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "empty"
+   }
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 10,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "摩尔多瓦",
+   "away": "哈萨克斯坦",
+   "engine": {
+    "xg_h": 1.217,
+    "xg_a": 1.32,
+    "H": 0.3316,
+    "D": 0.2878,
+    "A": 0.3806,
+    "rq": [
+     0.3316,
+     0.2878,
+     0.3806
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 1.45,
+    "home_form": 0.0,
+    "home_rest": 38,
+    "away_attack": 0.7,
+    "away_defense": 1.1852,
+    "away_form": 0.0,
+    "away_rest": 39,
+    "notes": [
+     "主样本 5 场 3 得 11 失",
+     "赛程间隔 38 天",
+     "主样本 5 场 4 得 8 失",
+     "赛程间隔 39 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "埃及",
+   "away": "马拉维",
+   "engine": {
+    "xg_h": 0.758,
+    "xg_a": 0.686,
+    "H": 0.3237,
+    "D": 0.3955,
+    "A": 0.2808,
+    "rq": [
+     0.0237,
+     0.0,
+     0.9763
+    ],
+    "hc_model": -2.5
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 40,
+    "away_attack": 0.7,
+    "away_defense": 0.7,
+    "away_form": 0.0,
+    "away_rest": 38,
+    "notes": [
+     "主样本 4 场 2 得 2 失",
+     "赛程间隔 40 天",
+     "主样本 8 场 3 得 7 失",
+     "赛程间隔 38 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "荷兰",
+   "away": "希腊",
+   "engine": {
+    "xg_h": 1.489,
+    "xg_a": 0.861,
+    "H": 0.5097,
+    "D": 0.2826,
+    "A": 0.2077,
+    "rq": [
+     0.2649,
+     0.2449,
+     0.4903
+    ],
+    "hc_model": -1.0
+   },
+   "input": {
+    "home_attack": 1.3757,
+    "home_defense": 0.8466,
+    "home_form": 0.0,
+    "home_rest": 40,
+    "away_attack": 0.7407,
+    "away_defense": 0.7,
+    "away_form": 0.0,
+    "away_rest": 40,
+    "notes": [
+     "主样本 7 场 13 得 8 失",
+     "赛程间隔 40 天",
+     "主样本 5 场 5 得 3 失",
+     "赛程间隔 40 天"
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "home": "塞尔维亚",
+   "away": "德国",
+   "engine": {
+    "xg_h": 1.265,
+    "xg_a": 1.099,
+    "H": 0.391,
+    "D": 0.2989,
+    "A": 0.3101,
+    "rq": [
+     0.8733,
+     0.0882,
+     0.0386
+    ],
+    "hc_model": 1.75
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 1.1111,
+    "home_form": 0.0,
+    "home_rest": 40,
+    "away_attack": 0.7407,
+    "away_defense": 0.7407,
+    "away_form": 0.0,
+    "away_rest": 40,
+    "notes": [
+     "主样本 4 场 6 得 6 失",
+     "赛程间隔 40 天",
+     "主样本 4 场 4 得 4 失",
+     "赛程间隔 40 天"
+    ]
+   }
+  },
+  {
+   "no": 5,
+   "home": "苏格兰",
+   "away": "北马其顿",
+   "engine": {
+    "xg_h": 1.459,
+    "xg_a": 1.245,
+    "H": 0.4114,
+    "D": 0.2759,
+    "A": 0.3128,
+    "rq": [
+     0.078,
+     0.1255,
+     0.7965
+    ],
+    "hc_model": -2.0
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 1.358,
+    "home_form": 0.0,
+    "home_rest": 38,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": 0.0,
+    "away_rest": 38,
+    "notes": [
+     "主样本 6 场 5 得 11 失",
+     "赛程间隔 38 天",
+     "主样本 7 场 1 得 20 失",
+     "赛程间隔 38 天"
+    ]
+   }
+  },
+  {
+   "no": 6,
+   "home": "斯洛文尼亚",
+   "away": "瑞士",
+   "engine": {
+    "xg_h": 0.758,
+    "xg_a": 1.42,
+    "H": 0.19,
+    "D": 0.2919,
+    "A": 0.5181,
+    "rq": [
+     0.4819,
+     0.2546,
+     0.2635
+    ],
+    "hc_model": 0.75
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7,
+    "home_form": 0.0,
+    "home_rest": 38,
+    "away_attack": 1.45,
+    "away_defense": 0.7,
+    "away_form": 0.0,
+    "away_rest": 38,
+    "notes": [
+     "主样本 4 场 3 得 3 失",
+     "赛程间隔 38 天",
+     "主样本 4 场 8 得 2 失",
+     "赛程间隔 38 天"
+    ]
+   }
+  },
+  {
+   "no": 7,
+   "home": "斯洛伐克",
+   "away": "法罗群岛",
+   "engine": {
+    "xg_h": 2.139,
+    "xg_a": 1.004,
+    "H": 0.6258,
+    "D": 0.2141,
+    "A": 0.16,
+    "rq": [
+     0.3994,
+     0.2265,
+     0.3742
+    ],
+    "hc_model": -1.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.8466,
+    "home_form": 0.0,
+    "home_rest": 38,
+    "away_attack": 0.8642,
+    "away_defense": 0.9877,
+    "away_form": 0.0,
+    "away_rest": 39,
+    "notes": [
+     "主样本 7 场 14 得 8 失",
+     "赛程间隔 38 天",
+     "主样本 6 场 7 得 8 失",
+     "赛程间隔 39 天"
+    ]
+   }
+  },
+  {
+   "no": 8,
+   "home": "卢森堡",
+   "away": "爱沙尼亚",
+   "engine": {
+    "xg_h": 1.262,
+    "xg_a": 1.359,
+    "H": 0.3362,
+    "D": 0.2824,
+    "A": 0.3814,
+    "rq": [
+     0.3362,
+     0.2824,
+     0.3814
+    ],
+    "hc_model": -0.25
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 1.1852,
+    "home_form": 0.0,
+    "home_rest": 38,
+    "away_attack": 0.8642,
+    "away_defense": 1.2346,
+    "away_form": 0.0,
+    "away_rest": 38,
+    "notes": [
+     "主样本 5 场 3 得 8 失",
+     "赛程间隔 38 天",
+     "主样本 6 场 7 得 10 失",
+     "赛程间隔 38 天"
+    ]
+   }
+  },
+  {
+   "no": 9,
+   "home": "保加利亚",
+   "away": "冰岛",
+   "engine": {
+    "xg_h": 1.234,
+    "xg_a": 0.721,
+    "H": 0.4744,
+    "D": 0.3188,
+    "A": 0.2068,
+    "rq": [
+     0.7932,
+     0.1446,
+     0.0622
+    ],
+    "hc_model": 0.75
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 0.7407,
+    "home_form": 0.0,
+    "home_rest": 38,
+    "away_attack": 0.7,
+    "away_defense": 1.2037,
+    "away_form": 0.0,
+    "away_rest": 38,
+    "notes": [
+     "主样本 4 场 3 得 4 失",
+     "赛程间隔 38 天",
+     "主样本 8 场 6 得 13 失",
+     "赛程间隔 38 天"
+    ]
+   }
+  },
+  {
+   "no": 10,
+   "home": "摩洛哥",
+   "away": "尼日尔",
+   "engine": {
+    "xg_h": 2.07,
+    "xg_a": 0.721,
+    "H": 0.6806,
+    "D": 0.2081,
+    "A": 0.1113,
+    "rq": [
+     0.2292,
+     0.0,
+     0.7708
+    ],
+    "hc_model": -2.5
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7407,
+    "home_form": 0.0,
+    "home_rest": 40,
+    "away_attack": 0.7,
+    "away_defense": 0.9524,
+    "away_form": 0.0,
+    "away_rest": 38,
+    "notes": [
+     "主样本 4 场 8 得 4 失",
+     "赛程间隔 40 天",
+     "主样本 7 场 6 得 9 失",
+     "赛程间隔 38 天"
+    ]
+   }
+  }
+ ]
+}

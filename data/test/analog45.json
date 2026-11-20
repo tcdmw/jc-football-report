@@ -1,0 +1,152 @@
+{
+ "batch": 45,
+ "source": "data/raw44",
+ "rawDir": "data/raw44",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:58.595Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3023831",
+   "lg": "葡甲",
+   "kickoff": "2026-11-16 02:00",
+   "home": "莱雄伊什",
+   "away": "沙维斯",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.85,
+   "aw": 1.03,
+   "src": "Crow",
+   "tierUsed": "L3",
+   "peers": 6,
+   "sameHc": 6,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 4,
+    "L3": 6
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": true,
+   "pud": 83.3,
+   "pdown": 16.7,
+   "wdl": {
+    "主": 5,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "1-0",
+     2
+    ],
+    [
+     "2-0",
+     1
+    ],
+    [
+     "1-6",
+     1
+    ]
+   ],
+   "avgGoal": 4
+  },
+  {
+   "no": 2,
+   "id": "3014167",
+   "lg": "西乙",
+   "kickoff": "2026-11-16 01:30",
+   "home": "埃登斯",
+   "away": "萨瓦德尔",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 0.78,
+   "aw": 1,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 8,
+   "sameHc": 8,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 8
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 62.5,
+   "wdl": {
+    "客": 4,
+    "主": 3,
+    "平": 1
+   },
+   "topSc": [
+    [
+     "0-1",
+     2
+    ],
+    [
+     "3-2",
+     1
+    ],
+    [
+     "2-1",
+     1
+    ]
+   ],
+   "avgGoal": 3.13
+  },
+  {
+   "no": 3,
+   "id": "3014166",
+   "lg": "西乙",
+   "kickoff": "2026-11-16 01:30",
+   "home": "埃瓦尔",
+   "away": "加的斯",
+   "hc": 1,
+   "line": 1,
+   "favIsHome": true,
+   "hw": 0.78,
+   "aw": 1,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 6,
+   "sameHc": 6,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 6
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 66.7,
+   "wdl": {
+    "平": 1,
+    "主": 3,
+    "客": 2
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ],
+    [
+     "3-1",
+     1
+    ],
+    [
+     "7-0",
+     1
+    ]
+   ],
+   "avgGoal": 4
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "source": "data/raw30",
+ "collectedAt": "2026-11-11T17:08:59.341Z",
+ "count": 2,
+ "issues": [
+  {
+   "no": 1,
+   "id": "3092381",
+   "issue": "队名与页面不符",
+   "page": "旧海弗莱鲁汶女足"
+  },
+  {
+   "no": 2,
+   "id": "3092382",
+   "issue": "队名与页面不符",
+   "page": "尤文图斯女足"
+  }
+ ],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3092381",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-12 01:45",
+   "home": "奥哈瓦里(女)",
+   "away": "科治(女)",
+   "hc": -1,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 8,
+      "w": 3,
+      "d": 4,
+      "l": 1,
+      "gf": 18,
+      "ga": 6,
+      "gd": 12,
+      "points": 13,
+      "rank": 3,
+      "winRate": 37.5
+     },
+     "away": {
+      "p": 14,
+      "w": 11,
+      "d": 2,
+      "l": 1,
+      "gf": 42,
+      "ga": 15,
+      "gd": 27,
+      "points": 35,
+      "rank": 1,
+      "winRate": 78.6
+     }
+    },
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 11,
+      "ga": 2
+     },
+     "away": {
+      "p": 4,
+      "gf": 7,
+      "ga": 4
+     }
+    },
+    "away": {
+     "home": {
+      "p": 8,
+      "gf": 28,
+      "ga": 9
+     },
+     "away": {
+      "p": 6,
+      "gf": 14,
+      "ga": 6
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 12,
+      "ga": 5
+     },
+     "away": {
+      "p": 6,
+      "gf": 18,
+      "ga": 7
+     }
+    },
+    "leagueOf": {
+     "home": "比女超",
+     "away": "丹女超"
+    }
+   },
+   "restDays": {
+    "home": 5,
+    "away": 5
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": false,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3092382",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-12 04:00",
+   "home": "尤文图斯(女)",
+   "away": "里昂(女)",
+   "hc": -2.5,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 6,
+      "w": 3,
+      "d": 0,
+      "l": 3,
+      "gf": 12,
+      "ga": 14,
+      "gd": -2,
+      "points": 9,
+      "rank": 5,
+      "winRate": 50
+     },
+     "away": {
+      "p": 8,
+      "w": 8,
+      "d": 0,
+      "l": 0,
+      "gf": 48,
+      "ga": 6,
+      "gd": 42,
+      "points": 24,
+      "rank": 1,
+      "winRate": 100
+     }
+    },
+    "home": {
+     "home": {
+      "p": 4,
+      "gf": 9,
+      "ga": 11
+     },
+     "away": {
+      "p": 2,
+      "gf": 3,
+      "ga": 3
+     }
+    },
+    "away": {
+     "home": {
+      "p": 3,
+      "gf": 17,
+      "ga": 1
+     },
+     "away": {
+      "p": 5,
+      "gf": 31,
+      "ga": 5
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 12,
+      "ga": 14
+     },
+     "away": {
+      "p": 6,
+      "gf": 34,
+      "ga": 4
+     }
+    },
+    "leagueOf": {
+     "home": "意女甲",
+     "away": "法女甲"
+    }
+   },
+   "restDays": {
+    "home": 4,
+    "away": 4
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": false,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  }
+ ]
+}

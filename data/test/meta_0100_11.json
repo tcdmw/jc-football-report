@@ -1,0 +1,16 @@
+{
+ "batch": "2026-11-15 欧国联A/B+非洲杯+中北美国联共11场",
+ "matches": [
+  { "no": 1, "id": "2981463", "lg": "欧国联", "tier": "A", "group": "A", "kickoff": "2026-11-15 01:00", "home": "挪威", "away": "威尔士" },
+  { "no": 2, "id": "2981510", "lg": "欧国联", "tier": "B", "group": "B", "kickoff": "2026-11-15 01:00", "home": "格鲁吉亚", "away": "匈牙利" },
+  { "no": 3, "id": "3001013", "lg": "非洲杯", "tier": "AFCON", "group": "AFCON", "kickoff": "2026-11-15 03:00", "home": "安哥拉", "away": "南苏丹" },
+  { "no": 4, "id": "3001096", "lg": "非洲杯", "tier": "AFCON", "group": "AFCON", "kickoff": "2026-11-15 03:00", "home": "阿尔及利亚", "away": "多哥" },
+  { "no": 5, "id": "2981464", "lg": "欧国联", "tier": "A", "group": "A", "kickoff": "2026-11-15 03:45", "home": "葡萄牙", "away": "丹麦" },
+  { "no": 6, "id": "2981511", "lg": "欧国联", "tier": "B", "group": "B", "kickoff": "2026-11-15 03:45", "home": "北爱尔兰", "away": "乌克兰" },
+  { "no": 7, "id": "2981513", "lg": "欧国联", "tier": "B", "group": "B", "kickoff": "2026-11-15 03:45", "home": "瑞典", "away": "波黑" },
+  { "no": 8, "id": "2981514", "lg": "欧国联", "tier": "B", "group": "B", "kickoff": "2026-11-15 03:45", "home": "罗马尼亚", "away": "波兰" },
+  { "no": 9, "id": "2981512", "lg": "欧国联", "tier": "B", "group": "B", "kickoff": "2026-11-15 03:45", "home": "奥地利", "away": "爱尔兰" },
+  { "no": 10, "id": "3109749", "lg": "中北美国联", "tier": "CONCACAF", "group": "CONCACAF", "kickoff": "2026-11-15 05:30", "home": "海地", "away": "美国" },
+  { "no": 11, "id": "3109747", "lg": "中北美国联", "tier": "CONCACAF", "group": "CONCACAF", "kickoff": "2026-11-15 09:00", "home": "牙买加", "away": "墨西哥" }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 3,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "厄立特里亚(中)",
+   "away": "几内亚",
+   "engine": {
+    "xg_h": 1.033,
+    "xg_a": 1.296,
+    "H": 0.2858,
+    "D": 0.2996,
+    "A": 0.4146,
+    "rq": [
+     0.5854,
+     0.2213,
+     0.1933
+    ],
+    "hc_model": 1.0
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 1.3333,
+    "home_form": 0.0,
+    "home_rest": 4,
+    "away_attack": 0.7407,
+    "away_defense": 0.9877,
+    "away_form": 0.0,
+    "away_rest": 4,
+    "notes": [
+     "主样本 5 场 2 得 9 失",
+     "赛程间隔 4 天",
+     "主样本 3 场 3 得 4 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "中非共和国(中)",
+   "away": "贝宁",
+   "engine": {
+    "xg_h": 1.459,
+    "xg_a": 1.224,
+    "H": 0.4158,
+    "D": 0.2767,
+    "A": 0.3075,
+    "rq": [
+     0.6925,
+     0.1744,
+     0.1331
+    ],
+    "hc_model": 1.0
+   },
+   "input": {
+    "home_attack": 0.7,
+    "home_defense": 1.3333,
+    "home_form": 0.0,
+    "home_rest": 4,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": 0.0,
+    "away_rest": 4,
+    "notes": [
+     "主样本 5 场 1 得 9 失",
+     "赛程间隔 4 天",
+     "主样本 5 场 4 得 10 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "葡萄牙 U20",
+   "away": "英格兰 U20",
+   "engine": {
+    "xg_h": 2.379,
+    "xg_a": 1.494,
+    "H": 0.5663,
+    "D": 0.205,
+    "A": 0.2287,
+    "rq": [
+     0.5663,
+     0.205,
+     0.2287
+    ],
+    "hc_model": 0.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7407,
+    "home_form": 0.0,
+    "home_rest": 4,
+    "away_attack": 1.45,
+    "away_defense": 1.1111,
+    "away_form": 0.0,
+    "away_rest": 4,
+    "notes": [
+     "主样本 6 场 15 得 6 失",
+     "赛程间隔 4 天",
+     "主样本 4 场 9 得 6 失",
+     "赛程间隔 4 天"
+    ]
+   }
+  }
+ ]
+}

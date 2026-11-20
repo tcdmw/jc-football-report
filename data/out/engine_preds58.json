@@ -1,0 +1,83 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 2,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "奥地利维也纳女足",
+   "away": "拜仁慕尼黑女足",
+   "engine": {
+    "xg_h": 1.71,
+    "xg_a": 1.371,
+    "H": 0.4468,
+    "D": 0.2531,
+    "A": 0.3001,
+    "rq": [
+     0.9516,
+     0.0344,
+     0.0141
+    ],
+    "hc_model": 2.75
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.8,
+    "home_rest": 8,
+    "away_attack": 1.45,
+    "away_defense": 0.7407,
+    "away_form": 0.8,
+    "away_rest": 6,
+    "notes": [
+     "主样本 6 场 18 得 2 失",
+     "赛程间隔 8 天",
+     "主样本 5 场 17 得 5 失",
+     "赛程间隔 6 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "巴黎FC女足",
+   "away": "靴尔科治女足",
+   "engine": {
+    "xg_h": 1.651,
+    "xg_a": 1.42,
+    "H": 0.4224,
+    "D": 0.2556,
+    "A": 0.322,
+    "rq": [
+     0.2221,
+     0.2003,
+     0.5776
+    ],
+    "hc_model": -1.25
+   },
+   "input": {
+    "home_attack": 1.45,
+    "home_defense": 0.7,
+    "home_form": 0.8,
+    "home_rest": 7,
+    "away_attack": 1.45,
+    "away_defense": 0.7407,
+    "away_form": 0.8,
+    "away_rest": 7,
+    "notes": [
+     "主样本 4 场 12 得 2 失",
+     "赛程间隔 7 天",
+     "主样本 7 场 18 得 7 失",
+     "赛程间隔 7 天"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "n": 6,
+ "report": [
+  {
+   "id": "2996548",
+   "home": "罗达JC",
+   "away": "福伦丹",
+   "txt_chars": 9138,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "3",
+   "lineN": 16
+  },
+  {
+   "id": "2996550",
+   "home": "瓦尔韦克",
+   "away": "邓伯什",
+   "txt_chars": 9173,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.25,
+   "ou": "3.5",
+   "lineN": 15
+  },
+  {
+   "id": "2996545",
+   "home": "阿尔梅勒城",
+   "away": "赫尔蒙德",
+   "txt_chars": 9173,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.5,
+   "ou": "3.5",
+   "lineN": 15
+  },
+  {
+   "id": "2996549",
+   "home": "芬洛",
+   "away": "FC埃因霍温",
+   "txt_chars": 8755,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.75,
+   "ou": "3/3.5",
+   "lineN": 15
+  },
+  {
+   "id": "2996547",
+   "home": "多德雷赫特",
+   "away": "阿尔梅罗大力神",
+   "txt_chars": 8634,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -1.5,
+   "ou": "3/3.5",
+   "lineN": 15
+  },
+  {
+   "id": "2996546",
+   "home": "格拉夫夏普",
+   "away": "奥斯",
+   "txt_chars": 8722,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.0,
+   "ou": "3/3.5",
+   "lineN": 14
+  }
+ ]
+}

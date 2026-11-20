@@ -1,0 +1,18 @@
+{
+ "n": 1,
+ "report": [
+  {
+   "id": "3014168",
+   "home": "格拉纳达",
+   "away": "拉斯帕尔马斯",
+   "txt_chars": 8963,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "2.5",
+   "lineN": 15
+  }
+ ]
+}

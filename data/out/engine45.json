@@ -1,0 +1,117 @@
+{
+ "model": "dixon_coles",
+ "config": {
+  "base_goals": 1.35,
+  "attack_weight": 1.0,
+  "defense_weight": 0.9,
+  "form_weight": 0.65,
+  "market_blend_weight": 0.0,
+  "rho": -0.0807
+ },
+ "n": 3,
+ "skipped": [],
+ "preds": [
+  {
+   "no": 1,
+   "home": "莱雄伊什",
+   "away": "沙维斯",
+   "engine": {
+    "xg_h": 2.653,
+    "xg_a": 1.153,
+    "H": 0.6876,
+    "D": 0.1748,
+    "A": 0.1376,
+    "rq": [
+     0.6876,
+     0.0,
+     0.3124
+    ],
+    "hc_model": -0.5
+   },
+   "input": {
+    "home_attack": 1.1852,
+    "home_defense": 1.3333,
+    "home_form": -0.4938,
+    "home_rest": 9,
+    "away_attack": 0.7,
+    "away_defense": 1.45,
+    "away_form": -0.6173,
+    "away_rest": 9,
+    "notes": [
+     "主样本 5 场 8 得 9 失",
+     "赛程间隔 9 天",
+     "主样本 5 场 3 得 11 失",
+     "赛程间隔 9 天"
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "home": "埃登斯",
+   "away": "萨瓦德尔",
+   "engine": {
+    "xg_h": 1.265,
+    "xg_a": 0.934,
+    "H": 0.4292,
+    "D": 0.3072,
+    "A": 0.2635,
+    "rq": [
+     0.4292,
+     0.3072,
+     0.2635
+    ],
+    "hc_model": -0.0
+   },
+   "input": {
+    "home_attack": 1.1111,
+    "home_defense": 0.9877,
+    "home_form": -0.1235,
+    "home_rest": 6,
+    "away_attack": 0.7,
+    "away_defense": 0.7407,
+    "away_form": -0.1235,
+    "away_rest": 6,
+    "notes": [
+     "主样本 6 场 9 得 8 失",
+     "赛程间隔 6 天",
+     "主样本 7 场 4 得 7 失",
+     "赛程间隔 6 天"
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "home": "埃瓦尔",
+   "away": "加的斯",
+   "engine": {
+    "xg_h": 2.044,
+    "xg_a": 1.325,
+    "H": 0.533,
+    "D": 0.2284,
+    "A": 0.2386,
+    "rq": [
+     0.3207,
+     0.2123,
+     0.467
+    ],
+    "hc_model": -1.0
+   },
+   "input": {
+    "home_attack": 1.2346,
+    "home_defense": 0.8642,
+    "home_form": -0.1235,
+    "home_rest": 5,
+    "away_attack": 0.8889,
+    "away_defense": 1.45,
+    "away_form": 0.1235,
+    "away_rest": 9,
+    "notes": [
+     "主样本 6 场 10 得 7 失",
+     "赛程间隔 5 天",
+     "主样本 5 场 6 得 10 失",
+     "赛程间隔 9 天"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "batch": 38,
+ "source": "data/raw38",
+ "rawDir": "data/raw38",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:57.895Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3022051",
+   "lg": "俄甲",
+   "kickoff": "2026-11-15 18:00",
+   "home": "车里雅宾斯克",
+   "away": "莫斯科韦莱斯",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 1.09,
+   "aw": 0.61,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 12,
+   "sameHc": 12,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 12
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 41.7,
+   "pdown": 58.3,
+   "wdl": {
+    "平": 4,
+    "客": 3,
+    "主": 5
+   },
+   "topSc": [
+    [
+     "1-2",
+     2
+    ],
+    [
+     "1-1",
+     2
+    ],
+    [
+     "2-1",
+     2
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 2,
+   "id": "3023834",
+   "lg": "葡甲",
+   "kickoff": "2026-11-15 19:00",
+   "home": "通德拉",
+   "away": "法鲁人",
+   "hc": 0.75,
+   "line": 0.75,
+   "favIsHome": true,
+   "hw": 1.02,
+   "aw": 0.86,
+   "src": "Crow",
+   "tierUsed": "L3",
+   "peers": 7,
+   "sameHc": 7,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 7
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": true,
+   "pud": 57.1,
+   "pdown": 42.9,
+   "wdl": {
+    "主": 4,
+    "平": 1,
+    "客": 2
+   },
+   "topSc": [
+    [
+     "3-2",
+     2
+    ],
+    [
+     "2-2",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ]
+   ],
+   "avgGoal": 3.14
+  },
+  {
+   "no": 3,
+   "id": "3023827",
+   "lg": "葡甲",
+   "kickoff": "2026-11-15 19:00",
+   "home": "阿马兰迪",
+   "away": "费尔盖拉什",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.84,
+   "aw": 1.04,
+   "src": "Crow",
+   "tierUsed": "L3",
+   "peers": 12,
+   "sameHc": 12,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 2,
+    "L3": 12
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 41.7,
+   "pdown": 58.3,
+   "wdl": {
+    "平": 4,
+    "客": 3,
+    "主": 5
+   },
+   "topSc": [
+    [
+     "1-2",
+     2
+    ],
+    [
+     "1-1",
+     2
+    ],
+    [
+     "2-1",
+     2
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 4,
+   "id": "3014173",
+   "lg": "西乙",
+   "kickoff": "2026-11-15 21:00",
+   "home": "特内里费",
+   "away": "休达",
+   "hc": 0.75,
+   "line": 0.75,
+   "favIsHome": true,
+   "hw": 0.98,
+   "aw": 0.8,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 7,
+   "sameHc": 7,
+   "layerCounts": {
+    "L1": 2,
+    "L2": 2,
+    "L3": 7
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": true,
+   "pud": 57.1,
+   "pdown": 42.9,
+   "wdl": {
+    "主": 4,
+    "平": 1,
+    "客": 2
+   },
+   "topSc": [
+    [
+     "3-2",
+     2
+    ],
+    [
+     "2-2",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ]
+   ],
+   "avgGoal": 3.14
+  }
+ ]
+}

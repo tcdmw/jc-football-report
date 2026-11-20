@@ -1,0 +1,247 @@
+{
+ "titanId": "3109634",
+ "dqdMatchId": "54638673",
+ "home": "俄罗斯",
+ "away": "委内瑞拉",
+ "pageHome": "俄罗斯",
+ "pageAway": "委内瑞拉",
+ "kickoff": "00:00",
+ "league": "友谊赛",
+ "pageScore": "",
+ "planTotal": "76",
+ "planId": 8185822,
+ "isUnlock": 0,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "总进球数",
+   "count": 28,
+   "options": []
+  },
+  {
+   "play": "主客队",
+   "count": 49,
+   "options": []
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 0,
+   "left_times": 0,
+   "plan_id": 8185822,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "count": 28,
+      "play_type": "总进球数"
+     },
+     {
+      "count": 49,
+      "play_type": "主客队"
+     }
+    ],
+    "count": "76"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": null,
+  "PersonAnalyse": null,
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.93",
+     "cmp": "",
+     "hdp": "一球",
+     "home": "0.85"
+    },
+    "trans": []
+   },
+   "euro": {
+    "away": "5.90",
+    "cmp": "澳彩",
+    "hdp": "4.15",
+    "home": "1.40"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.88",
+     "cmp": "",
+     "hdp": "2.5",
+     "home": "0.84"
+    },
+    "trans": []
+   }
+  },
+  "Forecast": {
+   "data_num": "256475",
+   "forecast_A": "72",
+   "forecast_B": "28",
+   "hdp": "2.5/3",
+   "hdp_float": 2.75,
+   "match_id": "4638673",
+   "result": ""
+  },
+  "KeyDes": [],
+  "WsNews": [],
+  "TeamDesStrength": [],
+  "TeamDesInjury": [],
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "14%(5)",
+       "gs": "12%(12)",
+       "time": "1-15"
+      },
+      {
+       "ga": "11%(4)",
+       "gs": "18%(18)",
+       "time": "16-30"
+      },
+      {
+       "ga": "25%(9)",
+       "gs": "19%(19)",
+       "time": "31-45"
+      },
+      {
+       "ga": "14%(5)",
+       "gs": "20%(20)",
+       "time": "46-60"
+      },
+      {
+       "ga": "17%(6)",
+       "gs": "18%(18)",
+       "time": "61-75"
+      },
+      {
+       "ga": "19%(7)",
+       "gs": "14%(14)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "8%(1)",
+       "gs": "11%(5)",
+       "time": "1-15"
+      },
+      {
+       "ga": "8%(1)",
+       "gs": "19%(9)",
+       "time": "16-30"
+      },
+      {
+       "ga": "8%(1)",
+       "gs": "26%(12)",
+       "time": "31-45"
+      },
+      {
+       "ga": "23%(3)",
+       "gs": "21%(10)",
+       "time": "46-60"
+      },
+      {
+       "ga": "23%(3)",
+       "gs": "17%(8)",
+       "time": "61-75"
+      },
+      {
+       "ga": "31%(4)",
+       "gs": "6%(3)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 36,
+    "ga_total_tw": 13,
+    "gs_total_fi": 101,
+    "gs_total_tw": 47,
+    "team_name": "俄罗斯"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "10%(5)",
+       "gs": "13%(6)",
+       "time": "1-15"
+      },
+      {
+       "ga": "12%(6)",
+       "gs": "15%(7)",
+       "time": "16-30"
+      },
+      {
+       "ga": "27%(14)",
+       "gs": "17%(8)",
+       "time": "31-45"
+      },
+      {
+       "ga": "25%(13)",
+       "gs": "17%(8)",
+       "time": "46-60"
+      },
+      {
+       "ga": "8%(4)",
+       "gs": "17%(8)",
+       "time": "61-75"
+      },
+      {
+       "ga": "18%(9)",
+       "gs": "21%(10)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "4%(1)",
+       "gs": "22%(4)",
+       "time": "1-15"
+      },
+      {
+       "ga": "11%(3)",
+       "gs": "17%(3)",
+       "time": "16-30"
+      },
+      {
+       "ga": "36%(10)",
+       "gs": "6%(1)",
+       "time": "31-45"
+      },
+      {
+       "ga": "29%(8)",
+       "gs": "22%(4)",
+       "time": "46-60"
+      },
+      {
+       "ga": "7%(2)",
+       "gs": "11%(2)",
+       "time": "61-75"
+      },
+      {
+       "ga": "14%(4)",
+       "gs": "22%(4)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 51,
+    "ga_total_tw": 28,
+    "gs_total_fi": 47,
+    "gs_total_tw": 18,
+    "team_name": "委内瑞拉"
+   }
+  },
+  "Bf_Distribute": [],
+  "Bf_Transaction": []
+ },
+ "userId": 0,
+ "vipType": -1
+}

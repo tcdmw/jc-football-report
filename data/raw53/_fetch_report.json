@@ -1,0 +1,31 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "3109633",
+   "home": "约旦",
+   "away": "澳大利亚",
+   "txt_chars": 6472,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.75,
+   "ou": "2.5",
+   "lineN": 14
+  },
+  {
+   "id": "3109634",
+   "home": "俄罗斯",
+   "away": "委内瑞拉",
+   "txt_chars": 5641,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.25,
+   "ou": "2.5/3",
+   "lineN": 11
+  }
+ ]
+}

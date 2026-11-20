@@ -1,0 +1,140 @@
+{
+ "batch": 7,
+ "source": "data/raw7",
+ "rawDir": "data/raw7",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:54.623Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3018858",
+   "lg": "德甲",
+   "kickoff": "2026-11-07 22:30",
+   "home": "多特蒙德",
+   "away": "埃尔沃斯贝格",
+   "hc": 1.5,
+   "line": 1.5,
+   "favIsHome": true,
+   "hw": 0.89,
+   "aw": 1.06,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 2,
+   "id": "3018863",
+   "lg": "德甲",
+   "kickoff": "2026-11-07 22:30",
+   "home": "美因茨",
+   "away": "拜仁慕尼黑",
+   "hc": -1.75,
+   "line": 1.75,
+   "favIsHome": false,
+   "hw": 1.06,
+   "aw": 0.89,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "启用(样本薄)",
+   "groupHit": 83.3,
+   "groupN": 6,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  },
+  {
+   "no": 3,
+   "id": "3018864",
+   "lg": "德甲",
+   "kickoff": "2026-11-07 22:30",
+   "home": "帕德博恩",
+   "away": "法兰克福",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.85,
+   "aw": 1.1,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 4,
+   "id": "3018865",
+   "lg": "德甲",
+   "kickoff": "2026-11-07 22:30",
+   "home": "RB莱比锡",
+   "away": "奥格斯堡",
+   "hc": 1.5,
+   "line": 1.5,
+   "favIsHome": true,
+   "hw": 1.07,
+   "aw": 0.88,
+   "src": "澳门",
+   "tierUsed": "L1",
+   "peers": 0,
+   "sameHc": 0,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 0
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": null,
+   "pdown": null,
+   "wdl": null,
+   "topSc": null,
+   "avgGoal": null
+  }
+ ]
+}

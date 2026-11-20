@@ -1,0 +1,132 @@
+{
+ "batch": 18,
+ "source": "data/raw18",
+ "rawDir": "data/raw18",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:55.813Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2912326",
+   "lg": "瑞典超",
+   "kickoff": "2026-11-08 21:00",
+   "home": "IFK哥德堡",
+   "away": "马尔默",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 0.91,
+   "aw": 0.87,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 6,
+   "sameHc": 6,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 6
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 33.3,
+   "pdown": 66.7,
+   "wdl": {
+    "客": 4,
+    "主": 2
+   },
+   "topSc": [
+    [
+     "0-1",
+     2
+    ],
+    [
+     "2-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ]
+   ],
+   "avgGoal": 2.33
+  },
+  {
+   "no": 2,
+   "id": "2912327",
+   "lg": "瑞典超",
+   "kickoff": "2026-11-08 21:00",
+   "home": "哈尔姆斯塔德",
+   "away": "佐加顿斯",
+   "hc": -1.25,
+   "line": 1.25,
+   "favIsHome": false,
+   "hw": 0.86,
+   "aw": 0.92,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "观察",
+   "groupHit": 57.1,
+   "groupN": 7,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "3-1",
+     1
+    ]
+   ],
+   "avgGoal": 4
+  },
+  {
+   "no": 3,
+   "id": "3026780",
+   "lg": "土超",
+   "kickoff": "2026-11-08 21:00",
+   "home": "科鲁姆",
+   "away": "费内巴切",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.87,
+   "aw": 0.91,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  }
+ ]
+}

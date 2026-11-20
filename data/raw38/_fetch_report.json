@@ -1,0 +1,31 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "3023834",
+   "home": "通德拉",
+   "away": "法鲁人",
+   "txt_chars": 7915,
+   "x12": "OK",
+   "status": "OK",
+   "source": "Crow",
+   "isMacau": false,
+   "hc": 0.75,
+   "ou": "2/2.5",
+   "lineN": 12
+  },
+  {
+   "id": "3023827",
+   "home": "阿马兰迪",
+   "away": "费尔盖拉什",
+   "txt_chars": 7307,
+   "x12": "OK",
+   "status": "OK",
+   "source": "Crow",
+   "isMacau": false,
+   "hc": 0.25,
+   "ou": "2",
+   "lineN": 12
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "batch": 37,
+ "source": "data/raw37",
+ "rawDir": "data/raw37",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:57.797Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3110407",
+   "lg": "日联杯",
+   "kickoff": "2026-11-15 16:00",
+   "home": "柏太阳神",
+   "away": "川崎前锋",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 0.95,
+   "aw": 0.83,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 5,
+   "sameHc": 5,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 5
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": true,
+   "pud": 80,
+   "pdown": 20,
+   "wdl": {
+    "主": 4,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "1-0",
+     2
+    ],
+    [
+     "2-0",
+     1
+    ],
+    [
+     "1-6",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 2,
+   "id": "3110405",
+   "lg": "日联杯",
+   "kickoff": "2026-11-15 16:00",
+   "home": "鹿岛鹿角",
+   "away": "横滨水手",
+   "hc": 0,
+   "line": 0,
+   "favIsHome": true,
+   "hw": 1,
+   "aw": 0.76,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 6,
+   "sameHc": 6,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 2,
+    "L3": 6
+   },
+   "groupVerdict": "观察",
+   "groupHit": 60,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 33.3,
+   "pdown": 66.7,
+   "wdl": {
+    "客": 4,
+    "主": 2
+   },
+   "topSc": [
+    [
+     "0-1",
+     2
+    ],
+    [
+     "2-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ]
+   ],
+   "avgGoal": 2.33
+  }
+ ]
+}

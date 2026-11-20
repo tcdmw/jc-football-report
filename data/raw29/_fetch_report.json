@@ -1,0 +1,31 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "3092356",
+   "home": "皇家马德里(女)",
+   "away": "巴黎(女)",
+   "txt_chars": 7742,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.25,
+   "ou": "3/3.5",
+   "lineN": 14
+  },
+  {
+   "id": "3092376",
+   "home": "赫根(女)",
+   "away": "切尔西(女)",
+   "txt_chars": 7554,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -2.0,
+   "ou": "3/3.5",
+   "lineN": 14
+  }
+ ]
+}

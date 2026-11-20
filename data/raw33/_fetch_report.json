@@ -1,0 +1,70 @@
+{
+ "n": 5,
+ "report": [
+  {
+   "id": "3000179",
+   "home": "湘南比马",
+   "away": "横滨FC",
+   "txt_chars": 9432,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.5,
+   "ou": "2.5/3",
+   "lineN": 15
+  },
+  {
+   "id": "3000178",
+   "home": "RB大宫松鼠",
+   "away": "山形山神",
+   "txt_chars": 9274,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 1.0,
+   "ou": "3/3.5",
+   "lineN": 15
+  },
+  {
+   "id": "3000173",
+   "home": "新潟天鹅",
+   "away": "宫崎棒牛鸟",
+   "txt_chars": 8031,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": -0.25,
+   "ou": "2.5",
+   "lineN": 15
+  },
+  {
+   "id": "3000174",
+   "home": "藤枝MYFC",
+   "away": "甲府风林",
+   "txt_chars": 8849,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "2.5",
+   "lineN": 14
+  },
+  {
+   "id": "3000177",
+   "home": "大分三神",
+   "away": "枥木市",
+   "txt_chars": 8081,
+   "x12": "OK",
+   "status": "OK",
+   "source": "澳",
+   "isMacau": true,
+   "hc": 0.5,
+   "ou": "2.5/3",
+   "lineN": 13
+  }
+ ]
+}

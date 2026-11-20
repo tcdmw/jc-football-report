@@ -1,0 +1,142 @@
+{
+ "batch": 49,
+ "source": "data/raw48",
+ "rawDir": "data/raw48",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:58.992Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3001039",
+   "lg": "非洲杯",
+   "kickoff": "2026-11-17 00:00",
+   "home": "厄立特里亚(中)",
+   "away": "几内亚",
+   "hc": -1,
+   "line": 1,
+   "favIsHome": false,
+   "hw": 0.96,
+   "aw": 0.74,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 2
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "平": 1,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 2,
+   "id": "3001063",
+   "lg": "非洲杯",
+   "kickoff": "2026-11-17 00:00",
+   "home": "中非共和国(中)",
+   "away": "贝宁",
+   "hc": -1,
+   "line": 1,
+   "favIsHome": false,
+   "hw": 1.02,
+   "aw": 0.68,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 2
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "平": 1,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  },
+  {
+   "no": 3,
+   "id": "3071545",
+   "lg": "欧洲U20",
+   "kickoff": "2026-11-17 00:00",
+   "home": "葡萄牙 U20",
+   "away": "英格兰 U20",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.98,
+   "aw": 0.8,
+   "src": "澳",
+   "tierUsed": "L2",
+   "peers": 7,
+   "sameHc": 15,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 7,
+    "L3": 15
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 28.6,
+   "pdown": 71.4,
+   "wdl": {
+    "平": 5,
+    "客": 2
+   },
+   "topSc": [
+    [
+     "2-2",
+     2
+    ],
+    [
+     "5-5",
+     1
+    ],
+    [
+     "1-3",
+     1
+    ]
+   ],
+   "avgGoal": 3.71
+  }
+ ]
+}

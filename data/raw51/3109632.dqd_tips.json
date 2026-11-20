@@ -1,0 +1,247 @@
+{
+ "titanId": "3109632",
+ "dqdMatchId": "54635719",
+ "home": "卡塔尔",
+ "away": "韩国",
+ "pageHome": "卡塔尔",
+ "pageAway": "韩国",
+ "kickoff": "22:00",
+ "league": "友谊赛",
+ "pageScore": "",
+ "planTotal": "118",
+ "planId": 8165439,
+ "isUnlock": 0,
+ "price": 258,
+ "expertDist": [
+  {
+   "play": "总进球数",
+   "count": 45,
+   "options": []
+  },
+  {
+   "play": "主客队",
+   "count": 73,
+   "options": []
+  }
+ ],
+ "modules": {
+  "ExpertPlan": {
+   "is_show": 1,
+   "is_unlock": 0,
+   "left_times": 0,
+   "plan_id": 8165439,
+   "price": 258,
+   "pay_status": 0,
+   "vip_type": -1,
+   "left_token": 0,
+   "spread_data": {
+    "data": [
+     {
+      "count": 45,
+      "play_type": "总进球数"
+     },
+     {
+      "count": 73,
+      "play_type": "主客队"
+     }
+    ],
+    "count": "118"
+   },
+   "user_id": 0,
+   "vip_url": "dongqiudi:///url/https://n.dongqiudi.com/webapp/ad-vip-new.html?origin=0&dqd_source=lot_corner"
+  },
+  "Referee": null,
+  "PersonAnalyse": null,
+  "OddsDiff": {
+   "asia": {
+    "init": {
+     "away": "0.81",
+     "cmp": "",
+     "hdp": "受一球",
+     "home": "0.97"
+    },
+    "trans": []
+   },
+   "euro": {
+    "away": "1.38",
+    "cmp": "澳彩",
+    "hdp": "4.15",
+    "home": "6.20"
+   },
+   "over_under": {
+    "init": {
+     "away": "0.83",
+     "cmp": "",
+     "hdp": "2.5",
+     "home": "0.89"
+    },
+    "trans": []
+   }
+  },
+  "Forecast": {
+   "data_num": "294953",
+   "forecast_A": "70",
+   "forecast_B": "30",
+   "hdp": "2.5/3",
+   "hdp_float": 2.75,
+   "match_id": "4635719",
+   "result": ""
+  },
+  "KeyDes": [],
+  "WsNews": [],
+  "TeamDesStrength": [],
+  "TeamDesInjury": [],
+  "GoalDistri": {
+   "team_A": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "9%(6)",
+       "gs": "11%(6)",
+       "time": "1-15"
+      },
+      {
+       "ga": "14%(9)",
+       "gs": "16%(9)",
+       "time": "16-30"
+      },
+      {
+       "ga": "20%(13)",
+       "gs": "20%(11)",
+       "time": "31-45"
+      },
+      {
+       "ga": "9%(6)",
+       "gs": "14%(8)",
+       "time": "46-60"
+      },
+      {
+       "ga": "22%(14)",
+       "gs": "14%(8)",
+       "time": "61-75"
+      },
+      {
+       "ga": "26%(17)",
+       "gs": "25%(14)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "11%(3)",
+       "gs": "9%(1)",
+       "time": "1-15"
+      },
+      {
+       "ga": "25%(7)",
+       "gs": "9%(1)",
+       "time": "16-30"
+      },
+      {
+       "ga": "25%(7)",
+       "gs": "18%(2)",
+       "time": "31-45"
+      },
+      {
+       "ga": "4%(1)",
+       "gs": "9%(1)",
+       "time": "46-60"
+      },
+      {
+       "ga": "18%(5)",
+       "gs": "36%(4)",
+       "time": "61-75"
+      },
+      {
+       "ga": "18%(5)",
+       "gs": "18%(2)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 65,
+    "ga_total_tw": 28,
+    "gs_total_fi": 56,
+    "gs_total_tw": 11,
+    "team_name": "卡塔尔"
+   },
+   "team_B": {
+    "con": {
+     "goal_fi": [
+      {
+       "ga": "13%(5)",
+       "gs": "10%(8)",
+       "time": "1-15"
+      },
+      {
+       "ga": "8%(3)",
+       "gs": "11%(9)",
+       "time": "16-30"
+      },
+      {
+       "ga": "15%(6)",
+       "gs": "13%(11)",
+       "time": "31-45"
+      },
+      {
+       "ga": "33%(13)",
+       "gs": "23%(19)",
+       "time": "46-60"
+      },
+      {
+       "ga": "13%(5)",
+       "gs": "20%(17)",
+       "time": "61-75"
+      },
+      {
+       "ga": "18%(7)",
+       "gs": "23%(19)",
+       "time": "75-90"
+      }
+     ],
+     "goal_tw": [
+      {
+       "ga": "14%(3)",
+       "gs": "8%(2)",
+       "time": "1-15"
+      },
+      {
+       "ga": "9%(2)",
+       "gs": "8%(2)",
+       "time": "16-30"
+      },
+      {
+       "ga": "18%(4)",
+       "gs": "8%(2)",
+       "time": "31-45"
+      },
+      {
+       "ga": "32%(7)",
+       "gs": "24%(6)",
+       "time": "46-60"
+      },
+      {
+       "ga": "14%(3)",
+       "gs": "32%(8)",
+       "time": "61-75"
+      },
+      {
+       "ga": "14%(3)",
+       "gs": "20%(5)",
+       "time": "75-90"
+      }
+     ]
+    },
+    "ga_total_fi": 39,
+    "ga_total_tw": 22,
+    "gs_total_fi": 83,
+    "gs_total_tw": 25,
+    "team_name": "韩国"
+   }
+  },
+  "Bf_Distribute": [],
+  "Bf_Transaction": []
+ },
+ "userId": 0,
+ "vipType": -1
+}

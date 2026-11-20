@@ -1,0 +1,23 @@
+{
+ "n": 2,
+ "report": [
+  {
+   "id": "2981564",
+   "home": "塞浦路斯",
+   "away": "黑山",
+   "dqdId": "54419569",
+   "status": "OK",
+   "injuryItems": 0,
+   "betfairRows": 0
+  },
+  {
+   "id": "2981563",
+   "home": "拉脱维亚",
+   "away": "亚美尼亚",
+   "dqdId": "54419568",
+   "status": "OK",
+   "injuryItems": 0,
+   "betfairRows": 0
+  }
+ ]
+}

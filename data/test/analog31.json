@@ -1,0 +1,420 @@
+{
+ "batch": 31,
+ "source": "data/raw31",
+ "rawDir": "data/raw31",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:57.168Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2981457",
+   "lg": "欧国联",
+   "kickoff": "2026-11-13 01:00",
+   "home": "土耳其",
+   "away": "比利时",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.94,
+   "aw": 0.9,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 2
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "平": 1,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ]
+   ],
+   "avgGoal": 2.5
+  },
+  {
+   "no": 2,
+   "id": "2981555",
+   "lg": "欧国联",
+   "kickoff": "2026-11-13 01:00",
+   "home": "阿美尼亚",
+   "away": "塞浦路斯",
+   "hc": -0.25,
+   "line": 0.25,
+   "favIsHome": false,
+   "hw": 0.88,
+   "aw": 0.96,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 11,
+   "sameHc": 11,
+   "layerCounts": {
+    "L1": 1,
+    "L2": 2,
+    "L3": 11
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 10,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "2-2",
+     6
+    ],
+    [
+     "0-0",
+     2
+    ],
+    [
+     "3-0",
+     1
+    ]
+   ],
+   "avgGoal": 3.55
+  },
+  {
+   "no": 3,
+   "id": "3092380",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-13 01:45",
+   "home": "巴塞罗那(女)",
+   "away": "阿森纳(女)",
+   "hc": 2,
+   "line": 2,
+   "favIsHome": true,
+   "hw": 0.83,
+   "aw": 0.87,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "5-1",
+     1
+    ]
+   ],
+   "avgGoal": 6
+  },
+  {
+   "no": 4,
+   "id": "2981458",
+   "lg": "欧国联",
+   "kickoff": "2026-11-13 03:45",
+   "home": "意大利",
+   "away": "法国",
+   "hc": -0.5,
+   "line": 0.5,
+   "favIsHome": false,
+   "hw": 0.84,
+   "aw": 1,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 2
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "平": 1,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ]
+   ],
+   "avgGoal": 2.5
+  },
+  {
+   "no": 5,
+   "id": "2981459",
+   "lg": "欧国联",
+   "kickoff": "2026-11-13 03:45",
+   "home": "捷克",
+   "away": "西班牙",
+   "hc": -1.75,
+   "line": 1.75,
+   "favIsHome": false,
+   "hw": 0.9,
+   "aw": 0.94,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 2
+   },
+   "groupVerdict": "启用(样本薄)",
+   "groupHit": 83.3,
+   "groupN": 6,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "客": 2
+   },
+   "topSc": [
+    [
+     "0-3",
+     1
+    ],
+    [
+     "1-2",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 6,
+   "id": "2981460",
+   "lg": "欧国联",
+   "kickoff": "2026-11-13 03:45",
+   "home": "英格兰",
+   "away": "克罗地亚",
+   "hc": 1.5,
+   "line": 1.5,
+   "favIsHome": true,
+   "hw": 0.82,
+   "aw": 1.02,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 2
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "主": 2
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ],
+    [
+     "5-2",
+     1
+    ]
+   ],
+   "avgGoal": 5
+  },
+  {
+   "no": 7,
+   "id": "2981556",
+   "lg": "欧国联",
+   "kickoff": "2026-11-13 03:45",
+   "home": "阿尔巴尼亚",
+   "away": "芬兰",
+   "hc": 0.5,
+   "line": 0.5,
+   "favIsHome": true,
+   "hw": 1.1,
+   "aw": 0.74,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "启用",
+   "groupHit": 73.7,
+   "groupN": 19,
+   "eligible": false,
+   "pud": 100,
+   "pdown": 0,
+   "wdl": {
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-0",
+     1
+    ]
+   ],
+   "avgGoal": 1
+  },
+  {
+   "no": 8,
+   "id": "2981557",
+   "lg": "欧国联",
+   "kickoff": "2026-11-13 03:45",
+   "home": "圣马力诺",
+   "away": "白俄罗斯",
+   "hc": -2,
+   "line": 2,
+   "favIsHome": false,
+   "hw": 1.04,
+   "aw": 0.8,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "0-0",
+     1
+    ]
+   ],
+   "avgGoal": 0
+  },
+  {
+   "no": 9,
+   "id": "2981558",
+   "lg": "欧国联",
+   "kickoff": "2026-11-13 03:45",
+   "home": "黑山",
+   "away": "拉脱维亚",
+   "hc": 1.5,
+   "line": 1.5,
+   "favIsHome": true,
+   "hw": 0.92,
+   "aw": 0.92,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 1,
+    "L3": 2
+   },
+   "groupVerdict": "样本不足",
+   "groupHit": null,
+   "groupN": 0,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "主": 2
+   },
+   "topSc": [
+    [
+     "2-1",
+     1
+    ],
+    [
+     "5-2",
+     1
+    ]
+   ],
+   "avgGoal": 5
+  },
+  {
+   "no": 10,
+   "id": "3092383",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-13 04:00",
+   "home": "宾菲加(女)",
+   "away": "奥地利维也纳(女)",
+   "hc": 1,
+   "line": 1,
+   "favIsHome": true,
+   "hw": 0.7,
+   "aw": 1,
+   "src": "澳",
+   "tierUsed": "L3",
+   "peers": 1,
+   "sameHc": 1,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 1
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 30,
+   "groupN": 10,
+   "eligible": false,
+   "pud": 0,
+   "pdown": 100,
+   "wdl": {
+    "平": 1
+   },
+   "topSc": [
+    [
+     "1-1",
+     1
+    ]
+   ],
+   "avgGoal": 2
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "batch": 16,
+ "source": "data/raw16",
+ "rawDir": "data/raw16",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:55.605Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "2996202",
+   "lg": "荷甲",
+   "kickoff": "2026-11-08 19:15",
+   "home": "海伦维恩",
+   "away": "费耶诺德",
+   "hc": -0.75,
+   "line": 0.75,
+   "favIsHome": false,
+   "hw": 0.95,
+   "aw": 0.83,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 2,
+   "sameHc": 2,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 2
+   },
+   "groupVerdict": "启用",
+   "groupHit": 69.2,
+   "groupN": 13,
+   "eligible": false,
+   "pud": 50,
+   "pdown": 50,
+   "wdl": {
+    "主": 1,
+    "客": 1
+   },
+   "topSc": [
+    [
+     "3-1",
+     1
+    ],
+    [
+     "0-2",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  },
+  {
+   "no": 2,
+   "id": "2993861",
+   "lg": "意甲",
+   "kickoff": "2026-11-08 19:30",
+   "home": "那不勒斯",
+   "away": "拉齐奥",
+   "hc": 0.25,
+   "line": 0.25,
+   "favIsHome": true,
+   "hw": 0.86,
+   "aw": 0.98,
+   "src": "澳门",
+   "tierUsed": "L3",
+   "peers": 5,
+   "sameHc": 5,
+   "layerCounts": {
+    "L1": 0,
+    "L2": 0,
+    "L3": 5
+   },
+   "groupVerdict": "禁用",
+   "groupHit": 46.9,
+   "groupN": 32,
+   "eligible": false,
+   "pud": 20,
+   "pdown": 80,
+   "wdl": {
+    "平": 2,
+    "客": 2,
+    "主": 1
+   },
+   "topSc": [
+    [
+     "1-2",
+     2
+    ],
+    [
+     "2-2",
+     1
+    ],
+    [
+     "2-1",
+     1
+    ]
+   ],
+   "avgGoal": 3
+  }
+ ]
+}

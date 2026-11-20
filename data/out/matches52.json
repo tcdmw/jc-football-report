@@ -1,0 +1,43 @@
+{
+ "source": "data/raw51",
+ "collectedAt": "2026-11-17T13:17:07.554Z",
+ "count": 1,
+ "issues": [],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3109632",
+   "lg": "国际友谊",
+   "kickoff": "2026-11-17 22:00",
+   "home": "卡塔尔",
+   "away": "韩国",
+   "hc": -1.25,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": null,
+   "restDays": {
+    "home": 5,
+    "away": 5
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": true,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "数据对比段解析失败"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "empty"
+   }
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "batch": 2,
+ "source": "data/raw2",
+ "rawDir": "data/raw2",
+ "basis": "live",
+ "generatedAt": "2026-11-18T08:13:53.992Z",
+ "rows": [
+  {
+   "no": 1,
+   "id": "3000163",
+   "home": "新潟天鹅",
+   "away": "今治",
+   "lg": "日职乙",
+   "error": "缺 handicap.json"
+  },
+  {
+   "no": 2,
+   "id": "3000164",
+   "home": "秋田蓝色闪电",
+   "away": "大分三神",
+   "lg": "日职乙",
+   "error": "缺 handicap.json"
+  },
+  {
+   "no": 3,
+   "id": "3000165",
+   "home": "磐城",
+   "away": "山形山神",
+   "lg": "日职乙",
+   "error": "缺 handicap.json"
+  },
+  {
+   "no": 4,
+   "id": "3000167",
+   "home": "鸟栖沙岩",
+   "away": "富山胜利",
+   "lg": "日职乙",
+   "error": "缺 handicap.json"
+  },
+  {
+   "no": 5,
+   "id": "3000169",
+   "home": "德岛漩涡",
+   "away": "特格瓦嘉洛宫崎",
+   "lg": "日职乙",
+   "error": "缺 handicap.json"
+  },
+  {
+   "no": 6,
+   "id": "3000172",
+   "home": "横滨",
+   "away": "藤枝MYFC",
+   "lg": "日职乙",
+   "error": "缺 handicap.json"
+  }
+ ]
+}

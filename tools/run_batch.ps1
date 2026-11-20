@@ -45,7 +45,17 @@ $env:PYTHONIOENCODING = "utf-8"
 $c3 = Invoke-Step "engine 独立模型第二轨" $Py @("tools/bridge_engine.py", $matchesOut, $engineOut)
 
 # 4) 亚盘退盘/升盘方向核对（退出码 4 = 模型方向与多数退盘冲突，告警不阻断）
-$c4 = Invoke-Step "check_line 亚盘实时变化核对" $Node @("tools/check_line.mjs", $RawDir, $Meta, $predsOut, $engineOut)
+$c4 = Invoke-Step "check_line 亚盘实时变化核对" $Node @("tools/check_line.mjs", $RawDir, $Meta, $predsOut, $engineOut, $matchesOut)
+
+# 5) 盘口同态检索 · 实习记录（每批必跑，只记录不决策；失败不影响主链）
+#    赛后补 results<Index>.json 后执行: node tools/analog_journal.mjs settle <Index>
+$c5 = Invoke-Step "analog 盘口同态实习记录" $Node @("tools/analog_journal.mjs", "record", "--batch", "$Index")
+if ($c5 -ne 0) { Write-Host "  (同态实习记录失败，不影响主链；历史库可能不存在，先跑 tools/analog_hc.mjs build)" -ForegroundColor DarkYellow }
+
+# 5b) 盘口冻结台账记录（只记录不决策；变化家数≤20% 且绝对值中位未变才入库）
+#     赛后补 results<Index>.json 后执行: node tools/freeze_journal.mjs settle <Index>
+$c6 = Invoke-Step "freeze 盘口冻结台账记录" $Node @("tools/freeze_journal.mjs", "record", "$Index")
+if ($c6 -ne 0) { Write-Host "  (冻结台账记录失败，不影响主链)" -ForegroundColor DarkYellow }
 
 Write-Host "`n=== 产物 ===" -ForegroundColor Cyan
 foreach ($f in $matchesOut, $predsOut, $engineOut) {

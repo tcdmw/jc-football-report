@@ -1,0 +1,227 @@
+{
+ "source": "data/raw29",
+ "collectedAt": "2026-11-10T15:50:18.713Z",
+ "count": 2,
+ "issues": [
+  {
+   "no": 1,
+   "id": "3092356",
+   "issue": "队名与页面不符",
+   "page": "皇家马德里女足"
+  },
+  {
+   "no": 2,
+   "id": "3092376",
+   "issue": "队名与页面不符",
+   "page": "赫根女足"
+  }
+ ],
+ "matches": [
+  {
+   "no": 1,
+   "id": "3092356",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-11 01:45",
+   "home": "皇家马德里(女)",
+   "away": "巴黎(女)",
+   "hc": 1.25,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 10,
+      "w": 7,
+      "d": 2,
+      "l": 1,
+      "gf": 23,
+      "ga": 18,
+      "gd": 5,
+      "points": 23,
+      "rank": 2,
+      "winRate": 70
+     },
+     "away": {
+      "p": 7,
+      "w": 5,
+      "d": 1,
+      "l": 1,
+      "gf": 19,
+      "ga": 9,
+      "gd": 10,
+      "points": 16,
+      "rank": 3,
+      "winRate": 71.4
+     }
+    },
+    "home": {
+     "home": {
+      "p": 5,
+      "gf": 12,
+      "ga": 6
+     },
+     "away": {
+      "p": 5,
+      "gf": 11,
+      "ga": 12
+     }
+    },
+    "away": {
+     "home": {
+      "p": 4,
+      "gf": 12,
+      "ga": 2
+     },
+     "away": {
+      "p": 3,
+      "gf": 7,
+      "ga": 7
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 15,
+      "ga": 15
+     },
+     "away": {
+      "p": 6,
+      "gf": 17,
+      "ga": 9
+     }
+    },
+    "leagueOf": {
+     "home": "西女超",
+     "away": "法女甲"
+    }
+   },
+   "restDays": {
+    "home": 4,
+    "away": 4
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": false,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  },
+  {
+   "no": 2,
+   "id": "3092376",
+   "lg": "欧女杯",
+   "kickoff": "2026-11-11 01:45",
+   "home": "赫根(女)",
+   "away": "切尔西(女)",
+   "hc": -2,
+   "hcRaw": "澳",
+   "spf": null,
+   "spfMargin": null,
+   "zjq": null,
+   "zjqRaw": null,
+   "jcNotOpen": true,
+   "team": {
+    "overall": {
+     "home": {
+      "p": 25,
+      "w": 22,
+      "d": 2,
+      "l": 1,
+      "gf": 80,
+      "ga": 16,
+      "gd": 64,
+      "points": 68,
+      "rank": 1,
+      "winRate": 88
+     },
+     "away": {
+      "p": 9,
+      "w": 7,
+      "d": 2,
+      "l": 0,
+      "gf": 28,
+      "ga": 5,
+      "gd": 23,
+      "points": 23,
+      "rank": 2,
+      "winRate": 77.8
+     }
+    },
+    "home": {
+     "home": {
+      "p": 12,
+      "gf": 45,
+      "ga": 7
+     },
+     "away": {
+      "p": 13,
+      "gf": 35,
+      "ga": 9
+     }
+    },
+    "away": {
+     "home": {
+      "p": 5,
+      "gf": 11,
+      "ga": 4
+     },
+     "away": {
+      "p": 4,
+      "gf": 17,
+      "ga": 1
+     }
+    },
+    "form": {
+     "home": {
+      "p": 6,
+      "gf": 25,
+      "ga": 3
+     },
+     "away": {
+      "p": 6,
+      "gf": 20,
+      "ga": 4
+     }
+    },
+    "leagueOf": {
+     "home": "瑞典女超",
+     "away": "英总女超"
+    }
+   },
+   "restDays": {
+    "home": 4,
+    "away": 4
+   },
+   "dqdIntel": null,
+   "liveScore": null,
+   "halfScore": null,
+   "checks": {
+    "homeTagOk": false,
+    "spf": "竞彩暂无数据，未开盘",
+    "zjq": "未定位进球数串",
+    "hc": "ok",
+    "team": "ok"
+   },
+   "injuryAdj": {
+    "home": 0,
+    "away": 0,
+    "source": "none",
+    "reason": "无 mid"
+   }
+  }
+ ]
+}
